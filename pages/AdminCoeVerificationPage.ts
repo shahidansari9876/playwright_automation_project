@@ -17,9 +17,18 @@ export class AdminCoeVerificationPage {
     this.page = page;
   }
 
-  async openExamFromScribeRequest(beneficiaryName: string): Promise<void> {
+  // searchQuery should be a unique value (email) rather than the display
+  // name — firstName/lastName in this suite's test data are hardcoded, so
+  // repeated runs create many same-named beneficiaries. Unlike the
+  // beneficiaries/volunteers admin lists, this table has no email/contact
+  // column to scope a row by (confirmed live), so the best available fix is
+  // waiting for the search's own network activity to settle — filtering by
+  // the unique email reliably narrows the table to a single row — before
+  // clicking the name link, rather than racing the still-unfiltered list.
+  async openExamFromScribeRequest(searchQuery: string, beneficiaryName: string): Promise<void> {
     await this.page.goto(this.SCRIBE_REQUESTS_URL, { waitUntil: 'networkidle' });
-    await this.page.getByRole('textbox', { name: 'Search by name, email, phone' }).fill(beneficiaryName);
+    await this.page.getByRole('textbox', { name: 'Search by name, email, phone' }).fill(searchQuery);
+    await this.page.waitForLoadState('networkidle');
     await this.page.getByRole('link', { name: beneficiaryName }).first().click();
     await this.page.getByRole('tab', { name: 'Exam Schedule' }).click();
     await this.page.getByRole('link', { name: 'View' }).first().click();
@@ -31,6 +40,8 @@ export class AdminCoeVerificationPage {
 
   async checkAllVerificationItems(): Promise<void> {
     const checkboxes = this.page.getByRole('checkbox');
+    // count() doesn't auto-wait — guard against reading 0 before the checklist renders.
+    await checkboxes.first().waitFor({ state: 'visible' });
     const count = await checkboxes.count();
     for (let i = 0; i < count; i++) {
       await checkboxes.nth(i).check();

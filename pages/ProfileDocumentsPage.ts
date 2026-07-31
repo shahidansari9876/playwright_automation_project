@@ -41,6 +41,10 @@ export class ProfileDocumentsPage {
     await this.dialog().getByRole('button', { name: 'Save and continue' }).click();
   }
 
+  async selectDisabilityDocumentType(type: string): Promise<void> {
+    await this.page.getByLabel('Disability document type').selectOption(type);
+  }
+
   async selectDisabilityStatus(status: string): Promise<void> {
     await this.page.getByLabel('Disability status').selectOption(status);
   }

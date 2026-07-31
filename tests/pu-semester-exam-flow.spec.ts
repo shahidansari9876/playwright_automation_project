@@ -59,6 +59,13 @@ const images = {
 async function logout(page: Page): Promise<void> {
   await page.getByRole('button', { name: /Profile picture of/ }).click();
   await page.getByRole('menuitem', { name: 'Logout' }).click();
+  // Logout redirects client-side to /login; a goto() fired immediately after
+  // the click can race that in-flight redirect and get aborted
+  // (net::ERR_ABORTED). waitForLoadState('networkidle') alone isn't enough —
+  // the redirect itself can land after the network settles — so wait for the
+  // actual destination URL before navigating away.
+  await page.waitForURL(/\/login/, { timeout: 15000 });
+  await page.waitForLoadState('networkidle');
 }
 
 async function loginAs(page: Page, email: string): Promise<void> {
@@ -70,6 +77,11 @@ async function loginAs(page: Page, email: string): Promise<void> {
   expect(await loginPage.isOtpPageDisplayed(20000)).toBeTruthy();
   await otpPage.enterOtp(TEST_OTP);
   await otpPage.submitOtp();
+  // OTP verification redirects client-side once the session is established;
+  // a goto() fired immediately after (every caller navigates right away) can
+  // race that in-flight redirect and land back on /login unauthenticated —
+  // mirrors the logout() race above, just in the opposite direction.
+  await page.waitForURL((url) => !url.pathname.includes('/login'), { timeout: 20000 });
   await page.waitForLoadState('networkidle');
 }
 
@@ -153,10 +165,12 @@ test.describe.serial('PU Semester Exam End-to-End Flow (puflow.md)', () => {
     await docs.selectIdentityDocumentType('Aadhar Card');
     await docs.uploadFile(images.identity);
     await docs.saveAndContinue();
+    await docs.selectDisabilityDocumentType('Disability Certificate');
     await docs.selectDisabilityStatus('Permanently disabled');
     await docs.selectDisabilityType('Visually Impaired');
     await docs.uploadFile(images.disability);
     await docs.saveAndContinue();
+    await expect(page.getByRole('heading', { name: 'Add a professional photo' })).toBeVisible();
     await docs.uploadFile(images.professionalPhoto);
     await docs.saveAndFinish();
 
@@ -227,7 +241,7 @@ test.describe.serial('PU Semester Exam End-to-End Flow (puflow.md)', () => {
     await docs.uploadFile(images.identity);
     await docs.saveAndFinishVolunteer();
 
-    await expect(page.getByText('In Review')).toBeVisible();
+    await expect(page.getByText('In Review', { exact: true })).toBeVisible();
   });
 
   test('Admin -> Volunteer: identity document rejection and resubmission demo', async () => {
@@ -238,7 +252,7 @@ test.describe.serial('PU Semester Exam End-to-End Flow (puflow.md)', () => {
     await review.searchAndOpen(review.VOLUNTEERS_URL, volunteer.email);
     await review.openTab('Identity');
     await review.rejectIdentityDocument(rejectionReason);
-    await expect(adminPage.getByText('Rejected', { exact: true })).toBeVisible();
+    await expect(adminPage.getByText('Rejected', { exact: true }).first()).toBeVisible();
 
     console.log('📍 Volunteer sees the rejection reason and re-uploads');
     await page.reload({ waitUntil: 'networkidle' });
@@ -248,7 +262,7 @@ test.describe.serial('PU Semester Exam End-to-End Flow (puflow.md)', () => {
     await docs.clickResubmitIdentity();
     await docs.uploadFile(images.identity);
     await docs.saveAndFinishVolunteer();
-    await expect(page.getByText('In Review')).toBeVisible();
+    await expect(page.getByText('In Review', { exact: true })).toBeVisible();
 
     console.log('📍 Admin approves the re-uploaded document');
     await adminPage.reload({ waitUntil: 'networkidle' });
@@ -284,6 +298,10 @@ test.describe.serial('PU Semester Exam End-to-End Flow (puflow.md)', () => {
     await page.waitForURL('**/beneficiary', { timeout: 20000 });
 
     await page.getByRole('link', { name: 'View Details' }).first().click();
+    // click() only waits for the element to be actionable, not for the SPA's
+    // resulting client-side route change to land — reading page.url() right
+    // away can race it and still read the pre-click /beneficiary URL.
+    await page.waitForURL(/\/beneficiary\/exam\/\d+/, { timeout: 15000 });
     examId = new URL(page.url()).pathname.split('/').pop()!;
     console.log(`📍 Created exam ID: ${examId}`);
     expect(examId).toMatch(/^\d+$/);
@@ -305,6 +323,11 @@ test.describe.serial('PU Semester Exam End-to-End Flow (puflow.md)', () => {
     await docs.clickUploadRequiredDocuments();
     await docs.uploadFile(images.professionalPhoto);
     await docs.saveAndContinuePu();
+    // saveAndContinuePu() only waits for the click; the next step's dialog
+    // content (and its own file input) mounts a beat later, so uploading
+    // immediately can race the transition and silently miss (mirrors the
+    // beneficiary disability->photo fix above).
+    await expect(page.getByRole('heading', { name: 'Upload Your Highest Education Document' })).toBeVisible();
     await docs.uploadFile(images.professionalPhoto); // no dedicated "highest education certificate" asset provided; reused per user instruction to proceed with available files
     await docs.saveAndFinishPu();
 
@@ -327,7 +350,7 @@ test.describe.serial('PU Semester Exam End-to-End Flow (puflow.md)', () => {
     const rejectionReason = 'Highest education document uploaded is unclear and needs to be resubmitted for verification.';
 
     console.log('\n📍 Admin rejects the COE verification (Reject & Hold, targeting Volunteer)');
-    await coe.openExamFromScribeRequest(beneficiary.fullName);
+    await coe.openExamFromScribeRequest(beneficiary.email, beneficiary.fullName);
     await coe.openPuVerificationTab();
     await coe.rejectVerification(rejectionReason, 'Volunteer', 'Reject & Hold');
     await expect(adminPage.getByText('Rejected & On Hold')).toBeVisible();
@@ -351,7 +374,7 @@ test.describe.serial('PU Semester Exam End-to-End Flow (puflow.md)', () => {
 
     console.log('📍 Admin re-reviews and fully verifies');
     await adminPage.reload({ waitUntil: 'networkidle' });
-    await expect(adminPage.getByText('Resubmitted')).toBeVisible();
+    await expect(adminPage.getByText('Resubmitted').first()).toBeVisible();
     await coe.checkAllVerificationItems();
     await coe.approveAndVerify();
     await expect(adminPage.getByText('Accepted & Verified')).toBeVisible();
@@ -414,7 +437,7 @@ test.describe.serial('PU Semester Exam End-to-End Flow (puflow.md)', () => {
     await review.searchAndOpen(review.VOLUNTEERS_URL, volunteer.email);
     await review.openTab('Payment');
     await review.approveBankAccount();
-    await expect(adminPage.getByText('Verified', { exact: true })).toBeVisible();
+    await expect(adminPage.getByText('Verified', { exact: true }).first()).toBeVisible();
 
     console.log('📍 Volunteer submits the payout request');
     await activity.navigateAsVolunteer(examId);

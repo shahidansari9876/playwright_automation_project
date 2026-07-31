@@ -9,3 +9,18 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# MCP browser session debug logs
+.playwright-mcp/
+
+# Scratch data from MCP field-discovery sessions
+discover_fields.json
+
+# Test fixture uploads (identity/disability docs, photos, selfies)
+images/
+
+# Claude Code local (machine-specific) permission settings
+.claude/settings.local.json
+
+# Log files
+*.log

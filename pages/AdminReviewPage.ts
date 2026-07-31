@@ -17,7 +17,12 @@ export class AdminReviewPage {
   async searchAndOpen(listUrl: string, query: string): Promise<void> {
     await this.page.goto(listUrl, { waitUntil: 'networkidle' });
     await this.page.getByRole('textbox', { name: 'Search by name, email, phone' }).fill(query);
-    await this.page.getByRole('link', { name: 'View' }).first().click();
+    // The list re-filters asynchronously after fill(); scoping to the row that
+    // actually contains the query (rather than an unscoped .first()) makes
+    // Playwright auto-wait for that filtered row instead of clicking whichever
+    // "View" link happens to be first in the still-unfiltered list.
+    const row = this.page.getByRole('row').filter({ hasText: query });
+    await row.first().getByRole('link', { name: 'View', exact: true }).click();
   }
 
   async openTab(name: string): Promise<void> {

@@ -14,7 +14,8 @@
     "@google/gemini-cli": "^0.50.0",
     "@playwright/mcp": "^0.0.78",
     "@playwright/test": "^1.61.1",
-    "@types/node": "^26.1.0"
+    "@types/node": "^26.1.0",
+    "typescript": "^7.0.2"
   },
   "dependencies": {
     "archiver": "^8.0.0",

@@ -40,6 +40,9 @@ export class ExamActivityPage {
   async confirmAcceptance(): Promise<void> {
     const dialog = this.page.getByRole('dialog').filter({ hasText: 'Accepting Request' });
     const checkboxes = dialog.getByRole('checkbox');
+    // locator.count() doesn't auto-wait — it can fire before the dialog's
+    // checkboxes have mounted and silently return 0, leaving Confirm disabled.
+    await checkboxes.first().waitFor({ state: 'visible' });
     const count = await checkboxes.count();
     for (let i = 0; i < count; i++) {
       await checkboxes.nth(i).check();
@@ -65,12 +68,14 @@ export class ExamActivityPage {
   }
 
   async uploadCompletionProof(filePath: string): Promise<void> {
-    await this.page.getByRole('button', { name: 'Add File' }).click();
     // Add File opens a native file chooser rather than exposing a bare
     // input[type=file] up front, so setFiles via the chooser event is needed
-    // here (unlike the other sr-only inputs in this project).
+    // here (unlike the other sr-only inputs in this project). The listener
+    // must be registered before/alongside the click — the event can fire as
+    // soon as the click resolves, so awaiting the click first can miss it.
     const [chooser] = await Promise.all([
       this.page.waitForEvent('filechooser'),
+      this.page.getByRole('button', { name: 'Add File' }).click(),
     ]);
     await chooser.setFiles(filePath);
   }
@@ -87,7 +92,10 @@ export class ExamActivityPage {
     const dialog = this.page.getByRole('dialog');
     await dialog.getByRole('checkbox', { name: /I confirm that I completed/ }).check();
     await dialog.getByRole('checkbox', { name: /I agree that the uploaded photograph/ }).check();
-    await dialog.getByRole('button', { name: 'Submit' }).click();
+    // This button's accessible name is "Request completion from beneficiary"
+    // (aria-label), not its visible "Submit" text, so name-matching never
+    // finds it — filter by rendered text instead.
+    await dialog.getByRole('button').filter({ hasText: 'Submit' }).click();
   }
 
   // --- Beneficiary: review the completion request ---
@@ -119,7 +127,14 @@ export class ExamActivityPage {
   }
 
   async isNoBankAccountPromptShown(): Promise<boolean> {
-    return this.page.getByText('No Account Added').isVisible().catch(() => false);
+    // isVisible() checks the current DOM instant with no retry, unlike
+    // waitFor() — the payout dialog can render a beat after the click,
+    // causing a false negative (mirrors isPuRequirementsDialogShown above).
+    return this.page
+      .getByText('No Account Added')
+      .waitFor({ state: 'visible', timeout: 5000 })
+      .then(() => true)
+      .catch(() => false);
   }
 
   async clickAddAnAccount(): Promise<void> {
@@ -134,7 +149,8 @@ export class ExamActivityPage {
   async confirmPayoutRequest(): Promise<void> {
     const dialog = this.page.getByRole('dialog');
     await dialog.getByRole('checkbox', { name: /I confirm that I completed this request/ }).check();
-    await dialog.getByRole('button', { name: 'Submit' }).click();
+    // Same accessible-name/visible-text mismatch as confirmCompletionSubmission.
+    await dialog.getByRole('button').filter({ hasText: 'Submit' }).click();
   }
 
   async getExamStatusText(): Promise<string | null> {

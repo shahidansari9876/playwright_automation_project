@@ -18,7 +18,7 @@ export class PaymentMethodsPage {
   }
 
   async clickAddPaymentMethod(): Promise<void> {
-    await this.page.getByRole('button', { name: /Add (Your First )?Payment Method/ }).click();
+    await this.page.getByRole('button', { name: /Add (Your First )?Payment Method/ }).first().click();
   }
 
   async fillAccountHolderName(name: string): Promise<void> {
