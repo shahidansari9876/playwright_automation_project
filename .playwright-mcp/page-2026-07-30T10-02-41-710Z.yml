@@ -1,0 +1,122 @@
+- generic [active] [ref=f65e1]:
+  - generic [ref=f65e2]:
+    - link "Skip to main content" [ref=f65e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f65e4]:
+      - generic [ref=f65e5]:
+        - link [ref=f65e7] [cursor=pointer]:
+          - /url: /beneficiary
+          - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f65e8]
+        - generic [ref=f65e9]:
+          - link "Home" [ref=f65e10] [cursor=pointer]:
+            - /url: /beneficiary
+          - link "New Request" [ref=f65e15] [cursor=pointer]:
+            - /url: /new-request
+          - link "Messages" [ref=f65e19] [cursor=pointer]:
+            - /url: /beneficiary/messages
+          - link "Guide" [ref=f65e23] [cursor=pointer]:
+            - /url: /help
+          - link "Notifications, 1 unread" [ref=f65e27] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=f65e31]: "1"
+            - generic [ref=f65e32]: 1 unread notification
+        - button "Profile picture of Priya Sharma Priya Sharma" [ref=f65e33] [cursor=pointer]:
+          - img "Profile picture of Priya Sharma" [ref=f65e34]
+          - generic [ref=f65e35]: Priya Sharma
+    - main [ref=f65e38]:
+      - generic [ref=f65e40]:
+        - complementary [ref=f65e41]:
+          - generic [ref=f65e42]:
+            - generic [ref=f65e43]:
+              - img "Cover photo for Priya Sharma" [ref=f65e44]
+              - generic [ref=f65e45]:
+                - img "Profile picture of Priya Sharma" [ref=f65e46]
+                - generic [ref=f65e48]:
+                  - heading "Priya Sharma" [level=2] [ref=f65e49]
+                  - img "Verified Badge" [ref=f65e50]
+                - paragraph [ref=f65e51]: Beneficiary
+              - generic [ref=f65e52]:
+                - generic [ref=f65e53]:
+                  - text: "0"
+                  - paragraph [ref=f65e54]: Volunteers
+                - generic [ref=f65e55]:
+                  - text: "0"
+                  - paragraph [ref=f65e56]: Scribe Requests
+              - link "View Profile" [ref=f65e58] [cursor=pointer]:
+                - /url: /beneficiary/profile
+            - 'button "Play video: How to Login as a Beneficiary" [ref=f65e60] [cursor=pointer]':
+              - generic [ref=f65e61]:
+                - generic [ref=f65e62]:
+                  - img "Video thumbnail" [ref=f65e63]
+                  - img "Video thumbnail" [ref=f65e64]
+                - generic [ref=f65e65]:
+                  - heading "How to Login as a Beneficiary" [level=3] [ref=f65e66]
+                  - paragraph [ref=f65e67]: Watch the existing beneficiary login tutorial and dashboard entry steps
+        - generic [ref=f65e69]:
+          - tablist "Request type" [ref=f65e70]:
+            - tab "Scribe Requests" [selected] [ref=f65e71] [cursor=pointer]
+            - tab "Volunteer Requests" [ref=f65e72] [cursor=pointer]
+          - group "Filter scribe requests by status" [ref=f65e73]:
+            - button "All scribe requests, 0 total" [pressed] [ref=f65e74] [cursor=pointer]: All (0)
+            - button "Needs Review scribe requests, 0 total" [ref=f65e75] [cursor=pointer]: Needs Review (0)
+            - button "Accepted scribe requests, 0 total" [ref=f65e76] [cursor=pointer]: Accepted (0)
+            - button "New scribe requests, 0 total" [ref=f65e77] [cursor=pointer]: New (0)
+            - button "Withdrawn scribe requests, 0 total" [ref=f65e78] [cursor=pointer]: Withdrawn (0)
+            - button "Completed scribe requests, 0 total" [ref=f65e79] [cursor=pointer]: Completed (0)
+          - generic [ref=f65e81]:
+            - textbox "Search scribe requests" [ref=f65e85]:
+              - /placeholder: Search requests
+            - button "Apply" [disabled]
+          - tabpanel [ref=f65e86]:
+            - generic [ref=f65e89]:
+              - img "empty data" [ref=f65e90]
+              - heading "Oops!" [level=3] [ref=f65e91]
+              - paragraph [ref=f65e92]: No Data Found
+        - complementary [ref=f65e93]:
+          - generic [ref=f65e95]:
+            - heading "Top Volunteers" [level=3] [ref=f65e97]
+            - generic [ref=f65e98]:
+              - link [ref=f65e99] [cursor=pointer]:
+                - /url: /profile/9
+                - img "Amit Volunteer" [ref=f65e101]
+                - generic [ref=f65e102]:
+                  - generic [ref=f65e103]:
+                    - paragraph [ref=f65e104]: Amit Volunteer
+                    - img "Verified" [ref=f65e105]
+                  - paragraph [ref=f65e106]: Ghaziabad, delhi
+              - link [ref=f65e110] [cursor=pointer]:
+                - /url: /profile/74
+                - img "Shahid" [ref=f65e112]
+                - generic [ref=f65e113]:
+                  - generic [ref=f65e114]:
+                    - paragraph [ref=f65e115]: Shahid
+                    - img "Verified" [ref=f65e116]
+                  - paragraph [ref=f65e117]: Public road, chandigarh
+              - link [ref=f65e121] [cursor=pointer]:
+                - /url: /profile/41
+                - img "shahid test" [ref=f65e123]
+                - generic [ref=f65e124]:
+                  - generic [ref=f65e125]:
+                    - paragraph [ref=f65e126]: shahid test
+                    - img "Verified" [ref=f65e127]
+                  - paragraph [ref=f65e128]: Delhi, uttar_pradesh
+              - link [ref=f65e132] [cursor=pointer]:
+                - /url: /profile/82
+                - img "iOS Mobile" [ref=f65e134]
+                - generic [ref=f65e135]:
+                  - generic [ref=f65e136]:
+                    - paragraph [ref=f65e137]: iOS Mobile
+                    - img "Verified" [ref=f65e138]
+                  - paragraph [ref=f65e139]: Chandigarh, chandigarh
+              - link [ref=f65e143] [cursor=pointer]:
+                - /url: /profile/80
+                - img "Vol" [ref=f65e145]
+                - generic [ref=f65e146]:
+                  - generic [ref=f65e147]:
+                    - paragraph [ref=f65e148]: Vol
+                    - img "Verified" [ref=f65e149]
+                  - paragraph [ref=f65e150]: Chandigarh, chandigarh
+    - contentinfo "Website Footer" [ref=f65e154]:
+      - generic [ref=f65e155]: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert [ref=f65e157]

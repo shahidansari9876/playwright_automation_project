@@ -1,0 +1,173 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - generic [ref=f4e5]:
+      - list [ref=f4e7]:
+        - listitem [ref=f4e8]:
+          - button "The Scribe Bank" [ref=f4e9]
+      - generic [ref=f4e14]:
+        - generic [ref=f4e15]:
+          - generic [ref=f4e16]: Platform
+          - list [ref=f4e17]:
+            - listitem [ref=f4e18] [cursor=pointer]:
+              - link "Dashboard" [ref=f4e351]:
+                - /url: /admin/dashboard
+            - listitem [ref=f4e356] [cursor=pointer]:
+              - link "Reports" [ref=f4e357]:
+                - /url: /admin/reports
+            - listitem [ref=f4e365] [cursor=pointer]:
+              - link "Beneficiaries" [ref=f4e366]:
+                - /url: /admin/beneficiaries
+            - listitem [ref=f4e371] [cursor=pointer]:
+              - link "Volunteers" [ref=f4e372]:
+                - /url: /admin/volunteers
+            - listitem [ref=f4e378] [cursor=pointer]:
+              - link "Profile Gaps" [ref=f4e379]:
+                - /url: /admin/users-missing-profiles
+            - listitem [ref=f4e387] [cursor=pointer]:
+              - link "Duplicate Accounts" [ref=f4e388]:
+                - /url: /admin/duplicate-accounts
+            - listitem [ref=f4e393] [cursor=pointer]:
+              - link "Tasks" [ref=f4e394]:
+                - /url: /admin/tasks
+            - listitem [ref=f4e399] [cursor=pointer]:
+              - link "Scribe Requests" [ref=f4e400]:
+                - /url: /admin/scribe-requests
+            - listitem [ref=f4e404] [cursor=pointer]:
+              - link "Exams" [ref=f4e405]:
+                - /url: /admin/exams
+            - listitem [ref=f4e409] [cursor=pointer]:
+              - link "Volunteer Requests" [ref=f4e410]:
+                - /url: /admin/volunteer-requests
+            - listitem [ref=f4e417] [cursor=pointer]:
+              - link "Blogs" [ref=f4e418]:
+                - /url: /admin/blogs
+            - listitem [ref=f4e425] [cursor=pointer]:
+              - link "Payouts" [ref=f4e426]:
+                - /url: /admin/payouts
+            - listitem [ref=f4e433] [cursor=pointer]:
+              - link "Roles" [ref=f4e434]:
+                - /url: /admin/roles
+            - listitem [ref=f4e439] [cursor=pointer]:
+              - link "Schools" [ref=f4e440]:
+                - /url: /admin/schools
+            - listitem [ref=f4e445] [cursor=pointer]:
+              - link "Email Templates" [ref=f4e446]:
+                - /url: /admin/bulk-email
+            - listitem [ref=f4e451] [cursor=pointer]:
+              - link "WhatsApp Campaigns" [ref=f4e452]:
+                - /url: /admin/whatsapp-campaigns
+            - listitem [ref=f4e456] [cursor=pointer]:
+              - link "System Emails" [ref=f4e457]:
+                - /url: /admin/system-emails
+            - listitem [ref=f4e465] [cursor=pointer]:
+              - link "Tutorial Videos" [ref=f4e466]:
+                - /url: /admin/tutorial-videos
+            - listitem [ref=f4e471] [cursor=pointer]:
+              - link "Admins" [ref=f4e472]:
+                - /url: /admin/admins
+        - generic [ref=f4e477]: Settings
+      - list [ref=f4e28]:
+        - listitem [ref=f4e29]:
+          - link "SA shahid ansari shahid.ansari@ledsak.ai" [ref=f4e30] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - generic [ref=f4e31]: SA
+            - generic [ref=f4e33]:
+              - generic [ref=f4e34]: shahid ansari
+              - generic [ref=f4e35]: shahid.ansari@ledsak.ai
+          - button "Open user menu" [ref=f4e36]
+    - main [ref=f4e743]:
+      - generic [ref=f4e745]:
+        - button "Toggle Sidebar" [ref=f4e746]
+        - heading "Exam Timeline" [level=1] [ref=f4e748]
+        - button "Switch to dark mode" [ref=f4e750]:
+          - generic [ref=f4e751]: Dark mode
+      - generic [ref=f4e756]:
+        - generic [ref=f4e758]:
+          - generic [ref=f4e955]:
+            - generic [ref=f4e956]:
+              - generic [ref=f4e957]: "Exam #221"
+              - generic [ref=f4e958]: Accepted
+            - generic [ref=f4e959]: Review exam details, activity, completion data, and full timeline.
+          - generic [ref=f4e960]:
+            - button "Reassign Volunteer" [ref=f4e961]
+            - button "Move to NEW" [ref=f4e962]
+            - button "Set Ended (QA)" [ref=f4e963]
+            - link "View Scribe Request" [ref=f4e964] [cursor=pointer]:
+              - /url: /admin/scribe-requests/173
+            - link "View Permission Letter" [ref=f4e965] [cursor=pointer]:
+              - /url: /admin/exams/221/performa
+            - button "Raw Data" [ref=f4e966]
+        - generic [ref=f4e967]:
+          - tablist [ref=f4e968]:
+            - tab "Overview" [ref=f4e969]
+            - tab "Beneficiary" [ref=f4e970]
+            - tab "Volunteer" [ref=f4e971]
+            - tab "Timeline" [ref=f4e972]
+            - tab "PU Verification" [selected] [ref=f4e973]
+            - tab "Admin Actions" [ref=f4e975]
+          - tabpanel "PU Verification" [ref=f4e976]:
+            - generic [ref=f4e977]:
+              - generic [ref=f4e979]:
+                - generic [ref=f4e980]:
+                  - generic [ref=f4e981]: Panjab University Verification
+                  - generic [ref=f4e985]: The assigned volunteer stays linked while the rejected party corrects and resubmits.
+                - generic [ref=f4e986]: Rejected & On Hold
+              - generic [ref=f4e987]:
+                - generic [ref=f4e988]:
+                  - generic [ref=f4e989]:
+                    - term [ref=f4e990]: Examination Roll No.
+                    - definition [ref=f4e991]:
+                      - paragraph [ref=f4e992]: Not provided
+                  - generic [ref=f4e993]:
+                    - term [ref=f4e994]: Last PU Action
+                    - definition [ref=f4e995]:
+                      - paragraph [ref=f4e996]: Exam PU Rejected by shahid ansari (admin)
+                  - generic [ref=f4e997]:
+                    - term [ref=f4e998]: Last Updated
+                    - definition [ref=f4e999]:
+                      - paragraph [ref=f4e1000]: 30/07/2026, 3:47 pm
+                  - generic [ref=f4e1001]:
+                    - term [ref=f4e1002]: Scribe Request
+                    - definition [ref=f4e1003]:
+                      - 'link "Request #173" [ref=f4e1004] [cursor=pointer]':
+                        - /url: /admin/scribe-requests/173
+                - generic [ref=f4e1005]:
+                  - generic [ref=f4e1006]:
+                    - term [ref=f4e1007]: Latest Rejected For
+                    - definition [ref=f4e1008]:
+                      - paragraph [ref=f4e1009]: Volunteer
+                  - generic [ref=f4e1010]:
+                    - term [ref=f4e1011]: Latest Rejection Path
+                    - definition [ref=f4e1012]:
+                      - paragraph [ref=f4e1013]: Reject & Hold
+                  - generic [ref=f4e1014]:
+                    - term [ref=f4e1015]: Latest Rejection Reason
+                    - definition [ref=f4e1016]:
+                      - paragraph [ref=f4e1017]: Highest education document uploaded is unclear and needs to be resubmitted for verification.
+            - generic [ref=f4e1018]:
+              - tablist [ref=f4e1019]:
+                - tab "Review" [selected] [ref=f4e1020]
+                - tab "History" [ref=f4e1021]
+                - tab "Documents" [ref=f4e1022]
+              - tabpanel "Review" [ref=f4e1023]:
+                - generic [ref=f4e1024]:
+                  - generic [ref=f4e1031]:
+                    - generic [ref=f4e1032]: Verification Rejected
+                    - generic [ref=f4e1033]: Volunteer has been marked for correction and notified.
+                  - generic [ref=f4e1034]:
+                    - generic [ref=f4e1035]:
+                      - term [ref=f4e1036]: Rejected For
+                      - definition [ref=f4e1037]:
+                        - paragraph [ref=f4e1038]: Volunteer
+                    - generic [ref=f4e1039]:
+                      - term [ref=f4e1040]: Rejection Reason
+                      - definition [ref=f4e1041]:
+                        - paragraph [ref=f4e1042]: Highest education document uploaded is unclear and needs to be resubmitted for verification.
+                    - generic [ref=f4e1043]:
+                      - paragraph [ref=f4e1044]: Next step
+                      - generic [ref=f4e1045]:
+                        - button "Move to Pending" [ref=f4e1046]
+                        - button "Release to NEW" [ref=f4e1047]
+                      - paragraph [ref=f4e1048]: Use Move to Pending when the issue is fixed and the same volunteer can proceed. Use Release to NEW when this assignment should end.
+  - region "Notifications alt+T"
+  - alert [ref=f4e350]

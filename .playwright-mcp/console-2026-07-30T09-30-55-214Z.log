@@ -1,0 +1,11 @@
+[     648ms] Error: Minified React error #310; visit https://react.dev/errors/310 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at ao (https://testing.thescribebank.com/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js:1:52416)
+    at Object.aq [as useMemo] (https://testing.thescribebank.com/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js:1:59619)
+    at t.useMemo (https://testing.thescribebank.com/_next/static/chunks/1255-8befde0980f5cba9.js:1:93299)
+    at D (https://testing.thescribebank.com/_next/static/chunks/1255-8befde0980f5cba9.js:1:26252)
+    at l9 (https://testing.thescribebank.com/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js:1:51130)
+    at o_ (https://testing.thescribebank.com/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js:1:70990)
+    at oq (https://testing.thescribebank.com/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js:1:82020)
+    at ik (https://testing.thescribebank.com/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js:1:114682)
+    at https://testing.thescribebank.com/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js:1:114527
+    at ib (https://testing.thescribebank.com/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js:1:114535)

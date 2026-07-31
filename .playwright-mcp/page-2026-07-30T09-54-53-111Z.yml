@@ -1,0 +1,85 @@
+- generic [ref=f44e1]:
+  - generic [ref=f44e631]:
+    - link "Skip to main content" [ref=f44e632] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f44e633]:
+      - generic [ref=f44e634]:
+        - link [ref=f44e636] [cursor=pointer]:
+          - /url: /volunteer
+          - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f44e637]
+        - generic [ref=f44e638]:
+          - link "Home" [ref=f44e639] [cursor=pointer]:
+            - /url: /volunteer
+          - link "My Activities" [ref=f44e644] [cursor=pointer]:
+            - /url: /volunteer/work-history
+          - link "Messages" [ref=f44e649] [cursor=pointer]:
+            - /url: /volunteer/messages
+          - link "Payouts" [ref=f44e653] [cursor=pointer]:
+            - /url: /volunteer/assistance-payouts
+          - link "Guide" [ref=f44e658] [cursor=pointer]:
+            - /url: /help
+        - generic [ref=f44e662]:
+          - link "Notifications, 1 unread" [ref=f44e663] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=f44e667]: "1"
+            - generic [ref=f44e668]: 1 unread notification
+          - button "Profile picture of Rohan Verma Rohan Verma" [ref=f44e669] [cursor=pointer]:
+            - img "Profile picture of Rohan Verma" [ref=f44e670]
+            - generic [ref=f44e671]: Rohan Verma
+    - main [ref=f44e674]:
+      - generic [ref=f44e676]:
+        - complementary [ref=f44e677]:
+          - generic [ref=f44e678]:
+            - generic [ref=f44e679]:
+              - img "Cover photo for Rohan Verma" [ref=f44e680]
+              - generic [ref=f44e681]:
+                - img "Profile picture of Rohan Verma" [ref=f44e682]
+                - heading "Rohan Verma" [level=2] [ref=f44e685]
+                - paragraph [ref=f44e686]: Volunteer
+              - generic [ref=f44e687]:
+                - generic [ref=f44e688]:
+                  - text: "0"
+                  - paragraph [ref=f44e689]: Request Volunteered
+                - generic [ref=f44e690]:
+                  - text: "0"
+                  - paragraph [ref=f44e691]: Exam Completed
+              - link "View Profile" [ref=f44e693] [cursor=pointer]:
+                - /url: /volunteer/profile
+            - 'button "Play video: How to Login as a Volunteer" [ref=f44e695] [cursor=pointer]':
+              - generic [ref=f44e696]:
+                - generic [ref=f44e697]:
+                  - img "Video thumbnail" [ref=f44e698]
+                  - img "Video thumbnail" [ref=f44e699]
+                - generic [ref=f44e700]:
+                  - heading "How to Login as a Volunteer" [level=3] [ref=f44e701]
+                  - paragraph [ref=f44e702]: Watch the updated volunteer login flow and first dashboard walkthrough
+        - region "Volunteer dashboard" [ref=f44e704]:
+          - region [ref=f44e705]:
+            - generic [ref=f44e706]:
+              - heading "Your Volunteer Profile Is Almost Ready" [level=2] [ref=f44e709]
+              - paragraph [ref=f44e710]: Your documents are uploaded. Verification is still in review.
+            - generic [ref=f44e711]:
+              - progressbar "Volunteer profile completion" [ref=f44e712]
+              - paragraph [ref=f44e714]:
+                - strong [ref=f44e715]: 50% complete
+                - generic [ref=f44e716]: 1 of 2 steps done
+            - list [ref=f44e717]:
+              - listitem [ref=f44e718]:
+                - generic [ref=f44e719]:
+                  - generic [ref=f44e724]:
+                    - generic [ref=f44e725]: "Completed:"
+                    - text: Upload Identity Document
+                  - generic [ref=f44e726]: Added
+                - paragraph [ref=f44e733]: In Review
+            - button "Review Documents" [active] [ref=f44e735] [cursor=pointer]
+    - contentinfo "Website Footer" [ref=f44e736]:
+      - generic [ref=f44e737]: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=f44e739]:
+        - generic [ref=f44e743]: Your volunteer profile documents have been saved.
+  - alert [ref=f44e29]: The Scribe Bank - Homepage
+  - iframe [ref=f44e30]:
+    - generic [ref=f45e5]:
+      - button [ref=f45e6] [cursor=pointer]
+      - generic [ref=f45e7]: "1"

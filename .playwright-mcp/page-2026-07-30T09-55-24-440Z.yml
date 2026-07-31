@@ -1,0 +1,483 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e104]:
+    - generic [ref=e107]:
+      - list [ref=e109]:
+        - listitem [ref=e110]:
+          - button "The Scribe Bank" [ref=e111]
+      - generic [ref=e116]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: Platform
+          - list [ref=e119]:
+            - listitem [ref=e120] [cursor=pointer]:
+              - link "Dashboard" [ref=e121]:
+                - /url: /admin/dashboard
+            - listitem [ref=e127] [cursor=pointer]:
+              - link "Reports" [ref=e128]:
+                - /url: /admin/reports
+            - listitem [ref=e136] [cursor=pointer]:
+              - link "Beneficiaries" [ref=e137]:
+                - /url: /admin/beneficiaries
+            - listitem [ref=e142] [cursor=pointer]:
+              - link "Volunteers" [ref=e143]:
+                - /url: /admin/volunteers
+            - listitem [ref=e149] [cursor=pointer]:
+              - link "Profile Gaps" [ref=e150]:
+                - /url: /admin/users-missing-profiles
+            - listitem [ref=e158] [cursor=pointer]:
+              - link "Duplicate Accounts" [ref=e159]:
+                - /url: /admin/duplicate-accounts
+            - listitem [ref=e164] [cursor=pointer]:
+              - link "Tasks" [ref=e165]:
+                - /url: /admin/tasks
+            - listitem [ref=e170] [cursor=pointer]:
+              - link "Scribe Requests" [ref=e171]:
+                - /url: /admin/scribe-requests
+            - listitem [ref=e175] [cursor=pointer]:
+              - link "Exams" [ref=e176]:
+                - /url: /admin/exams
+            - listitem [ref=e180] [cursor=pointer]:
+              - link "Volunteer Requests" [ref=e181]:
+                - /url: /admin/volunteer-requests
+            - listitem [ref=e188] [cursor=pointer]:
+              - link "Blogs" [ref=e189]:
+                - /url: /admin/blogs
+            - listitem [ref=e196] [cursor=pointer]:
+              - link "Payouts" [ref=e197]:
+                - /url: /admin/payouts
+            - listitem [ref=e204] [cursor=pointer]:
+              - link "Roles" [ref=e205]:
+                - /url: /admin/roles
+            - listitem [ref=e210] [cursor=pointer]:
+              - link "Schools" [ref=e211]:
+                - /url: /admin/schools
+            - listitem [ref=e216] [cursor=pointer]:
+              - link "Email Templates" [ref=e217]:
+                - /url: /admin/bulk-email
+            - listitem [ref=e222] [cursor=pointer]:
+              - link "WhatsApp Campaigns" [ref=e223]:
+                - /url: /admin/whatsapp-campaigns
+            - listitem [ref=e227] [cursor=pointer]:
+              - link "System Emails" [ref=e228]:
+                - /url: /admin/system-emails
+            - listitem [ref=e236] [cursor=pointer]:
+              - link "Tutorial Videos" [ref=e237]:
+                - /url: /admin/tutorial-videos
+            - listitem [ref=e242] [cursor=pointer]:
+              - link "Admins" [ref=e243]:
+                - /url: /admin/admins
+        - generic [ref=e248]: Settings
+      - list [ref=e258]:
+        - listitem [ref=e259]:
+          - link "SA shahid ansari shahid.ansari@ledsak.ai" [ref=e260] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - generic [ref=e261]: SA
+            - generic [ref=e263]:
+              - generic [ref=e264]: shahid ansari
+              - generic [ref=e265]: shahid.ansari@ledsak.ai
+          - button "Open user menu" [ref=e266]
+    - main [ref=e584]:
+      - generic [ref=e586]:
+        - button "Toggle Sidebar" [ref=e587]
+        - heading "Beneficiaries" [level=1] [ref=e589]
+        - generic [ref=e590]:
+          - button "Export" [ref=e591]
+          - link [ref=e592] [cursor=pointer]:
+            - /url: /admin/beneficiaries/create
+            - button "Create Beneficiary" [ref=e593]
+          - link [ref=e594] [cursor=pointer]:
+            - /url: /admin/bulk-import?entity=beneficiary
+            - button "Bulk Import" [ref=e595]
+          - button "Switch to dark mode" [ref=e596]:
+            - generic [ref=e597]: Dark mode
+      - generic [ref=e601]:
+        - generic [ref=e602]:
+          - generic [ref=e604]:
+            - textbox "Search by name, email, phone, city, or school..." [ref=e610]
+            - button "Visibility" [ref=e611]
+            - button "Pending" [ref=e613]
+            - button "Disability" [ref=e616]
+            - button "State" [ref=e619]
+            - button "School" [ref=e621]
+            - button "Region" [ref=e624] [cursor=pointer]
+            - generic [ref=e630]:
+              - button "Sort" [ref=e631]
+              - button "Columns" [ref=e633]
+              - button "Advanced" [ref=e635]
+          - generic [ref=e637]:
+            - generic [ref=e638]: "Active Filters (1):"
+            - generic [ref=e640]:
+              - generic [ref=e641]: "Identity Status:"
+              - generic [ref=e642]: Pending
+              - button [ref=e643]
+        - paragraph [ref=e645]: 38 beneficiaries found
+        - table [ref=e649]:
+          - rowgroup [ref=e650]:
+            - row [ref=e651]:
+              - columnheader [ref=e652]:
+                - checkbox [ref=e653]
+              - columnheader "#" [ref=e654]
+              - columnheader "Name" [ref=e655] [cursor=pointer]
+              - columnheader "Contact" [ref=e661] [cursor=pointer]
+              - columnheader "DOB" [ref=e667] [cursor=pointer]
+              - columnheader "City" [ref=e673] [cursor=pointer]
+              - columnheader "State" [ref=e679] [cursor=pointer]
+              - columnheader "Occupation" [ref=e685]
+              - columnheader "Education" [ref=e686]
+              - columnheader "ID Status" [ref=e687]
+              - columnheader "Disability Status" [ref=e688]
+              - columnheader "Joined" [ref=e689] [cursor=pointer]
+              - columnheader "Actions" [ref=e695]
+          - rowgroup [ref=e696]:
+            - row [ref=e697]:
+              - cell [ref=e698]:
+                - checkbox [ref=e699]
+              - cell "1" [ref=e700]
+              - cell [ref=e701]:
+                - 'link "Rajesh Kumar ID: 3" [ref=e702] [cursor=pointer]':
+                  - /url: /admin/beneficiaries/3
+                  - generic [ref=e703]: Rajesh Kumar
+                  - generic [ref=e704]: "ID: 3"
+              - cell "deepakpanwar@gmail.com 9784748119" [ref=e705]:
+                - generic [ref=e706]: deepakpanwar@gmail.com
+                - generic [ref=e707]: "9784748119"
+              - cell "15/03/2005" [ref=e708]
+              - cell "Bangalore" [ref=e709]
+              - cell "Karnataka" [ref=e711]
+              - cell "student" [ref=e713]
+              - cell "12th" [ref=e714]
+              - cell [ref=e715]:
+                - generic [ref=e716]:
+                  - generic [ref=e717]: Pending Review
+                  - button "View document history" [ref=e718]
+              - cell [ref=e719]:
+                - generic [ref=e720]:
+                  - generic [ref=e721]: No Document
+                  - button "View document history" [ref=e722]
+              - cell "12/12/2025" [ref=e723]
+              - cell [ref=e724]:
+                - generic [ref=e725]:
+                  - link "View" [ref=e726] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/3
+                  - link "Edit" [ref=e728] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/edit/3
+                  - button "Delete" [ref=e730]
+            - row [ref=e732]:
+              - cell [ref=e733]:
+                - checkbox [ref=e734]
+              - cell "2" [ref=e735]
+              - cell [ref=e736]:
+                - 'link "Amit Das ID: 7" [ref=e737] [cursor=pointer]':
+                  - /url: /admin/beneficiaries/7
+                  - generic [ref=e738]: Amit Das
+                  - generic [ref=e739]: "ID: 7"
+              - cell "amitnew@mailinator.com 8084891045" [ref=e740]:
+                - generic [ref=e741]: amitnew@mailinator.com
+                - generic [ref=e742]: "8084891045"
+              - cell "28/02/2004" [ref=e743]
+              - cell "Gaziabad" [ref=e744]
+              - cell "Uttar Pradesh" [ref=e746]
+              - cell "Engineer" [ref=e748]
+              - cell "phd" [ref=e749]
+              - cell [ref=e750]:
+                - generic [ref=e751]:
+                  - generic [ref=e752]: Pending Review
+                  - button "View document history" [ref=e753]
+              - cell [ref=e754]:
+                - generic [ref=e755]:
+                  - generic [ref=e756]: Rejected
+                  - button "View document history" [ref=e757]
+              - cell "17/12/2025" [ref=e758]
+              - cell [ref=e759]:
+                - generic [ref=e760]:
+                  - link "View" [ref=e761] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/7
+                  - link "Edit" [ref=e763] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/edit/7
+                  - button "Delete" [ref=e765]
+            - row [ref=e767]:
+              - cell [ref=e768]:
+                - checkbox [ref=e769]
+              - cell "3" [ref=e770]
+              - cell [ref=e771]:
+                - 'link "Amit Beneficiaries ID: 9" [ref=e772] [cursor=pointer]':
+                  - /url: /admin/beneficiaries/9
+                  - generic [ref=e773]: Amit Beneficiaries
+                  - generic [ref=e774]: "ID: 9"
+              - cell "beneficiary@mailinator.com 9784749117" [ref=e775]:
+                - generic [ref=e776]: beneficiary@mailinator.com
+                - generic [ref=e777]: "9784749117"
+              - cell "20/12/2008" [ref=e778]
+              - cell "Ghaziabad" [ref=e779]
+              - cell "Uttar Pradesh" [ref=e781]
+              - cell "Engineer" [ref=e783]
+              - cell "postdoc" [ref=e784]
+              - cell [ref=e785]:
+                - generic [ref=e786]:
+                  - generic [ref=e787]: Pending Review
+                  - button "View document history" [ref=e788]
+              - cell [ref=e789]:
+                - generic [ref=e790]:
+                  - generic [ref=e791]: Pending Review
+                  - button "View document history" [ref=e792]
+              - cell "20/12/2025" [ref=e793]
+              - cell [ref=e794]:
+                - generic [ref=e795]:
+                  - link "View" [ref=e796] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/9
+                  - link "Edit" [ref=e798] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/edit/9
+                  - button "Delete" [ref=e800]
+            - row [ref=e802]:
+              - cell [ref=e803]:
+                - checkbox [ref=e804]
+              - cell "4" [ref=e805]
+              - cell [ref=e806]:
+                - 'link "Amit Beneficiary ID: 10" [ref=e807] [cursor=pointer]':
+                  - /url: /admin/beneficiaries/10
+                  - generic [ref=e808]: Amit Beneficiary
+                  - generic [ref=e809]: "ID: 10"
+              - cell "amitscribebank@gmail.com 8383919585" [ref=e810]:
+                - generic [ref=e811]: amitscribebank@gmail.com
+                - generic [ref=e812]: "8383919585"
+              - cell "17/12/1997" [ref=e813]
+              - cell "Kalkaji" [ref=e814]
+              - cell "Delhi" [ref=e816]
+              - cell "engineer" [ref=e818]
+              - cell "phd" [ref=e819]
+              - cell [ref=e820]:
+                - generic [ref=e821]:
+                  - generic [ref=e822]: Pending Review
+                  - button "View document history" [ref=e823]
+              - cell [ref=e824]:
+                - generic [ref=e825]:
+                  - generic [ref=e826]: Pending Review
+                  - button "View document history" [ref=e827]
+              - cell "20/12/2025" [ref=e828]
+              - cell [ref=e829]:
+                - generic [ref=e830]:
+                  - link "View" [ref=e831] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/10
+                  - link "Edit" [ref=e833] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/edit/10
+                  - button "Delete" [ref=e835]
+            - row [ref=e837]:
+              - cell [ref=e838]:
+                - checkbox [ref=e839]
+              - cell "5" [ref=e840]
+              - cell [ref=e841]:
+                - 'link "Ben Fish ID: 17" [ref=e842] [cursor=pointer]':
+                  - /url: /admin/beneficiaries/17
+                  - generic [ref=e843]: Ben Fish
+                  - generic [ref=e844]: "ID: 17"
+              - cell "foyaton955@cameltok.com 9528005780" [ref=e845]:
+                - generic [ref=e846]: foyaton955@cameltok.com
+                - generic [ref=e847]: "9528005780"
+              - cell "01/12/1990" [ref=e848]
+              - cell "Govindpuri" [ref=e849]
+              - cell "Delhi" [ref=e851]
+              - cell "student" [ref=e853]
+              - cell "bachelor-professional" [ref=e854]
+              - cell [ref=e855]:
+                - generic [ref=e856]:
+                  - generic [ref=e857]: Pending Review
+                  - button "View document history" [ref=e858]
+              - cell [ref=e859]:
+                - generic [ref=e860]:
+                  - generic [ref=e861]: No Document
+                  - button "View document history" [ref=e862]
+              - cell "06/01/2026" [ref=e863]
+              - cell [ref=e864]:
+                - generic [ref=e865]:
+                  - link "View" [ref=e866] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/17
+                  - link "Edit" [ref=e868] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/edit/17
+                  - button "Delete" [ref=e870]
+            - row [ref=e872]:
+              - cell [ref=e873]:
+                - checkbox [ref=e874]
+              - cell "6" [ref=e875]
+              - cell [ref=e876]:
+                - 'link "Mandeep Singh ID: 18" [ref=e877] [cursor=pointer]':
+                  - /url: /admin/beneficiaries/18
+                  - generic [ref=e878]: Mandeep Singh
+                  - generic [ref=e879]: "ID: 18"
+              - cell "mandeep@mailinator.com 9914955769" [ref=e880]:
+                - generic [ref=e881]: mandeep@mailinator.com
+                - generic [ref=e882]: "9914955769"
+              - cell "10/09/2013" [ref=e883]
+              - cell "Delhi" [ref=e884]
+              - cell "Delhi" [ref=e886]
+              - cell "other" [ref=e888]
+              - cell "master" [ref=e889]
+              - cell [ref=e890]:
+                - generic [ref=e891]:
+                  - generic [ref=e892]: Pending Review
+                  - button "View document history" [ref=e893]
+              - cell [ref=e894]:
+                - generic [ref=e895]:
+                  - generic [ref=e896]: No Document
+                  - button "View document history" [ref=e897]
+              - cell "07/01/2026" [ref=e898]
+              - cell [ref=e899]:
+                - generic [ref=e900]:
+                  - link "View" [ref=e901] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/18
+                  - link "Edit" [ref=e903] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/edit/18
+                  - button "Delete" [ref=e905]
+            - row [ref=e907]:
+              - cell [ref=e908]:
+                - checkbox [ref=e909]
+              - cell "7" [ref=e910]
+              - cell [ref=e911]:
+                - 'link "john benificiary ID: 23" [ref=e912] [cursor=pointer]':
+                  - /url: /admin/beneficiaries/23
+                  - generic [ref=e913]: john benificiary
+                  - generic [ref=e914]: "ID: 23"
+              - cell "lomow25607@noihse.com 1232123222" [ref=e915]:
+                - generic [ref=e916]: lomow25607@noihse.com
+                - generic [ref=e917]: "1232123222"
+              - cell "01/01/2010" [ref=e918]
+              - cell "Noida" [ref=e919]
+              - cell "Uttar Pradesh" [ref=e921]
+              - cell "accountant" [ref=e923]
+              - cell "below-10th" [ref=e924]
+              - cell [ref=e925]:
+                - generic [ref=e926]:
+                  - generic [ref=e927]: Pending Review
+                  - button "View document history" [ref=e928]
+              - cell [ref=e929]:
+                - generic [ref=e930]:
+                  - generic [ref=e931]: No Document
+                  - button "View document history" [ref=e932]
+              - cell "22/01/2026" [ref=e933]
+              - cell [ref=e934]:
+                - generic [ref=e935]:
+                  - link "View" [ref=e936] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/23
+                  - link "Edit" [ref=e938] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/edit/23
+                  - button "Delete" [ref=e940]
+            - row [ref=e942]:
+              - cell [ref=e943]:
+                - checkbox [ref=e944]
+              - cell "8" [ref=e945]
+              - cell [ref=e946]:
+                - 'link "Fdsfdsfdsfds Fdsfdsfdsfsd ID: 25" [ref=e947] [cursor=pointer]':
+                  - /url: /admin/beneficiaries/25
+                  - generic [ref=e948]: Fdsfdsfdsfds Fdsfdsfdsfsd
+                  - generic [ref=e949]: "ID: 25"
+              - cell "shubham@ledsak.ai 9354994497" [ref=e950]:
+                - generic [ref=e951]: shubham@ledsak.ai
+                - generic [ref=e952]: "9354994497"
+              - cell "28/01/2010" [ref=e953]
+              - cell "Fdsfdsfds" [ref=e954]
+              - cell "Assam" [ref=e956]
+              - cell "Doctor" [ref=e958]
+              - cell "diploma" [ref=e959]
+              - cell [ref=e960]:
+                - generic [ref=e961]:
+                  - generic [ref=e962]: Pending Review
+                  - button "View document history" [ref=e963]
+              - cell [ref=e964]:
+                - generic [ref=e965]:
+                  - generic [ref=e966]: No Document
+                  - button "View document history" [ref=e967]
+              - cell "28/01/2026" [ref=e968]
+              - cell [ref=e969]:
+                - generic [ref=e970]:
+                  - link "View" [ref=e971] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/25
+                  - link "Edit" [ref=e973] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/edit/25
+                  - button "Delete" [ref=e975]
+            - row [ref=e977]:
+              - cell [ref=e978]:
+                - checkbox [ref=e979]
+              - cell "9" [ref=e980]
+              - cell [ref=e981]:
+                - 'link "Shahid Ansari ID: 32" [ref=e982] [cursor=pointer]':
+                  - /url: /admin/beneficiaries/32
+                  - generic [ref=e983]: Shahid Ansari
+                  - generic [ref=e984]: "ID: 32"
+              - cell "yicajo2260@hutudns.com 8527531594" [ref=e985]:
+                - generic [ref=e986]: yicajo2260@hutudns.com
+                - generic [ref=e987]: "8527531594"
+              - cell "26/02/2000" [ref=e988]
+              - cell "Hawrahhehehheheh" [ref=e989]
+              - cell "Himachal Pradesh" [ref=e991]
+              - cell "-" [ref=e993]
+              - cell "bachelor" [ref=e994]
+              - cell [ref=e995]:
+                - generic [ref=e996]:
+                  - generic [ref=e997]: Pending Review
+                  - button "View document history" [ref=e998]
+              - cell [ref=e999]:
+                - generic [ref=e1000]:
+                  - generic [ref=e1001]: Pending Review
+                  - button "View document history" [ref=e1002]
+              - cell "26/02/2026" [ref=e1003]
+              - cell [ref=e1004]:
+                - generic [ref=e1005]:
+                  - link "View" [ref=e1006] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/32
+                  - link "Edit" [ref=e1008] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/edit/32
+                  - button "Delete" [ref=e1010]
+            - row [ref=e1012]:
+              - cell [ref=e1013]:
+                - checkbox [ref=e1014]
+              - cell "10" [ref=e1015]
+              - cell [ref=e1016]:
+                - 'link "Rajeev Ranjan ID: 58" [ref=e1017] [cursor=pointer]':
+                  - /url: /admin/beneficiaries/58
+                  - generic [ref=e1018]: Rajeev Ranjan
+                  - generic [ref=e1019]: "ID: 58"
+              - cell "rajeev.navyugian@gmail.com 9354361654" [ref=e1020]:
+                - generic [ref=e1021]: rajeev.navyugian@gmail.com
+                - generic [ref=e1022]: "9354361654"
+              - cell "04/04/1997" [ref=e1023]
+              - cell "GR.Noida" [ref=e1024]
+              - cell "Uttar Pradesh" [ref=e1026]
+              - cell "other" [ref=e1028]
+              - cell "bachelor" [ref=e1029]
+              - cell [ref=e1030]:
+                - generic [ref=e1031]:
+                  - generic [ref=e1032]: Pending Review
+                  - button "View document history" [ref=e1033]
+              - cell [ref=e1034]:
+                - generic [ref=e1035]:
+                  - generic [ref=e1036]: Pending Review
+                  - button "View document history" [ref=e1037]
+              - cell "25/03/2026" [ref=e1038]
+              - cell [ref=e1039]:
+                - generic [ref=e1040]:
+                  - link "View" [ref=e1041] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/58
+                  - link "Edit" [ref=e1043] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/edit/58
+                  - button "Delete" [ref=e1045]
+        - generic [ref=e1047]:
+          - generic [ref=e1048]: Showing 1 - 10 of 38 records
+          - generic [ref=e1050]:
+            - generic [ref=e1051]:
+              - generic [ref=e1052]: Row per page
+              - combobox [ref=e1054]:
+                - generic: "10"
+            - navigation "pagination" [ref=e1056]:
+              - list [ref=e1057]:
+                - listitem [ref=e1058] [cursor=pointer]:
+                  - generic "Go to previous page" [ref=e1059]: Previous
+                - listitem [ref=e1061] [cursor=pointer]:
+                  - generic [ref=e1062]: "1"
+                - listitem [ref=e1063] [cursor=pointer]:
+                  - generic [ref=e1064]: "2"
+                - listitem [ref=e1065] [cursor=pointer]:
+                  - generic [ref=e1066]: More pages
+                - listitem [ref=e1072] [cursor=pointer]:
+                  - generic [ref=e1073]: "4"
+                - listitem [ref=e1074]:
+                  - generic "Go to next page" [ref=e1075] [cursor=pointer]: Next
+  - region "Notifications alt+T"
+  - alert [ref=e67]: "Admin Panel: The Scribe Bank"

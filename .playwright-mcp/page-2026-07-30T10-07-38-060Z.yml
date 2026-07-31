@@ -1,0 +1,238 @@
+- generic:
+  - generic:
+    - link:
+      - /url: "#main-content"
+      - text: Skip to main content
+    - banner:
+      - generic:
+        - generic:
+          - link:
+            - /url: /beneficiary
+        - generic:
+          - link:
+            - /url: /beneficiary
+            - generic: Home
+          - link:
+            - /url: /new-request
+            - generic: New Request
+          - link:
+            - /url: /beneficiary/messages
+            - generic: Messages
+          - link:
+            - /url: /help
+            - generic: Guide
+          - link "Notifications, 1 unread":
+            - /url: /notifications
+            - generic: "1"
+            - generic: 1 unread notification
+        - button:
+          - generic: Priya Sharma
+    - main:
+      - generic:
+        - generic:
+          - complementary:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading [level=2]: Priya Sharma
+                  - paragraph: Beneficiary
+                - generic:
+                  - generic:
+                    - text: "0"
+                    - paragraph: Volunteers
+                  - generic:
+                    - text: "0"
+                    - paragraph: Scribe Requests
+                - generic:
+                  - link:
+                    - /url: /beneficiary/profile
+                    - text: View Profile
+              - generic:
+                - button:
+                  - generic:
+                    - generic:
+                      - heading [level=3]: How to Login as a Beneficiary
+                      - paragraph: Watch the existing beneficiary login tutorial and dashboard entry steps
+          - generic:
+            - generic:
+              - generic:
+                - tablist:
+                  - tab [selected]:
+                    - heading [level=1]: Create Scribe Request
+                  - tab:
+                    - heading [level=2]: Create Volunteer Request
+                - tabpanel:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - checkbox [checked]
+                              - checkbox [checked]
+                              - generic:
+                                - generic: This is a semester exam
+                                - paragraph: Select this box if this request should follow the Panjab University semester flow.
+                          - group:
+                            - generic: Semester exam details
+                            - generic:
+                              - generic:
+                                - text: Exam Category
+                                - generic: "*"
+                              - paragraph: Select the category for this semester examination.
+                              - combobox:
+                                - generic: Regular
+                              - combobox
+                            - generic:
+                              - generic:
+                                - text: Semester Number (All exam types)
+                                - generic: "*"
+                              - paragraph: Select the semester for this examination.
+                              - combobox:
+                                - generic: Semester 3
+                              - combobox
+                          - generic:
+                            - generic: Exam Title
+                            - textbox:
+                              - /placeholder: Exam Title
+                              - text: B.A. Semester 3 Examination
+                          - generic:
+                            - generic: Medium of Exam
+                            - textbox:
+                              - /placeholder: Enter Medium
+                              - text: English
+                          - generic:
+                            - generic:
+                              - text: Upload Admit Card / Hall Pass
+                              - generic: "*"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: File uploaded
+                                  - generic:
+                                    - link:
+                                      - /url: https://api-v1.thescribebank.com//uploads/1785405894800-hall pass.jpg
+                                      - text: View
+                                    - button
+                          - generic:
+                            - generic:
+                              - text: Upload Date Sheet
+                              - generic: "*"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: File uploaded
+                                  - generic:
+                                    - link:
+                                      - /url: https://api-v1.thescribebank.com//uploads/1785405914342-hall pass.jpg
+                                      - text: View
+                                    - button
+                          - generic:
+                            - heading [level=3]: Exam Center Address
+                            - paragraph: Please enter the address of your exam center, not your home or current address.
+                          - generic:
+                            - generic: Exam Center Name
+                            - textbox:
+                              - /placeholder: Enter Center Name
+                              - text: Panjab University Exam Centre
+                          - generic:
+                            - generic:
+                              - generic: State (Exam Center)
+                              - combobox:
+                                - generic: Chandigarh
+                              - combobox
+                            - generic:
+                              - generic: City (Exam Center)
+                              - textbox:
+                                - /placeholder: Enter here
+                                - text: Chandigarh
+                            - generic:
+                              - generic: Pin code (Exam Center)
+                              - textbox:
+                                - /placeholder: Enter here
+                                - text: "160014"
+                          - generic:
+                            - generic: Full Address of Exam Center
+                            - textbox:
+                              - /placeholder: Enter full address of exam center
+                              - text: Sector 14, Panjab University Campus, Chandigarh
+                          - generic:
+                            - heading [level=3]: Exam Details
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: Subject Name
+                                  - textbox:
+                                    - /placeholder: Enter Here
+                                    - text: Political Science
+                                - generic:
+                                  - generic: Exam Date
+                                  - group:
+                                    - generic: Exam Date
+                                    - generic:
+                                      - generic:
+                                        - combobox
+                                        - combobox
+                                        - combobox
+                              - generic:
+                                - generic: Exam Time
+                                - generic:
+                                  - generic:
+                                    - generic: Start Time
+                                    - group:
+                                      - generic: Start Time
+                                      - generic:
+                                        - combobox:
+                                          - generic: "9"
+                                        - combobox
+                                        - combobox:
+                                          - generic: "00"
+                                        - combobox
+                                        - combobox:
+                                          - generic: AM
+                                        - combobox
+                                  - generic:
+                                    - generic: End Time
+                                    - group:
+                                      - generic: End Time
+                                      - generic:
+                                        - combobox [expanded]:
+                                          - generic: Hr
+                                        - combobox
+                                        - combobox:
+                                          - generic: Min
+                                        - combobox
+                                        - combobox:
+                                          - generic: AM
+                                        - combobox
+                            - button: Add More Subject
+                          - generic:
+                            - generic: Notes (If Any)
+                            - textbox:
+                              - /placeholder: Enter note
+                        - generic:
+                          - button: Cancel
+                          - button: Submit
+    - contentinfo:
+      - generic: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert: The Scribe Bank - New Request
+  - iframe [ref=f65e158]:
+    - generic [ref=f66e5]:
+      - button [ref=f66e6] [cursor=pointer]
+      - generic [ref=f66e7]: "1"
+  - listbox [ref=f65e651]:
+    - option "1" [active] [ref=f65e652]
+    - option "2" [ref=f65e655]
+    - option "3" [ref=f65e658]
+    - option "4" [ref=f65e661]
+    - option "5" [ref=f65e664]
+    - option "6" [ref=f65e667]
+    - option "7" [ref=f65e670]
+    - option "8" [ref=f65e673]
+    - option "9" [ref=f65e676]
+    - option "10" [ref=f65e679]
+    - option "11" [ref=f65e682]
+    - option "12" [ref=f65e685]

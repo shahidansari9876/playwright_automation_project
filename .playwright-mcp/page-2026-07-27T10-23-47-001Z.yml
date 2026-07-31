@@ -1,0 +1,10 @@
+- generic [active]:
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=f16e46]:
+        - generic [ref=f16e50]: Login successful!
+  - alert [ref=f16e26]: The Scribe Bank - Homepage
+  - iframe [ref=f16e28]:
+    - generic [ref=f17e5]:
+      - button [ref=f17e6] [cursor=pointer]
+      - generic [ref=f17e7]: "1"

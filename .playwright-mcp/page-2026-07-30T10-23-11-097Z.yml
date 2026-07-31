@@ -1,0 +1,138 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - generic [ref=f5e5]:
+      - list [ref=f5e7]:
+        - listitem [ref=f5e8]:
+          - button "The Scribe Bank" [ref=f5e9]
+      - generic [ref=f5e14]:
+        - generic [ref=f5e15]:
+          - generic [ref=f5e16]: Platform
+          - list [ref=f5e17]:
+            - listitem [ref=f5e18] [cursor=pointer]:
+              - link "Dashboard" [ref=f5e78]:
+                - /url: /admin/dashboard
+            - listitem [ref=f5e83] [cursor=pointer]:
+              - link "Reports" [ref=f5e84]:
+                - /url: /admin/reports
+            - listitem [ref=f5e92] [cursor=pointer]:
+              - link "Beneficiaries" [ref=f5e93]:
+                - /url: /admin/beneficiaries
+            - listitem [ref=f5e98] [cursor=pointer]:
+              - link "Volunteers" [ref=f5e99]:
+                - /url: /admin/volunteers
+            - listitem [ref=f5e105] [cursor=pointer]:
+              - link "Profile Gaps" [ref=f5e106]:
+                - /url: /admin/users-missing-profiles
+            - listitem [ref=f5e114] [cursor=pointer]:
+              - link "Duplicate Accounts" [ref=f5e115]:
+                - /url: /admin/duplicate-accounts
+            - listitem [ref=f5e120] [cursor=pointer]:
+              - link "Tasks" [ref=f5e121]:
+                - /url: /admin/tasks
+            - listitem [ref=f5e126] [cursor=pointer]:
+              - link "Scribe Requests" [ref=f5e127]:
+                - /url: /admin/scribe-requests
+            - listitem [ref=f5e131] [cursor=pointer]:
+              - link "Exams" [ref=f5e132]:
+                - /url: /admin/exams
+            - listitem [ref=f5e136] [cursor=pointer]:
+              - link "Volunteer Requests" [ref=f5e137]:
+                - /url: /admin/volunteer-requests
+            - listitem [ref=f5e144] [cursor=pointer]:
+              - link "Blogs" [ref=f5e145]:
+                - /url: /admin/blogs
+            - listitem [ref=f5e152] [cursor=pointer]:
+              - link "Payouts" [ref=f5e153]:
+                - /url: /admin/payouts
+            - listitem [ref=f5e160] [cursor=pointer]:
+              - link "Roles" [ref=f5e161]:
+                - /url: /admin/roles
+            - listitem [ref=f5e166] [cursor=pointer]:
+              - link "Schools" [ref=f5e167]:
+                - /url: /admin/schools
+            - listitem [ref=f5e172] [cursor=pointer]:
+              - link "Email Templates" [ref=f5e173]:
+                - /url: /admin/bulk-email
+            - listitem [ref=f5e178] [cursor=pointer]:
+              - link "WhatsApp Campaigns" [ref=f5e179]:
+                - /url: /admin/whatsapp-campaigns
+            - listitem [ref=f5e183] [cursor=pointer]:
+              - link "System Emails" [ref=f5e184]:
+                - /url: /admin/system-emails
+            - listitem [ref=f5e192] [cursor=pointer]:
+              - link "Tutorial Videos" [ref=f5e193]:
+                - /url: /admin/tutorial-videos
+            - listitem [ref=f5e198] [cursor=pointer]:
+              - link "Admins" [ref=f5e199]:
+                - /url: /admin/admins
+        - generic [ref=f5e204]: Settings
+      - list [ref=f5e28]:
+        - listitem [ref=f5e29]:
+          - link "SA shahid ansari shahid.ansari@ledsak.ai" [ref=f5e30] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - generic [ref=f5e31]: SA
+            - generic [ref=f5e33]:
+              - generic [ref=f5e34]: shahid ansari
+              - generic [ref=f5e35]: shahid.ansari@ledsak.ai
+          - button "Open user menu" [ref=f5e36]
+    - main [ref=f5e406]:
+      - generic [ref=f5e408]:
+        - button "Toggle Sidebar" [ref=f5e409]
+        - heading "Writer Permission Letter" [level=1] [ref=f5e411]
+        - button "Switch to dark mode" [ref=f5e413]:
+          - generic [ref=f5e414]: Dark mode
+      - generic [ref=f5e416]:
+        - generic [ref=f5e418]:
+          - link "Back to Exam" [ref=f5e419] [cursor=pointer]:
+            - /url: /admin/exams/221
+          - generic [ref=f5e420]:
+            - button "Download PDF" [ref=f5e421]
+            - button "Print Letter" [ref=f5e422]
+        - generic [ref=f5e425]:
+          - generic [ref=f5e426]:
+            - img "Photo" [ref=f5e428]
+            - generic [ref=f5e429]: PANJAB UNIVERSITY, CHANDIGARH
+            - img "Photo" [ref=f5e431]
+          - generic [ref=f5e432]:
+            - generic [ref=f5e433]:
+              - generic [ref=f5e434]: "From:"
+              - generic [ref=f5e435]: The Controller of Examinations,
+              - generic [ref=f5e436]: Panjab University,
+              - generic [ref=f5e437]: Chandigarh - 160014
+            - generic [ref=f5e438]:
+              - generic [ref=f5e439]: "To:"
+              - generic [ref=f5e440]: The Chief Coordinator,
+              - generic [ref=f5e441]: Panjab University Exam Centre
+          - generic [ref=f5e442]:
+            - generic [ref=f5e443]:
+              - text: "Ref. No.:"
+              - strong [ref=f5e444]: PU/STQ/TSB/(221)
+            - generic [ref=f5e445]:
+              - text: "Dated:"
+              - strong [ref=f5e446]: 30 Jul 2026
+          - generic [ref=f5e447]: "Subject: Permission for appointment of a writer (scribe) on medical grounds."
+          - generic [ref=f5e448]: Dear Sir/Madam,
+          - generic [ref=f5e449]:
+            - text: The Controller of Examinations has allowed (on medical grounds)
+            - strong [ref=f5e450]: Priya Sharma
+            - text: ", a candidate of"
+            - strong [ref=f5e451]: Bachelor, Bachelor Engineering 4 Year, 2nd Year
+            - text: Examination, Roll No.
+            - strong [ref=f5e452]: PU2027SB78901
+            - text: ", to engage"
+            - strong [ref=f5e453]: Rohan Verma
+            - text: ", with highest educational qualification of"
+            - strong [ref=f5e454]: 12th
+            - text: as his/her writer/helper for the subject
+            - strong [ref=f5e455]: Political Science
+            - text: of
+            - strong [ref=f5e456]: B.A. Semester 3 Examination Semester
+            - text: Examination, on
+            - strong [ref=f5e457]: 15 Dec 2026
+            - text: for which he/she has deposited a fee of NIL as a visually impaired/permanent disable candidate.
+          - generic [ref=f5e458]: The candidate may be provided 20 minutes per hour compensatory time during examinations.
+          - generic [ref=f5e459]: Further, as quoted in the Book of Instructions, 2026 rule 20 (on page 31), it be ensured that the scribe/reader/lab Assistant do not indulge in malpractices like copying and cheating during the examinations.
+          - generic [ref=f5e460]: This is a computer-generated document issued by the Office of the Controller of Examinations, Panjab University, Chandigarh, and does not require a physical signature or seal and shall be treated as an official record. (The authenticity of this document may be verified with the issuing authority, if required.)
+          - generic [ref=f5e461]: "Exam #221 - Political Science - Scribe Request #173 - The Scribe Bank"
+  - region "Notifications alt+T"
+  - alert [ref=f5e308]

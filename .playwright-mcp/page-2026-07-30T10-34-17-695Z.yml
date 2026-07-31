@@ -1,0 +1,85 @@
+- generic [active] [ref=f129e1]:
+  - generic [ref=f129e2]:
+    - link "Skip to main content" [ref=f129e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f129e4]:
+      - generic [ref=f129e5]:
+        - link [ref=f129e7] [cursor=pointer]:
+          - /url: /volunteer
+          - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f129e8]
+        - generic [ref=f129e9]:
+          - link "Home" [ref=f129e10] [cursor=pointer]:
+            - /url: /volunteer
+          - link "My Activities" [ref=f129e15] [cursor=pointer]:
+            - /url: /volunteer/work-history
+          - link "Messages" [ref=f129e20] [cursor=pointer]:
+            - /url: /volunteer/messages
+          - link "Payouts" [ref=f129e24] [cursor=pointer]:
+            - /url: /volunteer/assistance-payouts
+          - link "Guide" [ref=f129e29] [cursor=pointer]:
+            - /url: /help
+        - generic [ref=f129e33]:
+          - link "Notifications, 8 unread" [ref=f129e34] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=f129e38]: "8"
+            - generic [ref=f129e39]: 8 unread notifications
+          - button "Profile picture of Rohan Verma Rohan Verma" [ref=f129e40] [cursor=pointer]:
+            - img "Profile picture of Rohan Verma" [ref=f129e41]
+            - generic [ref=f129e42]: Rohan Verma
+    - main [ref=f129e45]:
+      - generic [ref=f129e47]:
+        - complementary [ref=f129e48]:
+          - generic [ref=f129e49]:
+            - generic [ref=f129e50]:
+              - img "Cover photo for Rohan Verma" [ref=f129e51]
+              - generic [ref=f129e52]:
+                - img "Profile picture of Rohan Verma" [ref=f129e53]
+                - generic [ref=f129e55]:
+                  - heading "Rohan Verma" [level=2] [ref=f129e56]
+                  - img "Verified Badge" [ref=f129e57]
+                - paragraph [ref=f129e58]: Volunteer
+              - generic [ref=f129e59]:
+                - generic [ref=f129e60]:
+                  - text: "0"
+                  - paragraph [ref=f129e61]: Request Volunteered
+                - generic [ref=f129e62]:
+                  - text: "1"
+                  - paragraph [ref=f129e63]: Exam Completed
+              - link "View Profile" [ref=f129e65] [cursor=pointer]:
+                - /url: /volunteer/profile
+            - 'button "Play video: How to Login as a Volunteer" [ref=f129e67] [cursor=pointer]':
+              - generic [ref=f129e68]:
+                - generic [ref=f129e69]:
+                  - img "Video thumbnail" [ref=f129e70]
+                  - img "Video thumbnail" [ref=f129e71]
+                - generic [ref=f129e72]:
+                  - heading "How to Login as a Volunteer" [level=3] [ref=f129e73]
+                  - paragraph [ref=f129e74]: Watch the updated volunteer login flow and first dashboard walkthrough
+        - generic [ref=f129e78]:
+          - heading "Assistance Payouts(1 of 1)" [level=1] [ref=f129e80]:
+            - text: Assistance Payouts
+            - generic [ref=f129e81]: (1 of 1)
+          - generic [ref=f129e83]:
+            - textbox "Search by Exam ID or Subject..." [ref=f129e85]
+            - combobox [ref=f129e87]:
+              - generic: All Statuses
+            - combobox [ref=f129e89]:
+              - generic: Newest First
+          - generic [ref=f129e92]:
+            - generic [ref=f129e97]:
+              - link "Political Science" [ref=f129e98] [cursor=pointer]:
+                - /url: /volunteer/exam/173
+              - paragraph [ref=f129e99]: "Exam ID: 221"
+              - paragraph [ref=f129e100]: "Scribe Request: B.A. Semester 3 Examination (ID: 173)"
+              - paragraph [ref=f129e101]: "Created: 30 Jul 2026, 04:04 pm"
+            - generic [ref=f129e102]:
+              - generic [ref=f129e103]: ₹400.00
+              - generic [ref=f129e104]: REQUESTED
+              - link "View Details" [ref=f129e105] [cursor=pointer]:
+                - /url: /volunteer/assistance-payouts/38
+    - contentinfo "Website Footer" [ref=f129e106]:
+      - generic [ref=f129e107]: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert [ref=f129e109]
+  - iframe [ref=f129e110]:
+    

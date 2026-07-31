@@ -1,0 +1,173 @@
+- generic:
+  - generic:
+    - link:
+      - /url: "#main-content"
+      - text: Skip to main content
+    - banner:
+      - generic:
+        - generic:
+          - link:
+            - /url: /volunteer
+        - generic:
+          - link:
+            - /url: /volunteer
+            - generic: Home
+          - link:
+            - /url: /volunteer/work-history
+            - generic: My Activities
+          - link:
+            - /url: /volunteer/messages
+            - generic: Messages
+          - link:
+            - /url: /volunteer/assistance-payouts
+            - generic: Payouts
+          - link:
+            - /url: /help
+            - generic: Guide
+        - generic:
+          - link "Notifications, 5 unread":
+            - /url: /notifications
+            - generic: "5"
+            - generic: 5 unread notifications
+          - button:
+            - generic: Rohan Verma
+    - main:
+      - generic:
+        - generic:
+          - complementary:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading [level=2]: Rohan Verma
+                  - paragraph: Volunteer
+                - generic:
+                  - generic:
+                    - text: "0"
+                    - paragraph: Request Volunteered
+                  - generic:
+                    - text: "0"
+                    - paragraph: Exam Completed
+                - generic:
+                  - link:
+                    - /url: /volunteer/profile
+                    - text: View Profile
+              - generic:
+                - button:
+                  - generic:
+                    - generic:
+                      - heading [level=3]: How to Login as a Volunteer
+                      - paragraph: Watch the updated volunteer login flow and first dashboard walkthrough
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button:
+                      - generic: Back to Activities List
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]: B.A. Semester 3 Examination
+                          - generic: PU Semester Exam
+                        - generic:
+                          - button
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - paragraph: Panjab University Exam Centre
+                              - paragraph: Sector 14, Panjab University Campus, Chandigarh, Chandigarh, chandigarh - 160014
+                              - generic:
+                                - generic: "Medium: English"
+                                - generic: "State: chandigarh"
+                                - generic: "City: Chandigarh"
+                                - generic: "Pin code: 160014"
+                              - paragraph: "Note: QA test PU semester exam request created via automated flow."
+                          - generic:
+                            - link:
+                              - /url: https://api-v1.thescribebank.com//uploads/1785405894800-hall pass.jpg
+                              - text: View Hall Pass
+                            - link:
+                              - /url: https://api-v1.thescribebank.com//uploads/1785405914342-hall pass.jpg
+                              - text: View date Sheet
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: "Subject : Political Science"
+                            - generic:
+                              - generic: Accepted
+                              - generic: PU Verified
+                          - paragraph: "Medium: English"
+                          - paragraph: "Date: 30/07/2026"
+                          - paragraph: "Start Time: 09:00 AM End Time: 10:23 AM"
+                          - generic:
+                            - paragraph: "You Accepted this request and are now assisting the beneficiary :"
+                            - generic:
+                              - generic: Priya Sharma
+                              - generic: "|"
+                              - button:
+                                - generic: Chat
+                          - generic:
+                            - generic:
+                              - paragraph: PU verification is complete for this exam.
+                              - link:
+                                - /url: /volunteer/exam/173/performa/221
+                                - text: Download Performa
+                          - generic:
+                            - generic:
+                              - button [expanded]: Create Completion Request
+    - contentinfo:
+      - generic: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert
+  - iframe [ref=f101e139]:
+    - generic [ref=f102e5]:
+      - button [ref=f102e6] [cursor=pointer]
+      - generic [ref=f102e7]: "1"
+  - dialog [ref=f101e141]:
+    - generic [ref=f101e142]:
+      - heading "Completion Request" [level=2] [ref=f101e143]
+      - paragraph [ref=f101e144]: Submit completion proof so the beneficiary can review and mark this exam as completed.
+    - generic [ref=f101e145]:
+      - generic [ref=f101e146]:
+        - generic [ref=f101e147]: Exam Title
+        - textbox [ref=f101e148]: Political Science
+      - generic [ref=f101e149]:
+        - generic [ref=f101e150]: Upload a geo-tagged selfie with the beneficiary, scribe proforma, or both *
+        - generic [ref=f101e151]:
+          - button "Add File" [ref=f101e152] [cursor=pointer]
+          - generic [ref=f101e191]:
+            - img "selfie with the scribe performa.jpg" [ref=f101e193]
+            - generic [ref=f101e194]:
+              - paragraph [ref=f101e195]: selfie with the scribe performa.jpg
+              - paragraph [ref=f101e196]: Review the selected file before submitting.
+              - generic [ref=f101e197]:
+                - button "View" [ref=f101e198]
+                - button "Remove selfie with the scribe performa.jpg" [ref=f101e202]: Remove
+        - paragraph [ref=f101e157]: JPG, PNG, WEBP, PDF. Max 5MB per file. You can add multiple files.
+      - generic [ref=f101e158]:
+        - generic [ref=f101e159]: Rate your overall experience as a scribe for this exam *
+        - generic [ref=f101e161]:
+          - button "Rate 1 heart" [ref=f101e162] [cursor=pointer]
+          - button "Rate 2 hearts" [ref=f101e165] [cursor=pointer]
+          - button "Rate 3 hearts" [ref=f101e168] [cursor=pointer]
+          - button "Rate 4 hearts" [ref=f101e171] [cursor=pointer]
+          - button "Rate 5 hearts" [ref=f101e174] [cursor=pointer]
+      - generic [ref=f101e177]:
+        - generic [ref=f101e178]: Any notes you would like to mention
+        - textbox "Add a short note" [ref=f101e179]: Exam completed smoothly. Beneficiary was well prepared.
+      - generic [ref=f101e180]:
+        - generic [ref=f101e181]:
+          - checkbox "I confirm that I completed this exam support and this submission is truthful." [checked] [active] [ref=f101e182] [cursor=pointer]
+          - generic [ref=f101e183]: I confirm that I completed this exam support and this submission is truthful.
+        - generic [ref=f101e184]:
+          - checkbox "I agree that the uploaded photograph may be used for documentation or media purposes." [ref=f101e185] [cursor=pointer]
+          - generic [ref=f101e186]: I agree that the uploaded photograph may be used for documentation or media purposes.
+    - generic [ref=f101e187]:
+      - button "Cancel request" [ref=f101e188] [cursor=pointer]: Cancel
+      - button "Request completion from beneficiary" [disabled]: Submit
+    - button "Close" [ref=f101e189]

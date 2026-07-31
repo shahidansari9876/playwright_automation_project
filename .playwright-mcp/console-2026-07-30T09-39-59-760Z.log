@@ -1,0 +1,39 @@
+[   17679ms] [LOG] 🔵 [FRONTEND] Sending OTP request @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[   17679ms] [LOG] 🔵 URL: https://api-v1.thescribebank.com/admin/auth/login/send-otp?masterOtp=true @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[   17679ms] [LOG] 🔵 Identifier: shahid.asnari@ledsak.ai @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[   17679ms] [LOG] 🔵 User Type: admin @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[   17680ms] [LOG] 🔵 Master OTP enabled: true @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[   17760ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api-v1.thescribebank.com/admin/auth/login/send-otp?masterOtp=true:0
+[   17761ms] [ERROR] 🔴 [FRONTEND] Send OTP Error: {success: false, message: Account not found.} @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[   56197ms] [LOG] 🔵 [FRONTEND] Sending OTP request @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[   56198ms] [LOG] 🔵 URL: https://api-v1.thescribebank.com/admin/auth/login/send-otp?masterOtp=true @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[   56198ms] [LOG] 🔵 Identifier: shahid.asnari@ledsak.ai @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[   56199ms] [LOG] 🔵 User Type: admin @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[   56199ms] [LOG] 🔵 Master OTP enabled: true @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[   56290ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api-v1.thescribebank.com/admin/auth/login/send-otp?masterOtp=true:0
+[   56293ms] [ERROR] 🔴 [FRONTEND] Send OTP Error: {success: false, message: Account not found.} @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[  636552ms] [LOG] 🔵 [FRONTEND] Sending OTP request @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[  636552ms] [LOG] 🔵 URL: https://api-v1.thescribebank.com/admin/auth/login/send-otp?masterOtp=true @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[  636552ms] [LOG] 🔵 Identifier: shahid.ansari@ledsak.ai @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[  636553ms] [LOG] 🔵 User Type: admin @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[  636553ms] [LOG] 🔵 Master OTP enabled: true @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[  636690ms] [LOG] 🟢 [FRONTEND] OTP Response: {success: true, data: Object} @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[  654804ms] [LOG] 🔵 [FRONTEND] Verifying OTP @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[  654804ms] [LOG] 🔵 Identifier: shahid.ansari@ledsak.ai @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[  654804ms] [LOG] 🔵 OTP (raw): 123456 @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[  654804ms] [LOG] 🔵 OTP (parsed): 123456 @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[  654804ms] [LOG] 🔵 OTP type: number @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[  654804ms] [LOG] 🔵 Endpoint: https://api-v1.thescribebank.com/admin/auth/login/verify-otp @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[  654890ms] [LOG] 🟢 [FRONTEND] Verify Response: {success: true, data: Object} @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/(auth)/page-6f469e458e2220c6.js:0
+[  655746ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://adminpanel-testing.thescribebank.com/avatars/shadcn.jpg:0
+[  655881ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://adminpanel-testing.thescribebank.com/avatars/shadcn.jpg:0
+[  918937ms] [LOG] BeneficiaryTableSimple - Data: [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/admin/beneficiaries/page-bf2976a316673224.js:0
+[  918939ms] [LOG] BeneficiaryTableSimple - Count: 38 @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/admin/beneficiaries/page-bf2976a316673224.js:0
+[  918939ms] [LOG] BeneficiaryTableSimple - Pages: 4 @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/admin/beneficiaries/page-bf2976a316673224.js:0
+[  948138ms] [LOG] BeneficiaryTableSimple - Data: [Object] @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/admin/beneficiaries/page-bf2976a316673224.js:0
+[  948139ms] [LOG] BeneficiaryTableSimple - Count: 1 @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/admin/beneficiaries/page-bf2976a316673224.js:0
+[  948140ms] [LOG] BeneficiaryTableSimple - Pages: 1 @ https://adminpanel-testing.thescribebank.com/_next/static/chunks/app/admin/beneficiaries/page-bf2976a316673224.js:0
+[  957568ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://adminpanel-testing.thescribebank.com/placeholder.svg:0
+[  957815ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://adminpanel-testing.thescribebank.com/placeholder.svg:0
+[ 1101629ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://adminpanel-testing.thescribebank.com/placeholder.svg:0
+[ 1101882ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://adminpanel-testing.thescribebank.com/placeholder.svg:0

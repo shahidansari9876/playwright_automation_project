@@ -1,0 +1,37 @@
+- generic [active] [ref=f93e1]:
+  - generic [ref=f93e45]:
+    - link "Skip to main content" [ref=f93e46] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f93e47]:
+      - generic [ref=f93e48]:
+        - link [ref=f93e50] [cursor=pointer]:
+          - /url: /volunteer
+          - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f93e51]
+        - generic [ref=f93e52]:
+          - link "Home" [ref=f93e53] [cursor=pointer]:
+            - /url: /volunteer
+          - link "My Activities" [ref=f93e58] [cursor=pointer]:
+            - /url: /volunteer/work-history
+          - link "Messages" [ref=f93e63] [cursor=pointer]:
+            - /url: /volunteer/messages
+          - link "Payouts" [ref=f93e67] [cursor=pointer]:
+            - /url: /volunteer/assistance-payouts
+          - link "Guide" [ref=f93e72] [cursor=pointer]:
+            - /url: /help
+          - link "Notifications" [ref=f93e76] [cursor=pointer]:
+            - /url: /notifications
+        - button "Profile picture of Rohan Verma Rohan Verma" [ref=f93e80] [cursor=pointer]:
+          - img "Profile picture of Rohan Verma" [ref=f93e81]
+          - generic [ref=f93e82]: Rohan Verma
+    - main [ref=f93e85]
+    - contentinfo "Website Footer" [ref=f93e87]:
+      - generic [ref=f93e88]: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=f93e90]:
+        - generic [ref=f93e94]: Login successful!
+  - alert [ref=f93e26]: The Scribe Bank - Homepage
+  - iframe [ref=f93e27]:
+    - generic [ref=f94e5]:
+      - button [ref=f94e6] [cursor=pointer]
+      - generic [ref=f94e7]: "1"

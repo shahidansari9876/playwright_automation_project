@@ -1,0 +1,174 @@
+- generic:
+  - main:
+    - generic:
+      - generic:
+        - heading [level=1]
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - button
+              - heading [level=1]: Setup Your Profile
+            - generic: Volunteer Profile
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=2]: Basic Details
+                    - generic:
+                      - generic:
+                        - generic:
+                          - text: Email Address
+                          - generic: "*"
+                          - generic: Verified
+                        - textbox [disabled]: volun1785403804@yopmail.com
+                        - paragraph: Verified during signup
+                      - generic:
+                        - generic:
+                          - text: Phone Number
+                          - generic: "*"
+                          - generic: Verified
+                        - textbox [disabled]: "8179403804"
+                        - paragraph: Verified during signup
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: First Name
+                            - generic: "*"
+                          - textbox:
+                            - /placeholder: Enter First Name
+                            - text: Rohan
+                        - generic:
+                          - generic: Last Name
+                          - textbox:
+                            - /placeholder: Enter Last Name
+                            - text: Verma
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: Gender
+                            - generic: "*"
+                          - combobox:
+                            - generic: Male
+                          - combobox
+                        - generic:
+                          - generic:
+                            - text: Date of Birth
+                            - generic: "*"
+                          - group:
+                            - generic: Date of Birth
+                            - generic:
+                              - generic:
+                                - combobox
+                                - combobox
+                                - combobox
+                      - heading [level=2]: Education Details
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=3]: Education Level
+                            - paragraph: Your qualification, current status, and the year you completed or expect to complete it.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: Highest Education
+                                - generic: "*"
+                              - combobox [expanded]:
+                                - generic: Select an option
+                              - combobox
+                            - generic:
+                              - generic:
+                                - text: Passing Year
+                                - generic: "*"
+                              - combobox:
+                                - generic: Select Passing Year
+                              - combobox
+                        - generic:
+                          - generic:
+                            - heading [level=3]: Institution Details
+                            - paragraph: Tell us where you study and whether your university choice needs an extra category.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: University Type
+                                - generic: "*"
+                              - generic:
+                                - combobox:
+                                  - generic: Select Board/University
+                                - combobox
+                            - generic:
+                              - generic:
+                                - text: School/College Name
+                                - generic: "*"
+                              - textbox:
+                                - /placeholder: Enter School/College Name
+                      - heading [level=2]: Current Address Details
+                      - paragraph: Enter the address where you currently live. Do not enter your permanent or native address unless both are the same.
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: Pincode
+                            - generic: "*"
+                          - generic:
+                            - textbox:
+                              - /placeholder: Enter Pincode
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: City
+                            - generic: "*"
+                          - textbox:
+                            - /placeholder: Auto-filled from pincode
+                        - generic:
+                          - generic:
+                            - text: State
+                            - generic: "*"
+                          - combobox:
+                            - generic: Auto-filled from pincode
+                          - combobox
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: Full Address
+                            - generic: (Optional)
+                          - textbox:
+                            - /placeholder: Enter your current address
+                    - generic:
+                      - generic:
+                        - checkbox
+                        - checkbox
+                        - generic:
+                          - generic:
+                            - text: I agree to the
+                            - link:
+                              - /url: /terms-services
+                              - text: Terms and Conditions
+                            - text: "&"
+                            - link:
+                              - /url: /privacy-policy
+                              - text: Privacy Policy
+                            - text: of Save The Quest.
+                      - generic:
+                        - button [disabled]: Submit
+  - region "Notifications alt+T"
+  - alert: The Scribe Bank - Create Profile
+  - iframe [ref=f44e30]:
+    - generic [ref=f45e5]:
+      - button [ref=f45e6] [cursor=pointer]
+      - generic [ref=f45e7]: "1"
+  - listbox [ref=f44e208]:
+    - option "Below 10th Standard" [active] [ref=f44e209] [cursor=pointer]
+    - option "10th Standard (SSC/SSLC)" [ref=f44e212] [cursor=pointer]
+    - option "12th Standard (HSC/Intermediate)" [ref=f44e215] [cursor=pointer]
+    - option "Diploma" [ref=f44e218] [cursor=pointer]
+    - option "ITI (Industrial Training Institute)" [ref=f44e221] [cursor=pointer]
+    - option "Bachelor's Degree (B.A/B.Sc/B.Com/B.Tech/BE)" [ref=f44e224] [cursor=pointer]
+    - option "Professional Bachelor's (MBBS/BDS/LLB/B.Arch)" [ref=f44e227] [cursor=pointer]
+    - option "Master's Degree (M.A/M.Sc/M.Com/M.Tech/ME)" [ref=f44e230] [cursor=pointer]
+    - option "Professional Master's (MBA/MCA/LLM/MD/MS)" [ref=f44e233] [cursor=pointer]
+    - option "M.Phil" [ref=f44e236] [cursor=pointer]
+    - option "Ph.D/Doctorate" [ref=f44e239] [cursor=pointer]
+    - option "Post Doctorate" [ref=f44e242] [cursor=pointer]
+    - option "Other" [ref=f44e245] [cursor=pointer]

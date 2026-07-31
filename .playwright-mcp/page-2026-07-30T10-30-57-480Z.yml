@@ -1,0 +1,47 @@
+- generic [active] [ref=f119e1]:
+  - generic [ref=f119e2]:
+    - link "Skip to main content" [ref=f119e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f119e4]:
+      - generic [ref=f119e5]:
+        - link [ref=f119e7] [cursor=pointer]:
+          - /url: /volunteer
+          - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f119e8]
+        - generic [ref=f119e9]:
+          - link "Home" [ref=f119e10] [cursor=pointer]:
+            - /url: /volunteer
+          - link "My Activities" [ref=f119e15] [cursor=pointer]:
+            - /url: /volunteer/work-history
+          - link "Messages" [ref=f119e20] [cursor=pointer]:
+            - /url: /volunteer/messages
+          - link "Payouts" [ref=f119e24] [cursor=pointer]:
+            - /url: /volunteer/assistance-payouts
+          - link "Guide" [ref=f119e29] [cursor=pointer]:
+            - /url: /help
+        - generic [ref=f119e33]:
+          - link "Notifications, 7 unread" [ref=f119e34] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=f119e38]: "7"
+            - generic [ref=f119e39]: 7 unread notifications
+          - button "Profile picture of Rohan Verma Rohan Verma" [ref=f119e40] [cursor=pointer]:
+            - img "Profile picture of Rohan Verma" [ref=f119e41]
+            - generic [ref=f119e42]: Rohan Verma
+    - main [ref=f119e45]:
+      - generic [ref=f119e157]:
+        - generic [ref=f119e158]:
+          - generic [ref=f119e159]:
+            - heading "Payment Methods" [level=1] [ref=f119e160]
+            - paragraph [ref=f119e161]: Manage your bank accounts and payment methods for receiving payouts
+          - button "Add Payment Method" [ref=f119e162] [cursor=pointer]
+        - generic [ref=f119e164]:
+          - heading "No Payment Methods Added" [level=3] [ref=f119e165]
+          - paragraph [ref=f119e166]: Add a payment method to receive payouts for your volunteer work. You can add bank accounts, UPI IDs, or other payment methods.
+          - button "Add Your First Payment Method" [ref=f119e167] [cursor=pointer]
+    - contentinfo "Website Footer" [ref=f119e127]:
+      - generic [ref=f119e128]: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert [ref=f119e130]
+  - iframe [ref=f119e133]:
+    - generic [ref=f120e5]:
+      - button [ref=f120e6] [cursor=pointer]
+      - generic [ref=f120e7]: "1"

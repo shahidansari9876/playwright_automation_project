@@ -1,0 +1,238 @@
+- generic:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - list:
+              - listitem:
+                - button:
+                  - generic: The Scribe Bank
+          - generic:
+            - generic:
+              - generic: Platform
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /admin/dashboard
+                    - generic: Dashboard
+                - listitem:
+                  - link:
+                    - /url: /admin/reports
+                    - generic: Reports
+                - listitem:
+                  - link:
+                    - /url: /admin/beneficiaries
+                    - generic: Beneficiaries
+                - listitem:
+                  - link:
+                    - /url: /admin/volunteers
+                    - generic: Volunteers
+                - listitem:
+                  - link:
+                    - /url: /admin/users-missing-profiles
+                    - generic: Profile Gaps
+                - listitem:
+                  - link:
+                    - /url: /admin/duplicate-accounts
+                    - generic: Duplicate Accounts
+                - listitem:
+                  - link:
+                    - /url: /admin/tasks
+                    - generic: Tasks
+                - listitem:
+                  - link:
+                    - /url: /admin/scribe-requests
+                    - generic: Scribe Requests
+                - listitem:
+                  - link:
+                    - /url: /admin/exams
+                    - generic: Exams
+                - listitem:
+                  - link:
+                    - /url: /admin/volunteer-requests
+                    - generic: Volunteer Requests
+                - listitem:
+                  - link:
+                    - /url: /admin/blogs
+                    - generic: Blogs
+                - listitem:
+                  - link:
+                    - /url: /admin/payouts
+                    - generic: Payouts
+                - listitem:
+                  - link:
+                    - /url: /admin/roles
+                    - generic: Roles
+                - listitem:
+                  - link:
+                    - /url: /admin/schools
+                    - generic: Schools
+                - listitem:
+                  - link:
+                    - /url: /admin/bulk-email
+                    - generic: Email Templates
+                - listitem:
+                  - link:
+                    - /url: /admin/whatsapp-campaigns
+                    - generic: WhatsApp Campaigns
+                - listitem:
+                  - link:
+                    - /url: /admin/system-emails
+                    - generic: System Emails
+                - listitem:
+                  - link:
+                    - /url: /admin/tutorial-videos
+                    - generic: Tutorial Videos
+                - listitem:
+                  - link:
+                    - /url: /admin/admins
+                    - generic: Admins
+            - generic: Settings
+          - generic:
+            - list:
+              - listitem:
+                - link:
+                  - /url: /admin/dashboard
+                  - generic: SA
+                  - generic:
+                    - generic: shahid ansari
+                    - generic: shahid.ansari@ledsak.ai
+                - button
+    - main:
+      - generic:
+        - generic:
+          - button:
+            - generic: Toggle Sidebar
+          - heading [level=1]: Volunteer Profile
+          - generic:
+            - button:
+              - generic: Dark mode
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - link:
+                - /url: /admin/volunteers
+                - generic: Back to Volunteers
+              - generic:
+                - link:
+                  - /url: https://thescribebank.com/profile/111
+                  - text: View on Website
+                - link:
+                  - /url: /admin/volunteers/edit/111
+                  - generic: Edit Profile
+                - link:
+                  - /url: /admin/volunteers/111/school-assignment
+                  - generic: Change School
+            - generic:
+              - generic:
+                - generic:
+                  - generic: RV
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading [level=1]: Rohan Verma
+                        - generic: Pending Review
+                      - paragraph: No occupation listed
+                    - generic:
+                      - generic:
+                        - generic:
+                          - paragraph: Phone
+                          - paragraph: "8179403804"
+                      - generic:
+                        - generic:
+                          - paragraph: Alternate Phone
+                          - paragraph: N/A
+                      - generic:
+                        - generic:
+                          - paragraph: Email
+                          - paragraph: volun1785403804@yopmail.com
+                      - generic:
+                        - generic:
+                          - paragraph: Location
+                          - paragraph: Chandigarh, chandigarh
+                      - generic:
+                        - generic:
+                          - paragraph: Education
+                          - paragraph: 12th
+                      - generic:
+                        - generic:
+                          - paragraph: Assigned School
+                          - generic: Independent
+            - generic:
+              - tablist:
+                - tab: Personal Information
+                - tab: Access & Sessions
+                - tab: Education & Experience
+                - tab [selected]: Identity
+                - tab: Payment
+                - tab: Timeline
+                - tab: Volunteer Requests
+                - tab: Scribe Requests
+              - generic:
+                - tabpanel:
+                  - generic:
+                    - tablist:
+                      - tab [selected]: Identity Document
+                      - tab: Professional Photo
+                    - tabpanel:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Identity Verification
+                            - generic: No Document
+                        - generic:
+                          - generic:
+                            - generic:
+                              - text: Identity Type
+                              - generic: Aadhar Card
+                            - generic: Identity Number
+                          - generic:
+                            - generic: Uploaded Document
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - button
+                                  - generic: 100%
+                                  - button
+                                - generic:
+                                  - button:
+                                    - generic: Open
+                                  - button
+                                  - button
+                                  - button
+                              - generic:
+                                - paragraph: Aadhar Card - null
+                          - generic:
+                            - button: Replace Document
+                          - generic:
+                            - button: Approve Document
+                            - button: Reject Document
+  - region "Notifications alt+T"
+  - alert: "Admin Panel: The Scribe Bank"
+  - dialog [ref=e2250]:
+    - generic [ref=e2251]:
+      - heading "Reject Identity Document" [level=2] [ref=e2252]
+      - paragraph [ref=e2257]: Please provide a detailed reason for rejecting this identity document. This will help the volunteer understand what needs to be corrected.
+    - generic [ref=e2258]:
+      - generic [ref=e2259]:
+        - generic [ref=e2260]:
+          - text: Rejection Reason
+          - generic [ref=e2261]: "*"
+        - textbox "Rejection Reason *" [ref=e2262]:
+          - /placeholder: e.g., Document is not clear enough, Document has expired, Information does not match...
+          - text: Document is not clear or readable
+        - paragraph [ref=e2263]: Minimum 10 characters. Be specific to help the beneficiary understand what needs to be corrected.
+      - generic [ref=e2264]:
+        - generic [ref=e2265]: "Common reasons (click to use):"
+        - generic [ref=e2266]:
+          - button "Document is not clear or readable" [active] [ref=e2267]
+          - button "Document has expired" [ref=e2268]
+          - button "Information does not match records" [ref=e2269]
+          - button "Wrong document type uploaded" [ref=e2270]
+          - button "Document appears to be edited or modified" [ref=e2271]
+    - generic [ref=e2272]:
+      - button "Cancel" [ref=e2273]
+      - button "Reject Document" [ref=e2276]
+    - button "Close" [ref=e2274]

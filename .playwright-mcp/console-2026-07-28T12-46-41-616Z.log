@@ -1,0 +1,41 @@
+[   22857ms] [LOG] 🔵 [FRONTEND] Sending OTP request @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/login/page-108b21b051af1490.js:0
+[   22857ms] [LOG] 🔵 URL: https://api-v1.thescribebank.com/auth/login/send-otp?masterOtp=true @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/login/page-108b21b051af1490.js:0
+[   22857ms] [LOG] 🔵 Identifier: testpuben@yopmail.com @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/login/page-108b21b051af1490.js:0
+[   22857ms] [LOG] 🔵 Master OTP enabled: true @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/login/page-108b21b051af1490.js:0
+[   23018ms] [LOG] 🟢 [FRONTEND] OTP Response: {success: true, data: Object} @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/login/page-108b21b051af1490.js:0
+[   39689ms] [LOG] 🔵 [FRONTEND] Verifying OTP @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/login/page-108b21b051af1490.js:0
+[   39689ms] [LOG] 🔵 Identifier: testpuben@yopmail.com @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/login/page-108b21b051af1490.js:0
+[   39689ms] [LOG] 🔵 OTP (raw): 123456 @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/login/page-108b21b051af1490.js:0
+[   39689ms] [LOG] 🔵 OTP (parsed): 123456 @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/login/page-108b21b051af1490.js:0
+[   39763ms] [LOG] 🟢 [FRONTEND] Verify Response: {success: true, data: Object} @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/login/page-108b21b051af1490.js:0
+[132202801ms] [ERROR] WebSocket connection to 'wss://ws-ap2.pusher.com/app/69a9fac80935461a9cd4?protocol=7&client=js&version=8.5.0&flash=false' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED @ https://testing.thescribebank.com/_next/static/chunks/1183-cc8492b7de6101b0.js:0
+[132204226ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://testing.thescribebank.com/beneficiary/profile:0
+[132204243ms] [ERROR] Error fetching unread message count: TypeError: Failed to fetch
+    at M (https://testing.thescribebank.com/_next/static/chunks/1255-8befde0980f5cba9.js:1:95237) @ https://testing.thescribebank.com/_next/static/chunks/app/(protected)/(beneficiary)/layout-e3a5b92f98695983.js:0
+[132204251ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://testing.thescribebank.com/beneficiary/profile:0
+[132204253ms] [ERROR] Error fetching unread count: TypeError: Failed to fetch
+    at M (https://testing.thescribebank.com/_next/static/chunks/1255-8befde0980f5cba9.js:1:95237) @ https://testing.thescribebank.com/_next/static/chunks/5868-847dbd1d99b4f275.js:0
+[132204837ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sockjs-ap2.pusher.com/pusher/app/69a9fac80935461a9cd4/41/um95haov/xhr_streaming?protocol=7&client=js&version=8.5.0&t=1785375006422&n=1:0
+[132208850ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sockjs-ap2.pusher.com/pusher/app/69a9fac80935461a9cd4/292/s5s9igv4/xhr?protocol=7&client=js&version=8.5.0&t=1785375010446&n=2:0
+[132223828ms] [ERROR] WebSocket connection to 'wss://ws-ap2.pusher.com/app/69a9fac80935461a9cd4?protocol=7&client=js&version=8.5.0&flash=false' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED @ https://testing.thescribebank.com/_next/static/chunks/1183-cc8492b7de6101b0.js:0
+[132224208ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://testing.thescribebank.com/beneficiary/profile:0
+[132224209ms] [ERROR] Error fetching unread message count: TypeError: Failed to fetch
+    at M (https://testing.thescribebank.com/_next/static/chunks/1255-8befde0980f5cba9.js:1:95237) @ https://testing.thescribebank.com/_next/static/chunks/app/(protected)/(beneficiary)/layout-e3a5b92f98695983.js:0
+[132224235ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://testing.thescribebank.com/beneficiary/profile:0
+[132224247ms] [ERROR] Error fetching unread count: TypeError: Failed to fetch
+    at M (https://testing.thescribebank.com/_next/static/chunks/1255-8befde0980f5cba9.js:1:95237) @ https://testing.thescribebank.com/_next/static/chunks/5868-847dbd1d99b4f275.js:0
+[132225814ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sockjs-ap2.pusher.com/pusher/app/69a9fac80935461a9cd4/515/garnc6qo/xhr_streaming?protocol=7&client=js&version=8.5.0&t=1785375021423&n=3:0
+[132225814ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sockjs-ap2.pusher.com/pusher/app/69a9fac80935461a9cd4/206/9gv2if64/xhr?protocol=7&client=js&version=8.5.0&t=1785375025438&n=4:0
+[132244689ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://sockjs-ap2.pusher.com/pusher/app/69a9fac80935461a9cd4/41/avp8dcdf/xhr_streaming?protocol=7&client=js&version=8.5.0&t=1785375036447&n=5:0
+[132244690ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://sockjs-ap2.pusher.com/pusher/app/69a9fac80935461a9cd4/917/pipian5f/xhr?protocol=7&client=js&version=8.5.0&t=1785375040442&n=6:0
+[132251499ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://testing.thescribebank.com/beneficiary/profile:0
+[132251499ms] [ERROR] Error fetching unread message count: TypeError: Failed to fetch
+    at M (https://testing.thescribebank.com/_next/static/chunks/1255-8befde0980f5cba9.js:1:95237) @ https://testing.thescribebank.com/_next/static/chunks/app/(protected)/(beneficiary)/layout-e3a5b92f98695983.js:0
+[132251507ms] [ERROR] WebSocket connection to 'wss://ws-ap2.pusher.com/app/69a9fac80935461a9cd4?protocol=7&client=js&version=8.5.0&flash=false' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED @ https://testing.thescribebank.com/_next/static/chunks/1183-cc8492b7de6101b0.js:0
+[132253557ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://testing.thescribebank.com/beneficiary/profile:0
+[132253589ms] [ERROR] Error fetching unread count: TypeError: Failed to fetch
+    at M (https://testing.thescribebank.com/_next/static/chunks/1255-8befde0980f5cba9.js:1:95237) @ https://testing.thescribebank.com/_next/static/chunks/5868-847dbd1d99b4f275.js:0
+[132254561ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://sockjs-ap2.pusher.com/pusher/app/69a9fac80935461a9cd4/217/laumthlu/xhr_streaming?protocol=7&client=js&version=8.5.0&t=1785375051425&n=7:0
+[132254562ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://sockjs-ap2.pusher.com/pusher/app/69a9fac80935461a9cd4/468/576s4fic/xhr?protocol=7&client=js&version=8.5.0&t=1785375055438&n=8:0
+[132265946ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sockjs-ap2.pusher.com/pusher/app/69a9fac80935461a9cd4/227/bm5cf8u9/xhr_streaming?protocol=7&client=js&version=8.5.0&t=1785375066436&n=9:0
+[132268848ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sockjs-ap2.pusher.com/pusher/app/69a9fac80935461a9cd4/782/a4rrnajq/xhr?protocol=7&client=js&version=8.5.0&t=1785375070443&n=10:0

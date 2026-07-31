@@ -1,0 +1,220 @@
+- generic:
+  - generic:
+    - link:
+      - /url: "#main-content"
+      - text: Skip to main content
+    - banner:
+      - generic:
+        - generic:
+          - link:
+            - /url: /volunteer
+        - generic:
+          - link:
+            - /url: /volunteer
+            - generic: Home
+          - link:
+            - /url: /volunteer/work-history
+            - generic: My Activities
+          - link:
+            - /url: /volunteer/messages
+            - generic: Messages
+          - link:
+            - /url: /volunteer/assistance-payouts
+            - generic: Payouts
+          - link:
+            - /url: /help
+            - generic: Guide
+        - generic:
+          - link "Notifications, 2 unread":
+            - /url: /notifications
+            - generic: "2"
+            - generic: 2 unread notifications
+          - button:
+            - generic: Rohan Verma
+    - main:
+      - generic:
+        - generic:
+          - complementary:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading [level=2]: Rohan Verma
+                  - paragraph: Volunteer
+                - generic:
+                  - generic:
+                    - text: "0"
+                    - paragraph: Request Volunteered
+                  - generic:
+                    - text: "0"
+                    - paragraph: Exam Completed
+                - generic:
+                  - link:
+                    - /url: /volunteer/profile
+                    - text: View Profile
+              - generic:
+                - button:
+                  - generic:
+                    - generic:
+                      - heading [level=3]: How to Login as a Volunteer
+                      - paragraph: Watch the updated volunteer login flow and first dashboard walkthrough
+          - generic:
+            - region:
+              - generic:
+                - generic:
+                  - tablist:
+                    - button: Scribe Requests (3)
+                    - button: Volunteer Requests (2)
+                  - tabpanel:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: "Filter By:"
+                          - button: Location
+                          - button: Date
+                          - button: Reference
+                          - group:
+                            - button [pressed]: All
+                            - button: PU Exams
+                            - button: Regular
+                      - generic:
+                        - generic:
+                          - generic:
+                            - textbox:
+                              - /placeholder: Search by subject, location, or exam name
+                          - button [disabled]: Apply
+                      - generic: Found 3 scribe requests
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - paragraph: Test Semester Exam
+                            - button
+                          - generic:
+                            - generic:
+                              - generic:
+                                - paragraph: Chandigarh Test Center
+                                - paragraph: Sector 17, Chandigarh
+                                - generic:
+                                  - generic: "State: chandigarh"
+                                  - generic: "City: Chandigarh"
+                                  - generic: "Pin code: 160001"
+                            - paragraph: "Notes: This is a test request created for QA testing purposes."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - paragraph: "Subject: Test Subject"
+                                  - generic: NEW
+                                - paragraph: "Medium: English"
+                                - paragraph: "Date: 15 Aug 2026"
+                                - paragraph: "Start Time: 09:00 AM End Time: 12:00 PM"
+                          - generic:
+                            - button: Accept Request
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - paragraph: B.A. Semester 3 Examination
+                                - generic: PU Semester Exam
+                            - button
+                          - generic:
+                            - generic:
+                              - generic:
+                                - paragraph: Panjab University Exam Centre
+                                - paragraph: Sector 14, Panjab University Campus, Chandigarh
+                                - generic:
+                                  - generic: "State: chandigarh"
+                                  - generic: "City: Chandigarh"
+                                  - generic: "Pin code: 160014"
+                            - paragraph: "Notes: QA test PU semester exam request created via automated flow."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - paragraph: "Subject: Political Science"
+                                  - generic: NEW
+                                - paragraph: "Medium: English"
+                                - paragraph: "Date: 15 Dec 2026"
+                                - paragraph: "Start Time: 09:00 AM End Time: 12:00 PM"
+                          - generic:
+                            - button: Accept Request
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - paragraph: Non Pu exam
+                                - generic: PU Semester Exam
+                            - button
+                          - generic:
+                            - generic:
+                              - generic:
+                                - paragraph: chandigarh
+                                - paragraph: Krishna Park lane
+                                - generic:
+                                  - generic: "State: punjab"
+                                  - generic: "City: Chandigarh"
+                                  - generic: "Pin code: 190016"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - paragraph: "Subject: Test subject"
+                                  - generic: NEW
+                                - paragraph: "Medium: English"
+                                - paragraph: "Date: 19 Jan 2027"
+                                - paragraph: "Start Time: 08:00 AM End Time: 10:00 AM"
+                          - generic:
+                            - button: Accept Request
+    - contentinfo:
+      - generic: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert
+  - iframe [ref=f75e277]:
+    - generic [ref=f76e5]:
+      - button [ref=f76e6] [cursor=pointer]
+      - generic [ref=f76e7]: "1"
+  - dialog [ref=f75e317]:
+    - generic [ref=f75e318]:
+      - heading "Complete PU Requirements" [level=2] [ref=f75e319]
+      - paragraph [ref=f75e320]: Upload the documents required before accepting this PU exam.
+      - generic [ref=f75e321]:
+        - paragraph [ref=f75e322]:
+          - strong [ref=f75e323]: Viewing step 2 of 2
+          - generic [ref=f75e324]: 1 saved
+        - progressbar "Volunteer profile completion" [ref=f75e325]
+    - generic [ref=f75e326]:
+      - navigation "Volunteer profile setup steps" [ref=f75e327]:
+        - list [ref=f75e328]:
+          - listitem [ref=f75e329]:
+            - button "Professional Photo Saved" [ref=f75e388]:
+              - generic [ref=f75e335]:
+                - generic [ref=f75e336]: Professional Photo
+                - generic [ref=f75e337]: Saved
+          - listitem [ref=f75e338]:
+            - button "Education Document Upload proof of your highest education." [ref=f75e339]:
+              - generic [ref=f75e346]:
+                - generic [ref=f75e347]: Education Document
+                - generic [ref=f75e348]: Upload proof of your highest education.
+      - region [ref=f75e391]:
+        - generic [ref=f75e350]:
+          - heading "Upload Your Highest Education Document" [active] [level=2] [ref=f75e392]
+          - paragraph [ref=f75e352]: Upload a certificate or marksheet showing your highest education.
+          - generic [ref=f75e353]:
+            - group "Highest Education Document (required)" [ref=f75e393]:
+              - generic [ref=f75e355]:
+                - text: Highest Education Document*
+                - generic [ref=f75e356]: (required)
+              - button "Choose file" [ref=f75e394]
+              - generic [ref=f75e358]:
+                - paragraph [ref=f75e364]:
+                  - strong [ref=f75e365]: No document uploaded
+                  - generic [ref=f75e398]: Choose a file to complete this step.
+                - generic [ref=f75e367]: Choose file
+              - paragraph [ref=f75e372]: Upload a certificate or marksheet as JPG, PNG, or PDF. Maximum 5 MB.
+            - generic [ref=f75e373]:
+              - button "Back" [ref=f75e399] [cursor=pointer]
+              - button "Save & Finish" [ref=f75e400] [cursor=pointer]
+    - button "Close" [ref=f75e375]

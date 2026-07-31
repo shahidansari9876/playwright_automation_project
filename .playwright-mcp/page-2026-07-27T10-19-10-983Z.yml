@@ -1,0 +1,235 @@
+- generic [ref=f5e1]:
+  - main [ref=f5e51]:
+    - generic [ref=f5e52]:
+      - heading [level=1] [ref=f5e74]
+      - generic [ref=f5e76]:
+        - generic [ref=f5e77]:
+          - generic [ref=f5e78]:
+            - button "Go back to role selection" [ref=f5e79]
+            - heading "Setup Your Profile" [level=1] [ref=f5e82]
+          - generic [ref=f5e83]: Beneficiary Profile
+        - generic [ref=f5e88]:
+          - heading "Basic Details" [level=2] [ref=f5e89]
+          - generic [ref=f5e90]:
+            - generic [ref=f5e91]:
+              - generic [ref=f5e92]:
+                - text: Email Address
+                - generic [ref=f5e93]: "*"
+                - generic [ref=f5e94]: Verified
+              - textbox "Email address (verified during signup)" [disabled]: shahidvol12@yopmail.com
+              - paragraph [ref=f5e98]: Verified during signup
+            - generic [ref=f5e99]:
+              - generic [ref=f5e100]:
+                - text: Phone Number
+                - generic [ref=f5e101]: "*"
+                - generic [ref=f5e102]: Verified
+              - textbox "Phone number (verified during signup)" [disabled]: "6551475294"
+              - paragraph [ref=f5e106]: Verified during signup
+          - generic [ref=f5e107]:
+            - generic [ref=f5e108]:
+              - generic [ref=f5e109]:
+                - generic [ref=f5e110]:
+                  - text: First Name
+                  - generic [ref=f5e111]: "*"
+                - textbox "First Name *" [active] [ref=f5e112]:
+                  - /placeholder: Enter First Name
+              - generic [ref=f5e113]:
+                - generic [ref=f5e114]: Last Name
+                - textbox "Last Name" [ref=f5e115]:
+                  - /placeholder: Enter Last Name
+            - generic [ref=f5e116]:
+              - generic [ref=f5e117]:
+                - generic [ref=f5e118]:
+                  - text: Gender
+                  - generic [ref=f5e119]: "*"
+                - combobox "Gender" [ref=f5e120]:
+                  - generic: Select Gender
+                - combobox [ref=f5e121]
+              - generic [ref=f5e122]:
+                - generic [ref=f5e123]:
+                  - text: Date of Birth
+                  - generic [ref=f5e124]: "*"
+                - group "Date of Birth" [ref=f5e125]:
+                  - generic [ref=f5e128]:
+                    - combobox "Date of Birth Year" [ref=f5e129]:
+                      - option "Year" [disabled] [selected]
+                      - option "1950"
+                      - option "1951"
+                      - option "1952"
+                      - option "1953"
+                      - option "1954"
+                      - option "1955"
+                      - option "1956"
+                      - option "1957"
+                      - option "1958"
+                      - option "1959"
+                      - option "1960"
+                      - option "1961"
+                      - option "1962"
+                      - option "1963"
+                      - option "1964"
+                      - option "1965"
+                      - option "1966"
+                      - option "1967"
+                      - option "1968"
+                      - option "1969"
+                      - option "1970"
+                      - option "1971"
+                      - option "1972"
+                      - option "1973"
+                      - option "1974"
+                      - option "1975"
+                      - option "1976"
+                      - option "1977"
+                      - option "1978"
+                      - option "1979"
+                      - option "1980"
+                      - option "1981"
+                      - option "1982"
+                      - option "1983"
+                      - option "1984"
+                      - option "1985"
+                      - option "1986"
+                      - option "1987"
+                      - option "1988"
+                      - option "1989"
+                      - option "1990"
+                      - option "1991"
+                      - option "1992"
+                      - option "1993"
+                      - option "1994"
+                      - option "1995"
+                      - option "1996"
+                      - option "1997"
+                      - option "1998"
+                      - option "1999"
+                      - option "2000"
+                      - option "2001"
+                      - option "2002"
+                      - option "2003"
+                      - option "2004"
+                      - option "2005"
+                      - option "2006"
+                      - option "2007"
+                      - option "2008"
+                      - option "2009"
+                      - option "2010"
+                      - option "2011"
+                      - option "2012"
+                      - option "2013"
+                      - option "2014"
+                      - option "2015"
+                      - option "2016"
+                      - option "2017"
+                      - option "2018"
+                      - option "2019"
+                      - option "2020"
+                      - option "2021"
+                      - option "2022"
+                      - option "2023"
+                      - option "2024"
+                      - option "2025"
+                      - option "2026"
+                    - combobox "Date of Birth Month" [ref=f5e130]:
+                      - option "Month" [disabled] [selected]
+                      - option "Jan"
+                      - option "Feb"
+                      - option "Mar"
+                      - option "Apr"
+                      - option "May"
+                      - option "Jun"
+                      - option "Jul"
+                      - option "Aug"
+                      - option "Sep"
+                      - option "Oct"
+                      - option "Nov"
+                      - option "Dec"
+                    - combobox "Date of Birth Day" [disabled] [ref=f5e131]:
+                      - option "Day" [disabled] [selected]
+            - heading "Education Details" [level=2] [ref=f5e132]
+            - generic [ref=f5e133]:
+              - generic [ref=f5e134]:
+                - generic [ref=f5e135]:
+                  - heading "Education Level" [level=3] [ref=f5e136]
+                  - paragraph [ref=f5e137]: Your qualification, current status, and the year you completed or expect to complete it.
+                - generic [ref=f5e138]:
+                  - generic [ref=f5e139]:
+                    - generic [ref=f5e140]:
+                      - text: Highest Education
+                      - generic [ref=f5e141]: "*"
+                    - combobox "Highest Education" [ref=f5e142]:
+                      - generic: Select Highest Education
+                    - combobox [ref=f5e143]
+                  - generic [ref=f5e144]:
+                    - generic [ref=f5e145]:
+                      - text: Passing Year
+                      - generic [ref=f5e146]: "*"
+                    - combobox "Passing Year" [ref=f5e147]:
+                      - generic: Select Passing Year
+                    - combobox [ref=f5e148]
+              - generic [ref=f5e149]:
+                - generic [ref=f5e150]:
+                  - heading "Institution Details" [level=3] [ref=f5e151]
+                  - paragraph [ref=f5e152]: Tell us where you study and whether your university choice needs an extra category.
+                - generic [ref=f5e153]:
+                  - generic [ref=f5e154]:
+                    - generic [ref=f5e155]:
+                      - text: University Type
+                      - generic [ref=f5e156]: "*"
+                    - generic [ref=f5e157]:
+                      - combobox [ref=f5e158]:
+                        - generic: Select Board/University
+                      - combobox [ref=f5e159]
+                  - generic [ref=f5e160]:
+                    - generic [ref=f5e161]:
+                      - text: School/College Name
+                      - generic [ref=f5e162]: "*"
+                    - textbox "School/College Name *" [ref=f5e163]:
+                      - /placeholder: Enter School/College Name
+            - heading "Current Address Details" [level=2] [ref=f5e164]
+            - paragraph [ref=f5e165]: Enter the address where you currently live. Do not enter your permanent or native address unless both are the same.
+            - generic [ref=f5e167]:
+              - generic [ref=f5e168]:
+                - text: Pincode
+                - generic [ref=f5e169]: "*"
+              - textbox "Enter Pincode" [ref=f5e171]
+            - generic [ref=f5e172]:
+              - generic [ref=f5e173]:
+                - generic [ref=f5e174]:
+                  - text: City
+                  - generic [ref=f5e175]: "*"
+                - textbox "City *" [ref=f5e176]:
+                  - /placeholder: Auto-filled from pincode
+              - generic [ref=f5e177]:
+                - generic [ref=f5e178]:
+                  - text: State
+                  - generic [ref=f5e179]: "*"
+                - combobox "State" [ref=f5e180]:
+                  - generic: Auto-filled from pincode
+                - combobox [ref=f5e181]
+            - generic [ref=f5e183]:
+              - generic [ref=f5e184]:
+                - text: Full Address
+                - generic [ref=f5e185]: (Optional)
+              - textbox "Full Address (Optional)" [ref=f5e186]:
+                - /placeholder: Enter your current address
+          - generic [ref=f5e187]:
+            - generic [ref=f5e188]:
+              - checkbox "I agree to the Terms and Conditions & Privacy Policy of Save The Quest." [ref=f5e189]
+              - checkbox
+              - generic [ref=f5e191] [cursor=pointer]:
+                - text: I agree to the
+                - link "Terms and Conditions" [ref=f5e192]:
+                  - /url: /terms-services
+                - text: "&"
+                - link "Privacy Policy" [ref=f5e193]:
+                  - /url: /privacy-policy
+                - text: of Save The Quest.
+            - generic [ref=f5e194]:
+              - button "Submit" [disabled]
+  - region "Notifications alt+T"
+  - alert [ref=f5e26]: The Scribe Bank - Create Profile
+  - iframe [ref=f5e27]:
+    - generic [ref=f6e5]:
+      - button [ref=f6e6] [cursor=pointer]
+      - generic [ref=f6e7]: "1"

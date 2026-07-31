@@ -1,0 +1,136 @@
+- generic:
+  - generic:
+    - link:
+      - /url: "#main-content"
+      - text: Skip to main content
+    - banner:
+      - generic:
+        - generic:
+          - link:
+            - /url: /volunteer
+        - generic:
+          - link:
+            - /url: /volunteer
+            - generic: Home
+          - link:
+            - /url: /volunteer/work-history
+            - generic: My Activities
+          - link:
+            - /url: /volunteer/messages
+            - generic: Messages
+          - link:
+            - /url: /volunteer/assistance-payouts
+            - generic: Payouts
+          - link:
+            - /url: /help
+            - generic: Guide
+        - generic:
+          - link "Notifications, 4 unread":
+            - /url: /notifications
+            - generic: "4"
+            - generic: 4 unread notifications
+          - button:
+            - generic: Rohan Verma
+    - main:
+      - generic:
+        - generic:
+          - complementary:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading [level=2]: Rohan Verma
+                  - paragraph: Volunteer
+                - generic:
+                  - generic:
+                    - text: "0"
+                    - paragraph: Request Volunteered
+                  - generic:
+                    - text: "0"
+                    - paragraph: Exam Completed
+                - generic:
+                  - link:
+                    - /url: /volunteer/profile
+                    - text: View Profile
+              - generic:
+                - button:
+                  - generic:
+                    - generic:
+                      - heading [level=3]: How to Login as a Volunteer
+                      - paragraph: Watch the updated volunteer login flow and first dashboard walkthrough
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button:
+                      - generic: Back to Activities List
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]: B.A. Semester 3 Examination
+                          - generic: PU Semester Exam
+                        - generic:
+                          - button
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - paragraph: Panjab University Exam Centre
+                              - paragraph: Sector 14, Panjab University Campus, Chandigarh, Chandigarh, chandigarh - 160014
+                              - generic:
+                                - generic: "Medium: English"
+                                - generic: "State: chandigarh"
+                                - generic: "City: Chandigarh"
+                                - generic: "Pin code: 160014"
+                              - paragraph: "Note: QA test PU semester exam request created via automated flow."
+                          - generic:
+                            - link:
+                              - /url: https://api-v1.thescribebank.com//uploads/1785405894800-hall pass.jpg
+                              - text: View Hall Pass
+                            - link:
+                              - /url: https://api-v1.thescribebank.com//uploads/1785405914342-hall pass.jpg
+                              - text: View date Sheet
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: "Subject : Political Science"
+                            - generic:
+                              - generic: Accepted
+                              - generic: PU Rejected
+                          - paragraph: "Medium: English"
+                          - paragraph: "Date: 15/12/2026"
+                          - paragraph: "Start Time: 09:00 AM End Time: 12:00 PM"
+                          - generic:
+                            - paragraph: "You Accepted this request and are now assisting the beneficiary :"
+                            - generic:
+                              - generic: Priya Sharma
+                              - generic: "|"
+                              - button [disabled]:
+                                - generic: Chat
+                          - generic:
+                            - paragraph: The verification for Volunteer has been rejected.
+                            - paragraph: "Reason: Highest education document uploaded is unclear and needs to be resubmitted for verification."
+                          - generic:
+                            - generic:
+                              - button: Withdraw Scribe Support
+                              - button [expanded]: Resubmit for PU Review
+    - contentinfo:
+      - generic: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert
+  - iframe [ref=f97e141]:
+    - generic [ref=f98e5]:
+      - button [ref=f98e6] [cursor=pointer]
+      - generic [ref=f98e7]: "1"
+  - dialog [ref=f97e143]:
+    - generic [ref=f97e144]:
+      - heading "Resubmit for PU Verification?" [level=2] [ref=f97e145]
+      - paragraph [ref=f97e146]: "The last PU verification was rejected for: Highest education document uploaded is unclear and needs to be resubmitted for verification.. Resubmit once the volunteer-side issue has been fixed."
+    - generic [ref=f97e147]:
+      - button "Cancel" [active] [ref=f97e148] [cursor=pointer]
+      - button "Resubmit PU verification" [ref=f97e149] [cursor=pointer]: Resubmit
+    - button "Close" [ref=f97e150]

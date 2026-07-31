@@ -1,0 +1,237 @@
+- generic:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - list:
+              - listitem:
+                - button:
+                  - generic: The Scribe Bank
+          - generic:
+            - generic:
+              - generic: Platform
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /admin/dashboard
+                    - generic: Dashboard
+                - listitem:
+                  - link:
+                    - /url: /admin/reports
+                    - generic: Reports
+                - listitem:
+                  - link:
+                    - /url: /admin/beneficiaries
+                    - generic: Beneficiaries
+                - listitem:
+                  - link:
+                    - /url: /admin/volunteers
+                    - generic: Volunteers
+                - listitem:
+                  - link:
+                    - /url: /admin/users-missing-profiles
+                    - generic: Profile Gaps
+                - listitem:
+                  - link:
+                    - /url: /admin/duplicate-accounts
+                    - generic: Duplicate Accounts
+                - listitem:
+                  - link:
+                    - /url: /admin/tasks
+                    - generic: Tasks
+                - listitem:
+                  - link:
+                    - /url: /admin/scribe-requests
+                    - generic: Scribe Requests
+                - listitem:
+                  - link:
+                    - /url: /admin/exams
+                    - generic: Exams
+                - listitem:
+                  - link:
+                    - /url: /admin/volunteer-requests
+                    - generic: Volunteer Requests
+                - listitem:
+                  - link:
+                    - /url: /admin/blogs
+                    - generic: Blogs
+                - listitem:
+                  - link:
+                    - /url: /admin/payouts
+                    - generic: Payouts
+                - listitem:
+                  - link:
+                    - /url: /admin/roles
+                    - generic: Roles
+                - listitem:
+                  - link:
+                    - /url: /admin/schools
+                    - generic: Schools
+                - listitem:
+                  - link:
+                    - /url: /admin/bulk-email
+                    - generic: Email Templates
+                - listitem:
+                  - link:
+                    - /url: /admin/whatsapp-campaigns
+                    - generic: WhatsApp Campaigns
+                - listitem:
+                  - link:
+                    - /url: /admin/system-emails
+                    - generic: System Emails
+                - listitem:
+                  - link:
+                    - /url: /admin/tutorial-videos
+                    - generic: Tutorial Videos
+                - listitem:
+                  - link:
+                    - /url: /admin/admins
+                    - generic: Admins
+            - generic: Settings
+          - generic:
+            - list:
+              - listitem:
+                - link:
+                  - /url: /admin/dashboard
+                  - generic: SA
+                  - generic:
+                    - generic: shahid ansari
+                    - generic: shahid.ansari@ledsak.ai
+                - button
+    - main:
+      - generic:
+        - generic:
+          - button:
+            - generic: Toggle Sidebar
+          - heading [level=1]: Exam Timeline
+          - generic:
+            - button:
+              - generic: Dark mode
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: "Exam #221"
+                        - generic: Accepted
+                      - generic: Review exam details, activity, completion data, and full timeline.
+                    - generic:
+                      - button: Reassign Volunteer
+                      - button: Move to NEW
+                      - button: Set Ended (QA)
+                      - link:
+                        - /url: /admin/scribe-requests/173
+                        - text: View Scribe Request
+                      - link:
+                        - /url: /admin/exams/221/performa
+                        - text: View Permission Letter
+                      - button: Raw Data
+                - generic:
+                  - generic:
+                    - tablist:
+                      - tab: Overview
+                      - tab: Beneficiary
+                      - tab: Volunteer
+                      - tab: Timeline
+                      - tab [selected]: PU Verification
+                      - tab: Admin Actions
+                    - tabpanel:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic: Panjab University Verification
+                              - generic: All documents are in place and admin review is pending.
+                            - generic: Awaiting Verification
+                        - generic:
+                          - generic:
+                            - generic:
+                              - term: Examination Roll No.
+                              - definition:
+                                - paragraph: Not provided
+                            - generic:
+                              - term: Last PU Action
+                              - definition:
+                                - paragraph: No PU action yet
+                            - generic:
+                              - term: Last Updated
+                              - definition:
+                                - paragraph: —
+                            - generic:
+                              - term: Scribe Request
+                              - definition:
+                                - link:
+                                  - /url: /admin/scribe-requests/173
+                                  - text: "Request #173"
+                      - generic:
+                        - tablist:
+                          - tab [selected]: Review
+                          - tab: History
+                          - tab: Documents
+                        - tabpanel:
+                          - generic:
+                            - generic:
+                              - generic: Verification Checklist
+                              - generic: Confirm all four items before approving. If something is wrong, reject the review with the correct target and path.
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - checkbox
+                                  - generic: Beneficiary is a student of PU.
+                                - generic:
+                                  - checkbox
+                                  - generic: The student is from PwDs category.
+                                - generic:
+                                  - checkbox
+                                  - generic: The examination details match the official datesheet.
+                                - generic:
+                                  - checkbox
+                                  - generic: Volunteer is eligible to be a scribe for this exam.
+                              - generic:
+                                - button [disabled]: Approve & Verify
+                                - button [expanded]: Reject
+  - region "Notifications alt+T"
+  - alert
+  - dialog [ref=f4e912]:
+    - generic [ref=f4e913]:
+      - heading "Reject PU Verification" [level=2] [ref=f4e914]
+      - paragraph [ref=f4e915]: Record exactly who needs to fix the issue and whether the current volunteer should remain assigned.
+    - generic [ref=f4e916]:
+      - generic [ref=f4e917]: Reason *
+      - textbox "e.g. Disability certificate is incomplete, datesheet does not match, volunteer is not eligible…" [ref=f4e918]: Highest education document uploaded is unclear and needs to be resubmitted for verification.
+    - generic [ref=f4e919]:
+      - paragraph [ref=f4e920]: Rejection is for *
+      - radiogroup [ref=f4e921]:
+        - generic [ref=f4e922] [cursor=pointer]:
+          - radio "Volunteer" [checked] [ref=f4e923]
+          - generic [ref=f4e924]: Volunteer
+        - generic [ref=f4e925] [cursor=pointer]:
+          - radio "Beneficiary" [ref=f4e926]
+          - generic [ref=f4e927]: Beneficiary
+        - generic [ref=f4e928] [cursor=pointer]:
+          - radio "Both" [ref=f4e929]
+          - generic [ref=f4e930]: Both
+    - generic [ref=f4e931]:
+      - generic [ref=f4e932]:
+        - paragraph [ref=f4e933]: Choose rejection path
+        - paragraph [ref=f4e934]: This decides whether the current volunteer stays assigned or the exam returns to NEW.
+      - radiogroup [ref=f4e935]:
+        - generic [ref=f4e936]:
+          - radio "Reject & Hold Volunteer stays assigned. Use when the issue is fixable and admin should review the same assignment again." [checked] [active] [ref=f4e937]
+          - generic [ref=f4e938]:
+            - paragraph [ref=f4e939]: Reject & Hold
+            - paragraph [ref=f4e940]: Volunteer stays assigned. Use when the issue is fixable and admin should review the same assignment again.
+        - generic [ref=f4e941]:
+          - radio "Reject & Release Volunteer is unassigned and the exam returns to NEW. Use when this assignment cannot continue." [ref=f4e942]
+          - generic [ref=f4e943]:
+            - paragraph [ref=f4e944]: Reject & Release
+            - paragraph [ref=f4e945]: Volunteer is unassigned and the exam returns to NEW. Use when this assignment cannot continue.
+    - generic [ref=f4e946]:
+      - button "Cancel" [ref=f4e947]
+      - button "Confirm Reject & Hold" [ref=f4e954]
+    - button "Close" [ref=f4e948]

@@ -1,0 +1,35 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e45]:
+    - link "Skip to main content" [ref=f4e46] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f4e47]:
+      - generic [ref=f4e48]:
+        - link [ref=f4e50] [cursor=pointer]:
+          - /url: /beneficiary
+          - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f4e51]
+        - generic [ref=f4e52]:
+          - link "Home" [ref=f4e53] [cursor=pointer]:
+            - /url: /beneficiary
+          - link "New Request" [ref=f4e58] [cursor=pointer]:
+            - /url: /new-request
+          - link "Messages" [ref=f4e62] [cursor=pointer]:
+            - /url: /beneficiary/messages
+          - link "Guide" [ref=f4e66] [cursor=pointer]:
+            - /url: /help
+          - link "Notifications" [ref=f4e70] [cursor=pointer]:
+            - /url: /notifications
+        - button "Profile picture of Test Benificiary Test Benificiary" [ref=f4e74] [cursor=pointer]:
+          - img "Profile picture of Test Benificiary" [ref=f4e75]
+          - generic [ref=f4e76]: Test Benificiary
+    - main [ref=f4e79]
+    - contentinfo "Website Footer" [ref=f4e81]:
+      - generic [ref=f4e82]: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=f4e84]:
+        - generic [ref=f4e88]: Login successful!
+  - alert [ref=f4e26]: The Scribe Bank - Homepage
+  - iframe [ref=f4e27]:
+    - generic [ref=f5e5]:
+      - button [ref=f5e6] [cursor=pointer]
+      - generic [ref=f5e7]: "1"

@@ -1,0 +1,255 @@
+- generic:
+  - generic:
+    - link:
+      - /url: "#main-content"
+      - text: Skip to main content
+    - banner:
+      - generic:
+        - generic:
+          - link:
+            - /url: /beneficiary
+        - generic:
+          - link:
+            - /url: /beneficiary
+            - generic: Home
+          - link:
+            - /url: /new-request
+            - generic: New Request
+          - link:
+            - /url: /beneficiary/messages
+            - generic: Messages
+          - link:
+            - /url: /help
+            - generic: Guide
+          - link "Notifications, 7 unread":
+            - /url: /notifications
+            - generic: "7"
+            - generic: 7 unread notifications
+        - button:
+          - generic: Test Benificiary
+    - main:
+      - generic:
+        - generic:
+          - complementary:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading [level=2]: Test Benificiary
+                  - paragraph: Beneficiary
+                - generic:
+                  - generic:
+                    - text: "0"
+                    - paragraph: Volunteers
+                  - generic:
+                    - text: "1"
+                    - paragraph: Scribe Requests
+                - generic:
+                  - link:
+                    - /url: /beneficiary/profile
+                    - text: View Profile
+              - generic:
+                - button:
+                  - generic:
+                    - generic:
+                      - heading [level=3]: How to Login as a Beneficiary
+                      - paragraph: Watch the existing beneficiary login tutorial and dashboard entry steps
+          - generic:
+            - generic:
+              - generic:
+                - tablist:
+                  - tab [selected]:
+                    - heading [level=1]: Create Scribe Request
+                  - tab:
+                    - heading [level=2]: Create Volunteer Request
+                - tabpanel:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - checkbox
+                              - checkbox
+                              - generic:
+                                - generic: This is a semester exam
+                                - paragraph: Select this box if this request should follow the Panjab University semester flow.
+                          - generic:
+                            - generic: Exam Title
+                            - textbox:
+                              - /placeholder: Exam Title
+                              - text: Test Semester Exam
+                          - generic:
+                            - generic: Medium of Exam
+                            - textbox:
+                              - /placeholder: Enter Medium
+                              - text: English
+                          - generic:
+                            - generic: Upload Admit Card / Hall Pass
+                            - generic:
+                              - generic:
+                                - button
+                                - generic: Choose File
+                          - generic:
+                            - generic: Upload Date Sheet
+                            - generic:
+                              - generic:
+                                - button
+                                - generic: Choose File
+                          - generic:
+                            - heading [level=3]: Exam Center Address
+                            - paragraph: Please enter the address of your exam center, not your home or current address.
+                          - generic:
+                            - generic: Exam Center Name
+                            - textbox:
+                              - /placeholder: Enter Center Name
+                              - text: Chandigarh Test Center
+                          - generic:
+                            - generic:
+                              - generic: State (Exam Center)
+                              - combobox:
+                                - generic: Chandigarh
+                              - combobox
+                            - generic:
+                              - generic: City (Exam Center)
+                              - textbox:
+                                - /placeholder: Enter here
+                                - text: Chandigarh
+                            - generic:
+                              - generic: Pin code (Exam Center)
+                              - textbox:
+                                - /placeholder: Enter here
+                                - text: "160001"
+                          - generic:
+                            - generic: Full Address of Exam Center
+                            - textbox:
+                              - /placeholder: Enter full address of exam center
+                              - text: Sector 17, Chandigarh
+                          - generic:
+                            - heading [level=3]: Exam Details
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: Subject Name
+                                  - textbox:
+                                    - /placeholder: Enter Here
+                                    - text: Test Subject
+                                - generic:
+                                  - generic: Exam Date
+                                  - group:
+                                    - generic: Exam Date
+                                    - generic:
+                                      - generic:
+                                        - combobox
+                                        - combobox
+                                        - combobox
+                              - generic:
+                                - generic: Exam Time
+                                - generic:
+                                  - generic:
+                                    - generic: Start Time
+                                    - group:
+                                      - generic: Start Time
+                                      - generic:
+                                        - combobox:
+                                          - generic: "9"
+                                        - combobox
+                                        - combobox [expanded]:
+                                          - generic: "00"
+                                        - combobox
+                                        - combobox:
+                                          - generic: AM
+                                        - combobox
+                                  - generic:
+                                    - generic: End Time
+                                    - group:
+                                      - generic: End Time
+                                      - generic:
+                                        - combobox:
+                                          - generic: Hr
+                                        - combobox
+                                        - combobox:
+                                          - generic: Min
+                                        - combobox
+                                        - combobox:
+                                          - generic: AM
+                                        - combobox
+                            - button: Add More Subject
+                          - generic:
+                            - generic: Notes (If Any)
+                            - textbox:
+                              - /placeholder: Enter note
+                              - text: This is a test request created for QA testing purposes.
+                        - generic:
+                          - button: Cancel
+                          - button: Submit
+    - contentinfo:
+      - generic: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert
+  - iframe [ref=f8e188]:
+    - generic [ref=f9e5]:
+      - button [ref=f9e6] [cursor=pointer]
+      - generic [ref=f9e7]: "1"
+  - listbox [ref=f8e226]:
+    - option "00" [active] [selected] [ref=f8e227]
+    - option "01" [ref=f8e233]
+    - option "02" [ref=f8e236]
+    - option "03" [ref=f8e239]
+    - option "04" [ref=f8e242]
+    - option "05" [ref=f8e245]
+    - option "06" [ref=f8e248]
+    - option "07" [ref=f8e251]
+    - option "08" [ref=f8e254]
+    - option "09" [ref=f8e257]
+    - option "10" [ref=f8e260]
+    - option "11" [ref=f8e263]
+    - option "12" [ref=f8e266]
+    - option "13" [ref=f8e269]
+    - option "14" [ref=f8e272]
+    - option "15" [ref=f8e275]
+    - option "16" [ref=f8e278]
+    - option "17" [ref=f8e281]
+    - option "18" [ref=f8e284]
+    - option "19" [ref=f8e287]
+    - option "20" [ref=f8e290]
+    - option "21" [ref=f8e293]
+    - option "22" [ref=f8e296]
+    - option "23" [ref=f8e299]
+    - option "24" [ref=f8e302]
+    - option "25" [ref=f8e305]
+    - option "26" [ref=f8e308]
+    - option "27" [ref=f8e311]
+    - option "28" [ref=f8e314]
+    - option "29" [ref=f8e317]
+    - option "30" [ref=f8e320]
+    - option "31" [ref=f8e323]
+    - option "32" [ref=f8e326]
+    - option "33" [ref=f8e329]
+    - option "34" [ref=f8e332]
+    - option "35" [ref=f8e335]
+    - option "36" [ref=f8e338]
+    - option "37" [ref=f8e341]
+    - option "38" [ref=f8e344]
+    - option "39" [ref=f8e347]
+    - option "40" [ref=f8e350]
+    - option "41" [ref=f8e353]
+    - option "42" [ref=f8e356]
+    - option "43" [ref=f8e359]
+    - option "44" [ref=f8e362]
+    - option "45" [ref=f8e365]
+    - option "46" [ref=f8e368]
+    - option "47" [ref=f8e371]
+    - option "48" [ref=f8e374]
+    - option "49" [ref=f8e377]
+    - option "50" [ref=f8e380]
+    - option "51" [ref=f8e383]
+    - option "52" [ref=f8e386]
+    - option "53" [ref=f8e389]
+    - option "54" [ref=f8e392]
+    - option "55" [ref=f8e395]
+    - option "56" [ref=f8e398]
+    - option "57" [ref=f8e401]
+    - option "58" [ref=f8e404]
+    - option "59" [ref=f8e407]

@@ -1,0 +1,29 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - generic [ref=f7e5]:
+      - list [ref=f7e7]:
+        - listitem [ref=f7e8]:
+          - button "The Scribe Bank" [ref=f7e9]
+      - generic [ref=f7e15]:
+        - generic [ref=f7e16]: Platform
+        - list [ref=f7e17]:
+          - listitem [ref=f7e18] [cursor=pointer]:
+            - link "System Emails" [ref=f7e19]:
+              - /url: /admin/system-emails
+      - list [ref=f7e28]:
+        - listitem [ref=f7e29]:
+          - link "SA shahid ansari shahid.ansari@ledsak.ai" [ref=f7e30] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - generic [ref=f7e31]: SA
+            - generic [ref=f7e33]:
+              - generic [ref=f7e34]: shahid ansari
+              - generic [ref=f7e35]: shahid.ansari@ledsak.ai
+          - button "Open user menu" [ref=f7e36]
+    - main [ref=f7e41]:
+      - generic [ref=f7e43]:
+        - button "Toggle Sidebar" [ref=f7e44]
+        - heading "Volunteer Profile" [level=1] [ref=f7e46]
+        - generic [ref=f7e47]:
+          - button "Theme" [disabled]
+  - region "Notifications alt+T"
+  - alert [ref=f7e127]

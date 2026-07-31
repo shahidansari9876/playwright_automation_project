@@ -1,0 +1,10 @@
+[   19895ms] [LOG] 🔵 [FRONTEND] Sending OTP request @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/login/page-108b21b051af1490.js:0
+[   19895ms] [LOG] 🔵 URL: https://api-v1.thescribebank.com/auth/login/send-otp?masterOtp=true @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/login/page-108b21b051af1490.js:0
+[   19895ms] [LOG] 🔵 Identifier: shahidvol12@yopmail.com @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/login/page-108b21b051af1490.js:0
+[   19895ms] [LOG] 🔵 Master OTP enabled: true @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/login/page-108b21b051af1490.js:0
+[   20058ms] [LOG] 🟢 [FRONTEND] OTP Response: {success: true, data: Object} @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/login/page-108b21b051af1490.js:0
+[   32840ms] [LOG] 🔵 [FRONTEND] Verifying OTP @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/login/page-108b21b051af1490.js:0
+[   32840ms] [LOG] 🔵 Identifier: shahidvol12@yopmail.com @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/login/page-108b21b051af1490.js:0
+[   32840ms] [LOG] 🔵 OTP (raw): 123456 @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/login/page-108b21b051af1490.js:0
+[   32840ms] [LOG] 🔵 OTP (parsed): 123456 @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/login/page-108b21b051af1490.js:0
+[   32934ms] [LOG] 🟢 [FRONTEND] Verify Response: {success: true, data: Object} @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/login/page-108b21b051af1490.js:0

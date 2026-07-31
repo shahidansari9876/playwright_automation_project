@@ -1,0 +1,179 @@
+- generic [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - generic [ref=f5e5]:
+      - list [ref=f5e7]:
+        - listitem [ref=f5e8]:
+          - button "The Scribe Bank" [ref=f5e9]
+      - generic [ref=f5e14]:
+        - generic [ref=f5e15]:
+          - generic [ref=f5e16]: Platform
+          - list [ref=f5e17]:
+            - listitem [ref=f5e18] [cursor=pointer]:
+              - link "Dashboard" [ref=f5e78]:
+                - /url: /admin/dashboard
+            - listitem [ref=f5e83] [cursor=pointer]:
+              - link "Reports" [ref=f5e84]:
+                - /url: /admin/reports
+            - listitem [ref=f5e92] [cursor=pointer]:
+              - link "Beneficiaries" [ref=f5e93]:
+                - /url: /admin/beneficiaries
+            - listitem [ref=f5e98] [cursor=pointer]:
+              - link "Volunteers" [ref=f5e99]:
+                - /url: /admin/volunteers
+            - listitem [ref=f5e105] [cursor=pointer]:
+              - link "Profile Gaps" [ref=f5e106]:
+                - /url: /admin/users-missing-profiles
+            - listitem [ref=f5e114] [cursor=pointer]:
+              - link "Duplicate Accounts" [ref=f5e115]:
+                - /url: /admin/duplicate-accounts
+            - listitem [ref=f5e120] [cursor=pointer]:
+              - link "Tasks" [ref=f5e121]:
+                - /url: /admin/tasks
+            - listitem [ref=f5e126] [cursor=pointer]:
+              - link "Scribe Requests" [ref=f5e127]:
+                - /url: /admin/scribe-requests
+            - listitem [ref=f5e131] [cursor=pointer]:
+              - link "Exams" [ref=f5e132]:
+                - /url: /admin/exams
+            - listitem [ref=f5e136] [cursor=pointer]:
+              - link "Volunteer Requests" [ref=f5e137]:
+                - /url: /admin/volunteer-requests
+            - listitem [ref=f5e144] [cursor=pointer]:
+              - link "Blogs" [ref=f5e145]:
+                - /url: /admin/blogs
+            - listitem [ref=f5e152] [cursor=pointer]:
+              - link "Payouts" [ref=f5e153]:
+                - /url: /admin/payouts
+            - listitem [ref=f5e160] [cursor=pointer]:
+              - link "Roles" [ref=f5e161]:
+                - /url: /admin/roles
+            - listitem [ref=f5e166] [cursor=pointer]:
+              - link "Schools" [ref=f5e167]:
+                - /url: /admin/schools
+            - listitem [ref=f5e172] [cursor=pointer]:
+              - link "Email Templates" [ref=f5e173]:
+                - /url: /admin/bulk-email
+            - listitem [ref=f5e178] [cursor=pointer]:
+              - link "WhatsApp Campaigns" [ref=f5e179]:
+                - /url: /admin/whatsapp-campaigns
+            - listitem [ref=f5e183] [cursor=pointer]:
+              - link "System Emails" [ref=f5e184]:
+                - /url: /admin/system-emails
+            - listitem [ref=f5e192] [cursor=pointer]:
+              - link "Tutorial Videos" [ref=f5e193]:
+                - /url: /admin/tutorial-videos
+            - listitem [ref=f5e198] [cursor=pointer]:
+              - link "Admins" [ref=f5e199]:
+                - /url: /admin/admins
+        - generic [ref=f5e204]: Settings
+      - list [ref=f5e28]:
+        - listitem [ref=f5e29]:
+          - link "SA shahid ansari shahid.ansari@ledsak.ai" [ref=f5e30] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - generic [ref=f5e31]: SA
+            - generic [ref=f5e33]:
+              - generic [ref=f5e34]: shahid ansari
+              - generic [ref=f5e35]: shahid.ansari@ledsak.ai
+          - button "Open user menu" [ref=f5e36]
+    - main [ref=f5e41]:
+      - generic [ref=f5e43]:
+        - button "Toggle Sidebar" [ref=f5e44]
+        - heading "Exam Timeline" [level=1] [ref=f5e46]
+        - button "Switch to dark mode" [ref=f5e213]:
+          - generic [ref=f5e214]: Dark mode
+      - generic [ref=f5e52]:
+        - generic [ref=f5e54]:
+          - generic [ref=f5e215]:
+            - generic [ref=f5e216]:
+              - generic [ref=f5e217]: "Exam #221"
+              - generic [ref=f5e218]: Accepted
+            - generic [ref=f5e219]: Review exam details, activity, completion data, and full timeline.
+          - generic [ref=f5e220]:
+            - button "Reassign Volunteer" [ref=f5e221]
+            - button "Move to NEW" [ref=f5e222]
+            - button "Set Ended (QA)" [ref=f5e223]
+            - link "View Scribe Request" [ref=f5e224] [cursor=pointer]:
+              - /url: /admin/scribe-requests/173
+            - link "View Permission Letter" [ref=f5e225] [cursor=pointer]:
+              - /url: /admin/exams/221/performa
+            - button "Raw Data" [ref=f5e226]
+        - generic [ref=f5e227]:
+          - tablist [ref=f5e228]:
+            - tab "Overview" [ref=f5e229]
+            - tab "Beneficiary" [ref=f5e230]
+            - tab "Volunteer" [ref=f5e231]
+            - tab "Timeline" [ref=f5e232]
+            - tab "PU Verification" [selected] [ref=f5e233]
+            - tab "Admin Actions" [ref=f5e235]
+          - tabpanel "PU Verification" [ref=f5e236]:
+            - generic [ref=f5e237]:
+              - generic [ref=f5e239]:
+                - generic [ref=f5e240]:
+                  - generic [ref=f5e241]: Panjab University Verification
+                  - generic [ref=f5e245]: A corrected submission is back with admin and ready for the next PU review.
+                - generic [ref=f5e246]: Resubmitted • Awaiting Verification
+              - generic [ref=f5e247]:
+                - generic [ref=f5e248]:
+                  - generic [ref=f5e249]:
+                    - term [ref=f5e250]: Examination Roll No.
+                    - definition [ref=f5e251]:
+                      - paragraph [ref=f5e252]: Not provided
+                  - generic [ref=f5e253]:
+                    - term [ref=f5e254]: Last PU Action
+                    - definition [ref=f5e255]:
+                      - paragraph [ref=f5e256]: Exam PU Resubmitted by Rohan Verma (volunteer)
+                  - generic [ref=f5e257]:
+                    - term [ref=f5e258]: Last Updated
+                    - definition [ref=f5e259]:
+                      - paragraph [ref=f5e260]: 30/07/2026, 3:51 pm
+                  - generic [ref=f5e261]:
+                    - term [ref=f5e262]: Scribe Request
+                    - definition [ref=f5e263]:
+                      - 'link "Request #173" [ref=f5e264] [cursor=pointer]':
+                        - /url: /admin/scribe-requests/173
+                - generic [ref=f5e265]:
+                  - generic [ref=f5e266]:
+                    - term [ref=f5e267]: Latest Rejected For
+                    - definition [ref=f5e268]:
+                      - paragraph [ref=f5e269]: Volunteer
+                  - generic [ref=f5e270]:
+                    - term [ref=f5e271]: Latest Rejection Path
+                    - definition [ref=f5e272]:
+                      - paragraph [ref=f5e273]: Reject & Hold
+                  - generic [ref=f5e274]:
+                    - term [ref=f5e275]: Last Resubmission By
+                    - definition [ref=f5e276]:
+                      - paragraph [ref=f5e277]: Volunteer
+                  - generic [ref=f5e278]:
+                    - term [ref=f5e279]: Latest Rejection Reason
+                    - definition [ref=f5e280]:
+                      - paragraph [ref=f5e281]: Highest education document uploaded is unclear and needs to be resubmitted for verification.
+            - generic [ref=f5e282]:
+              - tablist [ref=f5e283]:
+                - tab "Review" [selected] [ref=f5e284]
+                - tab "History" [ref=f5e285]
+                - tab "Documents" [ref=f5e286]
+              - tabpanel "Review" [ref=f5e287]:
+                - generic [ref=f5e288]:
+                  - generic [ref=f5e289]:
+                    - generic [ref=f5e290]: Verification Checklist
+                    - generic [ref=f5e291]: Confirm all four items before approving. If something is wrong, reject the review with the correct target and path.
+                  - generic [ref=f5e292]:
+                    - generic [ref=f5e293]:
+                      - generic [ref=f5e294]:
+                        - checkbox "Beneficiary is a student of PU." [checked] [ref=f5e295]
+                        - generic [ref=f5e296] [cursor=pointer]: Beneficiary is a student of PU.
+                      - generic [ref=f5e297]:
+                        - checkbox "The student is from PwDs category." [checked] [active] [ref=f5e298]
+                        - generic [ref=f5e299] [cursor=pointer]: The student is from PwDs category.
+                      - generic [ref=f5e300]:
+                        - checkbox "The examination details match the official datesheet." [ref=f5e301]
+                        - generic [ref=f5e302] [cursor=pointer]: The examination details match the official datesheet.
+                      - generic [ref=f5e303]:
+                        - checkbox "Volunteer is eligible to be a scribe for this exam." [ref=f5e304]
+                        - generic [ref=f5e305] [cursor=pointer]: Volunteer is eligible to be a scribe for this exam.
+                    - generic [ref=f5e306]:
+                      - button "Approve & Verify" [disabled]
+                      - button "Reject" [ref=f5e307]
+  - region "Notifications alt+T"
+  - alert [ref=f5e308]

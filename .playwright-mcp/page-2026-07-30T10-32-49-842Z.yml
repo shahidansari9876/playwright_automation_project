@@ -1,0 +1,177 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - generic [ref=f7e5]:
+      - list [ref=f7e7]:
+        - listitem [ref=f7e8]:
+          - button "The Scribe Bank" [ref=f7e9]
+      - generic [ref=f7e14]:
+        - generic [ref=f7e15]:
+          - generic [ref=f7e16]: Platform
+          - list [ref=f7e17]:
+            - listitem [ref=f7e18] [cursor=pointer]:
+              - link "Dashboard" [ref=f7e128]:
+                - /url: /admin/dashboard
+            - listitem [ref=f7e133] [cursor=pointer]:
+              - link "Reports" [ref=f7e134]:
+                - /url: /admin/reports
+            - listitem [ref=f7e142] [cursor=pointer]:
+              - link "Beneficiaries" [ref=f7e143]:
+                - /url: /admin/beneficiaries
+            - listitem [ref=f7e148] [cursor=pointer]:
+              - link "Volunteers" [ref=f7e149]:
+                - /url: /admin/volunteers
+            - listitem [ref=f7e155] [cursor=pointer]:
+              - link "Profile Gaps" [ref=f7e156]:
+                - /url: /admin/users-missing-profiles
+            - listitem [ref=f7e164] [cursor=pointer]:
+              - link "Duplicate Accounts" [ref=f7e165]:
+                - /url: /admin/duplicate-accounts
+            - listitem [ref=f7e170] [cursor=pointer]:
+              - link "Tasks" [ref=f7e171]:
+                - /url: /admin/tasks
+            - listitem [ref=f7e176] [cursor=pointer]:
+              - link "Scribe Requests" [ref=f7e177]:
+                - /url: /admin/scribe-requests
+            - listitem [ref=f7e181] [cursor=pointer]:
+              - link "Exams" [ref=f7e182]:
+                - /url: /admin/exams
+            - listitem [ref=f7e186] [cursor=pointer]:
+              - link "Volunteer Requests" [ref=f7e187]:
+                - /url: /admin/volunteer-requests
+            - listitem [ref=f7e194] [cursor=pointer]:
+              - link "Blogs" [ref=f7e195]:
+                - /url: /admin/blogs
+            - listitem [ref=f7e202] [cursor=pointer]:
+              - link "Payouts" [ref=f7e203]:
+                - /url: /admin/payouts
+            - listitem [ref=f7e210] [cursor=pointer]:
+              - link "Roles" [ref=f7e211]:
+                - /url: /admin/roles
+            - listitem [ref=f7e216] [cursor=pointer]:
+              - link "Schools" [ref=f7e217]:
+                - /url: /admin/schools
+            - listitem [ref=f7e222] [cursor=pointer]:
+              - link "Email Templates" [ref=f7e223]:
+                - /url: /admin/bulk-email
+            - listitem [ref=f7e228] [cursor=pointer]:
+              - link "WhatsApp Campaigns" [ref=f7e229]:
+                - /url: /admin/whatsapp-campaigns
+            - listitem [ref=f7e233] [cursor=pointer]:
+              - link "System Emails" [ref=f7e234]:
+                - /url: /admin/system-emails
+            - listitem [ref=f7e242] [cursor=pointer]:
+              - link "Tutorial Videos" [ref=f7e243]:
+                - /url: /admin/tutorial-videos
+            - listitem [ref=f7e248] [cursor=pointer]:
+              - link "Admins" [ref=f7e249]:
+                - /url: /admin/admins
+        - generic [ref=f7e254]: Settings
+      - list [ref=f7e28]:
+        - listitem [ref=f7e29]:
+          - link "SA shahid ansari shahid.ansari@ledsak.ai" [ref=f7e30] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - generic [ref=f7e31]: SA
+            - generic [ref=f7e33]:
+              - generic [ref=f7e34]: shahid ansari
+              - generic [ref=f7e35]: shahid.ansari@ledsak.ai
+          - button "Open user menu" [ref=f7e36]
+    - main [ref=f7e263]:
+      - generic [ref=f7e265]:
+        - button "Toggle Sidebar" [ref=f7e266]
+        - heading "Volunteer Profile" [level=1] [ref=f7e268]
+        - button "Switch to dark mode" [ref=f7e270]:
+          - generic [ref=f7e271]: Dark mode
+      - generic [ref=f7e274]:
+        - generic [ref=f7e275]:
+          - link "Back to Volunteers" [ref=f7e276] [cursor=pointer]:
+            - /url: /admin/volunteers
+          - generic [ref=f7e278]:
+            - link "View on Website" [ref=f7e279] [cursor=pointer]:
+              - /url: https://thescribebank.com/profile/111
+            - link "Edit Profile" [ref=f7e280] [cursor=pointer]:
+              - /url: /admin/volunteers/edit/111
+            - link "Change School" [ref=f7e282] [cursor=pointer]:
+              - /url: /admin/volunteers/111/school-assignment
+        - generic [ref=f7e286]:
+          - generic [ref=f7e287]: RV
+          - generic [ref=f7e290]:
+            - generic [ref=f7e291]:
+              - generic [ref=f7e292]:
+                - heading "Rohan Verma" [level=1] [ref=f7e293]
+                - generic [ref=f7e294]: Verified
+              - paragraph [ref=f7e295]: No occupation listed
+            - generic [ref=f7e296]:
+              - generic [ref=f7e301]:
+                - paragraph [ref=f7e302]: Phone
+                - paragraph [ref=f7e303]: "8179403804"
+              - generic [ref=f7e308]:
+                - paragraph [ref=f7e309]: Alternate Phone
+                - paragraph [ref=f7e310]: N/A
+              - generic [ref=f7e316]:
+                - paragraph [ref=f7e317]: Email
+                - paragraph [ref=f7e318]: volun1785403804@yopmail.com
+              - generic [ref=f7e324]:
+                - paragraph [ref=f7e325]: Location
+                - paragraph [ref=f7e326]: Chandigarh, chandigarh
+              - generic [ref=f7e332]:
+                - paragraph [ref=f7e333]: Education
+                - paragraph [ref=f7e334]: 12th
+              - generic [ref=f7e342]:
+                - paragraph [ref=f7e343]: Assigned School
+                - generic [ref=f7e344]: Independent
+        - generic [ref=f7e345]:
+          - tablist [ref=f7e346]:
+            - tab "Personal Information" [ref=f7e347]
+            - tab "Access & Sessions" [ref=f7e348]
+            - tab "Education & Experience" [ref=f7e349]
+            - tab "Identity" [ref=f7e350]
+            - tab "Payment" [selected] [ref=f7e351]
+            - tab "Timeline" [ref=f7e352]
+            - tab "Volunteer Requests" [ref=f7e353]
+            - tab "Scribe Requests" [ref=f7e354]
+          - tabpanel "Payment" [ref=f7e356]:
+            - generic [ref=f7e357]:
+              - generic [ref=f7e358]:
+                - generic [ref=f7e359]:
+                  - generic [ref=f7e360]: Bank / Payment Method Verification
+                  - generic [ref=f7e364]:
+                    - button "Refresh" [ref=f7e365] [cursor=pointer]
+                    - button "Add Payment Method" [ref=f7e366] [cursor=pointer]
+                - generic [ref=f7e367]:
+                  - generic [ref=f7e368]: "Total: 1"
+                  - generic [ref=f7e369]: "Verified: 1"
+                  - generic [ref=f7e370]: "Pending: 0"
+                  - generic [ref=f7e371]: "Rejected: 0"
+              - generic [ref=f7e413]:
+                - generic [ref=f7e414]:
+                  - generic [ref=f7e420]:
+                    - generic [ref=f7e421]:
+                      - paragraph [ref=f7e422]: My Primary Bank Account
+                      - generic [ref=f7e423]: Verified
+                      - generic [ref=f7e424]: Default
+                      - generic [ref=f7e425]: Complete (4/4 fields)
+                    - paragraph [ref=f7e426]: "Method: BANK ACCOUNT | Added: 30/07/2026"
+                  - generic [ref=f7e427]:
+                    - button "Reject" [ref=f7e428] [cursor=pointer]
+                    - button "Edit" [ref=f7e429] [cursor=pointer]
+                - generic [ref=f7e430]:
+                  - generic [ref=f7e431]:
+                    - paragraph [ref=f7e432]: Account Holder Name
+                    - paragraph [ref=f7e433]: Rohan Verma
+                  - generic [ref=f7e434]:
+                    - paragraph [ref=f7e435]: Account Number
+                    - paragraph [ref=f7e436]: "123456789012"
+                  - generic [ref=f7e437]:
+                    - paragraph [ref=f7e438]: IFSC Code
+                    - paragraph [ref=f7e439]: SBIN0001234
+                  - generic [ref=f7e440]:
+                    - paragraph [ref=f7e441]: Bank Name
+                    - paragraph [ref=f7e442]: State Bank of India
+                  - generic [ref=f7e443]:
+                    - paragraph [ref=f7e444]: Branch
+                    - paragraph [ref=f7e445]: Sector 17 Chandigarh Branch
+                  - generic [ref=f7e446]:
+                    - paragraph [ref=f7e447]: Proof Document
+                    - paragraph [ref=f7e448]: Not uploaded
+  - region "Notifications alt+T"
+  - alert [ref=f7e127]

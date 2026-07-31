@@ -1,0 +1,142 @@
+- generic:
+  - generic:
+    - link:
+      - /url: "#main-content"
+      - text: Skip to main content
+    - banner:
+      - generic:
+        - generic:
+          - link:
+            - /url: /volunteer
+        - generic:
+          - link:
+            - /url: /volunteer
+            - generic: Home
+          - link:
+            - /url: /volunteer/work-history
+            - generic: My Activities
+          - link:
+            - /url: /volunteer/messages
+            - generic: Messages
+          - link:
+            - /url: /volunteer/assistance-payouts
+            - generic: Payouts
+          - link:
+            - /url: /help
+            - generic: Guide
+        - generic:
+          - link "Notifications, 7 unread":
+            - /url: /notifications
+            - generic: "7"
+            - generic: 7 unread notifications
+          - button:
+            - generic: Rohan Verma
+    - main:
+      - generic:
+        - generic:
+          - complementary:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading [level=2]: Rohan Verma
+                  - paragraph: Volunteer
+                - generic:
+                  - generic:
+                    - text: "0"
+                    - paragraph: Request Volunteered
+                  - generic:
+                    - text: "1"
+                    - paragraph: Exam Completed
+                - generic:
+                  - link:
+                    - /url: /volunteer/profile
+                    - text: View Profile
+              - generic:
+                - button:
+                  - generic:
+                    - generic:
+                      - heading [level=3]: How to Login as a Volunteer
+                      - paragraph: Watch the updated volunteer login flow and first dashboard walkthrough
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button:
+                      - generic: Back to Activities List
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]: B.A. Semester 3 Examination
+                          - generic: PU Semester Exam
+                        - generic:
+                          - button
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - paragraph: Panjab University Exam Centre
+                              - paragraph: Sector 14, Panjab University Campus, Chandigarh, Chandigarh, chandigarh - 160014
+                              - generic:
+                                - generic: "Medium: English"
+                                - generic: "State: chandigarh"
+                                - generic: "City: Chandigarh"
+                                - generic: "Pin code: 160014"
+                              - paragraph: "Note: QA test PU semester exam request created via automated flow."
+                          - generic:
+                            - link:
+                              - /url: https://api-v1.thescribebank.com//uploads/1785405894800-hall pass.jpg
+                              - text: View Hall Pass
+                            - link:
+                              - /url: https://api-v1.thescribebank.com//uploads/1785405914342-hall pass.jpg
+                              - text: View date Sheet
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: "Subject : Political Science"
+                            - generic: COMPLETED
+                          - paragraph: "Medium: English"
+                          - paragraph: "Date: 30/07/2026"
+                          - paragraph: "Start Time: 09:00 AM End Time: 10:23 AM"
+                          - generic:
+                            - paragraph: Request Completed - Beneficiary
+                            - generic:
+                              - generic: Priya Sharma
+                              - generic: "|"
+                              - button:
+                                - generic: Chat
+                          - generic:
+                            - button: Create Payout Request
+    - contentinfo:
+      - generic: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert
+  - iframe [ref=f124e147]:
+    - generic [ref=f125e5]:
+      - button [ref=f125e6] [cursor=pointer]
+      - generic [ref=f125e7]: "1"
+  - dialog [ref=f124e149]:
+    - generic [ref=f124e150]:
+      - heading "Payout Request" [level=2] [ref=f124e151]
+      - paragraph [ref=f124e152]: With this you acknowledge that you have participated and completed the request.
+      - button [ref=f124e153]
+    - generic [ref=f124e157]:
+      - generic [ref=f124e158]:
+        - paragraph [ref=f124e159]: Select an account
+        - generic [ref=f124e160]:
+          - button "State Bank of India Account ****9012 Branch Sector 17 Chandigarh Branch VERIFIED" [active] [ref=f124e161] [cursor=pointer]:
+            - generic [ref=f124e162]:
+              - paragraph [ref=f124e166]: State Bank of India Account ****9012 Branch Sector 17 Chandigarh Branch
+              - generic [ref=f124e167]: VERIFIED
+          - button "+ Add another account" [ref=f124e168]
+      - generic [ref=f124e169]:
+        - checkbox "I confirm that I completed this request and agree to the terms and conditions for payout processing*" [ref=f124e170]
+        - generic [ref=f124e171]: I confirm that I completed this request and agree to the terms and conditions for payout processing*
+    - generic [ref=f124e172]:
+      - button "Cancel" [ref=f124e173] [cursor=pointer]
+      - button "Submit" [disabled]
+    - button "Close" [ref=f124e174]

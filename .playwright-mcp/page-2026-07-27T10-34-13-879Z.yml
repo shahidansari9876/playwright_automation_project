@@ -1,0 +1,21 @@
+- generic [ref=f5e1]:
+  - main [ref=f5e2]:
+    - generic [ref=f5e4]:
+      - heading "Register as a Volunteer or Beneficiary" [level=1] [ref=f5e5]
+      - generic [ref=f5e6]:
+        - generic [ref=f5e7]:
+          - generic [ref=f5e8]:
+            - paragraph [ref=f5e9]: User
+            - paragraph
+          - button "Logout" [ref=f5e10] [cursor=pointer]
+        - group "Choose your role" [ref=f5e11]:
+          - generic [ref=f5e13]:
+            - generic [ref=f5e14] [cursor=pointer]:
+              - radio "I am a Volunteer, ready to support and assist those in need." [active] [ref=f5e17]
+              - text: I am a Volunteer, ready to support and assist those in need.
+            - generic [ref=f5e18] [cursor=pointer]:
+              - radio "I am a Beneficiary, seeking help and support from volunteers." [ref=f5e21]
+              - text: I am a Beneficiary, seeking help and support from volunteers.
+        - button "Register" [ref=f5e22] [cursor=pointer]
+  - region "Notifications alt+T"
+  - alert [ref=f5e23]

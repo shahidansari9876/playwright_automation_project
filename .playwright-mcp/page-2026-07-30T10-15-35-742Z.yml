@@ -1,0 +1,269 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - generic [ref=f4e5]:
+      - list [ref=f4e7]:
+        - listitem [ref=f4e8]:
+          - button "The Scribe Bank" [ref=f4e9]
+      - generic [ref=f4e15]:
+        - generic [ref=f4e16]: Platform
+        - list [ref=f4e17]:
+          - listitem [ref=f4e18] [cursor=pointer]:
+            - link "System Emails" [ref=f4e19]:
+              - /url: /admin/system-emails
+      - list [ref=f4e28]:
+        - listitem [ref=f4e29]:
+          - link "SA shahid ansari shahid.ansari@ledsak.ai" [ref=f4e30] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - generic [ref=f4e31]: SA
+            - generic [ref=f4e33]:
+              - generic [ref=f4e34]: shahid ansari
+              - generic [ref=f4e35]: shahid.ansari@ledsak.ai
+          - button "Open user menu" [ref=f4e36]
+    - main [ref=f4e41]:
+      - generic [ref=f4e43]:
+        - button "Toggle Sidebar" [ref=f4e44]
+        - heading "Scribe Requests" [level=1] [ref=f4e46]
+        - generic [ref=f4e47]:
+          - link [ref=f4e48] [cursor=pointer]:
+            - /url: /admin/scribe-requests/create
+            - button "Create Scribe Request" [ref=f4e49]
+          - button "Switch to dark mode" [ref=f4e50]:
+            - generic [ref=f4e51]: Dark mode
+      - generic [ref=f4e55]:
+        - generic [ref=f4e58]:
+          - textbox "Search by name, email, phone, city, or exam..." [ref=f4e64]
+          - button "Status" [ref=f4e65]
+          - button "State" [ref=f4e67]
+          - button "Created By" [ref=f4e69]
+          - generic [ref=f4e71]:
+            - button "Sort" [ref=f4e72]
+            - button "Advanced" [ref=f4e74]
+        - table [ref=f4e79]:
+          - rowgroup [ref=f4e80]:
+            - row [ref=f4e81]:
+              - columnheader [ref=f4e82]
+              - columnheader "#" [ref=f4e83]
+              - columnheader "Created" [ref=f4e84] [cursor=pointer]
+              - columnheader "Scribe Name" [ref=f4e90] [cursor=pointer]
+              - columnheader "Exam Name" [ref=f4e96] [cursor=pointer]
+              - columnheader "Exam Center" [ref=f4e102]
+              - columnheader "Medium of Exam" [ref=f4e103]
+              - columnheader "Exams" [ref=f4e104]
+              - columnheader "Date Range" [ref=f4e105]
+              - columnheader "City" [ref=f4e106] [cursor=pointer]
+              - columnheader "State" [ref=f4e112]
+              - columnheader "Actions" [ref=f4e113]
+          - rowgroup [ref=f4e114]:
+            - row [ref=f4e115] [cursor=pointer]:
+              - cell [ref=f4e116]:
+                - button [ref=f4e117]
+              - cell "1" [ref=f4e118]
+              - cell "Dec 12, 2025, 4:57 PM" [ref=f4e119]
+              - cell [ref=f4e120]:
+                - link "Rajesh Kumar" [ref=f4e121]:
+                  - /url: /admin/scribe-requests/1
+              - cell "JEE Main 2025" [ref=f4e122]
+              - cell "Delhi Test Center 5" [ref=f4e123]
+              - cell "English" [ref=f4e124]
+              - cell "1 exam ✓ All done" [ref=f4e125]:
+                - generic [ref=f4e126]:
+                  - generic [ref=f4e127]: 1 exam
+                  - generic [ref=f4e128]: ✓ All done
+              - cell "25/12/2025" [ref=f4e129]
+              - cell "Bangalore" [ref=f4e131]
+              - cell "Karnataka" [ref=f4e132]
+              - cell [ref=f4e133]:
+                - button "Open menu" [ref=f4e134]
+            - row [ref=f4e136] [cursor=pointer]:
+              - cell [ref=f4e137]:
+                - button [ref=f4e138]
+              - cell "2" [ref=f4e139]
+              - cell "Dec 17, 2025, 2:34 PM" [ref=f4e140]
+              - cell [ref=f4e141]:
+                - link "deepak test" [ref=f4e142]:
+                  - /url: /admin/scribe-requests/5
+              - cell "JEE MAIN" [ref=f4e143]
+              - cell "Noida" [ref=f4e144]
+              - cell "hindi" [ref=f4e145]
+              - cell "1 exam" [ref=f4e146]
+              - cell "12/10/2035" [ref=f4e149]
+              - cell "test" [ref=f4e151]
+              - cell "Himachal Pradesh" [ref=f4e152]
+              - cell [ref=f4e153]:
+                - button "Open menu" [ref=f4e154]
+            - row [ref=f4e156]:
+              - cell [ref=f4e157]
+              - cell "3" [ref=f4e158]
+              - cell "Dec 17, 2025, 5:43 PM" [ref=f4e159]
+              - cell [ref=f4e160]:
+                - link "Amit Das" [ref=f4e161] [cursor=pointer]:
+                  - /url: /admin/scribe-requests/6
+              - cell "Second term" [ref=f4e162]
+              - cell "Noida" [ref=f4e163]
+              - cell "English" [ref=f4e164]
+              - cell "0 exams" [ref=f4e165]
+              - cell "No exams" [ref=f4e168]
+              - cell "Ghaziabad Uttar Pradesh India India" [ref=f4e169]
+              - cell "Uttar Pradesh" [ref=f4e170]
+              - cell [ref=f4e171]:
+                - button "Open menu" [ref=f4e172]
+            - row [ref=f4e174] [cursor=pointer]:
+              - cell [ref=f4e175]:
+                - button [ref=f4e176]
+              - cell "4" [ref=f4e177]
+              - cell "Dec 19, 2025, 4:48 PM" [ref=f4e178]
+              - cell [ref=f4e179]:
+                - link "Amit ji Beneficiary" [ref=f4e180]:
+                  - /url: /admin/scribe-requests/7
+              - cell "second semester" [ref=f4e181]
+              - cell "Indirapuram High School" [ref=f4e182]
+              - cell "English" [ref=f4e183]
+              - cell "1 exam ✓ All done" [ref=f4e184]:
+                - generic [ref=f4e185]:
+                  - generic [ref=f4e186]: 1 exam
+                  - generic [ref=f4e187]: ✓ All done
+              - cell "12/01/2026" [ref=f4e188]
+              - cell "Kalkaji" [ref=f4e190]
+              - cell "Delhi" [ref=f4e191]
+              - cell [ref=f4e192]:
+                - button "Open menu" [ref=f4e193]
+            - row [ref=f4e195] [cursor=pointer]:
+              - cell [ref=f4e196]:
+                - button [ref=f4e197]
+              - cell "5" [ref=f4e198]
+              - cell "Dec 20, 2025, 1:05 PM" [ref=f4e199]
+              - cell [ref=f4e200]:
+                - link "Amit Beneficiaries" [ref=f4e201]:
+                  - /url: /admin/scribe-requests/8
+              - cell "Midterm" [ref=f4e202]
+              - cell "Indirapuram high school" [ref=f4e203]
+              - cell "English" [ref=f4e204]
+              - cell "1 exam ✓ All done" [ref=f4e205]:
+                - generic [ref=f4e206]:
+                  - generic [ref=f4e207]: 1 exam
+                  - generic [ref=f4e208]: ✓ All done
+              - cell "21/01/2026" [ref=f4e209]
+              - cell "Ghaziabad" [ref=f4e211]
+              - cell "Uttar Pradesh" [ref=f4e212]
+              - cell [ref=f4e213]:
+                - button "Open menu" [ref=f4e214]
+            - row [ref=f4e216] [cursor=pointer]:
+              - cell [ref=f4e217]:
+                - button [ref=f4e218]
+              - cell "6" [ref=f4e219]
+              - cell "Dec 20, 2025, 2:30 PM" [ref=f4e220]
+              - cell [ref=f4e221]:
+                - link "Amit Beneficiaries" [ref=f4e222]:
+                  - /url: /admin/scribe-requests/9
+              - cell "Jee main" [ref=f4e223]
+              - cell "Noida" [ref=f4e224]
+              - cell "English" [ref=f4e225]
+              - cell "1 exam ✓ All done" [ref=f4e226]:
+                - generic [ref=f4e227]:
+                  - generic [ref=f4e228]: 1 exam
+                  - generic [ref=f4e229]: ✓ All done
+              - cell "22/01/2026" [ref=f4e230]
+              - cell "Ghaziabad" [ref=f4e232]
+              - cell "Uttar Pradesh" [ref=f4e233]
+              - cell [ref=f4e234]:
+                - button "Open menu" [ref=f4e235]
+            - row [ref=f4e237] [cursor=pointer]:
+              - cell [ref=f4e238]:
+                - button [ref=f4e239]
+              - cell "7" [ref=f4e240]
+              - cell "Dec 20, 2025, 3:31 PM" [ref=f4e241]
+              - cell [ref=f4e242]:
+                - link "Amit Beneficiary" [ref=f4e243]:
+                  - /url: /admin/scribe-requests/10
+              - cell "Demo Exam" [ref=f4e244]
+              - cell "Noida" [ref=f4e245]
+              - cell "English" [ref=f4e246]
+              - cell "1 exam ✓ All done" [ref=f4e247]:
+                - generic [ref=f4e248]:
+                  - generic [ref=f4e249]: 1 exam
+                  - generic [ref=f4e250]: ✓ All done
+              - cell "26/12/2025" [ref=f4e251]
+              - cell "Ghaziabad" [ref=f4e253]
+              - cell "Uttar Pradesh" [ref=f4e254]
+              - cell [ref=f4e255]:
+                - button "Open menu" [ref=f4e256]
+            - row [ref=f4e258] [cursor=pointer]:
+              - cell [ref=f4e259]:
+                - button [ref=f4e260]
+              - cell "8" [ref=f4e261]
+              - cell "Dec 20, 2025, 4:03 PM" [ref=f4e262]
+              - cell [ref=f4e263]:
+                - link "Amit Beneficiary" [ref=f4e264]:
+                  - /url: /admin/scribe-requests/11
+              - cell "UPSC Civil Services Prelims 2025" [ref=f4e265]
+              - cell "Kendriya Vidyalaya No.1" [ref=f4e266]
+              - cell "English" [ref=f4e267]
+              - cell "2 exams ✓ All done" [ref=f4e268]:
+                - generic [ref=f4e269]:
+                  - generic [ref=f4e270]: 2 exams
+                  - generic [ref=f4e271]: ✓ All done
+              - cell "13/01/2026 - 16/01/2026" [ref=f4e272]
+              - cell "Kalkaji" [ref=f4e274]
+              - cell "Delhi" [ref=f4e275]
+              - cell [ref=f4e276]:
+                - button "Open menu" [ref=f4e277]
+            - row [ref=f4e279] [cursor=pointer]:
+              - cell [ref=f4e280]:
+                - button [ref=f4e281]
+              - cell "9" [ref=f4e282]
+              - cell "Dec 20, 2025, 4:20 PM" [ref=f4e283]
+              - cell [ref=f4e284]:
+                - link "Amit Beneficiary" [ref=f4e285]:
+                  - /url: /admin/scribe-requests/12
+              - cell "CBSE – CLASS XII DATE SHEET" [ref=f4e286]
+              - cell "Delhi Public School" [ref=f4e287]
+              - cell "English" [ref=f4e288]
+              - cell "5 exams" [ref=f4e289]
+              - cell "18/02/2026 - 18/03/2026" [ref=f4e292]
+              - cell "Kalkaji" [ref=f4e294]
+              - cell "Delhi" [ref=f4e295]
+              - cell [ref=f4e296]:
+                - button "Open menu" [ref=f4e297]
+            - row [ref=f4e299] [cursor=pointer]:
+              - cell [ref=f4e300]:
+                - button [ref=f4e301]
+              - cell "10" [ref=f4e302]
+              - cell "Dec 23, 2025, 3:35 PM" [ref=f4e303]
+              - cell [ref=f4e304]:
+                - link "justine Beneficiary" [ref=f4e305]:
+                  - /url: /admin/scribe-requests/13
+              - cell "IBPs Exam" [ref=f4e306]
+              - cell "Delhi" [ref=f4e307]
+              - cell "English" [ref=f4e308]
+              - cell "2 exams 1/2 done" [ref=f4e309]:
+                - generic [ref=f4e310]:
+                  - generic [ref=f4e311]: 2 exams
+                  - generic [ref=f4e312]: 1/2 done
+              - cell "07/01/2026 - 09/01/2026" [ref=f4e313]
+              - cell "Delhi" [ref=f4e315]
+              - cell "Delhi" [ref=f4e316]
+              - cell [ref=f4e317]:
+                - button "Open menu" [ref=f4e318]
+        - generic [ref=f4e320]:
+          - generic [ref=f4e321]: Showing 1 - 10 of 145 records
+          - generic [ref=f4e323]:
+            - generic [ref=f4e324]:
+              - generic [ref=f4e325]: Row per page
+              - combobox [ref=f4e327]:
+                - generic: "10"
+            - navigation "pagination" [ref=f4e329]:
+              - list [ref=f4e330]:
+                - listitem [ref=f4e331] [cursor=pointer]:
+                  - generic "Go to previous page" [ref=f4e332]: Previous
+                - listitem [ref=f4e334] [cursor=pointer]:
+                  - generic [ref=f4e335]: "1"
+                - listitem [ref=f4e336] [cursor=pointer]:
+                  - generic [ref=f4e337]: "2"
+                - listitem [ref=f4e338] [cursor=pointer]:
+                  - generic [ref=f4e339]: More pages
+                - listitem [ref=f4e345] [cursor=pointer]:
+                  - generic [ref=f4e346]: "15"
+                - listitem [ref=f4e347]:
+                  - generic "Go to next page" [ref=f4e348] [cursor=pointer]: Next
+  - region "Notifications alt+T"
+  - alert [ref=f4e350]

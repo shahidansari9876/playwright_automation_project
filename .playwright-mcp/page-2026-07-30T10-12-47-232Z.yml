@@ -1,0 +1,115 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - generic [ref=f2e5]:
+      - list [ref=f2e7]:
+        - listitem [ref=f2e8]:
+          - button "The Scribe Bank" [ref=f2e9]
+      - generic [ref=f2e15]:
+        - generic [ref=f2e16]: Platform
+        - list [ref=f2e17]:
+          - listitem [ref=f2e18] [cursor=pointer]:
+            - link "System Emails" [ref=f2e19]:
+              - /url: /admin/system-emails
+      - list [ref=f2e28]:
+        - listitem [ref=f2e29]:
+          - link "SA shahid ansari shahid.ansari@ledsak.ai" [ref=f2e30] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - generic [ref=f2e31]: SA
+            - generic [ref=f2e33]:
+              - generic [ref=f2e34]: shahid ansari
+              - generic [ref=f2e35]: shahid.ansari@ledsak.ai
+          - button "Open user menu" [ref=f2e36]
+    - main [ref=f2e41]:
+      - generic [ref=f2e43]:
+        - button "Toggle Sidebar" [ref=f2e44]
+        - heading "Volunteer Profile" [level=1] [ref=f2e46]
+        - generic [ref=f2e47]:
+          - button "Theme" [disabled]
+      - generic [ref=f2e50]:
+        - generic [ref=f2e51]:
+          - link "Back to Volunteers" [ref=f2e52] [cursor=pointer]:
+            - /url: /admin/volunteers
+          - generic [ref=f2e54]:
+            - link "View on Website" [ref=f2e55] [cursor=pointer]:
+              - /url: https://thescribebank.com/profile/111
+            - link "Edit Profile" [ref=f2e56] [cursor=pointer]:
+              - /url: /admin/volunteers/edit/111
+            - link "Change School" [ref=f2e58] [cursor=pointer]:
+              - /url: /admin/volunteers/111/school-assignment
+        - generic [ref=f2e62]:
+          - generic [ref=f2e63]: RV
+          - generic [ref=f2e66]:
+            - generic [ref=f2e67]:
+              - generic [ref=f2e68]:
+                - heading "Rohan Verma" [level=1] [ref=f2e69]
+                - generic [ref=f2e70]: Verified
+              - paragraph [ref=f2e71]: No occupation listed
+            - generic [ref=f2e72]:
+              - generic [ref=f2e77]:
+                - paragraph [ref=f2e78]: Phone
+                - paragraph [ref=f2e79]: "8179403804"
+              - generic [ref=f2e84]:
+                - paragraph [ref=f2e85]: Alternate Phone
+                - paragraph [ref=f2e86]: N/A
+              - generic [ref=f2e92]:
+                - paragraph [ref=f2e93]: Email
+                - paragraph [ref=f2e94]: volun1785403804@yopmail.com
+              - generic [ref=f2e100]:
+                - paragraph [ref=f2e101]: Location
+                - paragraph [ref=f2e102]: Chandigarh, chandigarh
+              - generic [ref=f2e108]:
+                - paragraph [ref=f2e109]: Education
+                - paragraph [ref=f2e110]: 12th
+              - generic [ref=f2e118]:
+                - paragraph [ref=f2e119]: Assigned School
+                - generic [ref=f2e120]: Independent
+        - generic [ref=f2e121]:
+          - tablist [ref=f2e122]:
+            - tab "Personal Information" [ref=f2e123]
+            - tab "Access & Sessions" [ref=f2e124]
+            - tab "Education & Experience" [ref=f2e125]
+            - tab "Identity" [selected] [ref=f2e126]
+            - tab "Payment" [ref=f2e127]
+            - tab "Timeline" [ref=f2e128]
+            - tab "Volunteer Requests" [ref=f2e129]
+            - tab "Scribe Requests" [ref=f2e130]
+          - tabpanel "Identity" [ref=f2e132]:
+            - generic [ref=f2e133]:
+              - tablist [ref=f2e134]:
+                - tab "Identity Document" [selected] [ref=f2e135]
+                - tab "Professional Photo" [ref=f2e136]
+              - tabpanel "Identity Document" [ref=f2e137]:
+                - generic [ref=f2e138]:
+                  - generic [ref=f2e140]:
+                    - generic [ref=f2e141]: Identity Verification
+                    - generic [ref=f2e144]: Verified
+                  - generic [ref=f2e145]:
+                    - generic [ref=f2e146]:
+                      - generic [ref=f2e147]:
+                        - text: Identity Type
+                        - generic [ref=f2e148]: Aadhar Card
+                      - generic [ref=f2e153]: Identity Number
+                    - generic [ref=f2e158]:
+                      - generic [ref=f2e159]: Uploaded Document
+                      - generic [ref=f2e160]:
+                        - generic [ref=f2e161]:
+                          - generic [ref=f2e162]:
+                            - button [ref=f2e163]
+                            - generic [ref=f2e164]: 100%
+                            - button [ref=f2e165]
+                          - generic [ref=f2e166]:
+                            - button "Open" [ref=f2e167]
+                            - button [ref=f2e169]
+                            - button [ref=f2e170]
+                            - button [ref=f2e171]
+                        - img "Identity Document" [ref=f2e174]
+                        - paragraph [ref=f2e176]: Aadhar Card - null
+                    - generic [ref=f2e178]:
+                      - generic [ref=f2e182]:
+                        - paragraph [ref=f2e183]: Document Verified
+                        - paragraph [ref=f2e184]: Verified on 30/07/2026
+                      - button "Unverify" [ref=f2e185]
+                    - generic [ref=f2e186]:
+                      - button "Approve Document" [ref=f2e187]
+                      - button "Reject Document" [ref=f2e188]
+  - region "Notifications alt+T"

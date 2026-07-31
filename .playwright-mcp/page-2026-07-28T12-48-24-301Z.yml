@@ -1,0 +1,240 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e90]:
+    - link "Skip to main content" [ref=f4e91] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f4e92]:
+      - generic [ref=f4e93]:
+        - link [ref=f4e95] [cursor=pointer]:
+          - /url: /beneficiary
+          - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f4e96]
+        - generic [ref=f4e97]:
+          - link "Home" [ref=f4e98] [cursor=pointer]:
+            - /url: /beneficiary
+          - link "New Request" [ref=f4e103] [cursor=pointer]:
+            - /url: /new-request
+          - link "Messages" [ref=f4e107] [cursor=pointer]:
+            - /url: /beneficiary/messages
+          - link "Guide" [ref=f4e111] [cursor=pointer]:
+            - /url: /help
+          - link "Notifications, 7 unread" [ref=f4e115] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=f4e119]: "7"
+            - generic [ref=f4e120]: 7 unread notifications
+        - button "Profile picture of Test Benificiary Test Benificiary" [ref=f4e121] [cursor=pointer]:
+          - img "Profile picture of Test Benificiary" [ref=f4e122]
+          - generic [ref=f4e123]: Test Benificiary
+    - main [ref=f4e126]:
+      - generic [ref=f4e272]:
+        - generic [ref=f4e274]:
+          - generic [ref=f4e275]:
+            - img "Cover photo for Test Benificiary" [ref=f4e277]
+            - generic [ref=f4e278]:
+              - generic [ref=f4e279]:
+                - img "Profile picture of Test Benificiary" [ref=f4e281]
+                - generic [ref=f4e282]:
+                  - generic [ref=f4e283]:
+                    - heading "Test Benificiary" [level=1] [ref=f4e284]
+                    - generic "Verified" [ref=f4e285]:
+                      - img "verified" [ref=f4e286]
+                    - button "Edit Profile Details" [ref=f4e288] [cursor=pointer]:
+                      - img "edit" [ref=f4e289]
+                  - generic [ref=f4e290]:
+                    - img "role" [ref=f4e291]
+                    - heading "Beneficiary" [level=4] [ref=f4e292]
+                  - paragraph [ref=f4e294]: "Preferred Volunteer: No Preference"
+                  - generic [ref=f4e295]: "Disability Certificate: Verified"
+              - generic [ref=f4e296]:
+                - generic [ref=f4e297]:
+                  - text: "0"
+                  - paragraph [ref=f4e298]: Volunteer Requests
+                - generic [ref=f4e299]:
+                  - text: "1"
+                  - paragraph [ref=f4e300]: Times Scribed
+          - generic [ref=f4e301]:
+            - generic [ref=f4e302]:
+              - heading "Personal Information" [level=2] [ref=f4e303]
+              - button "Edit Personal Information" [ref=f4e304] [cursor=pointer]
+            - generic [ref=f4e305]:
+              - generic [ref=f4e306]:
+                - heading "Contact & Personal" [level=3] [ref=f4e310]
+                - generic [ref=f4e311]:
+                  - generic [ref=f4e312]:
+                    - paragraph [ref=f4e313]: Phone
+                    - paragraph [ref=f4e314]: "9582054585"
+                  - generic [ref=f4e315]:
+                    - paragraph [ref=f4e316]: Alternate Phone
+                    - paragraph [ref=f4e317]: "-"
+                  - generic [ref=f4e318]:
+                    - paragraph [ref=f4e319]: Email
+                    - paragraph [ref=f4e320]: testpuben@yopmail.com
+                  - generic [ref=f4e321]:
+                    - paragraph [ref=f4e322]: Date of Birth
+                    - paragraph [ref=f4e323]: 05 Jan 2005
+                  - generic [ref=f4e324]:
+                    - paragraph [ref=f4e325]: Gender
+                    - paragraph [ref=f4e326]: male
+                  - generic [ref=f4e327]:
+                    - paragraph [ref=f4e328]: Occupation
+                    - paragraph [ref=f4e329]: "-"
+              - generic [ref=f4e330]:
+                - heading "Education Details" [level=3] [ref=f4e334]
+                - generic [ref=f4e335]:
+                  - generic [ref=f4e336]:
+                    - paragraph [ref=f4e337]: Highest Qualification
+                    - paragraph [ref=f4e338]: Bachelor's Degree (B.A/B.Sc/B.Com/B.Tech/BE)
+                  - generic [ref=f4e339]:
+                    - paragraph [ref=f4e340]: Passing Year
+                    - paragraph [ref=f4e341]: "2026"
+                  - generic [ref=f4e342]:
+                    - paragraph [ref=f4e343]: Education Status
+                    - paragraph [ref=f4e344]: Currently Pursuing
+                  - generic [ref=f4e345]:
+                    - paragraph [ref=f4e346]: Year of Study
+                    - paragraph [ref=f4e347]: 4th Year
+                  - generic [ref=f4e348]:
+                    - paragraph [ref=f4e349]: School / College
+                    - paragraph [ref=f4e350]: A.S. College, Khanna, Ludhiana
+                  - generic [ref=f4e351]:
+                    - paragraph [ref=f4e352]: Board / University
+                    - paragraph [ref=f4e353]: Panjab University
+                  - generic [ref=f4e354]:
+                    - paragraph [ref=f4e355]: Student Type
+                    - paragraph [ref=f4e356]: Private Candidate
+                  - generic [ref=f4e357]:
+                    - paragraph [ref=f4e358]: PU Enrollment Number
+                    - paragraph [ref=f4e359]: ABCDEF12345
+              - generic [ref=f4e360]:
+                - heading "Address & Family" [level=3] [ref=f4e364]
+                - generic [ref=f4e365]:
+                  - generic [ref=f4e366]:
+                    - paragraph [ref=f4e367]: Address line
+                    - paragraph [ref=f4e368]: kalka ji lane sector 5 chandigarh
+                  - generic [ref=f4e369]:
+                    - generic [ref=f4e370]:
+                      - paragraph [ref=f4e371]: State
+                      - paragraph [ref=f4e372]: Chandigarh
+                    - generic [ref=f4e373]:
+                      - paragraph [ref=f4e374]: City
+                      - paragraph [ref=f4e375]: Chandigarh
+                    - generic [ref=f4e376]:
+                      - paragraph [ref=f4e377]: Pincode
+                      - paragraph [ref=f4e378]: "160019"
+                  - generic [ref=f4e379]:
+                    - generic [ref=f4e380]:
+                      - paragraph [ref=f4e381]: Parent / Guardian Name
+                      - paragraph [ref=f4e382]: "-"
+                    - generic [ref=f4e383]:
+                      - paragraph [ref=f4e384]: Parent / Guardian Phone
+                      - paragraph [ref=f4e385]: "-"
+                  - generic [ref=f4e386]:
+                    - paragraph [ref=f4e387]: Bio
+                    - paragraph [ref=f4e388]: "-"
+          - generic [ref=f4e389]:
+            - heading "Document Verification" [level=2] [ref=f4e391]
+            - generic [ref=f4e392]:
+              - generic [ref=f4e393]:
+                - heading "Identity Document" [level=3] [ref=f4e394]
+                - generic [ref=f4e395]:
+                  - generic [ref=f4e396]:
+                    - paragraph [ref=f4e397]: Document Type
+                    - paragraph [ref=f4e398]: Aadhar Card
+                  - generic [ref=f4e399]:
+                    - paragraph [ref=f4e400]: Verification Status
+                    - generic [ref=f4e401]: VERIFIED
+                - generic [ref=f4e402]:
+                  - paragraph [ref=f4e409]: Identity Document
+                  - button "View Document" [ref=f4e411] [cursor=pointer]
+                - generic [ref=f4e413]:
+                  - img "Verified" [ref=f4e414]
+                  - generic [ref=f4e415]: Your document has been successfully verified.
+              - generic [ref=f4e416]:
+                - heading "Disability Document" [level=3] [ref=f4e417]
+                - generic [ref=f4e418]:
+                  - generic [ref=f4e419]:
+                    - paragraph [ref=f4e420]: Document Type
+                    - paragraph [ref=f4e421]: UDID Card
+                  - generic [ref=f4e422]:
+                    - paragraph [ref=f4e423]: Verification Status
+                    - generic [ref=f4e424]: VERIFIED
+                - generic [ref=f4e425]:
+                  - paragraph [ref=f4e432]: Disability Certificate
+                  - button "View Document" [ref=f4e434] [cursor=pointer]
+                - generic [ref=f4e436]:
+                  - img "Verified" [ref=f4e437]
+                  - generic [ref=f4e438]: Your document has been successfully verified.
+              - generic [ref=f4e439]:
+                - heading "Professional Photo" [level=3] [ref=f4e440]
+                - generic [ref=f4e441]:
+                  - generic [ref=f4e442]:
+                    - paragraph [ref=f4e443]: Document Type
+                    - paragraph [ref=f4e444]: Official document photo
+                  - generic [ref=f4e445]:
+                    - paragraph [ref=f4e446]: Verification Status
+                    - generic [ref=f4e447]: VERIFIED
+                - generic [ref=f4e448]:
+                  - paragraph [ref=f4e455]: Professional Photo
+                  - button "View Document" [ref=f4e457] [cursor=pointer]
+                - generic [ref=f4e459]:
+                  - img "Verified" [ref=f4e460]
+                  - generic [ref=f4e461]: Your document has been successfully verified.
+          - generic [ref=f4e462]:
+            - generic [ref=f4e463]:
+              - heading "Educational Qualifications" [level=2] [ref=f4e464]
+              - button "Add Education" [ref=f4e465] [cursor=pointer]
+            - generic [ref=f4e466]:
+              - img "empty data"
+              - heading "Oops!" [level=3] [ref=f4e467]
+              - paragraph [ref=f4e468]: No Data Found
+          - generic [ref=f4e469]:
+            - generic [ref=f4e470]:
+              - heading "Work Experience" [level=2] [ref=f4e471]
+              - button "Add Experience" [ref=f4e472] [cursor=pointer]
+            - generic [ref=f4e473]:
+              - img "empty data"
+              - heading "Oops!" [level=3] [ref=f4e474]
+              - paragraph [ref=f4e475]: No Data Found
+        - generic [ref=f4e478]:
+          - heading "Top Volunteers" [level=3] [ref=f4e480]
+          - generic [ref=f4e481]:
+            - link [ref=f4e482] [cursor=pointer]:
+              - /url: /profile/2
+              - img "Khushpreet Kaur" [ref=f4e484]
+              - generic [ref=f4e485]:
+                - paragraph [ref=f4e487]: Khushpreet Kaur
+                - paragraph [ref=f4e488]: Chandigarh, chandigarh
+            - link [ref=f4e492] [cursor=pointer]:
+              - /url: /profile/3
+              - img "vo0lunteer" [ref=f4e494]
+              - generic [ref=f4e495]:
+                - generic [ref=f4e496]:
+                  - paragraph [ref=f4e497]: vo0lunteer
+                  - img "Verified" [ref=f4e498]
+                - paragraph [ref=f4e499]: Kalkaji, delhi
+            - link [ref=f4e503] [cursor=pointer]:
+              - /url: /profile/5
+              - img "saif" [ref=f4e505]
+              - generic [ref=f4e506]:
+                - paragraph [ref=f4e508]: saif
+                - paragraph [ref=f4e509]: delhi, madhya_pradesh
+            - link [ref=f4e513] [cursor=pointer]:
+              - /url: /profile/6
+              - img "Deepak Volunteer" [ref=f4e515]
+              - generic [ref=f4e516]:
+                - generic [ref=f4e517]:
+                  - paragraph [ref=f4e518]: Deepak Volunteer
+                  - img "Verified" [ref=f4e519]
+                - paragraph [ref=f4e520]: Kalkaji, delhi
+            - link [ref=f4e524] [cursor=pointer]:
+              - /url: /profile/10
+              - img "Amit volunteer" [ref=f4e526]
+              - generic [ref=f4e527]:
+                - paragraph [ref=f4e529]: Amit volunteer
+                - paragraph [ref=f4e530]: Ghaziabad, uttar_pradesh
+    - contentinfo "Website Footer" [ref=f4e268]:
+      - generic [ref=f4e269]: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert [ref=f4e26]: The Scribe Bank - Profile
+  - iframe [ref=f4e27]:
+    - generic [ref=f5e5]:
+      - button [ref=f5e6] [cursor=pointer]
+      - generic [ref=f5e7]: "1"

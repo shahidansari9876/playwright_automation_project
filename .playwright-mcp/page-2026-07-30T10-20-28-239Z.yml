@@ -1,0 +1,23 @@
+- generic [ref=f93e1]:
+  - main [ref=f93e2]:
+    - generic [ref=f93e3]:
+      - generic [ref=f93e4]:
+        - generic [ref=f93e5]:
+          - link [ref=f93e6] [cursor=pointer]:
+            - /url: /
+            - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f93e7]
+          - heading "Login to Save The Quest" [level=1] [ref=f93e8]
+        - generic [ref=f93e9]:
+          - generic [ref=f93e11]:
+            - generic [ref=f93e12]: Email Address or Phone Number *
+            - textbox "Email Address or Phone Number *" [active] [ref=f93e13]:
+              - /placeholder: Enter your email or phone
+          - button "Login" [ref=f93e15] [cursor=pointer]
+        - generic [ref=f93e16]: or
+        - generic [ref=f93e20]:
+          - generic [ref=f93e21]: Don‘t have an account?
+          - link "Sign Up Now" [ref=f93e23] [cursor=pointer]:
+            - /url: /sign-up
+      - img "A volunteer is writing on behalf of a visually impaired student during an examination. The student is using a braille slate, and both are seated at a blue desk with study materials." [ref=f93e25]
+  - region "Notifications alt+T"
+  - alert [ref=f93e26]

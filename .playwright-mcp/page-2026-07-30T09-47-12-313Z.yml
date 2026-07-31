@@ -1,0 +1,128 @@
+- generic [ref=f27e1]:
+  - generic [ref=f27e760]:
+    - link "Skip to main content" [ref=f27e761] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f27e762]:
+      - generic [ref=f27e763]:
+        - link [ref=f27e765] [cursor=pointer]:
+          - /url: /beneficiary
+          - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f27e766]
+        - generic [ref=f27e767]:
+          - link "Home" [ref=f27e768] [cursor=pointer]:
+            - /url: /beneficiary
+          - generic "Your documents are submitted and under admin review. Request creation will be unlocked once verified." [ref=f27e1068]: New Request
+          - link "Messages" [ref=f27e777] [cursor=pointer]:
+            - /url: /beneficiary/messages
+          - link "Guide" [ref=f27e781] [cursor=pointer]:
+            - /url: /help
+          - link "Notifications, 1 unread" [ref=f27e1069] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=f27e1070]: "1"
+            - generic [ref=f27e1071]: 1 unread notification
+        - button "Profile picture of Priya Sharma Priya Sharma" [ref=f27e789] [cursor=pointer]:
+          - img "Profile picture of Priya Sharma" [ref=f27e790]
+          - generic [ref=f27e791]: Priya Sharma
+    - main [ref=f27e794]:
+      - generic [ref=f27e796]:
+        - complementary [ref=f27e797]:
+          - generic [ref=f27e798]:
+            - generic [ref=f27e799]:
+              - img "Cover photo for Priya Sharma" [ref=f27e800]
+              - generic [ref=f27e801]:
+                - img "Profile picture of Priya Sharma" [ref=f27e802]
+                - heading "Priya Sharma" [level=2] [ref=f27e805]
+                - paragraph [ref=f27e806]: Beneficiary
+              - generic [ref=f27e807]:
+                - generic [ref=f27e808]:
+                  - text: "0"
+                  - paragraph [ref=f27e809]: Volunteers
+                - generic [ref=f27e810]:
+                  - text: "0"
+                  - paragraph [ref=f27e811]: Scribe Requests
+              - link "View Profile" [ref=f27e813] [cursor=pointer]:
+                - /url: /beneficiary/profile
+            - 'button "Play video: How to Login as a Beneficiary" [ref=f27e815] [cursor=pointer]':
+              - generic [ref=f27e816]:
+                - generic [ref=f27e817]:
+                  - img "Video thumbnail" [ref=f27e818]
+                  - img "Video thumbnail" [ref=f27e819]
+                - generic [ref=f27e820]:
+                  - heading "How to Login as a Beneficiary" [level=3] [ref=f27e821]
+                  - paragraph [ref=f27e822]: Watch the existing beneficiary login tutorial and dashboard entry steps
+        - generic [ref=f27e824]:
+          - paragraph [ref=f27e827]: Your profile is almost ready.
+          - paragraph [ref=f27e828]: Fill out your profile details to start generating requests.
+          - generic [ref=f27e829]:
+            - progressbar "Profile completion" [ref=f27e830]
+            - generic [ref=f27e831]:
+              - generic [ref=f27e832]: 50% complete
+              - generic [ref=f27e833]: 3 of 6 steps done
+          - list [ref=f27e834]:
+            - listitem [ref=f27e835]:
+              - generic [ref=f27e838]:
+                - generic [ref=f27e839]: "Completed:"
+                - text: Upload identity documents
+              - generic [ref=f27e840]: In review
+            - listitem [ref=f27e846]:
+              - generic [ref=f27e849]:
+                - generic [ref=f27e850]: "Completed:"
+                - text: Upload disability certificate
+              - generic [ref=f27e851]: In review
+            - listitem [ref=f27e857]:
+              - generic [ref=f27e860]:
+                - generic [ref=f27e861]: "Completed:"
+                - text: Add professional photo
+              - generic [ref=f27e862]: In review
+          - button "Review profile details" [active] [ref=f27e1082] [cursor=pointer]
+        - complementary [ref=f27e870]:
+          - generic [ref=f27e872]:
+            - heading "Top Volunteers" [level=3] [ref=f27e874]
+            - generic [ref=f27e875]:
+              - link [ref=f27e940] [cursor=pointer]:
+                - /url: /profile/9
+                - img "Amit Volunteer" [ref=f27e941]
+                - generic [ref=f27e879]:
+                  - generic [ref=f27e880]:
+                    - paragraph [ref=f27e881]: Amit Volunteer
+                    - img "Verified" [ref=f27e882]
+                  - paragraph [ref=f27e883]: Ghaziabad, delhi
+              - link [ref=f27e942] [cursor=pointer]:
+                - /url: /profile/74
+                - img "Shahid" [ref=f27e943]
+                - generic [ref=f27e890]:
+                  - generic [ref=f27e891]:
+                    - paragraph [ref=f27e892]: Shahid
+                    - img "Verified" [ref=f27e893]
+                  - paragraph [ref=f27e894]: Public road, chandigarh
+              - link [ref=f27e944] [cursor=pointer]:
+                - /url: /profile/41
+                - img "shahid test" [ref=f27e945]
+                - generic [ref=f27e901]:
+                  - generic [ref=f27e902]:
+                    - paragraph [ref=f27e903]: shahid test
+                    - img "Verified" [ref=f27e904]
+                  - paragraph [ref=f27e905]: Delhi, uttar_pradesh
+              - link [ref=f27e946] [cursor=pointer]:
+                - /url: /profile/82
+                - img "iOS Mobile" [ref=f27e947]
+                - generic [ref=f27e912]:
+                  - generic [ref=f27e913]:
+                    - paragraph [ref=f27e914]: iOS Mobile
+                    - img "Verified" [ref=f27e915]
+                  - paragraph [ref=f27e916]: Chandigarh, chandigarh
+              - link [ref=f27e948] [cursor=pointer]:
+                - /url: /profile/80
+                - img "Vol" [ref=f27e949]
+                - generic [ref=f27e923]:
+                  - generic [ref=f27e924]:
+                    - paragraph [ref=f27e925]: Vol
+                    - img "Verified" [ref=f27e926]
+                  - paragraph [ref=f27e927]: Chandigarh, chandigarh
+    - contentinfo "Website Footer" [ref=f27e931]:
+      - generic [ref=f27e932]: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert [ref=f27e29]: The Scribe Bank - Homepage
+  - iframe [ref=f27e30]:
+    - generic [ref=f28e5]:
+      - button [ref=f28e6] [cursor=pointer]
+      - generic [ref=f28e7]: "1"

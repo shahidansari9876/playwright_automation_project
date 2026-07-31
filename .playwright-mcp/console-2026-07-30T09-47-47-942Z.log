@@ -1,0 +1,7 @@
+[   16502ms] [LOG] 🔵 [FRONTEND] Sending Signup OTP request @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/sign-up/page-47207199927fb376.js:0
+[   16502ms] [LOG] 🔵 URL: https://api-v1.thescribebank.com/auth/send-otp?masterOtp=true @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/sign-up/page-47207199927fb376.js:0
+[   16502ms] [LOG] 🔵 Email: volun1785403804@yopmail.com @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/sign-up/page-47207199927fb376.js:0
+[   16502ms] [LOG] 🔵 Phone: 8179403804 @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/sign-up/page-47207199927fb376.js:0
+[   16502ms] [LOG] 🔵 Master OTP enabled: true @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/sign-up/page-47207199927fb376.js:0
+[   16644ms] [LOG] 🟢 [FRONTEND] Signup OTP Response: {success: true, data: Object} @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/sign-up/page-47207199927fb376.js:0
+[  294676ms] [LOG] 20/Mar/2003 @ https://testing.thescribebank.com/_next/static/chunks/app/create-profile/page-6632f9440b495d20.js:0

@@ -1,0 +1,46 @@
+- generic [active] [ref=f23e1]:
+  - main [ref=f23e2]:
+    - generic [ref=f23e3]:
+      - generic [ref=f23e4]:
+        - generic [ref=f23e5]:
+          - link [ref=f23e6] [cursor=pointer]:
+            - /url: /
+            - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f23e7]
+          - heading "Join Save The Quest Today!" [level=1] [ref=f23e8]
+        - generic [ref=f23e9]:
+          - generic [ref=f23e10]:
+            - button "Edit email or phone" [ref=f23e31]
+            - generic [ref=f23e11]:
+              - generic [ref=f23e12]: Email Address *
+              - textbox "Email Address *" [disabled]:
+                - /placeholder: Enter your email
+                - text: benef1785403804@yopmail.com
+            - generic [ref=f23e14]:
+              - generic [ref=f23e15]: Phone Number *
+              - textbox "Phone Number *" [disabled]:
+                - /placeholder: Enter your phone number (10 digits)
+                - text: "9179403804"
+          - generic [ref=f23e34]:
+            - generic [ref=f23e35]:
+              - generic [ref=f23e36]: Enter OTP
+              - paragraph [ref=f23e37]: Sent to your email and phone
+              - textbox "Enter OTP" [ref=f23e38]:
+                - /placeholder: Enter 6-digit OTP
+                - text: "123456"
+            - button "Resend OTP" [ref=f23e40]
+          - button "Verify & Create Account" [ref=f23e41] [cursor=pointer]
+        - generic [ref=f23e19]: or
+        - generic [ref=f23e23]:
+          - generic [ref=f23e24]: Already have an account?
+          - link "Login Now" [ref=f23e26] [cursor=pointer]:
+            - /url: /login
+      - img "A group of school children, including a child with Down syndrome, stand in a queue with folded hands, possibly during morning assembly or prayer at school." [ref=f23e28]
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=f23e48]:
+        - generic [ref=f23e52]: Invalid OTP
+  - alert [ref=f23e29]
+  - iframe [ref=f23e30]:
+    - generic [ref=f24e5]:
+      - button [ref=f24e6] [cursor=pointer]
+      - generic [ref=f24e7]: "1"

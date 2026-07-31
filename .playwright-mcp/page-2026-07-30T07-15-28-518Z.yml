@@ -1,0 +1,266 @@
+- generic [ref=f11e1]:
+  - generic [ref=f11e2]:
+    - link "Skip to main content" [ref=f11e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f11e4]:
+      - generic [ref=f11e5]:
+        - link [ref=f11e7] [cursor=pointer]:
+          - /url: /beneficiary
+          - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f11e8]
+        - generic [ref=f11e9]:
+          - link "Home" [ref=f11e10] [cursor=pointer]:
+            - /url: /beneficiary
+          - link "New Request" [ref=f11e15] [cursor=pointer]:
+            - /url: /new-request
+          - link "Messages" [ref=f11e19] [cursor=pointer]:
+            - /url: /beneficiary/messages
+          - link "Guide" [ref=f11e23] [cursor=pointer]:
+            - /url: /help
+          - link "Notifications, 8 unread" [ref=f11e82] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=f11e83]: "8"
+            - generic [ref=f11e84]: 8 unread notifications
+        - button "Profile picture of Test Benificiary Test Benificiary" [ref=f11e31] [cursor=pointer]:
+          - img "Profile picture of Test Benificiary" [ref=f11e32]
+          - generic [ref=f11e33]: Test Benificiary
+    - main [ref=f11e36]:
+      - generic [ref=f11e38]:
+        - complementary [ref=f11e39]:
+          - generic [ref=f11e40]:
+            - generic [ref=f11e41]:
+              - img "Cover photo for Test Benificiary" [ref=f11e42]
+              - generic [ref=f11e43]:
+                - img "Profile picture of Test Benificiary" [ref=f11e44]
+                - generic [ref=f11e46]:
+                  - heading "Test Benificiary" [level=2] [ref=f11e47]
+                  - img "Verified Badge" [ref=f11e48]
+                - paragraph [ref=f11e49]: Beneficiary
+              - generic [ref=f11e50]:
+                - generic [ref=f11e51]:
+                  - text: "0"
+                  - paragraph [ref=f11e52]: Volunteers
+                - generic [ref=f11e53]:
+                  - text: "2"
+                  - paragraph [ref=f11e54]: Scribe Requests
+              - link "View Profile" [ref=f11e56] [cursor=pointer]:
+                - /url: /beneficiary/profile
+            - 'button "Play video: How to Login as a Beneficiary" [ref=f11e58] [cursor=pointer]':
+              - generic [ref=f11e59]:
+                - generic [ref=f11e60]:
+                  - img "Video thumbnail" [ref=f11e61]
+                  - img "Video thumbnail" [ref=f11e62]
+                - generic [ref=f11e63]:
+                  - heading "How to Login as a Beneficiary" [level=3] [ref=f11e64]
+                  - paragraph [ref=f11e65]: Watch the existing beneficiary login tutorial and dashboard entry steps
+        - generic [ref=f11e68]:
+          - tablist [ref=f11e69]:
+            - tab [selected] [ref=f11e70] [cursor=pointer]:
+              - heading "Create Scribe Request" [level=1] [ref=f11e71]
+            - tab [ref=f11e72] [cursor=pointer]:
+              - heading "Create Volunteer Request" [level=2] [ref=f11e73]
+          - tabpanel "Create Scribe Request" [ref=f11e74]:
+            - generic [ref=f11e86]:
+              - generic [ref=f11e87]:
+                - generic [ref=f11e89]:
+                  - checkbox "This is a semester exam" [checked] [ref=f11e90]
+                  - checkbox [checked]
+                  - generic [ref=f11e91]:
+                    - generic [ref=f11e92] [cursor=pointer]: This is a semester exam
+                    - paragraph [ref=f11e93]: Select this box if this request should follow the Panjab University semester flow.
+                - group "Semester exam details" [ref=f11e189]:
+                  - generic [ref=f11e191]:
+                    - generic [ref=f11e192]:
+                      - text: Exam Category
+                      - generic [ref=f11e193]: "*"
+                    - paragraph [ref=f11e194]: Select the category for this semester examination.
+                    - combobox "Exam Category *" [invalid] [ref=f11e195]:
+                      - generic: Select exam category
+                    - combobox [ref=f11e196]
+                    - alert [ref=f11e743]: Exam category is required for semester exams
+                  - generic [ref=f11e197]:
+                    - generic [ref=f11e198]:
+                      - text: Semester Number (All exam types)
+                      - generic [ref=f11e199]: "*"
+                    - paragraph [ref=f11e200]: Select the semester for this examination.
+                    - combobox "Semester Number (All exam types) *" [ref=f11e201]:
+                      - generic: Semester 1
+                    - combobox [ref=f11e202]
+                - generic [ref=f11e94]:
+                  - generic [ref=f11e95]: Exam Title
+                  - textbox "Exam Title" [ref=f11e96]: PU Bug Repro Exam
+                - generic [ref=f11e97]:
+                  - generic [ref=f11e98]: Medium of Exam
+                  - textbox "Medium of Exam" [ref=f11e99]:
+                    - /placeholder: Enter Medium
+                    - text: English
+                - generic [ref=f11e100]:
+                  - generic [ref=f11e101]:
+                    - text: Upload Admit Card / Hall Pass
+                    - generic [ref=f11e203]: "*"
+                  - generic [ref=f11e103] [cursor=pointer]:
+                    - 'button "Admit Card / Hall Pass, required, accepted formats: PDF, PNG, JPG, JPEG" [ref=f11e204]'
+                    - generic [ref=f11e105]: Choose File
+                - generic [ref=f11e109]:
+                  - generic [ref=f11e110]:
+                    - text: Upload Date Sheet
+                    - generic [ref=f11e205]: "*"
+                  - generic [ref=f11e112] [cursor=pointer]:
+                    - 'button "Upload Date Sheet, required, accepted formats: PDF, PNG, JPG, JPEG" [ref=f11e206]'
+                    - generic [ref=f11e114]: Choose File
+                  - alert [ref=f11e744]: Date sheet is required for PU semester exams
+                - generic [ref=f11e118]:
+                  - heading "Exam Center Address" [level=3] [ref=f11e119]
+                  - paragraph [ref=f11e120]: Please enter the address of your exam center, not your home or current address.
+                - generic [ref=f11e121]:
+                  - generic [ref=f11e122]: Exam Center Name
+                  - textbox "Exam Center Name" [ref=f11e123]:
+                    - /placeholder: Enter Center Name
+                    - text: Chandigarh Test Center
+                - generic [ref=f11e124]:
+                  - generic [ref=f11e125]:
+                    - generic [ref=f11e126]: State (Exam Center)
+                    - combobox "State (Exam Center)" [ref=f11e127]:
+                      - generic: Chandigarh
+                    - combobox [ref=f11e128]
+                  - generic [ref=f11e129]:
+                    - generic [ref=f11e130]: City (Exam Center)
+                    - textbox "City (Exam Center)" [ref=f11e131]:
+                      - /placeholder: Enter here
+                      - text: Chandigarh
+                  - generic [ref=f11e132]:
+                    - generic [ref=f11e133]: Pin code (Exam Center)
+                    - textbox "Pin code (Exam Center)" [ref=f11e134]:
+                      - /placeholder: Enter here
+                      - text: "160001"
+                - generic [ref=f11e135]:
+                  - generic [ref=f11e136]: Full Address of Exam Center
+                  - textbox "Full Address of Exam Center" [ref=f11e137]:
+                    - /placeholder: Enter full address of exam center
+                    - text: Sector 17, Chandigarh
+                - generic [ref=f11e138]:
+                  - heading "Exam Details" [level=3] [ref=f11e139]
+                  - generic [ref=f11e140]:
+                    - generic [ref=f11e141]:
+                      - generic [ref=f11e142]:
+                        - generic [ref=f11e143]: Subject Name
+                        - textbox "Subject Name" [ref=f11e144]:
+                          - /placeholder: Enter Here
+                          - text: Bug Repro Subject
+                      - generic [ref=f11e145]:
+                        - generic [ref=f11e146]: Exam Date
+                        - group "Exam Date" [ref=f11e147]:
+                          - generic [ref=f11e150]:
+                            - combobox "Exam Date Year" [ref=f11e151]:
+                              - option "Year" [disabled]
+                              - option "2026" [selected]
+                              - option "2027"
+                              - option "2028"
+                              - option "2029"
+                              - option "2030"
+                              - option "2031"
+                              - option "2032"
+                              - option "2033"
+                              - option "2034"
+                              - option "2035"
+                              - option "2036"
+                              - option "2037"
+                              - option "2038"
+                              - option "2039"
+                              - option "2040"
+                              - option "2041"
+                              - option "2042"
+                              - option "2043"
+                              - option "2044"
+                              - option "2045"
+                            - combobox "Exam Date Month" [ref=f11e152]:
+                              - option "Month" [disabled]
+                              - option "Jan"
+                              - option "Feb"
+                              - option "Mar"
+                              - option "Apr"
+                              - option "May"
+                              - option "Jun"
+                              - option "Jul"
+                              - option "Aug" [selected]
+                              - option "Sep"
+                              - option "Oct"
+                              - option "Nov"
+                              - option "Dec"
+                            - combobox "Exam Date Day" [ref=f11e153]:
+                              - option "Day" [disabled]
+                              - option "1"
+                              - option "2"
+                              - option "3"
+                              - option "4"
+                              - option "5"
+                              - option "6"
+                              - option "7"
+                              - option "8"
+                              - option "9"
+                              - option "10"
+                              - option "11"
+                              - option "12"
+                              - option "13"
+                              - option "14"
+                              - option "15"
+                              - option "16"
+                              - option "17"
+                              - option "18"
+                              - option "19"
+                              - option "20" [selected]
+                              - option "21"
+                              - option "22"
+                              - option "23"
+                              - option "24"
+                              - option "25"
+                              - option "26"
+                              - option "27"
+                              - option "28"
+                              - option "29"
+                              - option "30"
+                              - option "31"
+                    - generic [ref=f11e154]:
+                      - generic [ref=f11e155]: Exam Time
+                      - generic [ref=f11e156]:
+                        - generic [ref=f11e157]:
+                          - generic [ref=f11e158]: Start Time
+                          - group "Start Time" [ref=f11e159]:
+                            - generic [ref=f11e161]:
+                              - combobox "Exam Time Start Time Hour" [ref=f11e162]:
+                                - generic: "9"
+                              - combobox [ref=f11e163]
+                              - combobox "Exam Time Start Time Minute" [ref=f11e164]:
+                                - generic: "00"
+                              - combobox [ref=f11e165]
+                              - combobox "Exam Time Start Time AM/PM" [ref=f11e166]:
+                                - generic: AM
+                              - combobox [ref=f11e167]
+                        - generic [ref=f11e168]:
+                          - generic [ref=f11e169]: End Time
+                          - group "End Time" [ref=f11e170]:
+                            - generic [ref=f11e172]:
+                              - combobox "Exam Time End Time Hour" [ref=f11e173]:
+                                - generic: "12"
+                              - combobox [ref=f11e174]
+                              - combobox "Exam Time End Time Minute" [ref=f11e175]:
+                                - generic: "00"
+                              - combobox [ref=f11e176]
+                              - combobox "Exam Time End Time AM/PM" [ref=f11e177]:
+                                - generic: PM
+                              - combobox [ref=f11e178]
+                  - button "Add More Subject" [ref=f11e179]
+                - generic [ref=f11e181]:
+                  - generic [ref=f11e182]: Notes (If Any)
+                  - textbox "Notes (If Any)" [ref=f11e183]:
+                    - /placeholder: Enter note
+              - generic [ref=f11e184]:
+                - button "Cancel" [ref=f11e185] [cursor=pointer]
+                - button "Submit" [active] [ref=f11e186] [cursor=pointer]
+    - contentinfo "Website Footer" [ref=f11e79]:
+      - generic [ref=f11e80]: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert [ref=f11e187]
+  - iframe [ref=f11e188]:
+    - generic [ref=f12e5]:
+      - button [ref=f12e6] [cursor=pointer]
+      - generic [ref=f12e7]: "1"

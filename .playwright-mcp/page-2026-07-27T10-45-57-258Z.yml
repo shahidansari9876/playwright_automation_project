@@ -1,0 +1,184 @@
+- generic:
+  - main:
+    - generic:
+      - generic:
+        - heading [level=1]
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - button
+              - heading [level=1]: Setup Your Profile
+            - generic: Beneficiary Profile
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=2]: Basic Details
+                    - generic:
+                      - generic:
+                        - generic:
+                          - text: Email Address
+                          - generic: "*"
+                          - generic: Verified
+                        - textbox [disabled]: shahidvol12@yopmail.com
+                        - paragraph: Verified during signup
+                      - generic:
+                        - generic:
+                          - text: Phone Number
+                          - generic: "*"
+                          - generic: Verified
+                        - textbox [disabled]: "6551475294"
+                        - paragraph: Verified during signup
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: First Name
+                            - generic: "*"
+                          - textbox:
+                            - /placeholder: Enter First Name
+                            - text: Shahid
+                        - generic:
+                          - generic: Last Name
+                          - textbox:
+                            - /placeholder: Enter Last Name
+                            - text: Volunteer
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: Gender
+                            - generic: "*"
+                          - combobox:
+                            - generic: Male
+                          - combobox
+                        - generic:
+                          - generic:
+                            - text: Date of Birth
+                            - generic: "*"
+                          - group:
+                            - generic: Date of Birth
+                            - generic:
+                              - generic:
+                                - combobox
+                                - combobox
+                                - combobox
+                      - heading [level=2]: Education Details
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=3]: Education Level
+                            - paragraph: Your qualification, current status, and the year you completed or expect to complete it.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: Highest Education
+                                - generic: "*"
+                              - combobox:
+                                - generic: Bachelor's Degree (B.A/B.Sc/B.Com/B.Tech/BE)
+                              - combobox
+                            - generic:
+                              - generic:
+                                - text: Degree Type
+                                - generic: "*"
+                              - combobox:
+                                - generic: 4-Year
+                              - combobox
+                            - generic:
+                              - generic: Education Status
+                              - combobox:
+                                - generic: Currently Pursuing
+                              - combobox
+                            - generic:
+                              - generic:
+                                - text: Year of Study
+                                - generic: "*"
+                              - combobox:
+                                - generic: Select year
+                              - combobox
+                            - generic:
+                              - generic:
+                                - text: Passing Year
+                                - generic: "*"
+                              - combobox:
+                                - generic: "2027"
+                              - combobox
+                        - generic:
+                          - generic:
+                            - heading [level=3]: Institution Details
+                            - paragraph: Tell us where you study and whether your university choice needs an extra category.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: University Type
+                                - generic: "*"
+                              - generic:
+                                - combobox [expanded]:
+                                  - generic: Other
+                                - combobox
+                                - textbox:
+                                  - /placeholder: Enter Board/University
+                            - generic:
+                              - generic:
+                                - text: School/College Name
+                                - generic: "*"
+                              - textbox:
+                                - /placeholder: Enter School/College Name
+                      - heading [level=2]: Current Address Details
+                      - paragraph: Enter the address where you currently live. Do not enter your permanent or native address unless both are the same.
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: Pincode
+                            - generic: "*"
+                          - generic:
+                            - textbox:
+                              - /placeholder: Enter Pincode
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: City
+                            - generic: "*"
+                          - textbox:
+                            - /placeholder: Auto-filled from pincode
+                        - generic:
+                          - generic:
+                            - text: State
+                            - generic: "*"
+                          - combobox:
+                            - generic: Auto-filled from pincode
+                          - combobox
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: Full Address
+                            - generic: (Optional)
+                          - textbox:
+                            - /placeholder: Enter your current address
+                    - generic:
+                      - generic:
+                        - checkbox
+                        - checkbox
+                        - generic:
+                          - generic:
+                            - text: I agree to the
+                            - link:
+                              - /url: /terms-services
+                              - text: Terms and Conditions
+                            - text: "&"
+                            - link:
+                              - /url: /privacy-policy
+                              - text: Privacy Policy
+                            - text: of Save The Quest.
+                      - generic:
+                        - button [disabled]: Submit
+  - region "Notifications alt+T"
+  - alert: The Scribe Bank - Create Profile
+  - iframe [ref=f9e27]:
+    - generic [ref=f10e5]:
+      - button [ref=f10e6] [cursor=pointer]
+      - generic [ref=f10e7]: "1"
+  - listbox [ref=f9e661]:
+    - option "PU" [ref=f9e662] [cursor=pointer]
+    - option "Other" [active] [selected] [ref=f9e665] [cursor=pointer]

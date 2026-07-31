@@ -1,0 +1,11 @@
+[     747ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rD (https://adminpanel-testing.thescribebank.com/_next/static/chunks/4bd1b696-16dcc2bec6e1bff8.js:1:35062)
+    at rO (https://adminpanel-testing.thescribebank.com/_next/static/chunks/4bd1b696-16dcc2bec6e1bff8.js:1:36095)
+    at https://adminpanel-testing.thescribebank.com/_next/static/chunks/4bd1b696-16dcc2bec6e1bff8.js:1:118083
+    at ix (https://adminpanel-testing.thescribebank.com/_next/static/chunks/4bd1b696-16dcc2bec6e1bff8.js:1:122955)
+    at ik (https://adminpanel-testing.thescribebank.com/_next/static/chunks/4bd1b696-16dcc2bec6e1bff8.js:1:114743)
+    at https://adminpanel-testing.thescribebank.com/_next/static/chunks/4bd1b696-16dcc2bec6e1bff8.js:1:110730
+    at iu (https://adminpanel-testing.thescribebank.com/_next/static/chunks/4bd1b696-16dcc2bec6e1bff8.js:1:110831)
+    at iX (https://adminpanel-testing.thescribebank.com/_next/static/chunks/4bd1b696-16dcc2bec6e1bff8.js:1:132934)
+    at MessagePort.w (https://adminpanel-testing.thescribebank.com/_next/static/chunks/1255-84560901c14e2d4f.js:1:64169)
+[     905ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://adminpanel-testing.thescribebank.com/avatars/shadcn.jpg:0

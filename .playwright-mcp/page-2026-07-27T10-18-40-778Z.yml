@@ -1,0 +1,40 @@
+- generic [ref=f5e1]:
+  - main [ref=f5e2]:
+    - generic [ref=f5e3]:
+      - generic [ref=f5e4]:
+        - generic [ref=f5e5]:
+          - link [ref=f5e6] [cursor=pointer]:
+            - /url: /
+            - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f5e7]
+          - heading "Login to Save The Quest" [level=1] [ref=f5e8]
+        - generic [ref=f5e9]:
+          - generic [ref=f5e10]:
+            - button "Edit email or phone" [ref=f5e28]
+            - generic [ref=f5e11]:
+              - generic [ref=f5e12]: Email Address or Phone Number *
+              - textbox "Email Address or Phone Number *" [disabled]:
+                - /placeholder: Enter your email or phone
+                - text: shahidvol12@yopmail.com
+          - generic [ref=f5e31]:
+            - generic [ref=f5e32]:
+              - generic [ref=f5e33]: Enter OTP
+              - paragraph [ref=f5e34]: Sent to your email and phone
+              - textbox "Enter OTP" [active] [ref=f5e35]:
+                - /placeholder: Enter 6-digit OTP
+            - button "Resend OTP" [ref=f5e37]
+          - button "Verify & Login" [ref=f5e38] [cursor=pointer]
+        - generic [ref=f5e16]: or
+        - generic [ref=f5e20]:
+          - generic [ref=f5e21]: Don‘t have an account?
+          - link "Sign Up Now" [ref=f5e23] [cursor=pointer]:
+            - /url: /sign-up
+      - img "A volunteer is writing on behalf of a visually impaired student during an examination. The student is using a braille slate, and both are seated at a blue desk with study materials." [ref=f5e25]
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=f5e39]:
+        - generic [ref=f5e43]: OTP sent to your email and phone!
+  - alert [ref=f5e26]
+  - iframe [ref=f5e27]:
+    - generic [ref=f6e5]:
+      - button [ref=f6e6] [cursor=pointer]
+      - generic [ref=f6e7]: "1"

@@ -1,0 +1,381 @@
+- generic [ref=f32e1]:
+  - main [ref=f32e2]:
+    - generic [ref=f32e3]:
+      - heading [level=1] [ref=f32e26]
+      - generic [ref=f32e28]:
+        - generic [ref=f32e29]:
+          - generic [ref=f32e30]:
+            - button "Go back to role selection" [ref=f32e31]
+            - heading "Setup Your Profile" [level=1] [ref=f32e34]
+          - generic [ref=f32e35]: Beneficiary Profile
+        - generic [ref=f32e40]:
+          - heading "Basic Details" [level=2] [ref=f32e41]
+          - generic [ref=f32e42]:
+            - generic [ref=f32e43]:
+              - generic [ref=f32e44]:
+                - text: Email Address
+                - generic [ref=f32e45]: "*"
+                - generic [ref=f32e46]: Verified
+              - textbox "Email address (verified during signup)" [disabled]: shahidtestvalidation382@yopmail.com
+              - paragraph [ref=f32e50]: Verified during signup
+            - generic [ref=f32e51]:
+              - generic [ref=f32e52]:
+                - text: Phone Number
+                - generic [ref=f32e53]: "*"
+                - generic [ref=f32e54]: Verified
+              - textbox "Phone number (verified during signup)" [disabled]: "9876543820"
+              - paragraph [ref=f32e58]: Verified during signup
+          - generic [ref=f32e59]:
+            - generic [ref=f32e60]:
+              - generic [ref=f32e61]:
+                - generic [ref=f32e62]:
+                  - text: First Name
+                  - generic [ref=f32e63]: "*"
+                - textbox "First Name *" [ref=f32e64]:
+                  - /placeholder: Enter First Name
+              - generic [ref=f32e65]:
+                - generic [ref=f32e66]: Last Name
+                - textbox "Last Name" [ref=f32e67]:
+                  - /placeholder: Enter Last Name
+            - generic [ref=f32e68]:
+              - generic [ref=f32e69]:
+                - generic [ref=f32e70]:
+                  - text: Gender
+                  - generic [ref=f32e71]: "*"
+                - combobox "Gender" [ref=f32e72]:
+                  - generic: Male
+                - combobox [ref=f32e73]
+              - generic [ref=f32e74]:
+                - generic [ref=f32e75]:
+                  - text: Date of Birth
+                  - generic [ref=f32e76]: "*"
+                - group "Date of Birth" [ref=f32e77]:
+                  - generic [ref=f32e80]:
+                    - combobox "Date of Birth Year" [ref=f32e81]:
+                      - option "Year" [disabled]
+                      - option "1950"
+                      - option "1951"
+                      - option "1952"
+                      - option "1953"
+                      - option "1954"
+                      - option "1955"
+                      - option "1956"
+                      - option "1957"
+                      - option "1958"
+                      - option "1959"
+                      - option "1960"
+                      - option "1961"
+                      - option "1962"
+                      - option "1963"
+                      - option "1964"
+                      - option "1965"
+                      - option "1966"
+                      - option "1967"
+                      - option "1968"
+                      - option "1969"
+                      - option "1970"
+                      - option "1971"
+                      - option "1972"
+                      - option "1973"
+                      - option "1974"
+                      - option "1975"
+                      - option "1976"
+                      - option "1977"
+                      - option "1978"
+                      - option "1979"
+                      - option "1980"
+                      - option "1981"
+                      - option "1982"
+                      - option "1983"
+                      - option "1984"
+                      - option "1985"
+                      - option "1986"
+                      - option "1987"
+                      - option "1988"
+                      - option "1989"
+                      - option "1990"
+                      - option "1991"
+                      - option "1992"
+                      - option "1993"
+                      - option "1994"
+                      - option "1995"
+                      - option "1996"
+                      - option "1997"
+                      - option "1998"
+                      - option "1999"
+                      - option "2000"
+                      - option "2001"
+                      - option "2002"
+                      - option "2003"
+                      - option "2004"
+                      - option "2005"
+                      - option "2006"
+                      - option "2007"
+                      - option "2008"
+                      - option "2009"
+                      - option "2010" [selected]
+                      - option "2011"
+                      - option "2012"
+                      - option "2013"
+                      - option "2014"
+                      - option "2015"
+                      - option "2016"
+                      - option "2017"
+                      - option "2018"
+                      - option "2019"
+                      - option "2020"
+                      - option "2021"
+                      - option "2022"
+                      - option "2023"
+                      - option "2024"
+                      - option "2025"
+                      - option "2026"
+                    - combobox "Date of Birth Month" [ref=f32e82]:
+                      - option "Month" [disabled]
+                      - option "Jan" [selected]
+                      - option "Feb"
+                      - option "Mar"
+                      - option "Apr"
+                      - option "May"
+                      - option "Jun"
+                      - option "Jul"
+                      - option "Aug"
+                      - option "Sep"
+                      - option "Oct"
+                      - option "Nov"
+                      - option "Dec"
+                    - combobox "Date of Birth Day" [ref=f32e83]:
+                      - option "Day" [disabled]
+                      - option "1" [selected]
+                      - option "2"
+                      - option "3"
+                      - option "4"
+                      - option "5"
+                      - option "6"
+                      - option "7"
+                      - option "8"
+                      - option "9"
+                      - option "10"
+                      - option "11"
+                      - option "12"
+                      - option "13"
+                      - option "14"
+                      - option "15"
+                      - option "16"
+                      - option "17"
+                      - option "18"
+                      - option "19"
+                      - option "20"
+                      - option "21"
+                      - option "22"
+                      - option "23"
+                      - option "24"
+                      - option "25"
+                      - option "26"
+                      - option "27"
+                      - option "28"
+                      - option "29"
+                      - option "30"
+                      - option "31"
+            - heading "Education Details" [level=2] [ref=f32e84]
+            - generic [ref=f32e85]:
+              - generic [ref=f32e86]:
+                - generic [ref=f32e87]:
+                  - heading "Education Level" [level=3] [ref=f32e88]
+                  - paragraph [ref=f32e89]: Your qualification, current status, and the year you completed or expect to complete it.
+                - generic [ref=f32e90]:
+                  - generic [ref=f32e91]:
+                    - generic [ref=f32e92]:
+                      - text: Highest Education
+                      - generic [ref=f32e93]: "*"
+                    - combobox "Highest Education" [ref=f32e94]:
+                      - generic: Bachelor's Degree (B.A/B.Sc/B.Com/B.Tech/BE)
+                    - combobox [ref=f32e95]
+                  - generic [ref=f32e147]:
+                    - generic [ref=f32e148]:
+                      - text: Degree Type
+                      - generic [ref=f32e149]: "*"
+                    - combobox [ref=f32e150]:
+                      - generic: 5-Year
+                    - combobox [ref=f32e151]
+                  - generic [ref=f32e152]:
+                    - generic [ref=f32e153]: Education Status
+                    - combobox [ref=f32e154]:
+                      - generic: Currently Pursuing
+                    - combobox [ref=f32e155]
+                  - generic [ref=f32e156]:
+                    - generic [ref=f32e157]:
+                      - text: Year of Study
+                      - generic [ref=f32e158]: "*"
+                    - combobox [ref=f32e159]:
+                      - generic: 4th Year
+                    - combobox [ref=f32e160]
+                  - generic [ref=f32e96]:
+                    - generic [ref=f32e97]:
+                      - text: Passing Year
+                      - generic [ref=f32e98]: "*"
+                    - combobox "Passing Year" [ref=f32e99]:
+                      - generic: "2027"
+                    - combobox [ref=f32e100]
+              - generic [ref=f32e101]:
+                - generic [ref=f32e102]:
+                  - heading "Institution Details" [level=3] [ref=f32e103]
+                  - paragraph [ref=f32e104]: Tell us where you study and whether your university choice needs an extra category.
+                - generic [ref=f32e105]:
+                  - generic [ref=f32e106]:
+                    - generic [ref=f32e107]:
+                      - text: Board/University
+                      - generic [ref=f32e108]: "*"
+                    - generic [ref=f32e109]:
+                      - combobox [ref=f32e110]:
+                        - generic: PU
+                      - combobox [ref=f32e111]
+                  - generic [ref=f32e161]:
+                    - generic [ref=f32e162]:
+                      - text: School / College Name
+                      - generic [ref=f32e163]: "*"
+                    - generic [ref=f32e164]:
+                      - generic [ref=f32e165]:
+                        - combobox "School / College Name *" [expanded] [active] [ref=f32e166]: Chandigarh
+                        - button "Hide school suggestions" [expanded] [ref=f32e167]
+                      - paragraph [ref=f32e170]: 26 colleges available.
+                      - listbox [ref=f32e172]:
+                        - option [ref=f32e194] [cursor=pointer]:
+                          - paragraph [ref=f32e195]: B.C. M College of Education, Sec. 32A, Chandigarh Road, Ludhiana 141010
+                          - paragraph [ref=f32e196]: Ludhiana • Education • SelfFinanced
+                        - option [ref=f32e230] [cursor=pointer]:
+                          - paragraph [ref=f32e231]: Brahmrishi Yoga Training College, Sector-19, Chandigarh
+                          - paragraph [ref=f32e232]: Chandigarh • Education • Aided
+                        - option [ref=f32e236] [cursor=pointer]:
+                          - paragraph [ref=f32e237]: Chandigarh College of Architecture, Sector-12, Chandigarh
+                          - paragraph [ref=f32e238]: Chandigarh • Architecture • Govt.
+                        - option [ref=f32e239] [cursor=pointer]:
+                          - paragraph [ref=f32e240]: Chandigarh College of Engineering & Technology, Sector-26, Chandigarh
+                          - paragraph [ref=f32e241]: Chandigarh • Engineering • Govt.
+                        - option [ref=f32e257] [cursor=pointer]:
+                          - paragraph [ref=f32e258]: D.A.V. Post Graduate College, Sector-10, Chandigarh
+                          - paragraph [ref=f32e259]: Chandigarh • Degree • Aided
+                        - option [ref=f32e296] [cursor=pointer]:
+                          - paragraph [ref=f32e297]: Dev Samaj College for Women, Sector-45, Chandigarh
+                          - paragraph [ref=f32e298]: Chandigarh • Degree • Aided
+                        - option [ref=f32e302] [cursor=pointer]:
+                          - paragraph [ref=f32e303]: Dev Samaj College of Education, Sector-36, Chandigarh
+                          - paragraph [ref=f32e304]: Chandigarh • Education • Aided
+                        - option [ref=f32e334] [cursor=pointer]:
+                          - paragraph [ref=f32e335]: Goswami Ganesh Dutta Sanatan Dharma College, Chandigarh
+                          - paragraph [ref=f32e336]: Chandigarh • Degree • Aided
+                        - option [ref=f32e337] [cursor=pointer]:
+                          - paragraph [ref=f32e338]: Government Rehabilitation Institute for Intellectual Disabilities(GRIID), Sector-31, Chandigarh
+                          - paragraph [ref=f32e339]: Chandigarh • Education • Govt.
+                        - option [ref=f32e340] [cursor=pointer]:
+                          - paragraph [ref=f32e341]: Govt. College for Arts, Sector10, Chandigarh
+                          - paragraph [ref=f32e342]: Chandigarh • Professional • Govt.
+                        - option [ref=f32e343] [cursor=pointer]:
+                          - paragraph [ref=f32e344]: Govt. College for Yoga Education, Sector-23, Chandigarh
+                          - paragraph [ref=f32e345]: Chandigarh • Education • Govt.
+                        - option [ref=f32e346] [cursor=pointer]:
+                          - paragraph [ref=f32e347]: Govt. College of Commerce & Business Administration, Sector50A, Chandigarh
+                          - paragraph [ref=f32e348]: Chandigarh • Degree • Govt.
+                        - option [ref=f32e349] [cursor=pointer]:
+                          - paragraph [ref=f32e350]: Govt. College of Education, Sector-20, Chandigarh
+                          - paragraph [ref=f32e351]: Chandigarh • Education • Govt.
+                        - option [ref=f32e352] [cursor=pointer]:
+                          - paragraph [ref=f32e353]: Govt. Home Science College, Sector-10, Chandigarh
+                          - paragraph [ref=f32e354]: Chandigarh • Professional • Govt.
+                        - option [ref=f32e355] [cursor=pointer]:
+                          - paragraph [ref=f32e356]: Govt. Medical College & Hospital, Sector-32, Chandigarh
+                          - paragraph [ref=f32e357]: Chandigarh • Medical • Govt.
+                        - option [ref=f32e358] [cursor=pointer]:
+                          - paragraph [ref=f32e359]: Guru Gobind Singh College for Women, Sector-26, Chandigarh
+                          - paragraph [ref=f32e360]: Chandigarh • Degree • Aided
+                        - option [ref=f32e361] [cursor=pointer]:
+                          - paragraph [ref=f32e362]: Homoepathic Medical College & Hospital, M-671, Sector-26, Chandigarh
+                          - paragraph [ref=f32e363]: Chandigarh • Medical • SelfFinanced
+                        - option [ref=f32e364] [cursor=pointer]:
+                          - paragraph [ref=f32e365]: Mai Bhago College, Ramgarh, Chandigarh Road, Ludhiana
+                          - paragraph [ref=f32e366]: Ludhiana • Degree • SelfFinanced
+                        - option [ref=f32e367] [cursor=pointer]:
+                          - paragraph [ref=f32e368]: Mehr Chand Mahajan D.A.V College for Women, Sector-36, Chandigarh
+                          - paragraph [ref=f32e369]: Chandigarh • Degree • Aided
+                        - option [ref=f32e370] [cursor=pointer]:
+                          - paragraph [ref=f32e371]: National Institute of Technical Teacher Training & Research, Sector-26, Chandigarh
+                          - paragraph [ref=f32e372]: Chandigarh • Engineering • Govt.
+                        - option [ref=f32e373] [cursor=pointer]:
+                          - paragraph [ref=f32e374]: Post Graduate Govt. College for Girls, Sector -11, Chandigarh
+                          - paragraph [ref=f32e375]: Chandigarh • Degree • Govt.
+                        - option [ref=f32e376] [cursor=pointer]:
+                          - paragraph [ref=f32e377]: Post Graduate Govt. College for Girls, Sector-42, Chandigarh
+                          - paragraph [ref=f32e378]: Chandigarh • Degree • Govt.
+                        - option [ref=f32e379] [cursor=pointer]:
+                          - paragraph [ref=f32e380]: Post Graduate Govt. College, Sector-11, Chandigarh
+                          - paragraph [ref=f32e381]: Chandigarh • Degree • Govt.
+                        - option [ref=f32e382] [cursor=pointer]:
+                          - paragraph [ref=f32e383]: Post Graduate Govt. College, Sector-46, Chandigarh
+                          - paragraph [ref=f32e384]: Chandigarh • Degree • Govt.
+                        - option [ref=f32e385] [cursor=pointer]:
+                          - paragraph [ref=f32e386]: Regional Institute of Cooperative Management, Sector32, Chandigarh
+                          - paragraph [ref=f32e387]: Chandigarh • Degree • Govt.
+                        - option [ref=f32e388] [cursor=pointer]:
+                          - paragraph [ref=f32e389]: Sri Guru Gobind Singh College, Sector-26, Chandigarh
+                          - paragraph [ref=f32e390]: Chandigarh • Degree • Aided
+                    - paragraph:
+                      - generic [ref=f32e323]: This field opens a scrollable college list. You can scroll, use the up and down arrow keys, or type to narrow the results.
+                  - generic [ref=f32e324]:
+                    - generic [ref=f32e325]:
+                      - text: Student Type
+                      - generic [ref=f32e326]: "*"
+                    - combobox "Student Type *" [ref=f32e327]:
+                      - generic: CDOE
+                    - combobox [ref=f32e328]
+                  - generic [ref=f32e329]:
+                    - generic [ref=f32e330]:
+                      - text: PU Enrollment Number / Roll Number
+                      - generic [ref=f32e331]: "*"
+                    - textbox "PU Enrollment Number / Roll Number *" [ref=f32e332]:
+                      - /placeholder: Enter University / PU Enrollment Number
+            - heading "Current Address Details" [level=2] [ref=f32e116]
+            - paragraph [ref=f32e117]: Enter the address where you currently live. Do not enter your permanent or native address unless both are the same.
+            - generic [ref=f32e119]:
+              - generic [ref=f32e120]:
+                - text: Pincode
+                - generic [ref=f32e121]: "*"
+              - textbox "Enter Pincode" [ref=f32e123]
+            - generic [ref=f32e124]:
+              - generic [ref=f32e125]:
+                - generic [ref=f32e126]:
+                  - text: City
+                  - generic [ref=f32e127]: "*"
+                - textbox "City *" [ref=f32e128]:
+                  - /placeholder: Auto-filled from pincode
+              - generic [ref=f32e129]:
+                - generic [ref=f32e130]:
+                  - text: State
+                  - generic [ref=f32e131]: "*"
+                - combobox "State" [ref=f32e132]:
+                  - generic: Auto-filled from pincode
+                - combobox [ref=f32e133]
+            - generic [ref=f32e135]:
+              - generic [ref=f32e136]:
+                - text: Full Address
+                - generic [ref=f32e137]: (Optional)
+              - textbox "Full Address (Optional)" [ref=f32e138]:
+                - /placeholder: Enter your current address
+          - generic [ref=f32e139]:
+            - generic [ref=f32e140]:
+              - checkbox "I agree to the Terms and Conditions & Privacy Policy of Save The Quest." [checked] [ref=f32e141]
+              - checkbox [checked]
+              - generic [ref=f32e143] [cursor=pointer]:
+                - text: I agree to the
+                - link "Terms and Conditions" [ref=f32e144]:
+                  - /url: /terms-services
+                - text: "&"
+                - link "Privacy Policy" [ref=f32e145]:
+                  - /url: /privacy-policy
+                - text: of Save The Quest.
+            - button "Submit" [ref=f32e333] [cursor=pointer]
+  - region "Notifications alt+T"
+  - alert [ref=f32e23]
+  - iframe [ref=f32e25]:
+    - generic [ref=f33e5]:
+      - button [ref=f33e6] [cursor=pointer]
+      - generic [ref=f33e7]: "1"

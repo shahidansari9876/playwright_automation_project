@@ -1,0 +1,27 @@
+- generic [ref=f2e1]:
+  - main [ref=f2e345]:
+    - generic [ref=f2e346]:
+      - generic [ref=f2e347]:
+        - generic [ref=f2e348]:
+          - link [ref=f2e349] [cursor=pointer]:
+            - /url: /
+            - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f2e350]
+          - heading "Login to Save The Quest" [level=1] [ref=f2e351]
+        - generic [ref=f2e352]:
+          - generic [ref=f2e354]:
+            - generic [ref=f2e355]: Email Address or Phone Number *
+            - textbox "Email Address or Phone Number *" [active] [ref=f2e356]:
+              - /placeholder: Enter your email or phone
+          - button "Login" [ref=f2e358] [cursor=pointer]
+        - generic [ref=f2e359]: or
+        - generic [ref=f2e363]:
+          - generic [ref=f2e364]: Don‘t have an account?
+          - link "Sign Up Now" [ref=f2e366] [cursor=pointer]:
+            - /url: /sign-up
+      - img "A volunteer is writing on behalf of a visually impaired student during an examination. The student is using a braille slate, and both are seated at a blue desk with study materials." [ref=f2e368]
+  - region "Notifications alt+T"
+  - alert [ref=f2e343]: Login to Save The Quest – Scribe Support Platform
+  - iframe [ref=f2e344]:
+    - generic [ref=f3e5]:
+      - button [ref=f3e6] [cursor=pointer]
+      - generic [ref=f3e7]: "1"

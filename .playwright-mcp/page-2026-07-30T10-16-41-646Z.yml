@@ -1,0 +1,181 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - generic [ref=f4e5]:
+      - list [ref=f4e7]:
+        - listitem [ref=f4e8]:
+          - button "The Scribe Bank" [ref=f4e9]
+      - generic [ref=f4e14]:
+        - generic [ref=f4e15]:
+          - generic [ref=f4e16]: Platform
+          - list [ref=f4e17]:
+            - listitem [ref=f4e18] [cursor=pointer]:
+              - link "Dashboard" [ref=f4e351]:
+                - /url: /admin/dashboard
+            - listitem [ref=f4e356] [cursor=pointer]:
+              - link "Reports" [ref=f4e357]:
+                - /url: /admin/reports
+            - listitem [ref=f4e365] [cursor=pointer]:
+              - link "Beneficiaries" [ref=f4e366]:
+                - /url: /admin/beneficiaries
+            - listitem [ref=f4e371] [cursor=pointer]:
+              - link "Volunteers" [ref=f4e372]:
+                - /url: /admin/volunteers
+            - listitem [ref=f4e378] [cursor=pointer]:
+              - link "Profile Gaps" [ref=f4e379]:
+                - /url: /admin/users-missing-profiles
+            - listitem [ref=f4e387] [cursor=pointer]:
+              - link "Duplicate Accounts" [ref=f4e388]:
+                - /url: /admin/duplicate-accounts
+            - listitem [ref=f4e393] [cursor=pointer]:
+              - link "Tasks" [ref=f4e394]:
+                - /url: /admin/tasks
+            - listitem [ref=f4e399] [cursor=pointer]:
+              - link "Scribe Requests" [ref=f4e400]:
+                - /url: /admin/scribe-requests
+            - listitem [ref=f4e404] [cursor=pointer]:
+              - link "Exams" [ref=f4e405]:
+                - /url: /admin/exams
+            - listitem [ref=f4e409] [cursor=pointer]:
+              - link "Volunteer Requests" [ref=f4e410]:
+                - /url: /admin/volunteer-requests
+            - listitem [ref=f4e417] [cursor=pointer]:
+              - link "Blogs" [ref=f4e418]:
+                - /url: /admin/blogs
+            - listitem [ref=f4e425] [cursor=pointer]:
+              - link "Payouts" [ref=f4e426]:
+                - /url: /admin/payouts
+            - listitem [ref=f4e433] [cursor=pointer]:
+              - link "Roles" [ref=f4e434]:
+                - /url: /admin/roles
+            - listitem [ref=f4e439] [cursor=pointer]:
+              - link "Schools" [ref=f4e440]:
+                - /url: /admin/schools
+            - listitem [ref=f4e445] [cursor=pointer]:
+              - link "Email Templates" [ref=f4e446]:
+                - /url: /admin/bulk-email
+            - listitem [ref=f4e451] [cursor=pointer]:
+              - link "WhatsApp Campaigns" [ref=f4e452]:
+                - /url: /admin/whatsapp-campaigns
+            - listitem [ref=f4e456] [cursor=pointer]:
+              - link "System Emails" [ref=f4e457]:
+                - /url: /admin/system-emails
+            - listitem [ref=f4e465] [cursor=pointer]:
+              - link "Tutorial Videos" [ref=f4e466]:
+                - /url: /admin/tutorial-videos
+            - listitem [ref=f4e471] [cursor=pointer]:
+              - link "Admins" [ref=f4e472]:
+                - /url: /admin/admins
+        - generic [ref=f4e477]: Settings
+      - list [ref=f4e28]:
+        - listitem [ref=f4e29]:
+          - link "SA shahid ansari shahid.ansari@ledsak.ai" [ref=f4e30] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - generic [ref=f4e31]: SA
+            - generic [ref=f4e33]:
+              - generic [ref=f4e34]: shahid ansari
+              - generic [ref=f4e35]: shahid.ansari@ledsak.ai
+          - button "Open user menu" [ref=f4e36]
+    - main [ref=f4e743]:
+      - generic [ref=f4e745]:
+        - button "Toggle Sidebar" [ref=f4e746]
+        - heading "Exam Timeline" [level=1] [ref=f4e748]
+        - button "Switch to dark mode" [ref=f4e750]:
+          - generic [ref=f4e751]: Dark mode
+      - generic [ref=f4e756]:
+        - generic [ref=f4e758]:
+          - generic [ref=f4e759]:
+            - generic [ref=f4e760]:
+              - generic [ref=f4e761]: "Exam #221"
+              - generic [ref=f4e762]: Accepted
+            - generic [ref=f4e763]: Review exam details, activity, completion data, and full timeline.
+          - generic [ref=f4e764]:
+            - button "Reassign Volunteer" [ref=f4e765]
+            - button "Move to NEW" [ref=f4e766]
+            - button "Set Ended (QA)" [ref=f4e767]
+            - link "View Scribe Request" [ref=f4e768] [cursor=pointer]:
+              - /url: /admin/scribe-requests/173
+            - link "View Permission Letter" [ref=f4e769] [cursor=pointer]:
+              - /url: /admin/exams/221/performa
+            - button "Raw Data" [ref=f4e770]
+        - generic [ref=f4e772]:
+          - tablist [ref=f4e773]:
+            - tab "Overview" [selected] [ref=f4e774]
+            - tab "Beneficiary" [ref=f4e775]
+            - tab "Volunteer" [ref=f4e776]
+            - tab "Timeline" [ref=f4e777]
+            - tab "PU Verification" [ref=f4e778]
+            - tab "Admin Actions" [ref=f4e780]
+          - tabpanel "Overview" [ref=f4e781]:
+            - generic [ref=f4e782]:
+              - generic [ref=f4e783]:
+                - paragraph [ref=f4e784]: Subject
+                - paragraph [ref=f4e785]: Political Science
+                - paragraph [ref=f4e786]: Exam context
+              - generic [ref=f4e787]:
+                - paragraph [ref=f4e788]: Schedule
+                - paragraph [ref=f4e789]: 15/12/2026 • 9:00 AM - 12:00 PM
+                - paragraph [ref=f4e790]: Date and time
+              - generic [ref=f4e791]:
+                - paragraph [ref=f4e792]: Volunteer
+                - paragraph [ref=f4e793]: Rohan Verma
+                - paragraph [ref=f4e794]: Current assignment
+              - generic [ref=f4e795]:
+                - paragraph [ref=f4e796]: Created
+                - paragraph [ref=f4e797]: 30/07/2026, 3:38 pm
+                - paragraph [ref=f4e798]: 1 event
+            - generic [ref=f4e799]:
+              - generic [ref=f4e800]:
+                - generic [ref=f4e801]: Current Snapshot
+                - generic [ref=f4e802]: Main exam metadata at a glance.
+              - generic [ref=f4e803]:
+                - generic [ref=f4e804]:
+                  - term [ref=f4e805]: Status
+                  - definition [ref=f4e806]:
+                    - generic [ref=f4e807]: Accepted
+                - generic [ref=f4e808]:
+                  - term [ref=f4e809]: Exam Date
+                  - definition [ref=f4e810]:
+                    - paragraph [ref=f4e811]: 15/12/2026
+                - generic [ref=f4e812]:
+                  - term [ref=f4e813]: Time Window
+                  - definition [ref=f4e814]:
+                    - paragraph [ref=f4e815]: 9:00 AM - 12:00 PM
+                - generic [ref=f4e816]:
+                  - term [ref=f4e817]: Exam Type
+                  - definition [ref=f4e818]:
+                    - paragraph [ref=f4e819]: Semester
+                - generic [ref=f4e820]:
+                  - term [ref=f4e821]: Exam Category
+                  - definition [ref=f4e822]:
+                    - paragraph [ref=f4e823]: Regular
+                - generic [ref=f4e824]:
+                  - term [ref=f4e825]: Semester Number
+                  - definition [ref=f4e826]:
+                    - paragraph [ref=f4e827]: Semester 3
+                - generic [ref=f4e828]:
+                  - term [ref=f4e829]: Volunteer ID
+                  - definition [ref=f4e830]:
+                    - paragraph [ref=f4e831]: "#325"
+                - generic [ref=f4e832]:
+                  - term [ref=f4e833]: Scribe Request
+                  - definition [ref=f4e834]:
+                    - 'link "Request #173" [ref=f4e835] [cursor=pointer]':
+                      - /url: /admin/scribe-requests/173
+                - generic [ref=f4e836]:
+                  - term [ref=f4e837]: Created At
+                  - definition [ref=f4e838]:
+                    - paragraph [ref=f4e839]: 30/07/2026, 3:38 pm
+            - generic [ref=f4e841]:
+              - generic [ref=f4e846]:
+                - paragraph [ref=f4e847]: PU Verification
+                - paragraph [ref=f4e848]: Panjab University semester exam flow
+              - generic [ref=f4e849]:
+                - generic [ref=f4e850]:
+                  - switch "Enable chat immediately" [ref=f4e851] [cursor=pointer]
+                  - generic [ref=f4e852]:
+                    - text: Enable chat immediately
+                    - paragraph [ref=f4e853]: Off uses the standard 12-hour window.
+                - generic [ref=f4e854]: Awaiting Verification
+                - button "View Details" [ref=f4e855]
+  - region "Notifications alt+T"
+  - alert [ref=f4e350]

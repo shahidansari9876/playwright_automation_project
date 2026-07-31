@@ -1,0 +1,113 @@
+- generic [active] [ref=f79e1]:
+  - generic [ref=f79e2]:
+    - link "Skip to main content" [ref=f79e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f79e4]:
+      - generic [ref=f79e5]:
+        - link [ref=f79e7] [cursor=pointer]:
+          - /url: /volunteer
+          - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f79e8]
+        - generic [ref=f79e9]:
+          - link "Home" [ref=f79e10] [cursor=pointer]:
+            - /url: /volunteer
+          - link "My Activities" [ref=f79e15] [cursor=pointer]:
+            - /url: /volunteer/work-history
+          - link "Messages" [ref=f79e20] [cursor=pointer]:
+            - /url: /volunteer/messages
+          - link "Payouts" [ref=f79e24] [cursor=pointer]:
+            - /url: /volunteer/assistance-payouts
+          - link "Guide" [ref=f79e29] [cursor=pointer]:
+            - /url: /help
+        - generic [ref=f79e33]:
+          - link "Notifications, 3 unread" [ref=f79e222] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=f79e201]: "3"
+            - generic [ref=f79e202]: 3 unread notifications
+          - button "Profile picture of Rohan Verma Rohan Verma" [ref=f79e38] [cursor=pointer]:
+            - img "Profile picture of Rohan Verma" [ref=f79e39]
+            - generic [ref=f79e40]: Rohan Verma
+    - main [ref=f79e43]:
+      - generic [ref=f79e223]:
+        - complementary [ref=f79e224]:
+          - generic [ref=f79e225]:
+            - generic [ref=f79e226]:
+              - img "Cover photo for Rohan Verma" [ref=f79e227]
+              - generic [ref=f79e228]:
+                - img "Profile picture of Rohan Verma" [ref=f79e229]
+                - generic [ref=f79e231]:
+                  - heading "Rohan Verma" [level=2] [ref=f79e232]
+                  - img "Verified Badge" [ref=f79e233]
+                - paragraph [ref=f79e234]: Volunteer
+              - generic [ref=f79e235]:
+                - generic [ref=f79e236]:
+                  - text: "0"
+                  - paragraph [ref=f79e237]: Request Volunteered
+                - generic [ref=f79e238]:
+                  - text: "0"
+                  - paragraph [ref=f79e239]: Exam Completed
+              - link "View Profile" [ref=f79e241] [cursor=pointer]:
+                - /url: /volunteer/profile
+            - 'button "Play video: How to Login as a Volunteer" [ref=f79e243] [cursor=pointer]':
+              - generic [ref=f79e244]:
+                - generic [ref=f79e245]:
+                  - img "Video thumbnail" [ref=f79e246]
+                  - img "Video thumbnail" [ref=f79e247]
+                - generic [ref=f79e248]:
+                  - heading "How to Login as a Volunteer" [level=3] [ref=f79e249]
+                  - paragraph [ref=f79e250]: Watch the updated volunteer login flow and first dashboard walkthrough
+        - generic [ref=f79e254]:
+          - button "Back to Activities List" [ref=f79e256]
+          - generic [ref=f79e260]:
+            - generic [ref=f79e261]:
+              - generic [ref=f79e262]:
+                - generic [ref=f79e263]:
+                  - heading "B.A. Semester 3 Examination" [level=2] [ref=f79e264]
+                  - generic [ref=f79e265]: PU Semester Exam
+                - button "Share" [ref=f79e267] [cursor=pointer]
+              - generic [ref=f79e269]:
+                - generic [ref=f79e270]:
+                  - img "Exam Center Details" [ref=f79e271]
+                  - generic [ref=f79e272]:
+                    - paragraph [ref=f79e273]: Panjab University Exam Centre
+                    - paragraph [ref=f79e274]: Sector 14, Panjab University Campus, Chandigarh, Chandigarh, chandigarh - 160014
+                    - generic [ref=f79e275]:
+                      - generic [ref=f79e276]: "Medium: English"
+                      - generic [ref=f79e277]: "State: chandigarh"
+                      - generic [ref=f79e278]: "City: Chandigarh"
+                      - generic [ref=f79e279]: "Pin code: 160014"
+                    - paragraph [ref=f79e280]: "Note: QA test PU semester exam request created via automated flow."
+                - generic [ref=f79e281]:
+                  - link "View Hall Pass" [ref=f79e282] [cursor=pointer]:
+                    - /url: https://api-v1.thescribebank.com//uploads/1785405894800-hall pass.jpg
+                  - link "View date Sheet" [ref=f79e283] [cursor=pointer]:
+                    - /url: https://api-v1.thescribebank.com//uploads/1785405914342-hall pass.jpg
+            - generic [ref=f79e285]:
+              - img "Subject Details" [ref=f79e286]
+              - generic [ref=f79e287]:
+                - generic [ref=f79e288]:
+                  - paragraph [ref=f79e289]: "Subject : Political Science"
+                  - generic [ref=f79e290]:
+                    - generic [ref=f79e291]: Accepted
+                    - generic [ref=f79e292]: Awaiting PU Verification
+                - paragraph [ref=f79e293]: "Medium: English"
+                - paragraph [ref=f79e294]: "Date: 15/12/2026"
+                - paragraph [ref=f79e295]: "Start Time: 09:00 AM End Time: 12:00 PM"
+                - generic [ref=f79e296]:
+                  - paragraph [ref=f79e297]: "You Accepted this request and are now assisting the beneficiary :"
+                  - generic [ref=f79e299]:
+                    - generic [ref=f79e300]: Priya Sharma
+                    - generic [ref=f79e301]: "|"
+                    - button "Send message. Chat will be enabled 12 hours before the exam (14 Dec 2026, 9:00 pm)." [disabled] [ref=f79e302]:
+                      - generic [ref=f79e303]: Chat
+                - generic [ref=f79e304]: PU verification is pending. The exam remains accepted while the CoE reviews the submission.
+                - button "Withdraw Scribe Support" [ref=f79e307] [cursor=pointer]:
+                  - img "Withdraw" [ref=f79e308]
+                  - text: Withdraw Scribe Support
+    - contentinfo "Website Footer" [ref=f79e196]:
+      - generic [ref=f79e197]: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert [ref=f79e199]: The Scribe Bank
+  - iframe [ref=f79e203]:
+    - generic [ref=f80e5]:
+      - button [ref=f80e6] [cursor=pointer]
+      - generic [ref=f80e7]: "1"

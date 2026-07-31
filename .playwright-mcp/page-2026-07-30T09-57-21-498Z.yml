@@ -1,0 +1,183 @@
+- generic [ref=e1]:
+  - generic [ref=e104]:
+    - generic [ref=e107]:
+      - list [ref=e109]:
+        - listitem [ref=e110]:
+          - button "The Scribe Bank" [ref=e111]
+      - generic [ref=e116]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: Platform
+          - list [ref=e119]:
+            - listitem [ref=e120] [cursor=pointer]:
+              - link "Dashboard" [ref=e121]:
+                - /url: /admin/dashboard
+            - listitem [ref=e127] [cursor=pointer]:
+              - link "Reports" [ref=e128]:
+                - /url: /admin/reports
+            - listitem [ref=e136] [cursor=pointer]:
+              - link "Beneficiaries" [ref=e137]:
+                - /url: /admin/beneficiaries
+            - listitem [ref=e142] [cursor=pointer]:
+              - link "Volunteers" [ref=e143]:
+                - /url: /admin/volunteers
+            - listitem [ref=e149] [cursor=pointer]:
+              - link "Profile Gaps" [ref=e150]:
+                - /url: /admin/users-missing-profiles
+            - listitem [ref=e158] [cursor=pointer]:
+              - link "Duplicate Accounts" [ref=e159]:
+                - /url: /admin/duplicate-accounts
+            - listitem [ref=e164] [cursor=pointer]:
+              - link "Tasks" [ref=e165]:
+                - /url: /admin/tasks
+            - listitem [ref=e170] [cursor=pointer]:
+              - link "Scribe Requests" [ref=e171]:
+                - /url: /admin/scribe-requests
+            - listitem [ref=e175] [cursor=pointer]:
+              - link "Exams" [ref=e176]:
+                - /url: /admin/exams
+            - listitem [ref=e180] [cursor=pointer]:
+              - link "Volunteer Requests" [ref=e181]:
+                - /url: /admin/volunteer-requests
+            - listitem [ref=e188] [cursor=pointer]:
+              - link "Blogs" [ref=e189]:
+                - /url: /admin/blogs
+            - listitem [ref=e196] [cursor=pointer]:
+              - link "Payouts" [ref=e197]:
+                - /url: /admin/payouts
+            - listitem [ref=e204] [cursor=pointer]:
+              - link "Roles" [ref=e205]:
+                - /url: /admin/roles
+            - listitem [ref=e210] [cursor=pointer]:
+              - link "Schools" [ref=e211]:
+                - /url: /admin/schools
+            - listitem [ref=e216] [cursor=pointer]:
+              - link "Email Templates" [ref=e217]:
+                - /url: /admin/bulk-email
+            - listitem [ref=e222] [cursor=pointer]:
+              - link "WhatsApp Campaigns" [ref=e223]:
+                - /url: /admin/whatsapp-campaigns
+            - listitem [ref=e227] [cursor=pointer]:
+              - link "System Emails" [ref=e228]:
+                - /url: /admin/system-emails
+            - listitem [ref=e236] [cursor=pointer]:
+              - link "Tutorial Videos" [ref=e237]:
+                - /url: /admin/tutorial-videos
+            - listitem [ref=e242] [cursor=pointer]:
+              - link "Admins" [ref=e243]:
+                - /url: /admin/admins
+        - generic [ref=e248]: Settings
+      - list [ref=e258]:
+        - listitem [ref=e259]:
+          - link "SA shahid ansari shahid.ansari@ledsak.ai" [ref=e260] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - generic [ref=e261]: SA
+            - generic [ref=e263]:
+              - generic [ref=e264]: shahid ansari
+              - generic [ref=e265]: shahid.ansari@ledsak.ai
+          - button "Open user menu" [ref=e266]
+    - main [ref=e1122]:
+      - generic [ref=e1124]:
+        - button "Toggle Sidebar" [ref=e1125]
+        - heading "Beneficiary Profile" [level=1] [ref=e1127]
+        - button "Switch to dark mode" [ref=e1129]:
+          - generic [ref=e1130]: Dark mode
+      - generic [ref=e1133]:
+        - generic [ref=e1134]:
+          - link "Back to Beneficiaries" [ref=e1135] [cursor=pointer]:
+            - /url: /admin/beneficiaries
+          - generic [ref=e1137]:
+            - link "Edit Profile" [ref=e1138] [cursor=pointer]:
+              - /url: /admin/beneficiaries/edit/186
+            - link "Change School" [ref=e1140] [cursor=pointer]:
+              - /url: /admin/beneficiaries/186/school-assignment
+        - generic [ref=e1144]:
+          - generic [ref=e1146]:
+            - paragraph [ref=e1147]: Profile photo
+            - generic [ref=e1148]: PS
+          - generic [ref=e1150]:
+            - generic [ref=e1151]:
+              - generic [ref=e1152]:
+                - heading "Priya Sharma" [level=1] [ref=e1153]
+                - generic [ref=e1154]: "Identity: Verified"
+                - generic [ref=e1155]: "Disability: Pending Review"
+              - paragraph [ref=e1156]: No occupation listed
+            - generic [ref=e1157]:
+              - generic [ref=e1163]:
+                - paragraph [ref=e1164]: Email
+                - paragraph [ref=e1165]: benef1785403804@yopmail.com
+              - generic [ref=e1170]:
+                - paragraph [ref=e1171]: Phone
+                - paragraph [ref=e1172]: "9179403804"
+              - generic [ref=e1177]:
+                - paragraph [ref=e1178]: Alternate Phone
+                - paragraph [ref=e1179]: N/A
+              - generic [ref=e1185]:
+                - paragraph [ref=e1186]: Location
+                - paragraph [ref=e1187]: Chandigarh, chandigarh
+              - generic [ref=e1193]:
+                - paragraph [ref=e1194]: Education
+                - paragraph [ref=e1195]: bachelor
+              - generic [ref=e1203]:
+                - paragraph [ref=e1204]: Assigned School
+                - generic [ref=e1205]: Independent
+        - generic [ref=e1206]:
+          - tablist [ref=e1207]:
+            - tab "Personal Information" [ref=e1208]
+            - tab "Access & Sessions" [ref=e1209]
+            - tab "Education & Experience" [ref=e1210]
+            - tab "Identity" [ref=e1211]
+            - tab "Disability" [active] [selected] [ref=e1212]
+            - tab "Timeline" [ref=e1213]
+            - tab "Volunteer Requests" [ref=e1214]
+            - tab "Scribe Requests" [ref=e1215]
+          - tabpanel "Disability" [ref=e1405]:
+            - generic [ref=e1406]:
+              - generic [ref=e1408]:
+                - generic [ref=e1409]: Disability Certificate
+                - generic [ref=e1414]: No Document
+              - generic [ref=e1415]:
+                - generic [ref=e1416]:
+                  - generic [ref=e1417]:
+                    - text: Disability Status
+                    - generic [ref=e1418]: Permanently Disabled
+                  - generic [ref=e1419]:
+                    - text: Type of Disability
+                    - generic [ref=e1420]: N/A
+                - generic [ref=e1421]:
+                  - generic [ref=e1422]: Uploaded Certificate
+                  - generic [ref=e1423]:
+                    - generic [ref=e1424]:
+                      - generic [ref=e1425]:
+                        - button [ref=e1426]
+                        - generic [ref=e1427]: 100%
+                        - button [ref=e1428]
+                      - generic [ref=e1429]:
+                        - button "Open" [ref=e1430]
+                        - button [ref=e1432]
+                        - button [ref=e1433]
+                        - button [ref=e1434]
+                    - img "Disability Certificate" [ref=e1437]
+                    - paragraph [ref=e1439]: Disability Certificate
+                - button "Replace Certificate" [ref=e1441]
+                - generic [ref=e1442]:
+                  - button "Approve Certificate" [ref=e1443]
+                  - button "Reject Certificate" [ref=e1444]
+            - generic [ref=e1445]:
+              - generic [ref=e1446]: UDID Registry Verification
+              - generic [ref=e1453]:
+                - paragraph [ref=e1454]: Enter UDID details to look up this beneficiary
+                - generic [ref=e1455]:
+                  - generic [ref=e1456]:
+                    - generic [ref=e1457]:
+                      - text: UDID Number
+                      - generic [ref=e1458]: "*"
+                    - textbox "UDID Number *" [ref=e1459]:
+                      - /placeholder: e.g. KA1234567890123456
+                  - generic [ref=e1460]:
+                    - generic [ref=e1461]: Date of Birth
+                    - textbox "Date of Birth" [ref=e1462]: 2005-06-10
+                - generic [ref=e1463]:
+                  - button "Fetch from UDID Registry" [disabled]
+                - paragraph [ref=e1464]: Submitting will save these values to the beneficiary profile.
+  - region "Notifications alt+T"
+  - alert [ref=e67]: "Admin Panel: The Scribe Bank"

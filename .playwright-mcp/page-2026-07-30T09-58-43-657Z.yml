@@ -1,0 +1,168 @@
+- generic [ref=e1]:
+  - generic [ref=e104]:
+    - generic [ref=e107]:
+      - list [ref=e109]:
+        - listitem [ref=e110]:
+          - button "The Scribe Bank" [ref=e111]
+      - generic [ref=e116]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: Platform
+          - list [ref=e119]:
+            - listitem [ref=e120] [cursor=pointer]:
+              - link "Dashboard" [ref=e121]:
+                - /url: /admin/dashboard
+            - listitem [ref=e127] [cursor=pointer]:
+              - link "Reports" [ref=e128]:
+                - /url: /admin/reports
+            - listitem [ref=e136] [cursor=pointer]:
+              - link "Beneficiaries" [ref=e137]:
+                - /url: /admin/beneficiaries
+            - listitem [ref=e142] [cursor=pointer]:
+              - link "Volunteers" [ref=e143]:
+                - /url: /admin/volunteers
+            - listitem [ref=e149] [cursor=pointer]:
+              - link "Profile Gaps" [ref=e150]:
+                - /url: /admin/users-missing-profiles
+            - listitem [ref=e158] [cursor=pointer]:
+              - link "Duplicate Accounts" [ref=e159]:
+                - /url: /admin/duplicate-accounts
+            - listitem [ref=e164] [cursor=pointer]:
+              - link "Tasks" [ref=e165]:
+                - /url: /admin/tasks
+            - listitem [ref=e170] [cursor=pointer]:
+              - link "Scribe Requests" [ref=e171]:
+                - /url: /admin/scribe-requests
+            - listitem [ref=e175] [cursor=pointer]:
+              - link "Exams" [ref=e176]:
+                - /url: /admin/exams
+            - listitem [ref=e180] [cursor=pointer]:
+              - link "Volunteer Requests" [ref=e181]:
+                - /url: /admin/volunteer-requests
+            - listitem [ref=e188] [cursor=pointer]:
+              - link "Blogs" [ref=e189]:
+                - /url: /admin/blogs
+            - listitem [ref=e196] [cursor=pointer]:
+              - link "Payouts" [ref=e197]:
+                - /url: /admin/payouts
+            - listitem [ref=e204] [cursor=pointer]:
+              - link "Roles" [ref=e205]:
+                - /url: /admin/roles
+            - listitem [ref=e210] [cursor=pointer]:
+              - link "Schools" [ref=e211]:
+                - /url: /admin/schools
+            - listitem [ref=e216] [cursor=pointer]:
+              - link "Email Templates" [ref=e217]:
+                - /url: /admin/bulk-email
+            - listitem [ref=e222] [cursor=pointer]:
+              - link "WhatsApp Campaigns" [ref=e223]:
+                - /url: /admin/whatsapp-campaigns
+            - listitem [ref=e227] [cursor=pointer]:
+              - link "System Emails" [ref=e228]:
+                - /url: /admin/system-emails
+            - listitem [ref=e236] [cursor=pointer]:
+              - link "Tutorial Videos" [ref=e237]:
+                - /url: /admin/tutorial-videos
+            - listitem [ref=e242] [cursor=pointer]:
+              - link "Admins" [ref=e243]:
+                - /url: /admin/admins
+        - generic [ref=e248]: Settings
+      - list [ref=e258]:
+        - listitem [ref=e259]:
+          - link "SA shahid ansari shahid.ansari@ledsak.ai" [ref=e260] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - generic [ref=e261]: SA
+            - generic [ref=e263]:
+              - generic [ref=e264]: shahid ansari
+              - generic [ref=e265]: shahid.ansari@ledsak.ai
+          - button "Open user menu" [ref=e266]
+    - main [ref=e2002]:
+      - generic [ref=e2004]:
+        - button "Toggle Sidebar" [ref=e2005]
+        - heading "Volunteer Profile" [level=1] [ref=e2007]
+        - button "Switch to dark mode" [ref=e2009]:
+          - generic [ref=e2010]: Dark mode
+      - generic [ref=e2013]:
+        - generic [ref=e2014]:
+          - link "Back to Volunteers" [ref=e2015] [cursor=pointer]:
+            - /url: /admin/volunteers
+          - generic [ref=e2017]:
+            - link "View on Website" [ref=e2018] [cursor=pointer]:
+              - /url: https://thescribebank.com/profile/111
+            - link "Edit Profile" [ref=e2019] [cursor=pointer]:
+              - /url: /admin/volunteers/edit/111
+            - link "Change School" [ref=e2021] [cursor=pointer]:
+              - /url: /admin/volunteers/111/school-assignment
+        - generic [ref=e2025]:
+          - generic [ref=e2026]: RV
+          - generic [ref=e2029]:
+            - generic [ref=e2030]:
+              - generic [ref=e2031]:
+                - heading "Rohan Verma" [level=1] [ref=e2032]
+                - generic [ref=e2033]: Pending Review
+              - paragraph [ref=e2034]: No occupation listed
+            - generic [ref=e2035]:
+              - generic [ref=e2040]:
+                - paragraph [ref=e2041]: Phone
+                - paragraph [ref=e2042]: "8179403804"
+              - generic [ref=e2047]:
+                - paragraph [ref=e2048]: Alternate Phone
+                - paragraph [ref=e2049]: N/A
+              - generic [ref=e2055]:
+                - paragraph [ref=e2056]: Email
+                - paragraph [ref=e2057]: volun1785403804@yopmail.com
+              - generic [ref=e2063]:
+                - paragraph [ref=e2064]: Location
+                - paragraph [ref=e2065]: Chandigarh, chandigarh
+              - generic [ref=e2071]:
+                - paragraph [ref=e2072]: Education
+                - paragraph [ref=e2073]: 12th
+              - generic [ref=e2081]:
+                - paragraph [ref=e2082]: Assigned School
+                - generic [ref=e2083]: Independent
+        - generic [ref=e2084]:
+          - tablist [ref=e2085]:
+            - tab "Personal Information" [ref=e2086]
+            - tab "Access & Sessions" [ref=e2087]
+            - tab "Education & Experience" [ref=e2088]
+            - tab "Identity" [active] [selected] [ref=e2089]
+            - tab "Payment" [ref=e2090]
+            - tab "Timeline" [ref=e2091]
+            - tab "Volunteer Requests" [ref=e2092]
+            - tab "Scribe Requests" [ref=e2093]
+          - tabpanel "Identity" [ref=e2199]:
+            - generic [ref=e2200]:
+              - tablist [ref=e2201]:
+                - tab "Identity Document" [selected] [ref=e2202]
+                - tab "Professional Photo" [ref=e2203]
+              - tabpanel "Identity Document" [ref=e2204]:
+                - generic [ref=e2205]:
+                  - generic [ref=e2207]:
+                    - generic [ref=e2208]: Identity Verification
+                    - generic [ref=e2211]: No Document
+                  - generic [ref=e2212]:
+                    - generic [ref=e2213]:
+                      - generic [ref=e2214]:
+                        - text: Identity Type
+                        - generic [ref=e2215]: Aadhar Card
+                      - generic [ref=e2220]: Identity Number
+                    - generic [ref=e2225]:
+                      - generic [ref=e2226]: Uploaded Document
+                      - generic [ref=e2227]:
+                        - generic [ref=e2228]:
+                          - generic [ref=e2229]:
+                            - button [ref=e2230]
+                            - generic [ref=e2231]: 100%
+                            - button [ref=e2232]
+                          - generic [ref=e2233]:
+                            - button "Open" [ref=e2234]
+                            - button [ref=e2236]
+                            - button [ref=e2237]
+                            - button [ref=e2238]
+                        - img "Identity Document" [ref=e2241]
+                        - paragraph [ref=e2243]: Aadhar Card - null
+                    - button "Replace Document" [ref=e2245]
+                    - generic [ref=e2246]:
+                      - button "Approve Document" [ref=e2247]
+                      - button "Reject Document" [ref=e2248]
+  - region "Notifications alt+T"
+  - alert [ref=e67]: "Admin Panel: The Scribe Bank"

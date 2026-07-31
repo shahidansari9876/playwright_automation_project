@@ -1,0 +1,62 @@
+- generic [active] [ref=f117e1]:
+  - generic [ref=f117e2]:
+    - link "Skip to main content" [ref=f117e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f117e4]:
+      - generic [ref=f117e5]:
+        - link [ref=f117e7] [cursor=pointer]:
+          - /url: /volunteer
+          - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f117e8]
+        - generic [ref=f117e9]:
+          - link "Home" [ref=f117e10] [cursor=pointer]:
+            - /url: /volunteer
+          - link "My Activities" [ref=f117e15] [cursor=pointer]:
+            - /url: /volunteer/work-history
+          - link "Messages" [ref=f117e20] [cursor=pointer]:
+            - /url: /volunteer/messages
+          - link "Payouts" [ref=f117e24] [cursor=pointer]:
+            - /url: /volunteer/assistance-payouts
+          - link "Guide" [ref=f117e29] [cursor=pointer]:
+            - /url: /help
+        - generic [ref=f117e33]:
+          - link "Notifications" [ref=f117e34] [cursor=pointer]:
+            - /url: /notifications
+          - button "Profile picture of Rohan Verma Rohan Verma" [ref=f117e38] [cursor=pointer]:
+            - img "Profile picture of Rohan Verma" [ref=f117e39]
+            - generic [ref=f117e40]: Rohan Verma
+    - main [ref=f117e43]:
+      - generic [ref=f117e45]:
+        - complementary [ref=f117e46]:
+          - generic [ref=f117e47]:
+            - generic [ref=f117e48]:
+              - img "Cover photo for Rohan Verma" [ref=f117e49]
+              - generic [ref=f117e50]:
+                - img "Profile picture of Rohan Verma" [ref=f117e51]
+                - generic [ref=f117e53]:
+                  - heading "Rohan Verma" [level=2] [ref=f117e54]
+                  - img "Verified Badge" [ref=f117e55]
+                - paragraph [ref=f117e56]: Volunteer
+              - generic [ref=f117e57]:
+                - generic [ref=f117e58]:
+                  - text: "0"
+                  - paragraph [ref=f117e59]: Request Volunteered
+                - generic [ref=f117e60]:
+                  - text: "1"
+                  - paragraph [ref=f117e61]: Exam Completed
+              - link "View Profile" [ref=f117e63] [cursor=pointer]:
+                - /url: /volunteer/profile
+            - 'button "Play video: How to Login as a Volunteer" [ref=f117e65] [cursor=pointer]':
+              - generic [ref=f117e66]:
+                - generic [ref=f117e67]:
+                  - img "Video thumbnail" [ref=f117e68]
+                  - img "Video thumbnail" [ref=f117e69]
+                - generic [ref=f117e70]:
+                  - heading "How to Login as a Volunteer" [level=3] [ref=f117e71]
+                  - paragraph [ref=f117e72]: Watch the updated volunteer login flow and first dashboard walkthrough
+        - generic [ref=f117e74]:
+          - heading "No Assistance Payouts Found" [level=1] [ref=f117e77]
+          - paragraph [ref=f117e78]: You have not received any assistance payouts yet.
+    - contentinfo "Website Footer" [ref=f117e79]:
+      - generic [ref=f117e80]: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert [ref=f117e82]

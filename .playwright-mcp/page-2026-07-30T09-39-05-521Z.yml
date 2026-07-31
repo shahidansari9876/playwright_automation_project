@@ -1,0 +1,195 @@
+- generic:
+  - generic:
+    - link:
+      - /url: "#main-content"
+      - text: Skip to main content
+    - banner:
+      - generic:
+        - generic:
+          - link:
+            - /url: /beneficiary
+        - generic:
+          - link:
+            - /url: /beneficiary
+            - generic: Home
+          - generic: New Request
+          - link:
+            - /url: /beneficiary/messages
+            - generic: Messages
+          - link:
+            - /url: /help
+            - generic: Guide
+          - link:
+            - /url: /notifications
+            - generic: "1"
+            - generic: 1 unread notification
+        - button:
+          - generic: Priya Sharma
+    - main:
+      - generic:
+        - generic:
+          - complementary:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading [level=2]: Priya Sharma
+                  - paragraph: Beneficiary
+                - generic:
+                  - generic:
+                    - text: "0"
+                    - paragraph: Volunteers
+                  - generic:
+                    - text: "0"
+                    - paragraph: Scribe Requests
+                - generic:
+                  - link:
+                    - /url: /beneficiary/profile
+                    - text: View Profile
+              - generic:
+                - button:
+                  - generic:
+                    - generic:
+                      - heading [level=3]: How to Login as a Beneficiary
+                      - paragraph: Watch the existing beneficiary login tutorial and dashboard entry steps
+          - generic:
+            - generic:
+              - generic:
+                - paragraph: Your profile is almost ready.
+              - paragraph: Fill out your profile details to start generating requests.
+              - generic:
+                - progressbar
+                - generic:
+                  - generic: 17% complete
+                  - generic: 1 of 6 steps done
+              - list:
+                - listitem:
+                  - generic:
+                    - generic:
+                      - generic: "Completed:"
+                      - text: Upload identity documents
+                  - generic: In review
+                - listitem:
+                  - generic:
+                    - generic:
+                      - generic: "Not completed:"
+                      - text: Upload disability certificate
+                  - generic: Not uploaded yet
+                - listitem:
+                  - generic:
+                    - generic:
+                      - generic: "Not completed:"
+                      - text: Add professional photo
+                  - generic: Not uploaded yet
+              - generic:
+                - button [expanded]: Complete profile
+          - complementary:
+            - generic:
+              - generic:
+                - generic:
+                  - heading [level=3]: Top Volunteers
+                - generic:
+                  - link:
+                    - /url: /profile/9
+                    - generic:
+                      - generic:
+                        - paragraph: Amit Volunteer
+                      - paragraph: Ghaziabad, delhi
+                  - link:
+                    - /url: /profile/74
+                    - generic:
+                      - generic:
+                        - paragraph: Shahid
+                      - paragraph: Public road, chandigarh
+                  - link:
+                    - /url: /profile/41
+                    - generic:
+                      - generic:
+                        - paragraph: shahid test
+                      - paragraph: Delhi, uttar_pradesh
+                  - link:
+                    - /url: /profile/82
+                    - generic:
+                      - generic:
+                        - paragraph: iOS Mobile
+                      - paragraph: Chandigarh, chandigarh
+                  - link:
+                    - /url: /profile/80
+                    - generic:
+                      - generic:
+                        - paragraph: Vol
+                      - paragraph: Chandigarh, chandigarh
+    - contentinfo:
+      - generic: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert: The Scribe Bank - Homepage
+  - iframe [ref=f27e30]:
+    - generic [ref=f28e5]:
+      - button [ref=f28e6] [cursor=pointer]
+      - generic [ref=f28e7]: "1"
+  - dialog [ref=f27e951]:
+    - generic [ref=f27e952]:
+      - heading "Complete your profile" [level=2] [ref=f27e953]
+      - paragraph [ref=f27e954]: Complete one short step at a time. You can close this window and continue later; each saved step is kept.
+      - generic [ref=f27e955]:
+        - generic [ref=f27e956]:
+          - generic [ref=f27e957]: Step 2 of 3
+          - generic [ref=f27e958]: 1 saved
+        - progressbar "Profile completion" [ref=f27e959]
+    - generic [ref=f27e960]:
+      - navigation "Profile setup steps" [ref=f27e961]:
+        - list [ref=f27e962]:
+          - listitem [ref=f27e963]:
+            - button "Identity proof Saved" [ref=f27e1021]:
+              - generic [ref=f27e966]:
+                - generic [ref=f27e967]: Identity proof
+                - generic [ref=f27e971]: Saved
+          - listitem [ref=f27e972]:
+            - button "Disability certificate Certificate or UDID card" [ref=f27e973]:
+              - generic [ref=f27e974]: "2"
+              - generic [ref=f27e975]:
+                - generic [ref=f27e976]: Disability certificate
+                - generic [ref=f27e982]: Certificate or UDID card
+          - listitem [ref=f27e983]:
+            - button "Professional photo Photo for official documents" [ref=f27e984]:
+              - generic [ref=f27e985]: "3"
+              - generic [ref=f27e986]:
+                - generic [ref=f27e987]: Professional photo
+                - generic [ref=f27e992]: Photo for official documents
+      - generic [ref=f27e993]:
+        - region [ref=f27e1024]:
+          - heading "Upload your disability certificate" [level=2] [ref=f27e1025]
+          - paragraph [ref=f27e996]: Upload your UDID card or another valid disability certificate for verification.
+          - generic [ref=f27e997]:
+            - generic [ref=f27e1026]:
+              - generic [ref=f27e1027]:
+                - generic [ref=f27e1028]: Disability status
+                - combobox "Disability status" [ref=f27e1029]:
+                  - option "Select status" [disabled]
+                  - option "Permanently disabled" [selected]
+                  - option "Temporarily disabled"
+              - generic [ref=f27e1030]:
+                - generic [ref=f27e1031]: Type of disability
+                - combobox "Type of disability" [ref=f27e1032]:
+                  - option "Select disability type" [disabled]
+                  - option "Visually Impaired" [selected]
+                  - option "Low vision"
+                  - option "Locomotor disability"
+                  - option "Cerebral palsy"
+                  - option "Multiple disabilities"
+                  - option "Specific learning disabilities"
+                  - option "Neurological conditions"
+                  - option "Chronic neurological or physical impairments"
+            - generic [ref=f27e1033]:
+              - generic [ref=f27e1034]: Disability certificate or UDID card
+              - generic [ref=f27e1035]:
+                - button "Disability certificate or UDID card" [active] [ref=f27e1036] [cursor=pointer]
+                - paragraph [ref=f27e1037]: JPG, PNG, or PDF. Maximum file size 5 MB.
+                - paragraph [ref=f27e1039]: "Selected: disability certificate.png"
+                - button "Preview selected replacement for Disability certificate or UDID card in a new tab" [ref=f27e1043]: Preview selected file
+            - alert [ref=f27e1006]: No error
+        - generic [ref=f27e1007]:
+          - button "Back" [ref=f27e1038] [cursor=pointer]
+          - button "Save and continue" [ref=f27e1008] [cursor=pointer]
+    - button "Close" [ref=f27e1009]

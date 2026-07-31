@@ -1,0 +1,135 @@
+- generic:
+  - generic:
+    - link:
+      - /url: "#main-content"
+      - text: Skip to main content
+    - banner:
+      - generic:
+        - generic:
+          - link:
+            - /url: /volunteer
+        - generic:
+          - link:
+            - /url: /volunteer
+            - generic: Home
+          - link:
+            - /url: /volunteer/work-history
+            - generic: My Activities
+          - link:
+            - /url: /volunteer/messages
+            - generic: Messages
+          - link:
+            - /url: /volunteer/assistance-payouts
+            - generic: Payouts
+          - link:
+            - /url: /help
+            - generic: Guide
+        - generic:
+          - link "Notifications, 1 unread":
+            - /url: /notifications
+            - generic: "1"
+            - generic: 1 unread notification
+          - button:
+            - generic: Rohan Verma
+    - main:
+      - generic:
+        - generic:
+          - complementary:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading [level=2]: Rohan Verma
+                  - paragraph: Volunteer
+                - generic:
+                  - generic:
+                    - text: "0"
+                    - paragraph: Request Volunteered
+                  - generic:
+                    - text: "0"
+                    - paragraph: Exam Completed
+                - generic:
+                  - link:
+                    - /url: /volunteer/profile
+                    - text: View Profile
+              - generic:
+                - button:
+                  - generic:
+                    - generic:
+                      - heading [level=3]: How to Login as a Volunteer
+                      - paragraph: Watch the updated volunteer login flow and first dashboard walkthrough
+          - generic:
+            - region:
+              - region:
+                - generic:
+                  - generic:
+                    - heading [level=2]: Your Volunteer Profile Is Almost Ready
+                  - paragraph: A submitted document was rejected. Review the reason and upload a replacement.
+                - generic:
+                  - progressbar
+                  - paragraph:
+                    - strong: 50% complete
+                    - generic: 1 of 2 steps done
+                - list:
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: "Completed:"
+                          - text: Upload Identity Document
+                      - generic: Added
+                    - generic:
+                      - generic:
+                        - paragraph:
+                          - text: Rejected
+                          - generic: — Document is not clear or readable
+                - generic:
+                  - button [expanded]: Review Documents
+    - contentinfo:
+      - generic: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert
+  - iframe [ref=f53e114]:
+    - generic [ref=f54e5]:
+      - button [ref=f54e6] [cursor=pointer]
+      - generic [ref=f54e7]: "1"
+  - dialog [active] [ref=f53e116]:
+    - generic [ref=f53e117]:
+      - heading "Complete Your Volunteer Profile" [level=2] [ref=f53e118]
+      - paragraph [ref=f53e119]: Upload your identity proof to complete initial volunteer verification.
+      - generic [ref=f53e120]:
+        - paragraph [ref=f53e121]:
+          - strong [ref=f53e122]: Viewing step 1 of 1
+          - generic [ref=f53e123]: 1 saved
+        - progressbar "Volunteer profile completion" [ref=f53e124]
+    - generic [ref=f53e126]:
+      - navigation "Volunteer profile setup steps" [ref=f53e127]:
+        - list [ref=f53e128]:
+          - listitem [ref=f53e129]:
+            - button "Identity Proof Saved" [ref=f53e130]:
+              - generic [ref=f53e134]:
+                - generic [ref=f53e135]: Identity Proof
+                - generic [ref=f53e136]: Saved
+      - region [ref=f53e137]:
+        - generic [ref=f53e138]:
+          - heading "Upload Your Identity Proof" [level=2] [ref=f53e139]
+          - paragraph [ref=f53e140]: Upload a government-issued identity document for verification.
+          - generic [ref=f53e141]:
+            - generic [ref=f53e142]:
+              - generic [ref=f53e143]: Document Type
+              - combobox "Document Type" [ref=f53e144]:
+                - generic: Aadhar Card
+              - combobox [ref=f53e145]
+            - group "Identity Document" [ref=f53e146]:
+              - button "Replace file" [ref=f53e173]
+              - generic [ref=f53e149]:
+                - paragraph [ref=f53e156]:
+                  - strong [ref=f53e157]: Ready to upload
+                  - generic "idnentity imae.jpg" [ref=f53e174]
+                - generic [ref=f53e159]:
+                  - generic [ref=f53e160] [cursor=pointer]: Replace file
+                  - button "View file" [ref=f53e164]
+              - paragraph [ref=f53e168]: JPG, PNG, or PDF. Maximum 5 MB.
+            - button "Save & Finish" [ref=f53e175] [cursor=pointer]
+    - button "Close" [ref=f53e171]

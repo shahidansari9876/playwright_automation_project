@@ -1,0 +1,166 @@
+- generic [active] [ref=f75e1]:
+  - generic [ref=f75e2]:
+    - link "Skip to main content" [ref=f75e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f75e4]:
+      - generic [ref=f75e5]:
+        - link [ref=f75e7] [cursor=pointer]:
+          - /url: /volunteer
+          - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f75e8]
+        - generic [ref=f75e9]:
+          - link "Home" [ref=f75e10] [cursor=pointer]:
+            - /url: /volunteer
+          - link "My Activities" [ref=f75e15] [cursor=pointer]:
+            - /url: /volunteer/work-history
+          - link "Messages" [ref=f75e20] [cursor=pointer]:
+            - /url: /volunteer/messages
+          - link "Payouts" [ref=f75e24] [cursor=pointer]:
+            - /url: /volunteer/assistance-payouts
+          - link "Guide" [ref=f75e29] [cursor=pointer]:
+            - /url: /help
+        - generic [ref=f75e33]:
+          - link "Notifications, 2 unread" [ref=f75e123] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=f75e124]: "2"
+            - generic [ref=f75e125]: 2 unread notifications
+          - button "Profile picture of Rohan Verma Rohan Verma" [ref=f75e38] [cursor=pointer]:
+            - img "Profile picture of Rohan Verma" [ref=f75e39]
+            - generic [ref=f75e40]: Rohan Verma
+    - main [ref=f75e43]:
+      - generic [ref=f75e126]:
+        - complementary [ref=f75e127]:
+          - generic [ref=f75e128]:
+            - generic [ref=f75e129]:
+              - img "Cover photo for Rohan Verma" [ref=f75e130]
+              - generic [ref=f75e131]:
+                - img "Profile picture of Rohan Verma" [ref=f75e132]
+                - generic [ref=f75e134]:
+                  - heading "Rohan Verma" [level=2] [ref=f75e135]
+                  - img "Verified Badge" [ref=f75e136]
+                - paragraph [ref=f75e137]: Volunteer
+              - generic [ref=f75e138]:
+                - generic [ref=f75e139]:
+                  - text: "0"
+                  - paragraph [ref=f75e140]: Request Volunteered
+                - generic [ref=f75e141]:
+                  - text: "0"
+                  - paragraph [ref=f75e142]: Exam Completed
+              - link "View Profile" [ref=f75e144] [cursor=pointer]:
+                - /url: /volunteer/profile
+            - 'button "Play video: How to Login as a Volunteer" [ref=f75e146] [cursor=pointer]':
+              - generic [ref=f75e147]:
+                - generic [ref=f75e148]:
+                  - img "Video thumbnail" [ref=f75e149]
+                  - img "Video thumbnail" [ref=f75e150]
+                - generic [ref=f75e151]:
+                  - heading "How to Login as a Volunteer" [level=3] [ref=f75e152]
+                  - paragraph [ref=f75e153]: Watch the updated volunteer login flow and first dashboard walkthrough
+        - region "Volunteer dashboard" [ref=f75e155]:
+          - generic [ref=f75e157]:
+            - tablist [ref=f75e158]:
+              - button "Scribe Requests (3)" [ref=f75e159] [cursor=pointer]
+              - button "Volunteer Requests (2)" [ref=f75e160] [cursor=pointer]
+            - tabpanel [ref=f75e161]:
+              - generic [ref=f75e162]:
+                - generic [ref=f75e164]:
+                  - generic [ref=f75e165]: "Filter By:"
+                  - button "Location" [ref=f75e166]
+                  - button "Date" [ref=f75e169]
+                  - button "Reference" [ref=f75e172]
+                  - group "Filter scribe requests by exam type" [ref=f75e175]:
+                    - button "All" [pressed] [ref=f75e176]
+                    - button "PU Exams" [ref=f75e177]
+                    - button "Regular" [ref=f75e178]
+                - generic [ref=f75e180]:
+                  - textbox "Search by subject, location, or exam name" [ref=f75e185]
+                  - button "Apply" [disabled]
+                - generic [ref=f75e186]: Found 3 scribe requests
+                - generic [ref=f75e188]:
+                  - generic [ref=f75e189]:
+                    - generic [ref=f75e190]:
+                      - paragraph [ref=f75e193]: Test Semester Exam
+                      - button "Share" [ref=f75e194] [cursor=pointer]
+                    - generic [ref=f75e195]:
+                      - generic [ref=f75e196]:
+                        - img "Location" [ref=f75e197]
+                        - generic [ref=f75e198]:
+                          - paragraph [ref=f75e199]: Chandigarh Test Center
+                          - paragraph [ref=f75e200]: Sector 17, Chandigarh
+                          - generic [ref=f75e201]:
+                            - generic [ref=f75e202]: "State: chandigarh"
+                            - generic [ref=f75e203]: "City: Chandigarh"
+                            - generic [ref=f75e204]: "Pin code: 160001"
+                      - paragraph [ref=f75e205]: "Notes: This is a test request created for QA testing purposes."
+                    - generic [ref=f75e207]:
+                      - img "Exam" [ref=f75e208]
+                      - generic [ref=f75e209]:
+                        - generic [ref=f75e210]:
+                          - paragraph [ref=f75e211]: "Subject: Test Subject"
+                          - generic [ref=f75e212]: NEW
+                        - paragraph [ref=f75e213]: "Medium: English"
+                        - paragraph [ref=f75e214]: "Date: 15 Aug 2026"
+                        - paragraph [ref=f75e215]: "Start Time: 09:00 AM End Time: 12:00 PM"
+                    - button "Accept Test Semester Exam" [ref=f75e217] [cursor=pointer]: Accept Request
+                  - generic [ref=f75e218]:
+                    - generic [ref=f75e219]:
+                      - generic [ref=f75e221]:
+                        - paragraph [ref=f75e222]: B.A. Semester 3 Examination
+                        - generic [ref=f75e223]: PU Semester Exam
+                      - button "Share" [ref=f75e224] [cursor=pointer]
+                    - generic [ref=f75e225]:
+                      - generic [ref=f75e226]:
+                        - img "Location" [ref=f75e227]
+                        - generic [ref=f75e228]:
+                          - paragraph [ref=f75e229]: Panjab University Exam Centre
+                          - paragraph [ref=f75e230]: Sector 14, Panjab University Campus, Chandigarh
+                          - generic [ref=f75e231]:
+                            - generic [ref=f75e232]: "State: chandigarh"
+                            - generic [ref=f75e233]: "City: Chandigarh"
+                            - generic [ref=f75e234]: "Pin code: 160014"
+                      - paragraph [ref=f75e235]: "Notes: QA test PU semester exam request created via automated flow."
+                    - generic [ref=f75e237]:
+                      - img "Exam" [ref=f75e238]
+                      - generic [ref=f75e239]:
+                        - generic [ref=f75e240]:
+                          - paragraph [ref=f75e241]: "Subject: Political Science"
+                          - generic [ref=f75e242]: NEW
+                        - paragraph [ref=f75e243]: "Medium: English"
+                        - paragraph [ref=f75e244]: "Date: 15 Dec 2026"
+                        - paragraph [ref=f75e245]: "Start Time: 09:00 AM End Time: 12:00 PM"
+                    - button "Accept Request" [ref=f75e247] [cursor=pointer]
+                  - generic [ref=f75e248]:
+                    - generic [ref=f75e249]:
+                      - generic [ref=f75e251]:
+                        - paragraph [ref=f75e252]: Non Pu exam
+                        - generic [ref=f75e253]: PU Semester Exam
+                      - button "Share" [ref=f75e254] [cursor=pointer]
+                    - generic [ref=f75e256]:
+                      - img "Location" [ref=f75e257]
+                      - generic [ref=f75e258]:
+                        - paragraph [ref=f75e259]: chandigarh
+                        - paragraph [ref=f75e260]: Krishna Park lane
+                        - generic [ref=f75e261]:
+                          - generic [ref=f75e262]: "State: punjab"
+                          - generic [ref=f75e263]: "City: Chandigarh"
+                          - generic [ref=f75e264]: "Pin code: 190016"
+                    - generic [ref=f75e266]:
+                      - img "Exam" [ref=f75e267]
+                      - generic [ref=f75e268]:
+                        - generic [ref=f75e269]:
+                          - paragraph [ref=f75e270]: "Subject: Test subject"
+                          - generic [ref=f75e271]: NEW
+                        - paragraph [ref=f75e272]: "Medium: English"
+                        - paragraph [ref=f75e273]: "Date: 19 Jan 2027"
+                        - paragraph [ref=f75e274]: "Start Time: 08:00 AM End Time: 10:00 AM"
+                    - button "Accept Request" [ref=f75e276] [cursor=pointer]
+    - contentinfo "Website Footer" [ref=f75e119]:
+      - generic [ref=f75e120]: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=f75e411]:
+        - generic [ref=f75e415]: Your volunteer profile documents have been saved.
+  - alert [ref=f75e122]
+  - iframe [ref=f75e277]:
+    - generic [ref=f76e5]:
+      - button [ref=f76e6] [cursor=pointer]
+      - generic [ref=f76e7]: "1"

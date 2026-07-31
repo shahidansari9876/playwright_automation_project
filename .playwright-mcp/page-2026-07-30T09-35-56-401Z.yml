@@ -1,0 +1,267 @@
+- generic:
+  - main:
+    - generic:
+      - generic:
+        - heading [level=1]
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - button
+              - heading [level=1]: Setup Your Profile
+            - generic: Beneficiary Profile
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=2]: Basic Details
+                    - generic:
+                      - generic:
+                        - generic:
+                          - text: Email Address
+                          - generic: "*"
+                          - generic: Verified
+                        - textbox [disabled]: benef1785403804@yopmail.com
+                        - paragraph: Verified during signup
+                      - generic:
+                        - generic:
+                          - text: Phone Number
+                          - generic: "*"
+                          - generic: Verified
+                        - textbox [disabled]: "9179403804"
+                        - paragraph: Verified during signup
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: First Name
+                            - generic: "*"
+                          - textbox:
+                            - /placeholder: Enter First Name
+                            - text: Priya
+                        - generic:
+                          - generic: Last Name
+                          - textbox:
+                            - /placeholder: Enter Last Name
+                            - text: Sharma
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: Gender
+                            - generic: "*"
+                          - combobox:
+                            - generic: Female
+                          - combobox
+                        - generic:
+                          - generic:
+                            - text: Date of Birth
+                            - generic: "*"
+                          - group:
+                            - generic: Date of Birth
+                            - generic:
+                              - generic:
+                                - combobox
+                                - combobox
+                                - combobox
+                      - heading [level=2]: Education Details
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=3]: Education Level
+                            - paragraph: Your qualification, current status, and the year you completed or expect to complete it.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: Highest Education
+                                - generic: "*"
+                              - combobox:
+                                - generic: Bachelor's Degree (B.A/B.Sc/B.Com/B.Tech/BE)
+                              - combobox
+                            - generic:
+                              - generic:
+                                - text: Degree Type
+                                - generic: "*"
+                              - combobox:
+                                - generic: 4-Year
+                              - combobox
+                            - generic:
+                              - generic: Education Status
+                              - combobox:
+                                - generic: Currently Pursuing
+                              - combobox
+                            - generic:
+                              - generic:
+                                - text: Year of Study
+                                - generic: "*"
+                              - combobox:
+                                - generic: 2nd Year
+                              - combobox
+                            - generic:
+                              - generic:
+                                - text: Passing Year
+                                - generic: "*"
+                              - combobox [expanded]:
+                                - generic: Select Passing Year
+                              - combobox
+                        - generic:
+                          - generic:
+                            - heading [level=3]: Institution Details
+                            - paragraph: Tell us where you study and whether your university choice needs an extra category.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: University Type
+                                - generic: "*"
+                              - generic:
+                                - combobox:
+                                  - generic: Select Board/University
+                                - combobox
+                            - generic:
+                              - generic:
+                                - text: School/College Name
+                                - generic: "*"
+                              - textbox:
+                                - /placeholder: Enter School/College Name
+                      - heading [level=2]: Current Address Details
+                      - paragraph: Enter the address where you currently live. Do not enter your permanent or native address unless both are the same.
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: Pincode
+                            - generic: "*"
+                          - generic:
+                            - textbox:
+                              - /placeholder: Enter Pincode
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: City
+                            - generic: "*"
+                          - textbox:
+                            - /placeholder: Auto-filled from pincode
+                        - generic:
+                          - generic:
+                            - text: State
+                            - generic: "*"
+                          - combobox:
+                            - generic: Auto-filled from pincode
+                          - combobox
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: Full Address
+                            - generic: (Optional)
+                          - textbox:
+                            - /placeholder: Enter your current address
+                    - generic:
+                      - generic:
+                        - checkbox
+                        - checkbox
+                        - generic:
+                          - generic:
+                            - text: I agree to the
+                            - link:
+                              - /url: /terms-services
+                              - text: Terms and Conditions
+                            - text: "&"
+                            - link:
+                              - /url: /privacy-policy
+                              - text: Privacy Policy
+                            - text: of Save The Quest.
+                      - generic:
+                        - button [disabled]: Submit
+  - region "Notifications alt+T"
+  - alert: The Scribe Bank - Create Profile
+  - iframe [ref=f27e30]:
+    - generic [ref=f28e5]:
+      - button [ref=f28e6] [cursor=pointer]
+      - generic [ref=f28e7]: "1"
+  - listbox [ref=f27e298]:
+    - option "2036" [active] [ref=f27e299] [cursor=pointer]
+    - option "2035" [ref=f27e302] [cursor=pointer]
+    - option "2034" [ref=f27e305] [cursor=pointer]
+    - option "2033" [ref=f27e308] [cursor=pointer]
+    - option "2032" [ref=f27e311] [cursor=pointer]
+    - option "2031" [ref=f27e314] [cursor=pointer]
+    - option "2030" [ref=f27e317] [cursor=pointer]
+    - option "2029" [ref=f27e320] [cursor=pointer]
+    - option "2028" [ref=f27e323] [cursor=pointer]
+    - option "2027" [ref=f27e326] [cursor=pointer]
+    - option "2026" [ref=f27e329] [cursor=pointer]
+    - option "2025" [ref=f27e332] [cursor=pointer]
+    - option "2024" [ref=f27e335] [cursor=pointer]
+    - option "2023" [ref=f27e338] [cursor=pointer]
+    - option "2022" [ref=f27e341] [cursor=pointer]
+    - option "2021" [ref=f27e344] [cursor=pointer]
+    - option "2020" [ref=f27e347] [cursor=pointer]
+    - option "2019" [ref=f27e350] [cursor=pointer]
+    - option "2018" [ref=f27e353] [cursor=pointer]
+    - option "2017" [ref=f27e356] [cursor=pointer]
+    - option "2016" [ref=f27e359] [cursor=pointer]
+    - option "2015" [ref=f27e362] [cursor=pointer]
+    - option "2014" [ref=f27e365] [cursor=pointer]
+    - option "2013" [ref=f27e368] [cursor=pointer]
+    - option "2012" [ref=f27e371] [cursor=pointer]
+    - option "2011" [ref=f27e374] [cursor=pointer]
+    - option "2010" [ref=f27e377] [cursor=pointer]
+    - option "2009" [ref=f27e380] [cursor=pointer]
+    - option "2008" [ref=f27e383] [cursor=pointer]
+    - option "2007" [ref=f27e386] [cursor=pointer]
+    - option "2006" [ref=f27e389] [cursor=pointer]
+    - option "2005" [ref=f27e392] [cursor=pointer]
+    - option "2004" [ref=f27e395] [cursor=pointer]
+    - option "2003" [ref=f27e398] [cursor=pointer]
+    - option "2002" [ref=f27e401] [cursor=pointer]
+    - option "2001" [ref=f27e404] [cursor=pointer]
+    - option "2000" [ref=f27e407] [cursor=pointer]
+    - option "1999" [ref=f27e410] [cursor=pointer]
+    - option "1998" [ref=f27e413] [cursor=pointer]
+    - option "1997" [ref=f27e416] [cursor=pointer]
+    - option "1996" [ref=f27e419] [cursor=pointer]
+    - option "1995" [ref=f27e422] [cursor=pointer]
+    - option "1994" [ref=f27e425] [cursor=pointer]
+    - option "1993" [ref=f27e428] [cursor=pointer]
+    - option "1992" [ref=f27e431] [cursor=pointer]
+    - option "1991" [ref=f27e434] [cursor=pointer]
+    - option "1990" [ref=f27e437] [cursor=pointer]
+    - option "1989" [ref=f27e440] [cursor=pointer]
+    - option "1988" [ref=f27e443] [cursor=pointer]
+    - option "1987" [ref=f27e446] [cursor=pointer]
+    - option "1986" [ref=f27e449] [cursor=pointer]
+    - option "1985" [ref=f27e452] [cursor=pointer]
+    - option "1984" [ref=f27e455] [cursor=pointer]
+    - option "1983" [ref=f27e458] [cursor=pointer]
+    - option "1982" [ref=f27e461] [cursor=pointer]
+    - option "1981" [ref=f27e464] [cursor=pointer]
+    - option "1980" [ref=f27e467] [cursor=pointer]
+    - option "1979" [ref=f27e470] [cursor=pointer]
+    - option "1978" [ref=f27e473] [cursor=pointer]
+    - option "1977" [ref=f27e476] [cursor=pointer]
+    - option "1976" [ref=f27e479] [cursor=pointer]
+    - option "1975" [ref=f27e482] [cursor=pointer]
+    - option "1974" [ref=f27e485] [cursor=pointer]
+    - option "1973" [ref=f27e488] [cursor=pointer]
+    - option "1972" [ref=f27e491] [cursor=pointer]
+    - option "1971" [ref=f27e494] [cursor=pointer]
+    - option "1970" [ref=f27e497] [cursor=pointer]
+    - option "1969" [ref=f27e500] [cursor=pointer]
+    - option "1968" [ref=f27e503] [cursor=pointer]
+    - option "1967" [ref=f27e506] [cursor=pointer]
+    - option "1966" [ref=f27e509] [cursor=pointer]
+    - option "1965" [ref=f27e512] [cursor=pointer]
+    - option "1964" [ref=f27e515] [cursor=pointer]
+    - option "1963" [ref=f27e518] [cursor=pointer]
+    - option "1962" [ref=f27e521] [cursor=pointer]
+    - option "1961" [ref=f27e524] [cursor=pointer]
+    - option "1960" [ref=f27e527] [cursor=pointer]
+    - option "1959" [ref=f27e530] [cursor=pointer]
+    - option "1958" [ref=f27e533] [cursor=pointer]
+    - option "1957" [ref=f27e536] [cursor=pointer]
+    - option "1956" [ref=f27e539] [cursor=pointer]
+    - option "1955" [ref=f27e542] [cursor=pointer]
+    - option "1954" [ref=f27e545] [cursor=pointer]
+    - option "1953" [ref=f27e548] [cursor=pointer]
+    - option "1952" [ref=f27e551] [cursor=pointer]
+    - option "1951" [ref=f27e554] [cursor=pointer]
+    - option "1950" [ref=f27e557] [cursor=pointer]

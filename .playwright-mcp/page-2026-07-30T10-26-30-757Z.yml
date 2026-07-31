@@ -1,0 +1,107 @@
+- generic [active] [ref=f101e1]:
+  - generic [ref=f101e2]:
+    - link "Skip to main content" [ref=f101e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f101e4]:
+      - generic [ref=f101e5]:
+        - link [ref=f101e7] [cursor=pointer]:
+          - /url: /volunteer
+          - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f101e8]
+        - generic [ref=f101e9]:
+          - link "Home" [ref=f101e10] [cursor=pointer]:
+            - /url: /volunteer
+          - link "My Activities" [ref=f101e15] [cursor=pointer]:
+            - /url: /volunteer/work-history
+          - link "Messages" [ref=f101e20] [cursor=pointer]:
+            - /url: /volunteer/messages
+          - link "Payouts" [ref=f101e24] [cursor=pointer]:
+            - /url: /volunteer/assistance-payouts
+          - link "Guide" [ref=f101e29] [cursor=pointer]:
+            - /url: /help
+        - generic [ref=f101e33]:
+          - link "Notifications, 5 unread" [ref=f101e34] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=f101e38]: "5"
+            - generic [ref=f101e39]: 5 unread notifications
+          - button "Profile picture of Rohan Verma Rohan Verma" [ref=f101e40] [cursor=pointer]:
+            - img "Profile picture of Rohan Verma" [ref=f101e41]
+            - generic [ref=f101e42]: Rohan Verma
+    - main [ref=f101e45]:
+      - generic [ref=f101e47]:
+        - complementary [ref=f101e48]:
+          - generic [ref=f101e49]:
+            - generic [ref=f101e50]:
+              - img "Cover photo for Rohan Verma" [ref=f101e51]
+              - generic [ref=f101e52]:
+                - img "Profile picture of Rohan Verma" [ref=f101e53]
+                - generic [ref=f101e55]:
+                  - heading "Rohan Verma" [level=2] [ref=f101e56]
+                  - img "Verified Badge" [ref=f101e57]
+                - paragraph [ref=f101e58]: Volunteer
+              - generic [ref=f101e59]:
+                - generic [ref=f101e60]:
+                  - text: "0"
+                  - paragraph [ref=f101e61]: Request Volunteered
+                - generic [ref=f101e62]:
+                  - text: "0"
+                  - paragraph [ref=f101e63]: Exam Completed
+              - link "View Profile" [ref=f101e65] [cursor=pointer]:
+                - /url: /volunteer/profile
+            - 'button "Play video: How to Login as a Volunteer" [ref=f101e67] [cursor=pointer]':
+              - generic [ref=f101e68]:
+                - generic [ref=f101e69]:
+                  - img "Video thumbnail" [ref=f101e70]
+                  - img "Video thumbnail" [ref=f101e71]
+                - generic [ref=f101e72]:
+                  - heading "How to Login as a Volunteer" [level=3] [ref=f101e73]
+                  - paragraph [ref=f101e74]: Watch the updated volunteer login flow and first dashboard walkthrough
+        - generic [ref=f101e78]:
+          - button "Back to Activities List" [ref=f101e80]
+          - generic [ref=f101e84]:
+            - generic [ref=f101e85]:
+              - generic [ref=f101e86]:
+                - generic [ref=f101e87]:
+                  - heading "B.A. Semester 3 Examination" [level=2] [ref=f101e88]
+                  - generic [ref=f101e89]: PU Semester Exam
+                - button "Share" [ref=f101e91] [cursor=pointer]
+              - generic [ref=f101e93]:
+                - generic [ref=f101e94]:
+                  - img "Exam Center Details" [ref=f101e95]
+                  - generic [ref=f101e96]:
+                    - paragraph [ref=f101e97]: Panjab University Exam Centre
+                    - paragraph [ref=f101e98]: Sector 14, Panjab University Campus, Chandigarh, Chandigarh, chandigarh - 160014
+                    - generic [ref=f101e99]:
+                      - generic [ref=f101e100]: "Medium: English"
+                      - generic [ref=f101e101]: "State: chandigarh"
+                      - generic [ref=f101e102]: "City: Chandigarh"
+                      - generic [ref=f101e103]: "Pin code: 160014"
+                    - paragraph [ref=f101e104]: "Note: QA test PU semester exam request created via automated flow."
+                - generic [ref=f101e105]:
+                  - link "View Hall Pass" [ref=f101e106] [cursor=pointer]:
+                    - /url: https://api-v1.thescribebank.com//uploads/1785405894800-hall pass.jpg
+                  - link "View date Sheet" [ref=f101e107] [cursor=pointer]:
+                    - /url: https://api-v1.thescribebank.com//uploads/1785405914342-hall pass.jpg
+            - generic [ref=f101e109]:
+              - img "Subject Details" [ref=f101e110]
+              - generic [ref=f101e111]:
+                - generic [ref=f101e112]:
+                  - paragraph [ref=f101e113]: "Subject : Political Science"
+                  - generic [ref=f101e114]: COMPLETION REQUESTED
+                - paragraph [ref=f101e117]: "Medium: English"
+                - paragraph [ref=f101e118]: "Date: 30/07/2026"
+                - paragraph [ref=f101e119]: "Start Time: 09:00 AM End Time: 10:23 AM"
+                - generic [ref=f101e120]:
+                  - paragraph [ref=f101e121]: You Requested beneficiary to mark this request as completed
+                  - generic [ref=f101e123]:
+                    - generic [ref=f101e124]: Priya Sharma
+                    - generic [ref=f101e125]: "|"
+                    - button "Send message" [ref=f101e126] [cursor=pointer]:
+                      - generic [ref=f101e127]: Chat
+    - contentinfo "Website Footer" [ref=f101e135]:
+      - generic [ref=f101e136]: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert [ref=f101e138]
+  - iframe [ref=f101e139]:
+    - generic [ref=f102e5]:
+      - button [ref=f102e6] [cursor=pointer]
+      - generic [ref=f102e7]: "1"

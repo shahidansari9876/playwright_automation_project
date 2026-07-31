@@ -1,0 +1,120 @@
+- generic [ref=f81e1]:
+  - generic [ref=f81e2]:
+    - link "Skip to main content" [ref=f81e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f81e4]:
+      - generic [ref=f81e5]:
+        - link [ref=f81e7] [cursor=pointer]:
+          - /url: /volunteer
+          - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f81e8]
+        - generic [ref=f81e9]:
+          - link "Home" [ref=f81e10] [cursor=pointer]:
+            - /url: /volunteer
+          - link "My Activities" [ref=f81e15] [cursor=pointer]:
+            - /url: /volunteer/work-history
+          - link "Messages" [ref=f81e20] [cursor=pointer]:
+            - /url: /volunteer/messages
+          - link "Payouts" [ref=f81e24] [cursor=pointer]:
+            - /url: /volunteer/assistance-payouts
+          - link "Guide" [ref=f81e29] [cursor=pointer]:
+            - /url: /help
+        - generic [ref=f81e33]:
+          - link "Notifications, 4 unread" [ref=f81e62] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=f81e63]: "4"
+            - generic [ref=f81e64]: 4 unread notifications
+          - button "Profile picture of Rohan Verma Rohan Verma" [expanded] [ref=f81e38] [cursor=pointer]:
+            - img "Profile picture of Rohan Verma" [ref=f81e39]
+            - generic [ref=f81e40]: Rohan Verma
+    - main [ref=f81e43]:
+      - generic [ref=f81e65]:
+        - complementary [ref=f81e66]:
+          - generic [ref=f81e67]:
+            - generic [ref=f81e68]:
+              - img "Cover photo for Rohan Verma" [ref=f81e69]
+              - generic [ref=f81e70]:
+                - img "Profile picture of Rohan Verma" [ref=f81e71]
+                - generic [ref=f81e73]:
+                  - heading "Rohan Verma" [level=2] [ref=f81e74]
+                  - img "Verified Badge" [ref=f81e75]
+                - paragraph [ref=f81e76]: Volunteer
+              - generic [ref=f81e77]:
+                - generic [ref=f81e78]:
+                  - text: "0"
+                  - paragraph [ref=f81e79]: Request Volunteered
+                - generic [ref=f81e80]:
+                  - text: "0"
+                  - paragraph [ref=f81e81]: Exam Completed
+              - link "View Profile" [ref=f81e83] [cursor=pointer]:
+                - /url: /volunteer/profile
+            - 'button "Play video: How to Login as a Volunteer" [ref=f81e85] [cursor=pointer]':
+              - generic [ref=f81e86]:
+                - generic [ref=f81e87]:
+                  - img "Video thumbnail" [ref=f81e88]
+                  - img "Video thumbnail" [ref=f81e89]
+                - generic [ref=f81e90]:
+                  - heading "How to Login as a Volunteer" [level=3] [ref=f81e91]
+                  - paragraph [ref=f81e92]: Watch the updated volunteer login flow and first dashboard walkthrough
+        - generic [ref=f81e96]:
+          - button "Back to Activities List" [ref=f81e98]
+          - generic [ref=f81e102]:
+            - generic [ref=f81e103]:
+              - generic [ref=f81e104]:
+                - generic [ref=f81e105]:
+                  - heading "B.A. Semester 3 Examination" [level=2] [ref=f81e106]
+                  - generic [ref=f81e107]: PU Semester Exam
+                - button "Share" [ref=f81e109] [cursor=pointer]
+              - generic [ref=f81e111]:
+                - generic [ref=f81e112]:
+                  - img "Exam Center Details" [ref=f81e113]
+                  - generic [ref=f81e114]:
+                    - paragraph [ref=f81e115]: Panjab University Exam Centre
+                    - paragraph [ref=f81e116]: Sector 14, Panjab University Campus, Chandigarh, Chandigarh, chandigarh - 160014
+                    - generic [ref=f81e117]:
+                      - generic [ref=f81e118]: "Medium: English"
+                      - generic [ref=f81e119]: "State: chandigarh"
+                      - generic [ref=f81e120]: "City: Chandigarh"
+                      - generic [ref=f81e121]: "Pin code: 160014"
+                    - paragraph [ref=f81e122]: "Note: QA test PU semester exam request created via automated flow."
+                - generic [ref=f81e123]:
+                  - link "View Hall Pass" [ref=f81e124] [cursor=pointer]:
+                    - /url: https://api-v1.thescribebank.com//uploads/1785405894800-hall pass.jpg
+                  - link "View date Sheet" [ref=f81e125] [cursor=pointer]:
+                    - /url: https://api-v1.thescribebank.com//uploads/1785405914342-hall pass.jpg
+            - generic [ref=f81e127]:
+              - img "Subject Details" [ref=f81e128]
+              - generic [ref=f81e129]:
+                - generic [ref=f81e130]:
+                  - paragraph [ref=f81e131]: "Subject : Political Science"
+                  - generic [ref=f81e132]:
+                    - generic [ref=f81e133]: Accepted
+                    - generic [ref=f81e134]: PU Rejected
+                - paragraph [ref=f81e135]: "Medium: English"
+                - paragraph [ref=f81e136]: "Date: 15/12/2026"
+                - paragraph [ref=f81e137]: "Start Time: 09:00 AM End Time: 12:00 PM"
+                - generic [ref=f81e138]:
+                  - paragraph [ref=f81e139]: "You Accepted this request and are now assisting the beneficiary :"
+                  - generic [ref=f81e141]:
+                    - generic [ref=f81e142]: Priya Sharma
+                    - generic [ref=f81e143]: "|"
+                    - button "Send message. Chat will be enabled 12 hours before the exam (14 Dec 2026, 9:00 pm)." [disabled] [ref=f81e144]:
+                      - generic [ref=f81e145]: Chat
+                - generic [ref=f81e146]:
+                  - paragraph [ref=f81e147]: The verification for Volunteer has been rejected.
+                  - paragraph [ref=f81e148]: "Reason: Highest education document uploaded is unclear and needs to be resubmitted for verification."
+                - generic [ref=f81e150]:
+                  - button "Withdraw Scribe Support" [ref=f81e151] [cursor=pointer]:
+                    - img "Withdraw" [ref=f81e152]
+                    - text: Withdraw Scribe Support
+                  - button "Resubmit PU verification" [ref=f81e153] [cursor=pointer]: Resubmit for PU Review
+    - contentinfo "Website Footer" [ref=f81e58]:
+      - generic [ref=f81e59]: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert [ref=f81e61]
+  - iframe [ref=f81e154]:
+    - generic [ref=f82e5]:
+      - button [ref=f82e6] [cursor=pointer]
+      - generic [ref=f82e7]: "1"
+  - menu "Profile picture of Rohan Verma Rohan Verma" [active] [ref=f81e156]:
+    - menuitem "Profile" [ref=f81e157] [cursor=pointer]
+    - menuitem "Logout" [ref=f81e158] [cursor=pointer]

@@ -1,0 +1,35 @@
+- generic [active] [ref=f61e1]:
+  - generic [ref=f61e45]:
+    - link "Skip to main content" [ref=f61e46] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f61e47]:
+      - generic [ref=f61e48]:
+        - link [ref=f61e50] [cursor=pointer]:
+          - /url: /beneficiary
+          - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f61e51]
+        - generic [ref=f61e52]:
+          - link "Home" [ref=f61e53] [cursor=pointer]:
+            - /url: /beneficiary
+          - link "New Request" [ref=f61e58] [cursor=pointer]:
+            - /url: /new-request
+          - link "Messages" [ref=f61e62] [cursor=pointer]:
+            - /url: /beneficiary/messages
+          - link "Guide" [ref=f61e66] [cursor=pointer]:
+            - /url: /help
+          - link "Notifications" [ref=f61e70] [cursor=pointer]:
+            - /url: /notifications
+        - button "Profile picture of Priya Sharma Priya Sharma" [ref=f61e74] [cursor=pointer]:
+          - img "Profile picture of Priya Sharma" [ref=f61e75]
+          - generic [ref=f61e76]: Priya Sharma
+    - main [ref=f61e79]
+    - contentinfo "Website Footer" [ref=f61e81]:
+      - generic [ref=f61e82]: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=f61e84]:
+        - generic [ref=f61e88]: Login successful!
+  - alert [ref=f61e26]: The Scribe Bank - Homepage
+  - iframe [ref=f61e27]:
+    - generic [ref=f62e5]:
+      - button [ref=f62e6] [cursor=pointer]
+      - generic [ref=f62e7]: "1"

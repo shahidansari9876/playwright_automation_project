@@ -1,0 +1,28 @@
+{
+  "name": "stq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "mcp": "npx @playwright/mcp --browser chromium",
+    "gemini": "gemini"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@google/gemini-cli": "^0.50.0",
+    "@playwright/mcp": "^0.0.78",
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.0"
+  },
+  "dependencies": {
+    "archiver": "^8.0.0",
+    "chromium": "^3.0.3",
+    "dotenv": "^17.4.2",
+    "install": "^0.13.0",
+    "nodemailer": "^9.0.3",
+    "npx": "^10.2.2",
+    "playwright": "^1.61.1"
+  }
+}

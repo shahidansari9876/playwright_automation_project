@@ -1,0 +1,120 @@
+- generic:
+  - generic:
+    - link:
+      - /url: "#main-content"
+      - text: Skip to main content
+    - banner:
+      - generic:
+        - generic:
+          - link:
+            - /url: /volunteer
+        - generic:
+          - link:
+            - /url: /volunteer
+            - generic: Home
+          - link:
+            - /url: /volunteer/work-history
+            - generic: My Activities
+          - link:
+            - /url: /volunteer/messages
+            - generic: Messages
+          - link:
+            - /url: /volunteer/assistance-payouts
+            - generic: Payouts
+          - link:
+            - /url: /help
+            - generic: Guide
+        - generic:
+          - link "Notifications, 7 unread":
+            - /url: /notifications
+            - generic: "7"
+            - generic: 7 unread notifications
+          - button:
+            - generic: Rohan Verma
+    - main:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=1]: Payment Methods
+              - paragraph: Manage your bank accounts and payment methods for receiving payouts
+            - button: Add Payment Method
+          - generic:
+            - generic:
+              - heading [level=3]: No Payment Methods Added
+              - paragraph: Add a payment method to receive payouts for your volunteer work. You can add bank accounts, UPI IDs, or other payment methods.
+              - button: Add Your First Payment Method
+    - contentinfo:
+      - generic: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert
+  - iframe [ref=f119e133]:
+    - generic [ref=f120e5]:
+      - button [ref=f120e6] [cursor=pointer]
+      - generic [ref=f120e7]: "1"
+  - dialog [ref=f119e169]:
+    - generic [ref=f119e170]:
+      - heading "Bank Account Details" [level=2] [ref=f119e171]
+      - paragraph [ref=f119e172]: "Add your bank account details for payouts. Please upload proof of bank account (cancelled cheque or bank statement). Accepted formats: JPG, PNG, PDF (Max 5MB)"
+    - generic [ref=f119e173]:
+      - generic [ref=f119e174]:
+        - generic [ref=f119e175]:
+          - generic [ref=f119e176]: Account Holder Name
+          - textbox "Account Holder Name" [active] [ref=f119e177]:
+            - /placeholder: John Doe
+        - generic [ref=f119e178]:
+          - generic [ref=f119e179]: Bank Name
+          - textbox "Bank Name" [ref=f119e180]:
+            - /placeholder: State Bank of India
+      - generic [ref=f119e181]:
+        - generic [ref=f119e182]:
+          - generic [ref=f119e183]: Account Number
+          - textbox "Account Number" [ref=f119e184]:
+            - /placeholder: "123456789012"
+          - paragraph [ref=f119e185]: Enter 9-18 digits only
+        - generic [ref=f119e186]:
+          - generic [ref=f119e187]: Confirm Account Number
+          - textbox "Confirm Account Number" [ref=f119e188]:
+            - /placeholder: Re-enter account number
+          - paragraph [ref=f119e189]: Please re-type — pasting is disabled to catch typos
+      - generic [ref=f119e190]:
+        - generic [ref=f119e191]:
+          - generic [ref=f119e192]: IFSC Code
+          - textbox "IFSC Code" [ref=f119e193]:
+            - /placeholder: SBIN0001234
+          - paragraph [ref=f119e194]: 11 characters (e.g., SBIN0001234)
+        - generic [ref=f119e195]:
+          - generic [ref=f119e196]: Confirm IFSC Code
+          - textbox "Confirm IFSC Code" [ref=f119e197]:
+            - /placeholder: Re-enter IFSC code
+          - paragraph [ref=f119e198]: Please re-type — pasting is disabled to catch typos
+      - generic [ref=f119e199]:
+        - generic [ref=f119e200]:
+          - generic [ref=f119e201]: Branch
+          - textbox "Branch" [ref=f119e202]:
+            - /placeholder: Mumbai Main Branch
+        - generic [ref=f119e203]:
+          - generic [ref=f119e204]: Cancelled Cheque (Optional)
+          - generic [ref=f119e206]:
+            - generic [ref=f119e207] [cursor=pointer]: Choose file...
+            - generic "Upload file" [ref=f119e209] [cursor=pointer]
+      - generic [ref=f119e213]:
+        - generic [ref=f119e214]: Account Name (Display Name)
+        - textbox "Account Name (Display Name)" [ref=f119e215]:
+          - /placeholder: My Primary Bank Account
+        - paragraph [ref=f119e216]: A friendly name to identify this account
+      - generic [ref=f119e217]:
+        - checkbox "Mark as Default" [ref=f119e218] [cursor=pointer]
+        - generic [ref=f119e219]: Mark as Default
+      - generic [ref=f119e220]:
+        - text: By clicking the submit button, I agree to the
+        - link "terms and conditions" [ref=f119e221] [cursor=pointer]:
+          - /url: /terms-services
+        - text: and
+        - link "privacy policy" [ref=f119e222] [cursor=pointer]:
+          - /url: /privacy-policy
+        - text: of Save the Quest.
+      - generic [ref=f119e223]:
+        - button "Cancel" [ref=f119e224] [cursor=pointer]
+        - button "Submit" [ref=f119e225] [cursor=pointer]
+    - button "Close" [ref=f119e226]

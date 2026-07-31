@@ -1,0 +1,32 @@
+- generic [active] [ref=f124e1]:
+  - generic [ref=f124e2]:
+    - link "Skip to main content" [ref=f124e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f124e4]:
+      - generic [ref=f124e5]:
+        - link [ref=f124e7] [cursor=pointer]:
+          - /url: /volunteer
+          - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f124e8]
+        - generic [ref=f124e9]:
+          - link "Home" [ref=f124e10] [cursor=pointer]:
+            - /url: /volunteer
+          - link "My Activities" [ref=f124e15] [cursor=pointer]:
+            - /url: /volunteer/work-history
+          - link "Messages" [ref=f124e20] [cursor=pointer]:
+            - /url: /volunteer/messages
+          - link "Payouts" [ref=f124e24] [cursor=pointer]:
+            - /url: /volunteer/assistance-payouts
+          - link "Guide" [ref=f124e29] [cursor=pointer]:
+            - /url: /help
+        - generic [ref=f124e33]:
+          - link "Notifications" [ref=f124e34] [cursor=pointer]:
+            - /url: /notifications
+          - button "Profile picture of Rohan Verma Rohan Verma" [ref=f124e38] [cursor=pointer]:
+            - img "Profile picture of Rohan Verma" [ref=f124e39]
+            - generic [ref=f124e40]: Rohan Verma
+    - main [ref=f124e43]:
+      - complementary [ref=f124e46]
+    - contentinfo "Website Footer" [ref=f124e58]:
+      - generic [ref=f124e59]: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert [ref=f124e61]

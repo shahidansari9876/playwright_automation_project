@@ -1,0 +1,28 @@
+- generic [active] [ref=f17e1]:
+  - generic [ref=f17e2]:
+    - link "Skip to main content" [ref=f17e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f17e4]:
+      - generic [ref=f17e5]:
+        - link [ref=f17e7] [cursor=pointer]:
+          - /url: /beneficiary
+          - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f17e8]
+        - generic [ref=f17e9]:
+          - link "Home" [ref=f17e10] [cursor=pointer]:
+            - /url: /beneficiary
+          - link "New Request" [ref=f17e15] [cursor=pointer]:
+            - /url: /new-request
+          - link "Messages" [ref=f17e19] [cursor=pointer]:
+            - /url: /beneficiary/messages
+          - link "Guide" [ref=f17e23] [cursor=pointer]:
+            - /url: /help
+          - link "Notifications" [ref=f17e27] [cursor=pointer]:
+            - /url: /notifications
+        - button "Profile picture of Test Benificiary Test Benificiary" [ref=f17e31] [cursor=pointer]:
+          - img "Profile picture of Test Benificiary" [ref=f17e32]
+          - generic [ref=f17e33]: Test Benificiary
+    - main [ref=f17e36]
+    - contentinfo "Website Footer" [ref=f17e38]:
+      - generic [ref=f17e39]: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert [ref=f17e41]

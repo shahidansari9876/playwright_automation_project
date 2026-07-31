@@ -1,0 +1,450 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e2]:
+    - generic [ref=f8e5]:
+      - list [ref=f8e7]:
+        - listitem [ref=f8e8]:
+          - button "The Scribe Bank" [ref=f8e9]
+      - generic [ref=f8e15]:
+        - generic [ref=f8e16]: Platform
+        - list [ref=f8e17]:
+          - listitem [ref=f8e18] [cursor=pointer]:
+            - link "System Emails" [ref=f8e19]:
+              - /url: /admin/system-emails
+      - list [ref=f8e28]:
+        - listitem [ref=f8e29]:
+          - link "SA shahid ansari shahid.ansari@ledsak.ai" [ref=f8e30] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - generic [ref=f8e31]: SA
+            - generic [ref=f8e33]:
+              - generic [ref=f8e34]: shahid ansari
+              - generic [ref=f8e35]: shahid.ansari@ledsak.ai
+          - button "Open user menu" [ref=f8e36]
+    - main [ref=f8e41]:
+      - generic [ref=f8e43]:
+        - button "Toggle Sidebar" [ref=f8e44]
+        - heading "Payouts" [level=1] [ref=f8e46]
+        - generic [ref=f8e47]:
+          - link "Leaderboard" [ref=f8e48] [cursor=pointer]:
+            - /url: /admin/payouts/leaderboard
+          - button "Export" [ref=f8e49]
+          - button "Switch to dark mode" [ref=f8e50]:
+            - generic [ref=f8e51]: Dark mode
+      - generic [ref=f8e55]:
+        - generic [ref=f8e58]:
+          - textbox "Search by volunteer name, transaction/UTR ID, exam name, or subject..." [ref=f8e64]
+          - button "Payment Status" [ref=f8e65]
+          - button "Volunteer State" [ref=f8e68]
+          - button "Exam State" [ref=f8e70]
+          - button "Beneficiary State" [ref=f8e72]
+          - generic [ref=f8e74]:
+            - button "Sort" [ref=f8e75]
+            - button "Advanced" [ref=f8e77]
+        - table [ref=f8e82]:
+          - rowgroup [ref=f8e83]:
+            - row [ref=f8e84]:
+              - columnheader [ref=f8e85]
+              - columnheader "#" [ref=f8e86]
+              - columnheader "Volunteer" [ref=f8e87] [cursor=pointer]
+              - columnheader "Beneficiary" [ref=f8e93]
+              - columnheader "Amount" [ref=f8e94] [cursor=pointer]
+              - columnheader "Exam" [ref=f8e100]
+              - columnheader "Transaction ID / UTR ID" [ref=f8e101]
+              - columnheader "Request Date" [ref=f8e102] [cursor=pointer]
+              - columnheader "Last Updated" [ref=f8e108] [cursor=pointer]
+              - columnheader "Status" [ref=f8e114]
+              - columnheader "Account Details" [ref=f8e115]
+              - columnheader "Actions" [ref=f8e116]
+          - rowgroup [ref=f8e117]:
+            - row [ref=f8e118]:
+              - cell [ref=f8e119]
+              - cell "1" [ref=f8e120]
+              - cell [ref=f8e121]:
+                - generic [ref=f8e122]:
+                  - link "Amit volunteer" [ref=f8e123] [cursor=pointer]:
+                    - /url: /admin/volunteers/20?id_type=user
+                  - paragraph [ref=f8e124]: "ID: 20"
+              - cell [ref=f8e125]:
+                - generic [ref=f8e126]:
+                  - link "Amit ji Beneficiary" [ref=f8e127] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/8
+                  - paragraph [ref=f8e128]: "ID: 8"
+              - cell "₹400.00" [ref=f8e129]
+              - cell [ref=f8e130]:
+                - generic [ref=f8e131]:
+                  - link "second semester" [ref=f8e132] [cursor=pointer]:
+                    - /url: /admin/exams/8
+                  - paragraph [ref=f8e133]: "Subject: math"
+                  - paragraph [ref=f8e134]: "Exam ID: #8"
+              - cell "TXN-1766208886731-4" [ref=f8e135]
+              - cell [ref=f8e136]:
+                - generic [ref=f8e137]:
+                  - paragraph [ref=f8e138]: 19/12/2025
+                  - paragraph [ref=f8e139]: 18:03
+              - cell [ref=f8e140]:
+                - generic [ref=f8e141]:
+                  - paragraph [ref=f8e142]: 21/04/2026
+                  - paragraph [ref=f8e143]: 14:12
+              - cell "completed" [ref=f8e144]
+              - 'cell "Bank: HDFC, A/C Holder: Amit, A/C No: ****5678, IFSC: SBIN0001234, Branch: Noida" [ref=f8e146]'
+              - cell [ref=f8e148]:
+                - generic [ref=f8e149]:
+                  - link "View details" [ref=f8e150] [cursor=pointer]:
+                    - /url: /admin/payouts/4
+                  - button "Edit payment" [ref=f8e152]
+                  - button "Delete payment" [ref=f8e154]
+            - row [ref=f8e156]:
+              - cell [ref=f8e157]
+              - cell "2" [ref=f8e158]
+              - cell [ref=f8e159]:
+                - generic [ref=f8e160]:
+                  - link "Amit Volunteer" [ref=f8e161] [cursor=pointer]:
+                    - /url: /admin/volunteers/22?id_type=user
+                  - paragraph [ref=f8e162]: "ID: 22"
+              - cell [ref=f8e163]:
+                - generic [ref=f8e164]:
+                  - link "Amit Beneficiaries" [ref=f8e165] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/9
+                  - paragraph [ref=f8e166]: "ID: 9"
+              - cell "₹400.00" [ref=f8e167]
+              - cell [ref=f8e168]:
+                - generic [ref=f8e169]:
+                  - link "Midterm" [ref=f8e170] [cursor=pointer]:
+                    - /url: /admin/exams/9
+                  - paragraph [ref=f8e171]: "Subject: Math"
+                  - paragraph [ref=f8e172]: "Exam ID: #9"
+              - cell "NEFT9182374612" [ref=f8e173]
+              - cell [ref=f8e174]:
+                - generic [ref=f8e175]:
+                  - paragraph [ref=f8e176]: 20/12/2025
+                  - paragraph [ref=f8e177]: 13:19
+              - cell [ref=f8e178]:
+                - generic [ref=f8e179]:
+                  - paragraph [ref=f8e180]: 21/04/2026
+                  - paragraph [ref=f8e181]: 14:12
+              - cell "completed" [ref=f8e182]
+              - 'cell "Bank: State Bank of India , A/C Holder: Amit Kumar Das, A/C No: ****5999, IFSC: SBIN0001234" [ref=f8e184]'
+              - cell [ref=f8e186]:
+                - generic [ref=f8e187]:
+                  - link "View details" [ref=f8e188] [cursor=pointer]:
+                    - /url: /admin/payouts/5
+                  - button "Edit payment" [ref=f8e190]
+                  - button "Delete payment" [ref=f8e192]
+            - row [ref=f8e194]:
+              - cell [ref=f8e195]
+              - cell "3" [ref=f8e196]
+              - cell [ref=f8e197]:
+                - generic [ref=f8e198]:
+                  - link "Amit volunteer" [ref=f8e199] [cursor=pointer]:
+                    - /url: /admin/volunteers/20?id_type=user
+                  - paragraph [ref=f8e200]: "ID: 20"
+              - cell [ref=f8e201]:
+                - generic [ref=f8e202]:
+                  - link "Amit Beneficiaries" [ref=f8e203] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/9
+                  - paragraph [ref=f8e204]: "ID: 9"
+              - cell "₹400.00" [ref=f8e205]
+              - cell [ref=f8e206]:
+                - generic [ref=f8e207]:
+                  - link "Jee main" [ref=f8e208] [cursor=pointer]:
+                    - /url: /admin/exams/10
+                  - paragraph [ref=f8e209]: "Subject: Math"
+                  - paragraph [ref=f8e210]: "Exam ID: #10"
+              - cell "NEFT9182374612" [ref=f8e211]
+              - cell [ref=f8e212]:
+                - generic [ref=f8e213]:
+                  - paragraph [ref=f8e214]: 20/12/2025
+                  - paragraph [ref=f8e215]: 14:38
+              - cell [ref=f8e216]:
+                - generic [ref=f8e217]:
+                  - paragraph [ref=f8e218]: 21/04/2026
+                  - paragraph [ref=f8e219]: 14:12
+              - cell "completed" [ref=f8e220]
+              - 'cell "Bank: Frgggrr, A/C Holder: Fddgf, A/C No: ****5555, IFSC: SBIN0001234" [ref=f8e222]'
+              - cell [ref=f8e224]:
+                - generic [ref=f8e225]:
+                  - link "View details" [ref=f8e226] [cursor=pointer]:
+                    - /url: /admin/payouts/6
+                  - button "Edit payment" [ref=f8e228]
+                  - button "Delete payment" [ref=f8e230]
+            - row [ref=f8e232]:
+              - cell [ref=f8e233]
+              - cell "4" [ref=f8e234]
+              - cell [ref=f8e235]:
+                - generic [ref=f8e236]:
+                  - link "Amit volunteer" [ref=f8e237] [cursor=pointer]:
+                    - /url: /admin/volunteers/20?id_type=user
+                  - paragraph [ref=f8e238]: "ID: 20"
+              - cell [ref=f8e239]:
+                - generic [ref=f8e240]:
+                  - link "Amit Beneficiary" [ref=f8e241] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/10
+                  - paragraph [ref=f8e242]: "ID: 10"
+              - cell "₹400.00" [ref=f8e243]
+              - cell [ref=f8e244]:
+                - generic [ref=f8e245]:
+                  - link "UPSC Civil Services Prelims 2025" [ref=f8e246] [cursor=pointer]:
+                    - /url: /admin/exams/12
+                  - paragraph [ref=f8e247]: "Subject: General Studies – Paper I"
+                  - paragraph [ref=f8e248]: "Exam ID: #12"
+              - cell "TXN-1766229459459-7" [ref=f8e249]
+              - cell [ref=f8e250]:
+                - generic [ref=f8e251]:
+                  - paragraph [ref=f8e252]: 20/12/2025
+                  - paragraph [ref=f8e253]: 16:28
+              - cell [ref=f8e254]:
+                - generic [ref=f8e255]:
+                  - paragraph [ref=f8e256]: 21/04/2026
+                  - paragraph [ref=f8e257]: 14:12
+              - cell "completed" [ref=f8e258]
+              - 'cell "Bank: State Bank of India, A/C Holder: Rahul Kumar, A/C No: ****9012, IFSC: SBIN0001234, Branch: New Delhi Main Branch" [ref=f8e260]'
+              - cell [ref=f8e262]:
+                - generic [ref=f8e263]:
+                  - link "View details" [ref=f8e264] [cursor=pointer]:
+                    - /url: /admin/payouts/7
+                  - button "Edit payment" [ref=f8e266]
+                  - button "Delete payment" [ref=f8e268]
+            - row [ref=f8e270]:
+              - cell [ref=f8e271]
+              - cell "5" [ref=f8e272]
+              - cell [ref=f8e273]:
+                - generic [ref=f8e274]:
+                  - link "Amit volunteer" [ref=f8e275] [cursor=pointer]:
+                    - /url: /admin/volunteers/20?id_type=user
+                  - paragraph [ref=f8e276]: "ID: 20"
+              - cell [ref=f8e277]:
+                - generic [ref=f8e278]:
+                  - link "Amit Beneficiary" [ref=f8e279] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/10
+                  - paragraph [ref=f8e280]: "ID: 10"
+              - cell "₹400.00" [ref=f8e281]
+              - cell [ref=f8e282]:
+                - generic [ref=f8e283]:
+                  - link "UPSC Civil Services Prelims 2025" [ref=f8e284] [cursor=pointer]:
+                    - /url: /admin/exams/18
+                  - paragraph [ref=f8e285]: "Subject: General Aptitude"
+                  - paragraph [ref=f8e286]: "Exam ID: #18"
+              - cell "NEFT9182374612" [ref=f8e287]
+              - cell [ref=f8e288]:
+                - generic [ref=f8e289]:
+                  - paragraph [ref=f8e290]: 20/12/2025
+                  - paragraph [ref=f8e291]: 17:09
+              - cell [ref=f8e292]:
+                - generic [ref=f8e293]:
+                  - paragraph [ref=f8e294]: 21/04/2026
+                  - paragraph [ref=f8e295]: 14:12
+              - cell "completed" [ref=f8e296]
+              - 'cell "Bank: Hdfc, A/C Holder: Amit, A/C No: ****9012, IFSC: SBIN0001234" [ref=f8e298]'
+              - cell [ref=f8e300]:
+                - generic [ref=f8e301]:
+                  - link "View details" [ref=f8e302] [cursor=pointer]:
+                    - /url: /admin/payouts/8
+                  - button "Edit payment" [ref=f8e304]
+                  - button "Delete payment" [ref=f8e306]
+            - row [ref=f8e308]:
+              - cell [ref=f8e309]
+              - cell "6" [ref=f8e310]
+              - cell [ref=f8e311]:
+                - generic [ref=f8e312]:
+                  - link "Gaurav volunteer" [ref=f8e313] [cursor=pointer]:
+                    - /url: /admin/volunteers/27?id_type=user
+                  - paragraph [ref=f8e314]: "ID: 27"
+              - cell [ref=f8e315]:
+                - generic [ref=f8e316]:
+                  - link "justine Beneficiary" [ref=f8e317] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/11
+                  - paragraph [ref=f8e318]: "ID: 11"
+              - cell "₹400.00" [ref=f8e319]
+              - cell [ref=f8e320]:
+                - generic [ref=f8e321]:
+                  - link "IBPs Exam" [ref=f8e322] [cursor=pointer]:
+                    - /url: /admin/exams/19
+                  - paragraph [ref=f8e323]: "Subject: maths"
+                  - paragraph [ref=f8e324]: "Exam ID: #19"
+              - cell "TXN-1767853992145-9" [ref=f8e325]
+              - cell [ref=f8e326]:
+                - generic [ref=f8e327]:
+                  - paragraph [ref=f8e328]: 23/12/2025
+                  - paragraph [ref=f8e329]: 15:50
+              - cell [ref=f8e330]:
+                - generic [ref=f8e331]:
+                  - paragraph [ref=f8e332]: 21/04/2026
+                  - paragraph [ref=f8e333]: 14:12
+              - cell "completed" [ref=f8e334]
+              - 'cell "Bank: HDFC, A/C Holder: amit, A/C No: ****9012, IFSC: SBIN0001234" [ref=f8e336]'
+              - cell [ref=f8e338]:
+                - generic [ref=f8e339]:
+                  - link "View details" [ref=f8e340] [cursor=pointer]:
+                    - /url: /admin/payouts/9
+                  - button "Edit payment" [ref=f8e342]
+                  - button "Delete payment" [ref=f8e344]
+            - row [ref=f8e346]:
+              - cell [ref=f8e347]
+              - cell "7" [ref=f8e348]
+              - cell [ref=f8e349]:
+                - generic [ref=f8e350]:
+                  - link "Vol NTR" [ref=f8e351] [cursor=pointer]:
+                    - /url: /admin/volunteers/68?id_type=user
+                  - paragraph [ref=f8e352]: "ID: 68"
+              - cell [ref=f8e353]:
+                - generic [ref=f8e354]:
+                  - link "Test 001 Eng" [ref=f8e355] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/22
+                  - paragraph [ref=f8e356]: "ID: 22"
+              - cell "₹400.00" [ref=f8e357]
+              - cell [ref=f8e358]:
+                - generic [ref=f8e359]:
+                  - link "Test 001" [ref=f8e360] [cursor=pointer]:
+                    - /url: /admin/exams/46
+                  - paragraph [ref=f8e361]: "Subject: Test"
+                  - paragraph [ref=f8e362]: "Exam ID: #46"
+              - cell "re" [ref=f8e363]
+              - cell [ref=f8e364]:
+                - generic [ref=f8e365]:
+                  - paragraph [ref=f8e366]: 17/01/2026
+                  - paragraph [ref=f8e367]: 17:35
+              - cell [ref=f8e368]:
+                - generic [ref=f8e369]:
+                  - paragraph [ref=f8e370]: 04/06/2026
+                  - paragraph [ref=f8e371]: 18:20
+              - cell "completed" [ref=f8e372]
+              - 'cell "Bank: HDFC Bank, A/C Holder: Ananya Verma, A/C No: ****1098, IFSC: HDFC0000456, Branch: Delhi" [ref=f8e374]'
+              - cell [ref=f8e376]:
+                - generic [ref=f8e377]:
+                  - link "View details" [ref=f8e378] [cursor=pointer]:
+                    - /url: /admin/payouts/11
+                  - button "Edit payment" [ref=f8e380]
+                  - button "Delete payment" [ref=f8e382]
+            - row [ref=f8e384]:
+              - cell [ref=f8e385]
+              - cell "8" [ref=f8e386]
+              - cell [ref=f8e387]:
+                - generic [ref=f8e388]:
+                  - link "shahid test" [ref=f8e389] [cursor=pointer]:
+                    - /url: /admin/volunteers/74?id_type=user
+                  - paragraph [ref=f8e390]: "ID: 74"
+              - cell [ref=f8e391]:
+                - generic [ref=f8e392]:
+                  - link "Test 001 Eng" [ref=f8e393] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/22
+                  - paragraph [ref=f8e394]: "ID: 22"
+              - cell "₹400.00" [ref=f8e395]
+              - cell [ref=f8e396]:
+                - generic [ref=f8e397]:
+                  - link "scribe template" [ref=f8e398] [cursor=pointer]:
+                    - /url: /admin/exams/73
+                  - paragraph [ref=f8e399]: "Subject: Hindi"
+                  - paragraph [ref=f8e400]: "Exam ID: #73"
+              - cell "—" [ref=f8e401]
+              - cell [ref=f8e402]:
+                - generic [ref=f8e403]:
+                  - paragraph [ref=f8e404]: 17/02/2026
+                  - paragraph [ref=f8e405]: 13:29
+              - cell [ref=f8e406]:
+                - generic [ref=f8e407]:
+                  - paragraph [ref=f8e408]: 21/04/2026
+                  - paragraph [ref=f8e409]: 14:12
+              - cell "failed" [ref=f8e410]
+              - 'cell "Bank: ABCDEFGH, A/C Holder: deepak panwar, A/C No: ****9123, IFSC: HDFC0012121, Branch: new delhi" [ref=f8e412]'
+              - cell [ref=f8e414]:
+                - generic [ref=f8e415]:
+                  - link "View details" [ref=f8e416] [cursor=pointer]:
+                    - /url: /admin/payouts/12
+                  - button "Edit payment" [ref=f8e418]
+                  - button "Delete payment" [ref=f8e420]
+            - row [ref=f8e422]:
+              - cell [ref=f8e423]
+              - cell "9" [ref=f8e424]
+              - cell [ref=f8e425]:
+                - generic [ref=f8e426]:
+                  - link "Amit volunteer" [ref=f8e427] [cursor=pointer]:
+                    - /url: /admin/volunteers/20?id_type=user
+                  - paragraph [ref=f8e428]: "ID: 20"
+              - cell [ref=f8e429]:
+                - generic [ref=f8e430]:
+                  - link "Amit ji Beneficiary" [ref=f8e431] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/8
+                  - paragraph [ref=f8e432]: "ID: 8"
+              - cell "₹400.00" [ref=f8e433]
+              - cell [ref=f8e434]:
+                - generic [ref=f8e435]:
+                  - link "IBPS" [ref=f8e436] [cursor=pointer]:
+                    - /url: /admin/exams/74
+                  - paragraph [ref=f8e437]: "Subject: math"
+                  - paragraph [ref=f8e438]: "Exam ID: #74"
+              - cell "—" [ref=f8e439]
+              - cell [ref=f8e440]:
+                - generic [ref=f8e441]:
+                  - paragraph [ref=f8e442]: 18/02/2026
+                  - paragraph [ref=f8e443]: 12:16
+              - cell [ref=f8e444]:
+                - generic [ref=f8e445]:
+                  - paragraph [ref=f8e446]: 21/04/2026
+                  - paragraph [ref=f8e447]: 14:12
+              - cell "approved" [ref=f8e448]
+              - 'cell "Bank: HDFC, A/C Holder: Amit, A/C No: ****9090, IFSC: HBIN0001234, Branch: ELHI" [ref=f8e450]'
+              - cell [ref=f8e452]:
+                - generic [ref=f8e453]:
+                  - link "View details" [ref=f8e454] [cursor=pointer]:
+                    - /url: /admin/payouts/13
+                  - button "Edit payment" [ref=f8e456]
+                  - button "Delete payment" [ref=f8e458]
+            - row [ref=f8e460]:
+              - cell [ref=f8e461]
+              - cell "10" [ref=f8e462]
+              - cell [ref=f8e463]:
+                - generic [ref=f8e464]:
+                  - link "Shahid Ansari" [ref=f8e465] [cursor=pointer]:
+                    - /url: /admin/volunteers/142?id_type=user
+                  - paragraph [ref=f8e466]: "ID: 142"
+              - cell [ref=f8e467]:
+                - generic [ref=f8e468]:
+                  - link "Justinn Xyz" [ref=f8e469] [cursor=pointer]:
+                    - /url: /admin/beneficiaries/54
+                  - paragraph [ref=f8e470]: "ID: 54"
+              - cell "₹400.00" [ref=f8e471]
+              - cell [ref=f8e472]:
+                - generic [ref=f8e473]:
+                  - link "Test 01" [ref=f8e474] [cursor=pointer]:
+                    - /url: /admin/exams/111
+                  - paragraph [ref=f8e475]: "Subject: Hindi"
+                  - paragraph [ref=f8e476]: "Exam ID: #111"
+              - cell "—" [ref=f8e477]
+              - cell [ref=f8e478]:
+                - generic [ref=f8e479]:
+                  - paragraph [ref=f8e480]: 17/03/2026
+                  - paragraph [ref=f8e481]: 18:01
+              - cell [ref=f8e482]:
+                - generic [ref=f8e483]:
+                  - paragraph [ref=f8e484]: 21/04/2026
+                  - paragraph [ref=f8e485]: 14:12
+              - cell "requested" [ref=f8e486]
+              - 'cell "Bank: Sbi, A/C Holder: Shahid, A/C No: ****8963, IFSC: SBIN0001695, Branch: Mumbai" [ref=f8e488]'
+              - cell [ref=f8e490]:
+                - generic [ref=f8e491]:
+                  - link "View details" [ref=f8e492] [cursor=pointer]:
+                    - /url: /admin/payouts/14
+                  - button "Edit payment" [ref=f8e494]
+                  - button "Delete payment" [ref=f8e496]
+        - generic [ref=f8e498]:
+          - generic [ref=f8e499]: Showing 1 - 10 of 34 payments
+          - generic [ref=f8e501]:
+            - generic [ref=f8e502]:
+              - generic [ref=f8e503]: Rows per page
+              - combobox [ref=f8e504]:
+                - generic: "10"
+            - navigation "pagination" [ref=f8e505]:
+              - list [ref=f8e506]:
+                - listitem [ref=f8e507] [cursor=pointer]:
+                  - generic "Go to previous page" [ref=f8e508]: Previous
+                - listitem [ref=f8e510] [cursor=pointer]:
+                  - generic [ref=f8e511]: "1"
+                - listitem [ref=f8e512] [cursor=pointer]:
+                  - generic [ref=f8e513]: "2"
+                - listitem [ref=f8e514] [cursor=pointer]:
+                  - generic [ref=f8e515]: More pages
+                - listitem [ref=f8e521] [cursor=pointer]:
+                  - generic [ref=f8e522]: "4"
+                - listitem [ref=f8e523]:
+                  - generic "Go to next page" [ref=f8e524] [cursor=pointer]: Next
+  - region "Notifications alt+T"
+  - alert [ref=f8e526]

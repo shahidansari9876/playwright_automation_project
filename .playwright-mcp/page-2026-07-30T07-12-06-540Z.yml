@@ -1,0 +1,63 @@
+- generic [active] [ref=f11e1]:
+  - generic [ref=f11e2]:
+    - link "Skip to main content" [ref=f11e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f11e4]:
+      - generic [ref=f11e5]:
+        - link [ref=f11e7] [cursor=pointer]:
+          - /url: /beneficiary
+          - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f11e8]
+        - generic [ref=f11e9]:
+          - link "Home" [ref=f11e10] [cursor=pointer]:
+            - /url: /beneficiary
+          - link "New Request" [ref=f11e15] [cursor=pointer]:
+            - /url: /new-request
+          - link "Messages" [ref=f11e19] [cursor=pointer]:
+            - /url: /beneficiary/messages
+          - link "Guide" [ref=f11e23] [cursor=pointer]:
+            - /url: /help
+          - link "Notifications" [ref=f11e27] [cursor=pointer]:
+            - /url: /notifications
+        - button "Profile picture of Test Benificiary Test Benificiary" [ref=f11e31] [cursor=pointer]:
+          - img "Profile picture of Test Benificiary" [ref=f11e32]
+          - generic [ref=f11e33]: Test Benificiary
+    - main [ref=f11e36]:
+      - generic [ref=f11e38]:
+        - complementary [ref=f11e39]:
+          - generic [ref=f11e40]:
+            - generic [ref=f11e41]:
+              - img "Cover photo for Test Benificiary" [ref=f11e42]
+              - generic [ref=f11e43]:
+                - img "Profile picture of Test Benificiary" [ref=f11e44]
+                - generic [ref=f11e46]:
+                  - heading "Test Benificiary" [level=2] [ref=f11e47]
+                  - img "Verified Badge" [ref=f11e48]
+                - paragraph [ref=f11e49]: Beneficiary
+              - generic [ref=f11e50]:
+                - generic [ref=f11e51]:
+                  - text: "0"
+                  - paragraph [ref=f11e52]: Volunteers
+                - generic [ref=f11e53]:
+                  - text: "2"
+                  - paragraph [ref=f11e54]: Scribe Requests
+              - link "View Profile" [ref=f11e56] [cursor=pointer]:
+                - /url: /beneficiary/profile
+            - 'button "Play video: How to Login as a Beneficiary" [ref=f11e58] [cursor=pointer]':
+              - generic [ref=f11e59]:
+                - generic [ref=f11e60]:
+                  - img "Video thumbnail" [ref=f11e61]
+                  - img "Video thumbnail" [ref=f11e62]
+                - generic [ref=f11e63]:
+                  - heading "How to Login as a Beneficiary" [level=3] [ref=f11e64]
+                  - paragraph [ref=f11e65]: Watch the existing beneficiary login tutorial and dashboard entry steps
+        - generic [ref=f11e68]:
+          - tablist [ref=f11e69]:
+            - tab [selected] [ref=f11e70] [cursor=pointer]:
+              - heading "Create Scribe Request" [level=1] [ref=f11e71]
+            - tab [ref=f11e72] [cursor=pointer]:
+              - heading "Create Volunteer Request" [level=2] [ref=f11e73]
+          - tabpanel "Create Scribe Request" [ref=f11e74]:
+            - paragraph [ref=f11e78]: Checking verification status...
+    - contentinfo "Website Footer" [ref=f11e79]:
+      - generic [ref=f11e80]: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"

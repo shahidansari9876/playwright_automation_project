@@ -1,0 +1,21 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - heading "Register as a Volunteer or Beneficiary" [level=1] [ref=e5]
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e8]:
+            - paragraph [ref=e9]: shahidvol12@yopmail.com
+            - paragraph [ref=e10]: shahidvol12@yopmail.com
+          - button "Logout" [ref=e11] [cursor=pointer]
+        - group "Choose your role" [ref=e12]:
+          - generic [ref=e14]:
+            - generic [ref=e15] [cursor=pointer]:
+              - radio "I am a Volunteer, ready to support and assist those in need." [active] [ref=e18]
+              - text: I am a Volunteer, ready to support and assist those in need.
+            - generic [ref=e19] [cursor=pointer]:
+              - radio "I am a Beneficiary, seeking help and support from volunteers." [ref=e22]
+              - text: I am a Beneficiary, seeking help and support from volunteers.
+        - button "Register" [ref=e23] [cursor=pointer]
+  - region "Notifications alt+T"
+  - alert [ref=e24]

@@ -1,0 +1,145 @@
+- generic:
+  - generic:
+    - link:
+      - /url: "#main-content"
+      - text: Skip to main content
+    - banner:
+      - generic:
+        - generic:
+          - link:
+            - /url: /beneficiary
+        - generic:
+          - link:
+            - /url: /beneficiary
+            - generic: Home
+          - link:
+            - /url: /new-request
+            - generic: New Request
+          - link:
+            - /url: /beneficiary/messages
+            - generic: Messages
+          - link:
+            - /url: /help
+            - generic: Guide
+          - link "Notifications, 6 unread":
+            - /url: /notifications
+            - generic: "6"
+            - generic: 6 unread notifications
+        - button:
+          - generic: Priya Sharma
+    - main:
+      - generic:
+        - generic:
+          - complementary:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading [level=2]: Priya Sharma
+                  - paragraph: Beneficiary
+                - generic:
+                  - generic:
+                    - text: "0"
+                    - paragraph: Volunteers
+                  - generic:
+                    - text: "1"
+                    - paragraph: Scribe Requests
+                - generic:
+                  - link:
+                    - /url: /beneficiary/profile
+                    - text: View Profile
+              - generic:
+                - button:
+                  - generic:
+                    - generic:
+                      - heading [level=3]: How to Login as a Beneficiary
+                      - paragraph: Watch the existing beneficiary login tutorial and dashboard entry steps
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /beneficiary
+                      - generic: Back to My Requests
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - heading [level=2]: B.A. Semester 3 Examination
+                          - generic: PU Semester Exam
+                        - generic:
+                          - button
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - paragraph:
+                                - generic: "Exam Center:"
+                                - text: Panjab University Exam Centre
+                              - paragraph: Sector 14, Panjab University Campus, Chandigarh, Chandigarh, chandigarh - 160014
+                              - generic:
+                                - generic: "Medium: English"
+                                - generic: "State: chandigarh"
+                                - generic: "City: Chandigarh"
+                                - generic: "Pin code: 160014"
+                              - paragraph: "Note: QA test PU semester exam request created via automated flow."
+                          - generic:
+                            - link:
+                              - /url: https://api-v1.thescribebank.com//uploads/1785405894800-hall pass.jpg
+                              - text: View Hall Pass
+                            - link:
+                              - /url: https://api-v1.thescribebank.com//uploads/1785405914342-hall pass.jpg
+                              - text: View date Sheet
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - paragraph: "Subject : Political Science"
+                            - generic: COMPLETION REQUESTED
+                          - paragraph: "Date: 30 Jul 2026"
+                          - paragraph: "Start Time: 09:00 AM End Time: 10:23 AM"
+                          - generic:
+                            - paragraph: Request Accepted By
+                            - generic:
+                              - generic: Rohan Verma
+                              - generic: "|"
+                              - button:
+                                - generic: Chat
+                          - generic:
+                            - generic:
+                              - button: Reject
+                              - button [expanded]: Mark As Completed
+                    - generic:
+                      - button: Add More Subjects
+    - contentinfo:
+      - generic: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert
+  - iframe [ref=f109e130]:
+    - generic [ref=f110e5]:
+      - button [ref=f110e6] [cursor=pointer]
+      - generic [ref=f110e7]: "1"
+  - dialog [ref=f109e132]:
+    - generic [ref=f109e133]:
+      - heading "Request Completed" [level=2] [ref=f109e134]
+      - paragraph [ref=f109e135]: We are pleased to know that you had a successful exam. Please take a moment to rate your experience.
+    - generic [ref=f109e136]:
+      - generic [ref=f109e137]:
+        - generic [ref=f109e138]:
+          - text: Rate Your Volunteer Out of 5 Hearts
+          - generic [ref=f109e139]: "- Rohan Verma"
+        - generic [ref=f109e140]:
+          - button "Rate 1 heart" [active] [ref=f109e141] [cursor=pointer]
+          - button "Rate 2 hearts" [ref=f109e144] [cursor=pointer]
+          - button "Rate 3 hearts" [ref=f109e147] [cursor=pointer]
+          - button "Rate 4 hearts" [ref=f109e150] [cursor=pointer]
+          - button "Rate 5 hearts" [ref=f109e153] [cursor=pointer]
+      - generic [ref=f109e156]:
+        - generic [ref=f109e157]: Comment (optional)
+        - textbox "Enter Here" [ref=f109e158]
+    - generic [ref=f109e159]:
+      - button "Cancel" [ref=f109e160] [cursor=pointer]
+      - button "Mark As Completed" [ref=f109e161] [cursor=pointer]
+    - button "Close" [ref=f109e162]

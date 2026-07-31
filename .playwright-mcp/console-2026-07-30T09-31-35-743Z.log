@@ -1,0 +1,7 @@
+[   15793ms] [LOG] 🔵 [FRONTEND] Sending Signup OTP request @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/sign-up/page-47207199927fb376.js:0
+[   15793ms] [LOG] 🔵 URL: https://api-v1.thescribebank.com/auth/send-otp @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/sign-up/page-47207199927fb376.js:0
+[   15793ms] [LOG] 🔵 Email: benef1785403804@yopmail.com @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/sign-up/page-47207199927fb376.js:0
+[   15793ms] [LOG] 🔵 Phone: 9179403804 @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/sign-up/page-47207199927fb376.js:0
+[   15793ms] [LOG] 🔵 Master OTP enabled: false @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/sign-up/page-47207199927fb376.js:0
+[   16167ms] [LOG] 🟢 [FRONTEND] Signup OTP Response: {success: true, data: Object} @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/sign-up/page-47207199927fb376.js:0
+[   31989ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://api-v1.thescribebank.com/auth/register-otp:0

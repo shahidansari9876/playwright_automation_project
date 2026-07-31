@@ -1,0 +1,46 @@
+[
+  {
+    "tagName": "BUTTON",
+    "type": "button",
+    "name": "",
+    "id": "",
+    "placeholder": "",
+    "value": "",
+    "labelText": "shahidtestvalidation382@yopmail.com",
+    "required": false,
+    "disabled": false
+  },
+  {
+    "tagName": "INPUT",
+    "type": "radio",
+    "name": "role",
+    "id": "role-volunteer",
+    "placeholder": "",
+    "value": "volunteer",
+    "labelText": "",
+    "required": false,
+    "disabled": false
+  },
+  {
+    "tagName": "INPUT",
+    "type": "radio",
+    "name": "role",
+    "id": "role-beneficiary",
+    "placeholder": "",
+    "value": "beneficiary",
+    "labelText": "",
+    "required": false,
+    "disabled": false
+  },
+  {
+    "tagName": "BUTTON",
+    "type": "submit",
+    "name": "",
+    "id": "",
+    "placeholder": "",
+    "value": "",
+    "labelText": "shahidtestvalidation382@yopmail.com",
+    "required": false,
+    "disabled": false
+  }
+]

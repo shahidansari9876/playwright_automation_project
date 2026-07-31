@@ -1,0 +1,167 @@
+- generic [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - generic [ref=f2e5]:
+      - list [ref=f2e7]:
+        - listitem [ref=f2e8]:
+          - button "The Scribe Bank" [ref=f2e9]
+      - generic [ref=f2e14]:
+        - generic [ref=f2e15]:
+          - generic [ref=f2e16]: Platform
+          - list [ref=f2e17]:
+            - listitem [ref=f2e18] [cursor=pointer]:
+              - link "Dashboard" [ref=f2e189]:
+                - /url: /admin/dashboard
+            - listitem [ref=f2e194] [cursor=pointer]:
+              - link "Reports" [ref=f2e195]:
+                - /url: /admin/reports
+            - listitem [ref=f2e203] [cursor=pointer]:
+              - link "Beneficiaries" [ref=f2e204]:
+                - /url: /admin/beneficiaries
+            - listitem [ref=f2e209] [cursor=pointer]:
+              - link "Volunteers" [ref=f2e210]:
+                - /url: /admin/volunteers
+            - listitem [ref=f2e216] [cursor=pointer]:
+              - link "Profile Gaps" [ref=f2e217]:
+                - /url: /admin/users-missing-profiles
+            - listitem [ref=f2e225] [cursor=pointer]:
+              - link "Duplicate Accounts" [ref=f2e226]:
+                - /url: /admin/duplicate-accounts
+            - listitem [ref=f2e231] [cursor=pointer]:
+              - link "Tasks" [ref=f2e232]:
+                - /url: /admin/tasks
+            - listitem [ref=f2e237] [cursor=pointer]:
+              - link "Scribe Requests" [ref=f2e238]:
+                - /url: /admin/scribe-requests
+            - listitem [ref=f2e242] [cursor=pointer]:
+              - link "Exams" [ref=f2e243]:
+                - /url: /admin/exams
+            - listitem [ref=f2e247] [cursor=pointer]:
+              - link "Volunteer Requests" [ref=f2e248]:
+                - /url: /admin/volunteer-requests
+            - listitem [ref=f2e255] [cursor=pointer]:
+              - link "Blogs" [ref=f2e256]:
+                - /url: /admin/blogs
+            - listitem [ref=f2e263] [cursor=pointer]:
+              - link "Payouts" [ref=f2e264]:
+                - /url: /admin/payouts
+            - listitem [ref=f2e271] [cursor=pointer]:
+              - link "Roles" [ref=f2e272]:
+                - /url: /admin/roles
+            - listitem [ref=f2e277] [cursor=pointer]:
+              - link "Schools" [ref=f2e278]:
+                - /url: /admin/schools
+            - listitem [ref=f2e283] [cursor=pointer]:
+              - link "Email Templates" [ref=f2e284]:
+                - /url: /admin/bulk-email
+            - listitem [ref=f2e289] [cursor=pointer]:
+              - link "WhatsApp Campaigns" [ref=f2e290]:
+                - /url: /admin/whatsapp-campaigns
+            - listitem [ref=f2e294] [cursor=pointer]:
+              - link "System Emails" [ref=f2e295]:
+                - /url: /admin/system-emails
+            - listitem [ref=f2e303] [cursor=pointer]:
+              - link "Tutorial Videos" [ref=f2e304]:
+                - /url: /admin/tutorial-videos
+            - listitem [ref=f2e309] [cursor=pointer]:
+              - link "Admins" [ref=f2e310]:
+                - /url: /admin/admins
+        - generic [ref=f2e315]: Settings
+      - list [ref=f2e28]:
+        - listitem [ref=f2e29]:
+          - link "SA shahid ansari shahid.ansari@ledsak.ai" [ref=f2e30] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - generic [ref=f2e31]: SA
+            - generic [ref=f2e33]:
+              - generic [ref=f2e34]: shahid ansari
+              - generic [ref=f2e35]: shahid.ansari@ledsak.ai
+          - button "Open user menu" [ref=f2e36]
+    - main [ref=f2e41]:
+      - generic [ref=f2e43]:
+        - button "Toggle Sidebar" [ref=f2e44]
+        - heading "Volunteer Profile" [level=1] [ref=f2e46]
+        - button "Switch to dark mode" [ref=f2e324]:
+          - generic [ref=f2e325]: Dark mode
+      - generic [ref=f2e50]:
+        - generic [ref=f2e51]:
+          - link "Back to Volunteers" [ref=f2e52] [cursor=pointer]:
+            - /url: /admin/volunteers
+          - generic [ref=f2e54]:
+            - link "View on Website" [ref=f2e55] [cursor=pointer]:
+              - /url: https://thescribebank.com/profile/111
+            - link "Edit Profile" [ref=f2e56] [cursor=pointer]:
+              - /url: /admin/volunteers/edit/111
+            - link "Change School" [ref=f2e58] [cursor=pointer]:
+              - /url: /admin/volunteers/111/school-assignment
+        - generic [ref=f2e62]:
+          - generic [ref=f2e63]: RV
+          - generic [ref=f2e66]:
+            - generic [ref=f2e67]:
+              - generic [ref=f2e68]:
+                - heading "Rohan Verma" [level=1] [ref=f2e69]
+                - generic [ref=f2e70]: Verified
+              - paragraph [ref=f2e71]: No occupation listed
+            - generic [ref=f2e72]:
+              - generic [ref=f2e77]:
+                - paragraph [ref=f2e78]: Phone
+                - paragraph [ref=f2e79]: "8179403804"
+              - generic [ref=f2e84]:
+                - paragraph [ref=f2e85]: Alternate Phone
+                - paragraph [ref=f2e86]: N/A
+              - generic [ref=f2e92]:
+                - paragraph [ref=f2e93]: Email
+                - paragraph [ref=f2e94]: volun1785403804@yopmail.com
+              - generic [ref=f2e100]:
+                - paragraph [ref=f2e101]: Location
+                - paragraph [ref=f2e102]: Chandigarh, chandigarh
+              - generic [ref=f2e108]:
+                - paragraph [ref=f2e109]: Education
+                - paragraph [ref=f2e110]: 12th
+              - generic [ref=f2e118]:
+                - paragraph [ref=f2e119]: Assigned School
+                - generic [ref=f2e120]: Independent
+        - generic [ref=f2e121]:
+          - tablist [ref=f2e122]:
+            - tab "Personal Information" [ref=f2e123]
+            - tab "Access & Sessions" [ref=f2e124]
+            - tab "Education & Experience" [ref=f2e125]
+            - tab "Identity" [selected] [ref=f2e126]
+            - tab "Payment" [ref=f2e127]
+            - tab "Timeline" [ref=f2e128]
+            - tab "Volunteer Requests" [ref=f2e129]
+            - tab "Scribe Requests" [ref=f2e130]
+          - tabpanel "Identity" [ref=f2e132]:
+            - generic [ref=f2e133]:
+              - tablist [ref=f2e134]:
+                - tab "Identity Document" [ref=f2e135]
+                - tab "Professional Photo" [active] [selected] [ref=f2e136]
+              - tabpanel "Professional Photo" [ref=f2e327]:
+                - generic [ref=f2e328]:
+                  - generic [ref=f2e330]:
+                    - generic [ref=f2e331]: Professional Photo
+                    - generic [ref=f2e335]: Pending Review
+                  - generic [ref=f2e336]:
+                    - generic [ref=f2e337]:
+                      - generic [ref=f2e338]:
+                        - term [ref=f2e339]: Photo Type
+                        - definition [ref=f2e340]: Official PU document photo
+                      - generic [ref=f2e341]:
+                        - term [ref=f2e342]: Last Reviewed
+                        - definition [ref=f2e343]: Not reviewed yet
+                    - generic [ref=f2e344]:
+                      - generic [ref=f2e345]:
+                        - generic [ref=f2e346]:
+                          - button [ref=f2e347]
+                          - generic [ref=f2e348]: 100%
+                          - button [ref=f2e349]
+                        - generic [ref=f2e350]:
+                          - button "Open" [ref=f2e351]
+                          - button [ref=f2e353]
+                          - button [ref=f2e354]
+                          - button [ref=f2e355]
+                      - img "Rohan Verma professional photo" [ref=f2e358]
+                      - paragraph [ref=f2e360]: Professional Photo
+                    - generic [ref=f2e361]:
+                      - button "Verify Photo" [ref=f2e362]
+                      - button "Reject Photo" [ref=f2e363]
+  - region "Notifications alt+T"
+  - alert [ref=f2e326]

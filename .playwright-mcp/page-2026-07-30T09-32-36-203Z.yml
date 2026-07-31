@@ -1,0 +1,45 @@
+- generic [ref=f27e1]:
+  - main [ref=f27e2]:
+    - generic [ref=f27e3]:
+      - generic [ref=f27e4]:
+        - generic [ref=f27e5]:
+          - link [ref=f27e6] [cursor=pointer]:
+            - /url: /
+            - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f27e7]
+          - heading "Join Save The Quest Today!" [level=1] [ref=f27e8]
+        - generic [ref=f27e9]:
+          - generic [ref=f27e10]:
+            - button "Edit email or phone" [ref=f27e31]
+            - generic [ref=f27e11]:
+              - generic [ref=f27e12]: Email Address *
+              - textbox "Email Address *" [disabled]:
+                - /placeholder: Enter your email
+                - text: benef1785403804@yopmail.com
+            - generic [ref=f27e14]:
+              - generic [ref=f27e15]: Phone Number *
+              - textbox "Phone Number *" [disabled]:
+                - /placeholder: Enter your phone number (10 digits)
+                - text: "9179403804"
+          - generic [ref=f27e34]:
+            - generic [ref=f27e35]:
+              - generic [ref=f27e36]: Enter OTP
+              - paragraph [ref=f27e37]: Sent to your email and phone
+              - textbox "Enter OTP" [active] [ref=f27e38]:
+                - /placeholder: Enter 6-digit OTP
+            - button "Resend OTP" [ref=f27e40]
+          - button "Verify & Create Account" [ref=f27e41] [cursor=pointer]
+        - generic [ref=f27e19]: or
+        - generic [ref=f27e23]:
+          - generic [ref=f27e24]: Already have an account?
+          - link "Login Now" [ref=f27e26] [cursor=pointer]:
+            - /url: /login
+      - img "A group of school children, including a child with Down syndrome, stand in a queue with folded hands, possibly during morning assembly or prayer at school." [ref=f27e28]
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=f27e42]:
+        - generic [ref=f27e46]: OTP sent to your email and phone!
+  - alert [ref=f27e29]
+  - iframe [ref=f27e30]:
+    - generic [ref=f28e5]:
+      - button [ref=f28e6] [cursor=pointer]
+      - generic [ref=f28e7]: "1"

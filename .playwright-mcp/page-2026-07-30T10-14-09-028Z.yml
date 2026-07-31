@@ -1,0 +1,195 @@
+- generic:
+  - generic:
+    - link:
+      - /url: "#main-content"
+      - text: Skip to main content
+    - banner:
+      - generic:
+        - generic:
+          - link:
+            - /url: /volunteer
+        - generic:
+          - link:
+            - /url: /volunteer
+            - generic: Home
+          - link:
+            - /url: /volunteer/work-history
+            - generic: My Activities
+          - link:
+            - /url: /volunteer/messages
+            - generic: Messages
+          - link:
+            - /url: /volunteer/assistance-payouts
+            - generic: Payouts
+          - link:
+            - /url: /help
+            - generic: Guide
+        - generic:
+          - link "Notifications, 2 unread":
+            - /url: /notifications
+            - generic: "2"
+            - generic: 2 unread notifications
+          - button:
+            - generic: Rohan Verma
+    - main:
+      - generic:
+        - generic:
+          - complementary:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - heading [level=2]: Rohan Verma
+                  - paragraph: Volunteer
+                - generic:
+                  - generic:
+                    - text: "0"
+                    - paragraph: Request Volunteered
+                  - generic:
+                    - text: "0"
+                    - paragraph: Exam Completed
+                - generic:
+                  - link:
+                    - /url: /volunteer/profile
+                    - text: View Profile
+              - generic:
+                - button:
+                  - generic:
+                    - generic:
+                      - heading [level=3]: How to Login as a Volunteer
+                      - paragraph: Watch the updated volunteer login flow and first dashboard walkthrough
+          - generic:
+            - region:
+              - generic:
+                - generic:
+                  - tablist:
+                    - button: Scribe Requests (3)
+                    - button: Volunteer Requests (2)
+                  - tabpanel:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: "Filter By:"
+                          - button: Location
+                          - button: Date
+                          - button: Reference
+                          - group:
+                            - button [pressed]: All
+                            - button: PU Exams
+                            - button: Regular
+                      - generic:
+                        - generic:
+                          - generic:
+                            - textbox:
+                              - /placeholder: Search by subject, location, or exam name
+                          - button [disabled]: Apply
+                      - generic: Found 3 scribe requests
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - paragraph: Test Semester Exam
+                            - button
+                          - generic:
+                            - generic:
+                              - generic:
+                                - paragraph: Chandigarh Test Center
+                                - paragraph: Sector 17, Chandigarh
+                                - generic:
+                                  - generic: "State: chandigarh"
+                                  - generic: "City: Chandigarh"
+                                  - generic: "Pin code: 160001"
+                            - paragraph: "Notes: This is a test request created for QA testing purposes."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - paragraph: "Subject: Test Subject"
+                                  - generic: NEW
+                                - paragraph: "Medium: English"
+                                - paragraph: "Date: 15 Aug 2026"
+                                - paragraph: "Start Time: 09:00 AM End Time: 12:00 PM"
+                          - generic:
+                            - button: Accept Request
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - paragraph: B.A. Semester 3 Examination
+                                - generic: PU Semester Exam
+                            - button
+                          - generic:
+                            - generic:
+                              - generic:
+                                - paragraph: Panjab University Exam Centre
+                                - paragraph: Sector 14, Panjab University Campus, Chandigarh
+                                - generic:
+                                  - generic: "State: chandigarh"
+                                  - generic: "City: Chandigarh"
+                                  - generic: "Pin code: 160014"
+                            - paragraph: "Notes: QA test PU semester exam request created via automated flow."
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - paragraph: "Subject: Political Science"
+                                  - generic: NEW
+                                - paragraph: "Medium: English"
+                                - paragraph: "Date: 15 Dec 2026"
+                                - paragraph: "Start Time: 09:00 AM End Time: 12:00 PM"
+                          - generic:
+                            - button: Accept Request
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - paragraph: Non Pu exam
+                                - generic: PU Semester Exam
+                            - button
+                          - generic:
+                            - generic:
+                              - generic:
+                                - paragraph: chandigarh
+                                - paragraph: Krishna Park lane
+                                - generic:
+                                  - generic: "State: punjab"
+                                  - generic: "City: Chandigarh"
+                                  - generic: "Pin code: 190016"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - paragraph: "Subject: Test subject"
+                                  - generic: NEW
+                                - paragraph: "Medium: English"
+                                - paragraph: "Date: 19 Jan 2027"
+                                - paragraph: "Start Time: 08:00 AM End Time: 10:00 AM"
+                          - generic:
+                            - button: Accept Request
+    - contentinfo:
+      - generic: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert
+  - iframe [ref=f79e203]:
+    - generic [ref=f80e5]:
+      - button [ref=f80e6] [cursor=pointer]
+      - generic [ref=f80e7]: "1"
+  - dialog [ref=f79e205]:
+    - heading "Accepting Request" [level=2] [ref=f79e207]
+    - generic [ref=f79e209]:
+      - generic [ref=f79e210]:
+        - checkbox "To claim the scribe honorarium (₹400 INR), you must upload a selfie with the beneficiary that includes visible geotag details (location data) as proof of service." [active] [ref=f79e211] [cursor=pointer]
+        - generic [ref=f79e212] [cursor=pointer]: To claim the scribe honorarium (₹400 INR), you must upload a selfie with the beneficiary that includes visible geotag details (location data) as proof of service.
+      - generic [ref=f79e213]:
+        - checkbox "I have read and agree to the Scribe Volunteer Agreement , including all terms and conditions regarding examination conduct, confidentiality, professionalism, and legal compliance." [ref=f79e214] [cursor=pointer]
+        - generic [ref=f79e215] [cursor=pointer]:
+          - text: I have read and agree to the
+          - link "Scribe Volunteer Agreement" [ref=f79e216]:
+            - /url: /scribe-volunteer-agreement
+          - text: ", including all terms and conditions regarding examination conduct, confidentiality, professionalism, and legal compliance."
+    - generic [ref=f79e217]:
+      - button "Cancel Accept Request" [ref=f79e218] [cursor=pointer]: Cancel
+      - button "Accept B.A. Semester 3 Examination" [disabled]: Confirm
+    - button "Close" [ref=f79e219]

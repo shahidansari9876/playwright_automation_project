@@ -1,0 +1,194 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e104]:
+    - generic [ref=e107]:
+      - list [ref=e109]:
+        - listitem [ref=e110]:
+          - button "The Scribe Bank" [ref=e111]
+      - generic [ref=e116]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: Platform
+          - list [ref=e119]:
+            - listitem [ref=e120] [cursor=pointer]:
+              - link "Dashboard" [ref=e121]:
+                - /url: /admin/dashboard
+            - listitem [ref=e127] [cursor=pointer]:
+              - link "Reports" [ref=e128]:
+                - /url: /admin/reports
+            - listitem [ref=e136] [cursor=pointer]:
+              - link "Beneficiaries" [ref=e137]:
+                - /url: /admin/beneficiaries
+            - listitem [ref=e142] [cursor=pointer]:
+              - link "Volunteers" [ref=e143]:
+                - /url: /admin/volunteers
+            - listitem [ref=e149] [cursor=pointer]:
+              - link "Profile Gaps" [ref=e150]:
+                - /url: /admin/users-missing-profiles
+            - listitem [ref=e158] [cursor=pointer]:
+              - link "Duplicate Accounts" [ref=e159]:
+                - /url: /admin/duplicate-accounts
+            - listitem [ref=e164] [cursor=pointer]:
+              - link "Tasks" [ref=e165]:
+                - /url: /admin/tasks
+            - listitem [ref=e170] [cursor=pointer]:
+              - link "Scribe Requests" [ref=e171]:
+                - /url: /admin/scribe-requests
+            - listitem [ref=e175] [cursor=pointer]:
+              - link "Exams" [ref=e176]:
+                - /url: /admin/exams
+            - listitem [ref=e180] [cursor=pointer]:
+              - link "Volunteer Requests" [ref=e181]:
+                - /url: /admin/volunteer-requests
+            - listitem [ref=e188] [cursor=pointer]:
+              - link "Blogs" [ref=e189]:
+                - /url: /admin/blogs
+            - listitem [ref=e196] [cursor=pointer]:
+              - link "Payouts" [ref=e197]:
+                - /url: /admin/payouts
+            - listitem [ref=e204] [cursor=pointer]:
+              - link "Roles" [ref=e205]:
+                - /url: /admin/roles
+            - listitem [ref=e210] [cursor=pointer]:
+              - link "Schools" [ref=e211]:
+                - /url: /admin/schools
+            - listitem [ref=e216] [cursor=pointer]:
+              - link "Email Templates" [ref=e217]:
+                - /url: /admin/bulk-email
+            - listitem [ref=e222] [cursor=pointer]:
+              - link "WhatsApp Campaigns" [ref=e223]:
+                - /url: /admin/whatsapp-campaigns
+            - listitem [ref=e227] [cursor=pointer]:
+              - link "System Emails" [ref=e228]:
+                - /url: /admin/system-emails
+            - listitem [ref=e236] [cursor=pointer]:
+              - link "Tutorial Videos" [ref=e237]:
+                - /url: /admin/tutorial-videos
+            - listitem [ref=e242] [cursor=pointer]:
+              - link "Admins" [ref=e243]:
+                - /url: /admin/admins
+        - generic [ref=e248]: Settings
+      - list [ref=e258]:
+        - listitem [ref=e259]:
+          - link "SA shahid ansari shahid.ansari@ledsak.ai" [ref=e260] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - generic [ref=e261]: SA
+            - generic [ref=e263]:
+              - generic [ref=e264]: shahid ansari
+              - generic [ref=e265]: shahid.ansari@ledsak.ai
+          - button "Open user menu" [ref=e266]
+    - main [ref=e2002]:
+      - generic [ref=e2004]:
+        - button "Toggle Sidebar" [ref=e2005]
+        - heading "Volunteer Profile" [level=1] [ref=e2007]
+        - button "Switch to dark mode" [ref=e2009]:
+          - generic [ref=e2010]: Dark mode
+      - generic [ref=e2013]:
+        - generic [ref=e2014]:
+          - link "Back to Volunteers" [ref=e2015] [cursor=pointer]:
+            - /url: /admin/volunteers
+          - generic [ref=e2017]:
+            - link "View on Website" [ref=e2018] [cursor=pointer]:
+              - /url: https://thescribebank.com/profile/111
+            - link "Edit Profile" [ref=e2019] [cursor=pointer]:
+              - /url: /admin/volunteers/edit/111
+            - link "Change School" [ref=e2021] [cursor=pointer]:
+              - /url: /admin/volunteers/111/school-assignment
+        - generic [ref=e2025]:
+          - generic [ref=e2026]: RV
+          - generic [ref=e2029]:
+            - generic [ref=e2030]:
+              - generic [ref=e2031]:
+                - heading "Rohan Verma" [level=1] [ref=e2032]
+                - generic [ref=e2033]: Pending Review
+              - paragraph [ref=e2034]: No occupation listed
+            - generic [ref=e2035]:
+              - generic [ref=e2040]:
+                - paragraph [ref=e2041]: Phone
+                - paragraph [ref=e2042]: "8179403804"
+              - generic [ref=e2047]:
+                - paragraph [ref=e2048]: Alternate Phone
+                - paragraph [ref=e2049]: N/A
+              - generic [ref=e2055]:
+                - paragraph [ref=e2056]: Email
+                - paragraph [ref=e2057]: volun1785403804@yopmail.com
+              - generic [ref=e2063]:
+                - paragraph [ref=e2064]: Location
+                - paragraph [ref=e2065]: Chandigarh, chandigarh
+              - generic [ref=e2071]:
+                - paragraph [ref=e2072]: Education
+                - paragraph [ref=e2073]: 12th
+              - generic [ref=e2081]:
+                - paragraph [ref=e2082]: Assigned School
+                - generic [ref=e2083]: Independent
+        - generic [ref=e2084]:
+          - tablist [ref=e2085]:
+            - tab "Personal Information" [selected] [ref=e2086]
+            - tab "Access & Sessions" [ref=e2087]
+            - tab "Education & Experience" [ref=e2088]
+            - tab "Identity" [ref=e2089]
+            - tab "Payment" [ref=e2090]
+            - tab "Timeline" [ref=e2091]
+            - tab "Volunteer Requests" [ref=e2092]
+            - tab "Scribe Requests" [ref=e2093]
+          - tabpanel "Personal Information" [ref=e2095]:
+            - generic [ref=e2096]:
+              - generic [ref=e2097]: Personal Information
+              - generic [ref=e2103]:
+                - generic [ref=e2104]:
+                  - paragraph [ref=e2105]: Full Name
+                  - paragraph [ref=e2106]: Rohan Verma
+                - generic [ref=e2107]:
+                  - paragraph [ref=e2108]: Date of Birth
+                  - paragraph [ref=e2112]: 20/03/2003
+                - generic [ref=e2113]:
+                  - paragraph [ref=e2114]: Gender
+                  - paragraph [ref=e2115]: male
+                - generic [ref=e2116]:
+                  - paragraph [ref=e2117]: User ID
+                  - paragraph [ref=e2122]: "#325"
+                - generic [ref=e2123]:
+                  - paragraph [ref=e2124]: Phone
+                  - paragraph [ref=e2128]: "8179403804"
+                - generic [ref=e2129]:
+                  - paragraph [ref=e2130]: Alternate Phone
+                  - paragraph [ref=e2134]: N/A
+                - generic [ref=e2135]:
+                  - paragraph [ref=e2136]: Assigned School (Organisation)
+                  - generic [ref=e2137]: Independent
+                - generic [ref=e2144]:
+                  - paragraph [ref=e2145]: School / College Name
+                  - paragraph [ref=e2146]: Delhi Public School, Sector 45
+                - generic [ref=e2147]:
+                  - paragraph [ref=e2148]: Board / University
+                  - paragraph [ref=e2149]: CBSE
+                - generic [ref=e2150]:
+                  - paragraph [ref=e2151]: Parent / Guardian Name
+                  - paragraph [ref=e2152]: N/A
+                - generic [ref=e2153]:
+                  - paragraph [ref=e2154]: Parent / Guardian Phone
+                  - paragraph [ref=e2158]: N/A
+                - generic [ref=e2159]:
+                  - paragraph [ref=e2160]: Preferred Feed Preference
+                  - paragraph [ref=e2161]: Same State
+                - generic [ref=e2162]:
+                  - paragraph [ref=e2163]: Education Feed Preference
+                  - paragraph [ref=e2164]: Eligible Only
+            - generic [ref=e2165]:
+              - generic [ref=e2166]: Address Information
+              - generic [ref=e2172]:
+                - generic [ref=e2173]:
+                  - paragraph [ref=e2174]: Full Address
+                  - paragraph [ref=e2175]: House No. 12, Sector 45, Chandigarh
+                - generic [ref=e2176]:
+                  - paragraph [ref=e2177]: City
+                  - paragraph [ref=e2183]: Chandigarh
+                - generic [ref=e2184]:
+                  - paragraph [ref=e2185]: State
+                  - paragraph [ref=e2186]: chandigarh
+                - generic [ref=e2187]:
+                  - paragraph [ref=e2188]: Pincode
+                  - paragraph [ref=e2189]: "160019"
+            - generic [ref=e2190]:
+              - generic [ref=e2191]: Preferred Volunteering Areas
+              - paragraph [ref=e2197]: No preferred areas specified
+  - region "Notifications alt+T"
+  - alert [ref=e67]: "Admin Panel: The Scribe Bank"

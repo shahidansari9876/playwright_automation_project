@@ -1,0 +1,226 @@
+- generic:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - list:
+              - listitem:
+                - button:
+                  - generic: The Scribe Bank
+          - generic:
+            - generic:
+              - generic: Platform
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /admin/dashboard
+                    - generic: Dashboard
+                - listitem:
+                  - link:
+                    - /url: /admin/reports
+                    - generic: Reports
+                - listitem:
+                  - link:
+                    - /url: /admin/beneficiaries
+                    - generic: Beneficiaries
+                - listitem:
+                  - link:
+                    - /url: /admin/volunteers
+                    - generic: Volunteers
+                - listitem:
+                  - link:
+                    - /url: /admin/users-missing-profiles
+                    - generic: Profile Gaps
+                - listitem:
+                  - link:
+                    - /url: /admin/duplicate-accounts
+                    - generic: Duplicate Accounts
+                - listitem:
+                  - link:
+                    - /url: /admin/tasks
+                    - generic: Tasks
+                - listitem:
+                  - link:
+                    - /url: /admin/scribe-requests
+                    - generic: Scribe Requests
+                - listitem:
+                  - link:
+                    - /url: /admin/exams
+                    - generic: Exams
+                - listitem:
+                  - link:
+                    - /url: /admin/volunteer-requests
+                    - generic: Volunteer Requests
+                - listitem:
+                  - link:
+                    - /url: /admin/blogs
+                    - generic: Blogs
+                - listitem:
+                  - link:
+                    - /url: /admin/payouts
+                    - generic: Payouts
+                - listitem:
+                  - link:
+                    - /url: /admin/roles
+                    - generic: Roles
+                - listitem:
+                  - link:
+                    - /url: /admin/schools
+                    - generic: Schools
+                - listitem:
+                  - link:
+                    - /url: /admin/bulk-email
+                    - generic: Email Templates
+                - listitem:
+                  - link:
+                    - /url: /admin/whatsapp-campaigns
+                    - generic: WhatsApp Campaigns
+                - listitem:
+                  - link:
+                    - /url: /admin/system-emails
+                    - generic: System Emails
+                - listitem:
+                  - link:
+                    - /url: /admin/tutorial-videos
+                    - generic: Tutorial Videos
+                - listitem:
+                  - link:
+                    - /url: /admin/admins
+                    - generic: Admins
+            - generic: Settings
+          - generic:
+            - list:
+              - listitem:
+                - link:
+                  - /url: /admin/dashboard
+                  - generic: SA
+                  - generic:
+                    - generic: shahid ansari
+                    - generic: shahid.ansari@ledsak.ai
+                - button
+    - main:
+      - generic:
+        - generic:
+          - button:
+            - generic: Toggle Sidebar
+          - heading [level=1]: Exam Timeline
+          - generic:
+            - button:
+              - generic: Dark mode
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: "Exam #221"
+                        - generic: Accepted
+                      - generic: Review exam details, activity, completion data, and full timeline.
+                    - generic:
+                      - button: Reassign Volunteer
+                      - button: Move to NEW
+                      - button [expanded]: Set Ended (QA)
+                      - link:
+                        - /url: /admin/scribe-requests/173
+                        - text: View Scribe Request
+                      - link:
+                        - /url: /admin/exams/221/performa
+                        - text: View Permission Letter
+                      - button: Raw Data
+                - generic:
+                  - generic:
+                    - tablist:
+                      - tab [selected]: Overview
+                      - tab: Beneficiary
+                      - tab: Volunteer
+                      - tab: Timeline
+                      - tab: PU Verification
+                      - tab: Admin Actions
+                    - tabpanel:
+                      - generic:
+                        - generic:
+                          - paragraph: Subject
+                          - paragraph: Political Science
+                          - paragraph: Exam context
+                        - generic:
+                          - paragraph: Schedule
+                          - paragraph: 15/12/2026 • 9:00 AM - 12:00 PM
+                          - paragraph: Date and time
+                        - generic:
+                          - paragraph: Volunteer
+                          - paragraph: Rohan Verma
+                          - paragraph: Current assignment
+                        - generic:
+                          - paragraph: Created
+                          - paragraph: 30/07/2026, 3:38 pm
+                          - paragraph: 5 events
+                      - generic:
+                        - generic:
+                          - generic: Current Snapshot
+                          - generic: Main exam metadata at a glance.
+                        - generic:
+                          - generic:
+                            - term: Status
+                            - definition:
+                              - generic: Accepted
+                          - generic:
+                            - term: Exam Date
+                            - definition:
+                              - paragraph: 15/12/2026
+                          - generic:
+                            - term: Time Window
+                            - definition:
+                              - paragraph: 9:00 AM - 12:00 PM
+                          - generic:
+                            - term: Exam Type
+                            - definition:
+                              - paragraph: Semester
+                          - generic:
+                            - term: Exam Category
+                            - definition:
+                              - paragraph: Regular
+                          - generic:
+                            - term: Semester Number
+                            - definition:
+                              - paragraph: Semester 3
+                          - generic:
+                            - term: Volunteer ID
+                            - definition:
+                              - paragraph: "#325"
+                          - generic:
+                            - term: Scribe Request
+                            - definition:
+                              - link:
+                                - /url: /admin/scribe-requests/173
+                                - text: "Request #173"
+                          - generic:
+                            - term: Created At
+                            - definition:
+                              - paragraph: 30/07/2026, 3:38 pm
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - paragraph: PU Verification
+                              - paragraph: Panjab University semester exam flow
+                          - generic:
+                            - generic:
+                              - switch
+                              - generic:
+                                - text: Enable chat immediately
+                                - paragraph: Off uses the standard 12-hour window.
+                            - generic: Accepted & Verified
+                            - button: View Details
+  - region "Notifications alt+T"
+  - alert
+  - alertdialog [ref=f6e312]:
+    - generic [ref=f6e313]:
+      - heading "Override Exam End Time?" [level=2] [ref=f6e314]
+      - paragraph [ref=f6e315]: This moves exam date and end-time into the past so the beneficiary can mark completion for testing.
+    - generic [ref=f6e316]:
+      - button "Cancel" [active] [ref=f6e317]
+      - button "Confirm Override" [ref=f6e318]

@@ -1,0 +1,179 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - generic [ref=f4e5]:
+      - list [ref=f4e7]:
+        - listitem [ref=f4e8]:
+          - button "The Scribe Bank" [ref=f4e9]
+      - generic [ref=f4e14]:
+        - generic [ref=f4e15]:
+          - generic [ref=f4e16]: Platform
+          - list [ref=f4e17]:
+            - listitem [ref=f4e18] [cursor=pointer]:
+              - link "Dashboard" [ref=f4e351]:
+                - /url: /admin/dashboard
+            - listitem [ref=f4e356] [cursor=pointer]:
+              - link "Reports" [ref=f4e357]:
+                - /url: /admin/reports
+            - listitem [ref=f4e365] [cursor=pointer]:
+              - link "Beneficiaries" [ref=f4e366]:
+                - /url: /admin/beneficiaries
+            - listitem [ref=f4e371] [cursor=pointer]:
+              - link "Volunteers" [ref=f4e372]:
+                - /url: /admin/volunteers
+            - listitem [ref=f4e378] [cursor=pointer]:
+              - link "Profile Gaps" [ref=f4e379]:
+                - /url: /admin/users-missing-profiles
+            - listitem [ref=f4e387] [cursor=pointer]:
+              - link "Duplicate Accounts" [ref=f4e388]:
+                - /url: /admin/duplicate-accounts
+            - listitem [ref=f4e393] [cursor=pointer]:
+              - link "Tasks" [ref=f4e394]:
+                - /url: /admin/tasks
+            - listitem [ref=f4e399] [cursor=pointer]:
+              - link "Scribe Requests" [ref=f4e400]:
+                - /url: /admin/scribe-requests
+            - listitem [ref=f4e404] [cursor=pointer]:
+              - link "Exams" [ref=f4e405]:
+                - /url: /admin/exams
+            - listitem [ref=f4e409] [cursor=pointer]:
+              - link "Volunteer Requests" [ref=f4e410]:
+                - /url: /admin/volunteer-requests
+            - listitem [ref=f4e417] [cursor=pointer]:
+              - link "Blogs" [ref=f4e418]:
+                - /url: /admin/blogs
+            - listitem [ref=f4e425] [cursor=pointer]:
+              - link "Payouts" [ref=f4e426]:
+                - /url: /admin/payouts
+            - listitem [ref=f4e433] [cursor=pointer]:
+              - link "Roles" [ref=f4e434]:
+                - /url: /admin/roles
+            - listitem [ref=f4e439] [cursor=pointer]:
+              - link "Schools" [ref=f4e440]:
+                - /url: /admin/schools
+            - listitem [ref=f4e445] [cursor=pointer]:
+              - link "Email Templates" [ref=f4e446]:
+                - /url: /admin/bulk-email
+            - listitem [ref=f4e451] [cursor=pointer]:
+              - link "WhatsApp Campaigns" [ref=f4e452]:
+                - /url: /admin/whatsapp-campaigns
+            - listitem [ref=f4e456] [cursor=pointer]:
+              - link "System Emails" [ref=f4e457]:
+                - /url: /admin/system-emails
+            - listitem [ref=f4e465] [cursor=pointer]:
+              - link "Tutorial Videos" [ref=f4e466]:
+                - /url: /admin/tutorial-videos
+            - listitem [ref=f4e471] [cursor=pointer]:
+              - link "Admins" [ref=f4e472]:
+                - /url: /admin/admins
+        - generic [ref=f4e477]: Settings
+      - list [ref=f4e28]:
+        - listitem [ref=f4e29]:
+          - link "SA shahid ansari shahid.ansari@ledsak.ai" [ref=f4e30] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - generic [ref=f4e31]: SA
+            - generic [ref=f4e33]:
+              - generic [ref=f4e34]: shahid ansari
+              - generic [ref=f4e35]: shahid.ansari@ledsak.ai
+          - button "Open user menu" [ref=f4e36]
+    - main [ref=f4e519]:
+      - generic [ref=f4e521]:
+        - button "Toggle Sidebar" [ref=f4e522]
+        - heading "Scribe Request Details" [level=1] [ref=f4e524]
+        - button "Switch to dark mode" [ref=f4e526]:
+          - generic [ref=f4e527]: Dark mode
+      - generic [ref=f4e530]:
+        - generic [ref=f4e531]:
+          - link "Back to Scribe Requests" [ref=f4e532] [cursor=pointer]:
+            - /url: /admin/scribe-requests
+          - button "Edit Request" [ref=f4e535]
+        - generic [ref=f4e538]:
+          - generic [ref=f4e539]: NEW
+          - generic [ref=f4e541]:
+            - generic [ref=f4e542]:
+              - 'heading "Scribe Request #173" [level=1] [ref=f4e543]'
+              - paragraph [ref=f4e544]: B.A. Semester 3 Examination
+            - generic [ref=f4e545]:
+              - generic [ref=f4e553]:
+                - paragraph [ref=f4e554]: Exam Center
+                - paragraph [ref=f4e555]: Panjab University Exam Centre
+              - generic [ref=f4e560]:
+                - paragraph [ref=f4e561]: Medium
+                - paragraph [ref=f4e562]: English
+              - generic [ref=f4e568]:
+                - paragraph [ref=f4e569]: Location
+                - paragraph [ref=f4e570]: Chandigarh, chandigarh
+              - generic [ref=f4e576]:
+                - paragraph [ref=f4e577]: User ID
+                - paragraph [ref=f4e578]: "#324"
+                - generic [ref=f4e579]:
+                  - paragraph [ref=f4e580]: Priya Sharma
+                  - generic [ref=f4e581]: Verified
+        - generic [ref=f4e582]:
+          - tablist [ref=f4e583]:
+            - tab "Request Details" [selected] [ref=f4e584]
+            - tab "Beneficiary" [ref=f4e585]
+            - tab "Exam Schedule" [ref=f4e586]
+          - tabpanel "Request Details" [ref=f4e588]:
+            - generic [ref=f4e589]:
+              - generic [ref=f4e590]: Exam Information
+              - generic [ref=f4e598]:
+                - generic [ref=f4e599]:
+                  - paragraph [ref=f4e600]: Exam Name
+                  - paragraph [ref=f4e601]: B.A. Semester 3 Examination
+                - generic [ref=f4e602]:
+                  - paragraph [ref=f4e603]: Exam Center
+                  - paragraph [ref=f4e604]: Panjab University Exam Centre
+                - generic [ref=f4e605]:
+                  - paragraph [ref=f4e606]: Medium of Exam
+                  - paragraph [ref=f4e607]: English
+                - generic [ref=f4e608]:
+                  - paragraph [ref=f4e609]: Exam Type
+                  - paragraph [ref=f4e610]: Semester
+                - generic [ref=f4e611]:
+                  - term [ref=f4e612]: Exam Category
+                  - definition [ref=f4e613]: Regular
+                - generic [ref=f4e614]:
+                  - term [ref=f4e615]: Semester Number
+                  - definition [ref=f4e616]: Semester 3
+                - generic [ref=f4e617]:
+                  - paragraph [ref=f4e618]: PU Semester Flow
+                  - generic [ref=f4e619]:
+                    - paragraph [ref=f4e620]: Enabled
+                    - generic [ref=f4e621]: 1 Pending
+                  - paragraph [ref=f4e622]: PU verification is handled per exam from the exam timeline.
+                - generic [ref=f4e623]:
+                  - paragraph [ref=f4e624]: College ID
+                  - button "View College ID" [ref=f4e625]
+                - generic [ref=f4e626]:
+                  - paragraph [ref=f4e627]: Created On
+                  - paragraph [ref=f4e631]: 30/07/2026, 3:38 pm
+                - generic [ref=f4e632]:
+                  - paragraph [ref=f4e633]: Date Sheet
+                  - button "Download Date Sheet" [ref=f4e634]
+            - generic [ref=f4e635]:
+              - generic [ref=f4e636]: Address Information
+              - generic [ref=f4e642]:
+                - generic [ref=f4e643]:
+                  - paragraph [ref=f4e644]: Full Address
+                  - paragraph [ref=f4e645]: Sector 14, Panjab University Campus, Chandigarh
+                - generic [ref=f4e646]:
+                  - paragraph [ref=f4e647]: City
+                  - paragraph [ref=f4e653]: Chandigarh
+                - generic [ref=f4e654]:
+                  - paragraph [ref=f4e655]: State
+                  - paragraph [ref=f4e656]: chandigarh
+                - generic [ref=f4e657]:
+                  - paragraph [ref=f4e658]: Pincode
+                  - paragraph [ref=f4e659]: "160014"
+            - generic [ref=f4e660]:
+              - generic [ref=f4e661]: Additional Notes
+              - paragraph [ref=f4e667]: QA test PU semester exam request created via automated flow.
+            - generic [ref=f4e668]:
+              - generic [ref=f4e669]: Volunteer Eligibility Settings
+              - generic [ref=f4e675]:
+                - generic [ref=f4e676]:
+                  - paragraph [ref=f4e677]: Education Filter
+                  - paragraph [ref=f4e678]: ON — Only volunteers below the beneficiary’s education level are shown
+                - switch [checked] [ref=f4e679] [cursor=pointer]
+  - region "Notifications alt+T"
+  - alert [ref=f4e350]

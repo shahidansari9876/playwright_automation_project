@@ -1,0 +1,454 @@
+- generic [ref=e1]:
+  - generic [ref=e104]:
+    - generic [ref=e107]:
+      - list [ref=e109]:
+        - listitem [ref=e110]:
+          - button "The Scribe Bank" [ref=e111]
+      - generic [ref=e116]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: Platform
+          - list [ref=e119]:
+            - listitem [ref=e120] [cursor=pointer]:
+              - link "Dashboard" [ref=e121]:
+                - /url: /admin/dashboard
+            - listitem [ref=e127] [cursor=pointer]:
+              - link "Reports" [ref=e128]:
+                - /url: /admin/reports
+            - listitem [ref=e136] [cursor=pointer]:
+              - link "Beneficiaries" [ref=e137]:
+                - /url: /admin/beneficiaries
+            - listitem [ref=e142] [cursor=pointer]:
+              - link "Volunteers" [active] [ref=e143]:
+                - /url: /admin/volunteers
+            - listitem [ref=e149] [cursor=pointer]:
+              - link "Profile Gaps" [ref=e150]:
+                - /url: /admin/users-missing-profiles
+            - listitem [ref=e158] [cursor=pointer]:
+              - link "Duplicate Accounts" [ref=e159]:
+                - /url: /admin/duplicate-accounts
+            - listitem [ref=e164] [cursor=pointer]:
+              - link "Tasks" [ref=e165]:
+                - /url: /admin/tasks
+            - listitem [ref=e170] [cursor=pointer]:
+              - link "Scribe Requests" [ref=e171]:
+                - /url: /admin/scribe-requests
+            - listitem [ref=e175] [cursor=pointer]:
+              - link "Exams" [ref=e176]:
+                - /url: /admin/exams
+            - listitem [ref=e180] [cursor=pointer]:
+              - link "Volunteer Requests" [ref=e181]:
+                - /url: /admin/volunteer-requests
+            - listitem [ref=e188] [cursor=pointer]:
+              - link "Blogs" [ref=e189]:
+                - /url: /admin/blogs
+            - listitem [ref=e196] [cursor=pointer]:
+              - link "Payouts" [ref=e197]:
+                - /url: /admin/payouts
+            - listitem [ref=e204] [cursor=pointer]:
+              - link "Roles" [ref=e205]:
+                - /url: /admin/roles
+            - listitem [ref=e210] [cursor=pointer]:
+              - link "Schools" [ref=e211]:
+                - /url: /admin/schools
+            - listitem [ref=e216] [cursor=pointer]:
+              - link "Email Templates" [ref=e217]:
+                - /url: /admin/bulk-email
+            - listitem [ref=e222] [cursor=pointer]:
+              - link "WhatsApp Campaigns" [ref=e223]:
+                - /url: /admin/whatsapp-campaigns
+            - listitem [ref=e227] [cursor=pointer]:
+              - link "System Emails" [ref=e228]:
+                - /url: /admin/system-emails
+            - listitem [ref=e236] [cursor=pointer]:
+              - link "Tutorial Videos" [ref=e237]:
+                - /url: /admin/tutorial-videos
+            - listitem [ref=e242] [cursor=pointer]:
+              - link "Admins" [ref=e243]:
+                - /url: /admin/admins
+        - generic [ref=e248]: Settings
+      - list [ref=e258]:
+        - listitem [ref=e259]:
+          - link "SA shahid ansari shahid.ansari@ledsak.ai" [ref=e260] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - generic [ref=e261]: SA
+            - generic [ref=e263]:
+              - generic [ref=e264]: shahid ansari
+              - generic [ref=e265]: shahid.ansari@ledsak.ai
+          - button "Open user menu" [ref=e266]
+    - main [ref=e1474]:
+      - generic [ref=e1476]:
+        - button "Toggle Sidebar" [ref=e1477]
+        - heading "Volunteers" [level=1] [ref=e1479]
+        - generic [ref=e1480]:
+          - button "Export" [ref=e1481]
+          - link [ref=e1482] [cursor=pointer]:
+            - /url: /admin/volunteers/create
+            - button "Create Volunteer" [ref=e1483]
+          - link [ref=e1484] [cursor=pointer]:
+            - /url: /admin/bulk-import?entity=volunteer
+            - button "Bulk Import" [ref=e1485]
+          - link [ref=e1486] [cursor=pointer]:
+            - /url: /admin/volunteers/top
+            - button "Top Volunteers" [ref=e1487]
+          - button "Switch to dark mode" [ref=e1488]:
+            - generic [ref=e1489]: Dark mode
+      - generic [ref=e1493]:
+        - generic [ref=e1496]:
+          - textbox "Search by name, email, phone, city, or school..." [ref=e1502]
+          - button "Visibility" [ref=e1503]
+          - button "Status" [ref=e1505]
+          - button "Payment" [ref=e1508]
+          - button "State" [ref=e1511]
+          - button "School" [ref=e1513]
+          - button "Region" [ref=e1516] [cursor=pointer]
+          - generic [ref=e1522]:
+            - button "Sort" [ref=e1523]
+            - button "Columns" [ref=e1525]
+            - button "Advanced" [ref=e1527]
+        - paragraph [ref=e1530]: 45 volunteers found
+        - table [ref=e1534]:
+          - rowgroup [ref=e1535]:
+            - row [ref=e1536]:
+              - columnheader [ref=e1537]:
+                - checkbox [ref=e1538]
+              - columnheader "#" [ref=e1539]
+              - columnheader "Name" [ref=e1540] [cursor=pointer]
+              - columnheader "Contact" [ref=e1546] [cursor=pointer]
+              - columnheader "DOB" [ref=e1552] [cursor=pointer]
+              - columnheader "City" [ref=e1558] [cursor=pointer]
+              - columnheader "State" [ref=e1564] [cursor=pointer]
+              - columnheader "Occupation" [ref=e1570]
+              - columnheader "Education" [ref=e1571]
+              - columnheader "Identity Status" [ref=e1572]
+              - columnheader "Payment Status" [ref=e1573]
+              - columnheader "Joined" [ref=e1574] [cursor=pointer]
+              - columnheader "Actions" [ref=e1580]
+          - rowgroup [ref=e1581]:
+            - row [ref=e1582]:
+              - cell [ref=e1583]:
+                - checkbox [ref=e1584]
+              - cell "1" [ref=e1585]
+              - cell [ref=e1586]:
+                - 'link "volunteer user ID: 3" [ref=e1587] [cursor=pointer]':
+                  - /url: /admin/volunteers/3
+                  - generic [ref=e1588]: volunteer user
+                  - generic [ref=e1589]: "ID: 3"
+              - cell "volunteer@mailinator.com 8084891085" [ref=e1590]:
+                - generic [ref=e1591]: volunteer@mailinator.com
+                - generic [ref=e1592]: "8084891085"
+              - cell "12/08/2020" [ref=e1593]
+              - cell "Kalkaji" [ref=e1594]
+              - cell "Delhi" [ref=e1596]
+              - cell "engineer" [ref=e1598]
+              - cell "postdoc" [ref=e1599]
+              - cell [ref=e1600]:
+                - generic [ref=e1601]:
+                  - generic [ref=e1602]: Verified
+                  - button "View document history" [ref=e1603]
+              - cell "Not Uploaded" [ref=e1604]
+              - cell "15/12/2025" [ref=e1607]
+              - cell [ref=e1608]:
+                - generic [ref=e1609]:
+                  - link "View" [ref=e1610] [cursor=pointer]:
+                    - /url: /admin/volunteers/3
+                  - link "Edit" [ref=e1612] [cursor=pointer]:
+                    - /url: /admin/volunteers/edit/3
+                  - button "Delete" [ref=e1614]
+            - row [ref=e1616]:
+              - cell [ref=e1617]:
+                - checkbox [ref=e1618]
+              - cell "2" [ref=e1619]
+              - cell [ref=e1620]:
+                - 'link "SK Ahmad ID: 5" [ref=e1621] [cursor=pointer]':
+                  - /url: /admin/volunteers/5
+                  - generic [ref=e1622]: SK Ahmad
+                  - generic [ref=e1623]: "ID: 5"
+              - cell "saif@ledsak.ai 8585907442" [ref=e1624]:
+                - generic [ref=e1625]: saif@ledsak.ai
+                - generic [ref=e1626]: "8585907442"
+              - cell "02/02/1951" [ref=e1627]
+              - cell "delhi" [ref=e1628]
+              - cell "Madhya Pradesh" [ref=e1630]
+              - cell "engineer" [ref=e1632]
+              - cell "mphil" [ref=e1633]
+              - cell [ref=e1634]:
+                - generic [ref=e1635]:
+                  - generic [ref=e1636]: No Document
+                  - button "View document history" [ref=e1637]
+              - cell "Not Uploaded" [ref=e1638]
+              - cell "15/12/2025" [ref=e1641]
+              - cell [ref=e1642]:
+                - generic [ref=e1643]:
+                  - link "View" [ref=e1644] [cursor=pointer]:
+                    - /url: /admin/volunteers/5
+                  - link "Edit" [ref=e1646] [cursor=pointer]:
+                    - /url: /admin/volunteers/edit/5
+                  - button "Delete" [ref=e1648]
+            - row [ref=e1650]:
+              - cell [ref=e1651]:
+                - checkbox [ref=e1652]
+              - cell "3" [ref=e1653]
+              - cell [ref=e1654]:
+                - 'link "Deepak Volunteer ID: 6" [ref=e1655] [cursor=pointer]':
+                  - /url: /admin/volunteers/6
+                  - generic [ref=e1656]: Deepak Volunteer
+                  - generic [ref=e1657]: "ID: 6"
+              - cell "deepak@mailinator.com 8084891083" [ref=e1658]:
+                - generic [ref=e1659]: deepak@mailinator.com
+                - generic [ref=e1660]: "8084891083"
+              - cell "14/09/2007" [ref=e1661]
+              - cell "Kalkaji" [ref=e1662]
+              - cell "Delhi" [ref=e1664]
+              - cell "engineer" [ref=e1666]
+              - cell "master" [ref=e1667]
+              - cell [ref=e1668]:
+                - generic [ref=e1669]:
+                  - generic [ref=e1670]: Verified
+                  - button "View document history" [ref=e1671]
+              - cell "Not Uploaded" [ref=e1672]
+              - cell "15/12/2025" [ref=e1675]
+              - cell [ref=e1676]:
+                - generic [ref=e1677]:
+                  - link "View" [ref=e1678] [cursor=pointer]:
+                    - /url: /admin/volunteers/6
+                  - link "Edit" [ref=e1680] [cursor=pointer]:
+                    - /url: /admin/volunteers/edit/6
+                  - button "Delete" [ref=e1682]
+            - row [ref=e1684]:
+              - cell [ref=e1685]:
+                - checkbox [ref=e1686]
+              - cell "4" [ref=e1687]
+              - cell [ref=e1688]:
+                - 'link "Amit volunteer ID: 10" [ref=e1689] [cursor=pointer]':
+                  - /url: /admin/volunteers/10
+                  - generic [ref=e1690]: Amit volunteer
+                  - generic [ref=e1691]: "ID: 10"
+              - cell "amit3227@gmail.com 8084891086" [ref=e1692]:
+                - generic [ref=e1693]: amit3227@gmail.com
+                - generic [ref=e1694]: "8084891086"
+              - cell "14/09/2004" [ref=e1695]
+              - cell "Ghaziabad" [ref=e1696]
+              - cell "Uttar Pradesh" [ref=e1698]
+              - cell "engineer" [ref=e1700]
+              - cell "postdoc" [ref=e1701]
+              - cell [ref=e1702]:
+                - generic [ref=e1703]:
+                  - generic [ref=e1704]: Pending Review
+                  - button "View document history" [ref=e1705]
+              - cell "Not Uploaded" [ref=e1706]
+              - cell "20/12/2025" [ref=e1709]
+              - cell [ref=e1710]:
+                - generic [ref=e1711]:
+                  - link "View" [ref=e1712] [cursor=pointer]:
+                    - /url: /admin/volunteers/10
+                  - link "Edit" [ref=e1714] [cursor=pointer]:
+                    - /url: /admin/volunteers/edit/10
+                  - button "Delete" [ref=e1716]
+            - row [ref=e1718]:
+              - cell [ref=e1719]:
+                - checkbox [ref=e1720]
+              - cell "5" [ref=e1721]
+              - cell [ref=e1722]:
+                - 'link "Amit volunteer ID: 9" [ref=e1723] [cursor=pointer]':
+                  - /url: /admin/volunteers/9
+                  - generic [ref=e1724]: Amit volunteer
+                  - generic [ref=e1725]: "ID: 9"
+              - cell "devqa3227@gmail.com 8383919587" [ref=e1726]:
+                - generic [ref=e1727]: devqa3227@gmail.com
+                - generic [ref=e1728]: "8383919587"
+              - cell "07/12/2018" [ref=e1729]
+              - cell "Ghaziabad" [ref=e1730]
+              - cell "Delhi" [ref=e1732]
+              - cell "engineer" [ref=e1734]
+              - cell "postdoc" [ref=e1735]
+              - cell [ref=e1736]:
+                - generic [ref=e1737]:
+                  - generic [ref=e1738]: Verified
+                  - button "View document history" [ref=e1739]
+              - cell "Verified 2/2 verified View payment details" [ref=e1740]:
+                - generic [ref=e1741]:
+                  - generic [ref=e1742]: Verified
+                  - generic [ref=e1743]: 2/2 verified
+                  - link "View payment details" [ref=e1745] [cursor=pointer]:
+                    - /url: /admin/volunteers/9?tab=payment-methods
+              - cell "19/12/2025" [ref=e1746]
+              - cell [ref=e1747]:
+                - generic [ref=e1748]:
+                  - link "View" [ref=e1749] [cursor=pointer]:
+                    - /url: /admin/volunteers/9
+                  - link "Edit" [ref=e1751] [cursor=pointer]:
+                    - /url: /admin/volunteers/edit/9
+                  - button "Delete" [ref=e1753]
+            - row [ref=e1755]:
+              - cell [ref=e1756]:
+                - checkbox [ref=e1757]
+              - cell "6" [ref=e1758]
+              - cell [ref=e1759]:
+                - 'link "Amit Volunteer ID: 11" [ref=e1760] [cursor=pointer]':
+                  - /url: /admin/volunteers/11
+                  - generic [ref=e1761]: Amit Volunteer
+                  - generic [ref=e1762]: "ID: 11"
+              - cell "volunteeruser@mailinator.com 9354029936" [ref=e1763]:
+                - generic [ref=e1764]: volunteeruser@mailinator.com
+                - generic [ref=e1765]: "9354029936"
+              - cell "18/12/2014" [ref=e1766]
+              - cell "Ghaziabad" [ref=e1767]
+              - cell "Uttar Pradesh" [ref=e1769]
+              - cell "Engineer" [ref=e1771]
+              - cell "phd" [ref=e1772]
+              - cell [ref=e1773]:
+                - generic [ref=e1774]:
+                  - generic [ref=e1775]: Pending Review
+                  - button "View document history" [ref=e1776]
+              - cell "Not Uploaded" [ref=e1777]
+              - cell "20/12/2025" [ref=e1780]
+              - cell [ref=e1781]:
+                - generic [ref=e1782]:
+                  - link "View" [ref=e1783] [cursor=pointer]:
+                    - /url: /admin/volunteers/11
+                  - link "Edit" [ref=e1785] [cursor=pointer]:
+                    - /url: /admin/volunteers/edit/11
+                  - button "Delete" [ref=e1787]
+            - row [ref=e1789]:
+              - cell [ref=e1790]:
+                - checkbox [ref=e1791]
+              - cell "7" [ref=e1792]
+              - cell [ref=e1793]:
+                - 'link "Gaur Volunteer ID: 12" [ref=e1794] [cursor=pointer]':
+                  - /url: /admin/volunteers/12
+                  - generic [ref=e1795]: Gaur Volunteer
+                  - generic [ref=e1796]: "ID: 12"
+              - cell "gaurav@ledsak.ai 1236547890" [ref=e1797]:
+                - generic [ref=e1798]: gaurav@ledsak.ai
+                - generic [ref=e1799]: "1236547890"
+              - cell "01/01/2000" [ref=e1800]
+              - cell "Gurugram" [ref=e1801]
+              - cell "Haryana" [ref=e1803]
+              - cell "other" [ref=e1805]
+              - cell "bachelor" [ref=e1806]
+              - cell [ref=e1807]:
+                - generic [ref=e1808]:
+                  - generic [ref=e1809]: Verified
+                  - button "View document history" [ref=e1810]
+              - cell "Not Uploaded" [ref=e1811]
+              - cell "23/12/2025" [ref=e1814]
+              - cell [ref=e1815]:
+                - generic [ref=e1816]:
+                  - link "View" [ref=e1817] [cursor=pointer]:
+                    - /url: /admin/volunteers/12
+                  - link "Edit" [ref=e1819] [cursor=pointer]:
+                    - /url: /admin/volunteers/edit/12
+                  - button "Delete" [ref=e1821]
+            - row [ref=e1823]:
+              - cell [ref=e1824]:
+                - checkbox [ref=e1825]
+              - cell "8" [ref=e1826]
+              - cell [ref=e1827]:
+                - 'link "Gaurav volunteer ID: 13" [ref=e1828] [cursor=pointer]':
+                  - /url: /admin/volunteers/13
+                  - generic [ref=e1829]: Gaurav volunteer
+                  - generic [ref=e1830]: "ID: 13"
+              - cell "gaurav@mailinator.com 8383919556" [ref=e1831]:
+                - generic [ref=e1832]: gaurav@mailinator.com
+                - generic [ref=e1833]: "8383919556"
+              - cell "07/12/2008" [ref=e1834]
+              - cell "Delhi" [ref=e1835]
+              - cell "Delhi" [ref=e1837]
+              - cell "doctor" [ref=e1839]
+              - cell "postdoc" [ref=e1840]
+              - cell [ref=e1841]:
+                - generic [ref=e1842]:
+                  - generic [ref=e1843]: Verified
+                  - button "View document history" [ref=e1844]
+              - cell "Not Uploaded" [ref=e1845]
+              - cell "23/12/2025" [ref=e1848]
+              - cell [ref=e1849]:
+                - generic [ref=e1850]:
+                  - link "View" [ref=e1851] [cursor=pointer]:
+                    - /url: /admin/volunteers/13
+                  - link "Edit" [ref=e1853] [cursor=pointer]:
+                    - /url: /admin/volunteers/edit/13
+                  - button "Delete" [ref=e1855]
+            - row [ref=e1857]:
+              - cell [ref=e1858]:
+                - checkbox [ref=e1859]
+              - cell "9" [ref=e1860]
+              - cell [ref=e1861]:
+                - 'link "test volunteer ID: 14" [ref=e1862] [cursor=pointer]':
+                  - /url: /admin/volunteers/14
+                  - generic [ref=e1863]: test volunteer
+                  - generic [ref=e1864]: "ID: 14"
+              - cell "test002@mailinator.com 8383123457" [ref=e1865]:
+                - generic [ref=e1866]: test002@mailinator.com
+                - generic [ref=e1867]: "8383123457"
+              - cell "19/12/2005" [ref=e1868]
+              - cell "Ghaziabad" [ref=e1869]
+              - cell "Uttar Pradesh" [ref=e1871]
+              - cell "engineer" [ref=e1873]
+              - cell "phd" [ref=e1874]
+              - cell [ref=e1875]:
+                - generic [ref=e1876]:
+                  - generic [ref=e1877]: No Document
+                  - button "View document history" [ref=e1878]
+              - cell "Not Uploaded" [ref=e1879]
+              - cell "24/12/2025" [ref=e1882]
+              - cell [ref=e1883]:
+                - generic [ref=e1884]:
+                  - link "View" [ref=e1885] [cursor=pointer]:
+                    - /url: /admin/volunteers/14
+                  - link "Edit" [ref=e1887] [cursor=pointer]:
+                    - /url: /admin/volunteers/edit/14
+                  - button "Delete" [ref=e1889]
+            - row [ref=e1891]:
+              - cell [ref=e1892]:
+                - checkbox [ref=e1893]
+              - cell "10" [ref=e1894]
+              - cell [ref=e1895]:
+                - 'link "test 003 ID: 15" [ref=e1896] [cursor=pointer]':
+                  - /url: /admin/volunteers/15
+                  - generic [ref=e1897]: test 003
+                  - generic [ref=e1898]: "ID: 15"
+              - cell "test003@mailinator.com 8086751087" [ref=e1899]:
+                - generic [ref=e1900]: test003@mailinator.com
+                - generic [ref=e1901]: "8086751087"
+              - cell "24/09/2005" [ref=e1902]
+              - cell "Ghaziabad" [ref=e1903]
+              - cell "Uttar Pradesh" [ref=e1905]
+              - cell "engineer" [ref=e1907]
+              - cell "iti" [ref=e1908]
+              - cell [ref=e1909]:
+                - generic [ref=e1910]:
+                  - generic [ref=e1911]: Verified
+                  - button "View document history" [ref=e1912]
+              - cell "Not Uploaded" [ref=e1913]
+              - cell "24/12/2025" [ref=e1916]
+              - cell [ref=e1917]:
+                - generic [ref=e1918]:
+                  - link "View" [ref=e1919] [cursor=pointer]:
+                    - /url: /admin/volunteers/15
+                  - link "Edit" [ref=e1921] [cursor=pointer]:
+                    - /url: /admin/volunteers/edit/15
+                  - button "Delete" [ref=e1923]
+        - generic [ref=e1925]:
+          - generic [ref=e1926]: Showing 1 - 10 of 45 records
+          - generic [ref=e1928]:
+            - generic [ref=e1929]:
+              - generic [ref=e1930]: Row per page
+              - combobox [ref=e1932]:
+                - generic: "10"
+            - navigation "pagination" [ref=e1934]:
+              - list [ref=e1935]:
+                - listitem [ref=e1936] [cursor=pointer]:
+                  - generic "Go to previous page" [ref=e1937]: Previous
+                - listitem [ref=e1939] [cursor=pointer]:
+                  - generic [ref=e1940]: "1"
+                - listitem [ref=e1941] [cursor=pointer]:
+                  - generic [ref=e1942]: "2"
+                - listitem [ref=e1943] [cursor=pointer]:
+                  - generic [ref=e1944]: More pages
+                - listitem [ref=e1950] [cursor=pointer]:
+                  - generic [ref=e1951]: "5"
+                - listitem [ref=e1952]:
+                  - generic "Go to next page" [ref=e1953] [cursor=pointer]: Next
+  - region "Notifications alt+T"
+  - alert [ref=e67]: "Admin Panel: The Scribe Bank"

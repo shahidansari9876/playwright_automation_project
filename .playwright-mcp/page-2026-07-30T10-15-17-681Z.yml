@@ -1,0 +1,29 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - generic [ref=f3e5]:
+      - list [ref=f3e7]:
+        - listitem [ref=f3e8]:
+          - button "The Scribe Bank" [ref=f3e9]
+      - generic [ref=f3e15]:
+        - generic [ref=f3e16]: Platform
+        - list [ref=f3e17]:
+          - listitem [ref=f3e18] [cursor=pointer]:
+            - link "System Emails" [ref=f3e19]:
+              - /url: /admin/system-emails
+      - list [ref=f3e28]:
+        - listitem [ref=f3e29]:
+          - link "SA shahid ansari shahid.ansari@ledsak.ai" [ref=f3e30] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - generic [ref=f3e31]: SA
+            - generic [ref=f3e33]:
+              - generic [ref=f3e34]: shahid ansari
+              - generic [ref=f3e35]: shahid.ansari@ledsak.ai
+          - button "Open user menu" [ref=f3e36]
+    - main [ref=f3e41]:
+      - generic [ref=f3e43]:
+        - button "Toggle Sidebar" [ref=f3e44]
+        - heading "Exam Timeline" [level=1] [ref=f3e46]
+        - button "Switch to dark mode" [ref=f3e48]:
+          - generic [ref=f3e49]: Dark mode
+  - region "Notifications alt+T"
+  - alert [ref=f3e80]

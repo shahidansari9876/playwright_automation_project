@@ -1,0 +1,78 @@
+- generic [active] [ref=f53e1]:
+  - generic [ref=f53e2]:
+    - link "Skip to main content" [ref=f53e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f53e4]:
+      - generic [ref=f53e5]:
+        - link [ref=f53e7] [cursor=pointer]:
+          - /url: /volunteer
+          - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f53e8]
+        - generic [ref=f53e9]:
+          - link "Home" [ref=f53e10] [cursor=pointer]:
+            - /url: /volunteer
+          - link "My Activities" [ref=f53e15] [cursor=pointer]:
+            - /url: /volunteer/work-history
+          - link "Messages" [ref=f53e20] [cursor=pointer]:
+            - /url: /volunteer/messages
+          - link "Payouts" [ref=f53e24] [cursor=pointer]:
+            - /url: /volunteer/assistance-payouts
+          - link "Guide" [ref=f53e29] [cursor=pointer]:
+            - /url: /help
+        - generic [ref=f53e33]:
+          - link "Notifications" [ref=f53e34] [cursor=pointer]:
+            - /url: /notifications
+          - button "Profile picture of Rohan Verma Rohan Verma" [ref=f53e38] [cursor=pointer]:
+            - img "Profile picture of Rohan Verma" [ref=f53e39]
+            - generic [ref=f53e40]: Rohan Verma
+    - main [ref=f53e43]:
+      - generic [ref=f53e45]:
+        - complementary [ref=f53e46]:
+          - generic [ref=f53e47]:
+            - generic [ref=f53e48]:
+              - img "Cover photo for Rohan Verma" [ref=f53e49]
+              - generic [ref=f53e50]:
+                - img "Profile picture of Rohan Verma" [ref=f53e51]
+                - heading "Rohan Verma" [level=2] [ref=f53e54]
+                - paragraph [ref=f53e55]: Volunteer
+              - generic [ref=f53e56]:
+                - generic [ref=f53e57]:
+                  - text: "0"
+                  - paragraph [ref=f53e58]: Request Volunteered
+                - generic [ref=f53e59]:
+                  - text: "0"
+                  - paragraph [ref=f53e60]: Exam Completed
+              - link "View Profile" [ref=f53e62] [cursor=pointer]:
+                - /url: /volunteer/profile
+            - 'button "Play video: How to Login as a Volunteer" [ref=f53e64] [cursor=pointer]':
+              - generic [ref=f53e65]:
+                - generic [ref=f53e66]:
+                  - img "Video thumbnail" [ref=f53e67]
+                  - img "Video thumbnail" [ref=f53e68]
+                - generic [ref=f53e69]:
+                  - heading "How to Login as a Volunteer" [level=3] [ref=f53e70]
+                  - paragraph [ref=f53e71]: Watch the updated volunteer login flow and first dashboard walkthrough
+        - region "Volunteer dashboard" [ref=f53e73]:
+          - region [ref=f53e74]:
+            - generic [ref=f53e75]:
+              - heading "Your Volunteer Profile Is Almost Ready" [level=2] [ref=f53e78]
+              - paragraph [ref=f53e79]: A submitted document was rejected. Review the reason and upload a replacement.
+            - generic [ref=f53e80]:
+              - progressbar "Volunteer profile completion" [ref=f53e81]
+              - paragraph [ref=f53e83]:
+                - strong [ref=f53e84]: 50% complete
+                - generic [ref=f53e85]: 1 of 2 steps done
+            - list [ref=f53e86]:
+              - listitem [ref=f53e87]:
+                - generic [ref=f53e88]:
+                  - generic [ref=f53e93]:
+                    - generic [ref=f53e94]: "Completed:"
+                    - text: Upload Identity Document
+                  - generic [ref=f53e95]: Added
+                - paragraph [ref=f53e103]:
+                  - text: Rejected
+                  - generic [ref=f53e104]: — Document is not clear or readable
+            - button "Review Documents" [ref=f53e106] [cursor=pointer]
+    - contentinfo "Website Footer" [ref=f53e107]:
+      - generic [ref=f53e108]: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert [ref=f53e110]

@@ -1,0 +1,351 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e104]:
+    - generic [ref=e107]:
+      - list [ref=e109]:
+        - listitem [ref=e110]:
+          - button "The Scribe Bank" [ref=e111]
+      - generic [ref=e116]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: Platform
+          - list [ref=e119]:
+            - listitem [ref=e120] [cursor=pointer]:
+              - link "Dashboard" [ref=e121]:
+                - /url: /admin/dashboard
+            - listitem [ref=e127] [cursor=pointer]:
+              - link "Reports" [ref=e128]:
+                - /url: /admin/reports
+            - listitem [ref=e136] [cursor=pointer]:
+              - link "Beneficiaries" [ref=e137]:
+                - /url: /admin/beneficiaries
+            - listitem [ref=e142] [cursor=pointer]:
+              - link "Volunteers" [ref=e143]:
+                - /url: /admin/volunteers
+            - listitem [ref=e149] [cursor=pointer]:
+              - link "Profile Gaps" [ref=e150]:
+                - /url: /admin/users-missing-profiles
+            - listitem [ref=e158] [cursor=pointer]:
+              - link "Duplicate Accounts" [ref=e159]:
+                - /url: /admin/duplicate-accounts
+            - listitem [ref=e164] [cursor=pointer]:
+              - link "Tasks" [ref=e165]:
+                - /url: /admin/tasks
+            - listitem [ref=e170] [cursor=pointer]:
+              - link "Scribe Requests" [ref=e171]:
+                - /url: /admin/scribe-requests
+            - listitem [ref=e175] [cursor=pointer]:
+              - link "Exams" [ref=e176]:
+                - /url: /admin/exams
+            - listitem [ref=e180] [cursor=pointer]:
+              - link "Volunteer Requests" [ref=e181]:
+                - /url: /admin/volunteer-requests
+            - listitem [ref=e188] [cursor=pointer]:
+              - link "Blogs" [ref=e189]:
+                - /url: /admin/blogs
+            - listitem [ref=e196] [cursor=pointer]:
+              - link "Payouts" [ref=e197]:
+                - /url: /admin/payouts
+            - listitem [ref=e204] [cursor=pointer]:
+              - link "Roles" [ref=e205]:
+                - /url: /admin/roles
+            - listitem [ref=e210] [cursor=pointer]:
+              - link "Schools" [ref=e211]:
+                - /url: /admin/schools
+            - listitem [ref=e216] [cursor=pointer]:
+              - link "Email Templates" [ref=e217]:
+                - /url: /admin/bulk-email
+            - listitem [ref=e222] [cursor=pointer]:
+              - link "WhatsApp Campaigns" [ref=e223]:
+                - /url: /admin/whatsapp-campaigns
+            - listitem [ref=e227] [cursor=pointer]:
+              - link "System Emails" [ref=e228]:
+                - /url: /admin/system-emails
+            - listitem [ref=e236] [cursor=pointer]:
+              - link "Tutorial Videos" [ref=e237]:
+                - /url: /admin/tutorial-videos
+            - listitem [ref=e242] [cursor=pointer]:
+              - link "Admins" [ref=e243]:
+                - /url: /admin/admins
+        - generic [ref=e248]: Settings
+      - list [ref=e258]:
+        - listitem [ref=e259]:
+          - link "SA shahid ansari shahid.ansari@ledsak.ai" [ref=e260] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - generic [ref=e261]: SA
+            - generic [ref=e263]:
+              - generic [ref=e264]: shahid ansari
+              - generic [ref=e265]: shahid.ansari@ledsak.ai
+          - button "Open user menu" [ref=e266]
+    - main [ref=e271]:
+      - generic [ref=e273]:
+        - button "Toggle Sidebar" [ref=e274]
+        - heading "Dashboard" [level=1] [ref=e276]
+        - button "Switch to dark mode" [ref=e278]:
+          - generic [ref=e279]: Dark mode
+      - generic [ref=e281]:
+        - generic [ref=e282]:
+          - heading "Dashboard" [level=1] [ref=e283]
+          - paragraph [ref=e284]: Overview of key metrics and recent activity
+        - generic [ref=e285]:
+          - generic [ref=e286]:
+            - generic [ref=e287]:
+              - generic [ref=e288]: Exams
+              - generic [ref=e293]:
+                - link "163" [ref=e294] [cursor=pointer]:
+                  - /url: /admin/exams
+                - generic [ref=e295]:
+                  - link "Not Accepted Yet 54" [ref=e296] [cursor=pointer]:
+                    - /url: /admin/exams?exact%5Bstatus%5D=NEW
+                    - generic [ref=e297]: Not Accepted Yet
+                    - generic [ref=e298]: "54"
+                  - link "Accepted by Volunteer 42" [ref=e299] [cursor=pointer]:
+                    - /url: /admin/exams?exact%5Bstatus%5D=ACCEPTED
+                    - generic [ref=e300]: Accepted by Volunteer
+                    - generic [ref=e301]: "42"
+                  - link "Completed 51" [ref=e302] [cursor=pointer]:
+                    - /url: /admin/exams?exact%5Bstatus%5D=COMPLETED
+                    - generic [ref=e303]: Completed
+                    - generic [ref=e304]: "51"
+                  - link "Completion Requested 9" [ref=e305] [cursor=pointer]:
+                    - /url: /admin/exams?exact%5Bstatus%5D=COMPLETION_REQUESTED
+                    - generic [ref=e306]: Completion Requested
+                    - generic [ref=e307]: "9"
+                  - link "Withdrawn 7" [ref=e308] [cursor=pointer]:
+                    - /url: /admin/exams?exact%5Bstatus%5D=WITHDRAW
+                    - generic [ref=e309]: Withdrawn
+                    - generic [ref=e310]: "7"
+            - generic [ref=e311]:
+              - generic [ref=e312]: Volunteers
+              - generic [ref=e319]:
+                - link "48" [ref=e320] [cursor=pointer]:
+                  - /url: /admin/volunteers
+                - generic [ref=e321]:
+                  - generic [ref=e322]:
+                    - paragraph [ref=e323]: Identity Doc
+                    - generic [ref=e324]:
+                      - link "Verified 29" [ref=e325] [cursor=pointer]:
+                        - /url: /admin/volunteers?exact%5Bverification_status%5D=verified
+                        - generic [ref=e326]: Verified
+                        - generic [ref=e327]: "29"
+                      - link "Pending 7" [ref=e328] [cursor=pointer]:
+                        - /url: /admin/volunteers?exact%5Bverification_status%5D=pending&pending_filter=with_document
+                        - generic [ref=e329]: Pending
+                        - generic [ref=e330]: "7"
+                      - link "Rejected 2" [ref=e331] [cursor=pointer]:
+                        - /url: /admin/volunteers?exact%5Bverification_status%5D=rejected
+                        - generic [ref=e332]: Rejected
+                        - generic [ref=e333]: "2"
+                      - link "Not Uploaded 10" [ref=e334] [cursor=pointer]:
+                        - /url: /admin/volunteers?exact%5Bverification_status%5D=not_uploaded
+                        - generic [ref=e335]: Not Uploaded
+                        - generic [ref=e336]: "10"
+                  - generic [ref=e337]:
+                    - paragraph [ref=e338]: Bank Account
+                    - generic [ref=e339]:
+                      - link "Verified 18" [ref=e340] [cursor=pointer]:
+                        - /url: /admin/volunteers?exact%5Bpayment_verification_status%5D=verified
+                        - generic [ref=e341]: Verified
+                        - generic [ref=e342]: "18"
+                      - link "Pending 2" [ref=e343] [cursor=pointer]:
+                        - /url: /admin/volunteers?exact%5Bpayment_verification_status%5D=pending
+                        - generic [ref=e344]: Pending
+                        - generic [ref=e345]: "2"
+                      - link "Rejected 0" [ref=e346] [cursor=pointer]:
+                        - /url: /admin/volunteers?exact%5Bpayment_verification_status%5D=rejected
+                        - generic [ref=e347]: Rejected
+                        - generic [ref=e348]: "0"
+                      - link "Not Uploaded 28" [ref=e349] [cursor=pointer]:
+                        - /url: /admin/volunteers?exact%5Bpayment_verification_status%5D=not_uploaded
+                        - generic [ref=e350]: Not Uploaded
+                        - generic [ref=e351]: "28"
+            - generic [ref=e352]:
+              - generic [ref=e353]: Beneficiaries
+              - generic [ref=e361]:
+                - link "131" [ref=e362] [cursor=pointer]:
+                  - /url: /admin/beneficiaries
+                - generic [ref=e363]:
+                  - generic [ref=e364]:
+                    - paragraph [ref=e365]: Identity Doc
+                    - generic [ref=e366]:
+                      - link "Verified 46" [ref=e367] [cursor=pointer]:
+                        - /url: /admin/beneficiaries?exact%5Bverification_status%5D=verified
+                        - generic [ref=e368]: Verified
+                        - generic [ref=e369]: "46"
+                      - link "No Doc 1" [ref=e370] [cursor=pointer]:
+                        - /url: /admin/beneficiaries?exact%5Bverification_status%5D=verified
+                        - generic [ref=e371]: No Doc
+                        - generic [ref=e372]: "1"
+                      - link "Pending 43" [ref=e373] [cursor=pointer]:
+                        - /url: /admin/beneficiaries?exact%5Bverification_status%5D=pending&pending_filter=with_document
+                        - generic [ref=e374]: Pending
+                        - generic [ref=e375]: "43"
+                      - link "Rejected 0" [ref=e376] [cursor=pointer]:
+                        - /url: /admin/beneficiaries?exact%5Bverification_status%5D=rejected
+                        - generic [ref=e377]: Rejected
+                        - generic [ref=e378]: "0"
+                      - link "Not Uploaded 41" [ref=e379] [cursor=pointer]:
+                        - /url: /admin/beneficiaries?exact%5Bverification_status%5D=not_uploaded
+                        - generic [ref=e380]: Not Uploaded
+                        - generic [ref=e381]: "41"
+                  - generic [ref=e382]:
+                    - paragraph [ref=e383]: Disability Doc
+                    - generic [ref=e384]:
+                      - link "Verified 17" [ref=e385] [cursor=pointer]:
+                        - /url: /admin/beneficiaries?exact%5Bdisability_verification_status%5D=verified
+                        - generic [ref=e386]: Verified
+                        - generic [ref=e387]: "17"
+                      - link "Pending 31" [ref=e388] [cursor=pointer]:
+                        - /url: /admin/beneficiaries?exact%5Bdisability_verification_status%5D=pending
+                        - generic [ref=e389]: Pending
+                        - generic [ref=e390]: "31"
+                      - link "Rejected 1" [ref=e391] [cursor=pointer]:
+                        - /url: /admin/beneficiaries?exact%5Bdisability_verification_status%5D=rejected
+                        - generic [ref=e392]: Rejected
+                        - generic [ref=e393]: "1"
+                      - link "Not Uploaded 82" [ref=e394] [cursor=pointer]:
+                        - /url: /admin/beneficiaries?exact%5Bdisability_verification_status%5D=not_uploaded
+                        - generic [ref=e395]: Not Uploaded
+                        - generic [ref=e396]: "82"
+          - generic [ref=e398]:
+            - generic [ref=e400]:
+              - generic [ref=e401]: Payments
+              - button "All States" [ref=e403]
+            - generic [ref=e406]:
+              - generic [ref=e407]:
+                - link "Completed ₹7,200.00 (18)" [ref=e408] [cursor=pointer]:
+                  - /url: /admin/payouts?exact%5Bpayment_status%5D=COMPLETED&page=1
+                  - generic [ref=e409]:
+                    - generic [ref=e410]: Completed
+                    - generic [ref=e411]:
+                      - generic [ref=e412]: ₹7,200.00
+                      - generic [ref=e413]: (18)
+                - link "Processing ₹800.00 (2)" [ref=e414] [cursor=pointer]:
+                  - /url: /admin/payouts?exact%5Bpayment_status%5D=PROCESSING&page=1
+                  - generic [ref=e415]:
+                    - generic [ref=e416]: Processing
+                    - generic [ref=e417]:
+                      - generic [ref=e418]: ₹800.00
+                      - generic [ref=e419]: (2)
+                - link "Requested ₹4,400.00 (11)" [ref=e420] [cursor=pointer]:
+                  - /url: /admin/payouts?exact%5Bpayment_status%5D=REQUESTED&page=1
+                  - generic [ref=e421]:
+                    - generic [ref=e422]: Requested
+                    - generic [ref=e423]:
+                      - generic [ref=e424]: ₹4,400.00
+                      - generic [ref=e425]: (11)
+                - link "Failed ₹800.00 (2)" [ref=e426] [cursor=pointer]:
+                  - /url: /admin/payouts?exact%5Bpayment_status%5D=FAILED&page=1
+                  - generic [ref=e427]:
+                    - generic [ref=e428]: Failed
+                    - generic [ref=e429]:
+                      - generic [ref=e430]: ₹800.00
+                      - generic [ref=e431]: (2)
+              - generic [ref=e432]:
+                - link "Review requested payouts →" [ref=e433] [cursor=pointer]:
+                  - /url: /admin/payouts?exact%5Bpayment_status%5D=REQUESTED&page=1
+                - link "View all →" [ref=e434] [cursor=pointer]:
+                  - /url: /admin/payouts?page=1
+        - generic [ref=e437]:
+          - generic [ref=e439]:
+            - generic [ref=e440]: Document Re-uploads
+            - generic [ref=e445]: Today
+          - paragraph [ref=e451]: No document re-uploads today
+        - generic [ref=e456]:
+          - tablist [ref=e457]:
+            - tab "Recent Exams" [selected] [ref=e458]
+            - tab "Recent Payouts" [ref=e459]
+          - tabpanel "Recent Exams" [ref=e460]:
+            - generic [ref=e462]:
+              - 'link "English - admin test Student: PU flow beneficiary NEW about 3 hours ago" [ref=e463] [cursor=pointer]':
+                - /url: /admin/exams/220
+                - generic [ref=e468]:
+                  - paragraph [ref=e469]: English - admin test
+                  - generic [ref=e471]:
+                    - generic [ref=e472]: "Student:"
+                    - generic [ref=e473]: PU flow beneficiary
+                - generic [ref=e474]:
+                  - generic [ref=e475]: NEW
+                  - generic [ref=e476]: about 3 hours ago
+              - 'link "Test subject - Non Pu exam Student: New ben Pu NEW about 4 hours ago" [ref=e477] [cursor=pointer]':
+                - /url: /admin/exams/219
+                - generic [ref=e482]:
+                  - paragraph [ref=e483]: Test subject - Non Pu exam
+                  - generic [ref=e485]:
+                    - generic [ref=e486]: "Student:"
+                    - generic [ref=e487]: New ben Pu
+                - generic [ref=e488]:
+                  - generic [ref=e489]: NEW
+                  - generic [ref=e490]: about 4 hours ago
+              - 'link "Test Subject - Test Semester Exam Student: Test Benificiary NEW about 5 hours ago" [ref=e491] [cursor=pointer]':
+                - /url: /admin/exams/218
+                - generic [ref=e496]:
+                  - paragraph [ref=e497]: Test Subject - Test Semester Exam
+                  - generic [ref=e499]:
+                    - generic [ref=e500]: "Student:"
+                    - generic [ref=e501]: Test Benificiary
+                - generic [ref=e502]:
+                  - generic [ref=e503]: NEW
+                  - generic [ref=e504]: about 5 hours ago
+              - 'link "environmental structure - Human value Student: Test Benificiary Volunteer: test volunteer pu COMPLETED 2 days ago" [ref=e505] [cursor=pointer]':
+                - /url: /admin/exams/217
+                - generic [ref=e510]:
+                  - paragraph [ref=e511]: environmental structure - Human value
+                  - generic [ref=e512]:
+                    - generic [ref=e513]:
+                      - generic [ref=e514]: "Student:"
+                      - generic [ref=e515]: Test Benificiary
+                    - generic [ref=e516]:
+                      - generic [ref=e517]: "Volunteer:"
+                      - generic [ref=e518]: test volunteer pu
+                - generic [ref=e519]:
+                  - generic [ref=e520]: COMPLETED
+                  - generic [ref=e521]: 2 days ago
+              - 'link "English pu non test - with no pu test Student: PU flow beneficiary NEW 3 days ago" [ref=e522] [cursor=pointer]':
+                - /url: /admin/exams/216
+                - generic [ref=e527]:
+                  - paragraph [ref=e528]: English pu non test - with no pu test
+                  - generic [ref=e530]:
+                    - generic [ref=e531]: "Student:"
+                    - generic [ref=e532]: PU flow beneficiary
+                - generic [ref=e533]:
+                  - generic [ref=e534]: NEW
+                  - generic [ref=e535]: 3 days ago
+              - 'link "Test subject NON pu - Non Pu exam Student: non pu ben Volunteer: Non pu volunt COMPLETED 3 days ago" [ref=e536] [cursor=pointer]':
+                - /url: /admin/exams/215
+                - generic [ref=e541]:
+                  - paragraph [ref=e542]: Test subject NON pu - Non Pu exam
+                  - generic [ref=e543]:
+                    - generic [ref=e544]:
+                      - generic [ref=e545]: "Student:"
+                      - generic [ref=e546]: non pu ben
+                    - generic [ref=e547]:
+                      - generic [ref=e548]: "Volunteer:"
+                      - generic [ref=e549]: Non pu volunt
+                - generic [ref=e550]:
+                  - generic [ref=e551]: COMPLETED
+                  - generic [ref=e552]: 3 days ago
+              - 'link "English - admin test Student: PU flow beneficiary NEW 6 days ago" [ref=e553] [cursor=pointer]':
+                - /url: /admin/exams/214
+                - generic [ref=e558]:
+                  - paragraph [ref=e559]: English - admin test
+                  - generic [ref=e561]:
+                    - generic [ref=e562]: "Student:"
+                    - generic [ref=e563]: PU flow beneficiary
+                - generic [ref=e564]:
+                  - generic [ref=e565]: NEW
+                  - generic [ref=e566]: 6 days ago
+              - 'link "Test - Test Student: PU flow beneficiary Volunteer: PU flow volunteer COMPLETED 6 days ago" [ref=e567] [cursor=pointer]':
+                - /url: /admin/exams/213
+                - generic [ref=e572]:
+                  - paragraph [ref=e573]: Test - Test
+                  - generic [ref=e574]:
+                    - generic [ref=e575]:
+                      - generic [ref=e576]: "Student:"
+                      - generic [ref=e577]: PU flow beneficiary
+                    - generic [ref=e578]:
+                      - generic [ref=e579]: "Volunteer:"
+                      - generic [ref=e580]: PU flow volunteer
+                - generic [ref=e581]:
+                  - generic [ref=e582]: COMPLETED
+                  - generic [ref=e583]: 6 days ago
+  - region "Notifications alt+T"
+  - alert [ref=e67]: "Admin Panel: The Scribe Bank"

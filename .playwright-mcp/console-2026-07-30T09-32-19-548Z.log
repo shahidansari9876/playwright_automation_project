@@ -1,0 +1,6 @@
+[   16090ms] [LOG] 🔵 [FRONTEND] Sending Signup OTP request @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/sign-up/page-47207199927fb376.js:0
+[   16090ms] [LOG] 🔵 URL: https://api-v1.thescribebank.com/auth/send-otp?masterOtp=true @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/sign-up/page-47207199927fb376.js:0
+[   16090ms] [LOG] 🔵 Email: benef1785403804@yopmail.com @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/sign-up/page-47207199927fb376.js:0
+[   16091ms] [LOG] 🔵 Phone: 9179403804 @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/sign-up/page-47207199927fb376.js:0
+[   16091ms] [LOG] 🔵 Master OTP enabled: true @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/sign-up/page-47207199927fb376.js:0
+[   16170ms] [LOG] 🟢 [FRONTEND] Signup OTP Response: {success: true, data: Object} @ https://testing.thescribebank.com/_next/static/chunks/app/(authentication)/sign-up/page-47207199927fb376.js:0

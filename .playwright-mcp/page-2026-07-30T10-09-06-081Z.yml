@@ -1,0 +1,153 @@
+- generic [ref=f65e1]:
+  - generic [ref=f65e885]:
+    - link "Skip to main content" [ref=f65e886] [cursor=pointer]:
+      - /url: "#main-content"
+    - banner [ref=f65e887]:
+      - generic [ref=f65e888]:
+        - link [ref=f65e890] [cursor=pointer]:
+          - /url: /beneficiary
+          - img "Save The Quest - A CSR Initiative of IndianOil" [ref=f65e891]
+        - generic [ref=f65e892]:
+          - link "Home" [ref=f65e893] [cursor=pointer]:
+            - /url: /beneficiary
+          - link "New Request" [ref=f65e898] [cursor=pointer]:
+            - /url: /new-request
+          - link "Messages" [ref=f65e902] [cursor=pointer]:
+            - /url: /beneficiary/messages
+          - link "Guide" [ref=f65e906] [cursor=pointer]:
+            - /url: /help
+          - link "Notifications, 1 unread" [ref=f65e1004] [cursor=pointer]:
+            - /url: /notifications
+            - generic [ref=f65e1005]: "1"
+            - generic [ref=f65e1006]: 1 unread notification
+        - button "Profile picture of Priya Sharma Priya Sharma" [expanded] [ref=f65e914] [cursor=pointer]:
+          - img "Profile picture of Priya Sharma" [ref=f65e915]
+          - generic [ref=f65e916]: Priya Sharma
+    - main [ref=f65e919]:
+      - generic [ref=f65e1007]:
+        - complementary [ref=f65e1008]:
+          - generic [ref=f65e1009]:
+            - generic [ref=f65e1010]:
+              - img "Cover photo for Priya Sharma" [ref=f65e1011]
+              - generic [ref=f65e1012]:
+                - img "Profile picture of Priya Sharma" [ref=f65e1013]
+                - generic [ref=f65e1015]:
+                  - heading "Priya Sharma" [level=2] [ref=f65e1016]
+                  - img "Verified Badge" [ref=f65e1017]
+                - paragraph [ref=f65e1018]: Beneficiary
+              - generic [ref=f65e1019]:
+                - generic [ref=f65e1020]:
+                  - text: "0"
+                  - paragraph [ref=f65e1021]: Volunteers
+                - generic [ref=f65e1022]:
+                  - text: "1"
+                  - paragraph [ref=f65e1023]: Scribe Requests
+              - link "View Profile" [ref=f65e1025] [cursor=pointer]:
+                - /url: /beneficiary/profile
+            - 'button "Play video: How to Login as a Beneficiary" [ref=f65e1027] [cursor=pointer]':
+              - generic [ref=f65e1028]:
+                - generic [ref=f65e1029]:
+                  - img "Video thumbnail" [ref=f65e1030]
+                  - img "Video thumbnail" [ref=f65e1031]
+                - generic [ref=f65e1032]:
+                  - heading "How to Login as a Beneficiary" [level=3] [ref=f65e1033]
+                  - paragraph [ref=f65e1034]: Watch the existing beneficiary login tutorial and dashboard entry steps
+        - generic [ref=f65e1036]:
+          - tablist "Request type" [ref=f65e1037]:
+            - tab "Scribe Requests" [selected] [ref=f65e1038] [cursor=pointer]
+            - tab "Volunteer Requests" [ref=f65e1039] [cursor=pointer]
+          - group "Filter scribe requests by status" [ref=f65e1040]:
+            - button "All scribe requests, 1 total" [pressed] [ref=f65e1041] [cursor=pointer]: All (1)
+            - button "Needs Review scribe requests, 0 total" [ref=f65e1042] [cursor=pointer]: Needs Review (0)
+            - button "Accepted scribe requests, 0 total" [ref=f65e1043] [cursor=pointer]: Accepted (0)
+            - button "New scribe requests, 1 total" [ref=f65e1044] [cursor=pointer]: New (1)
+            - button "Withdrawn scribe requests, 0 total" [ref=f65e1045] [cursor=pointer]: Withdrawn (0)
+            - button "Completed scribe requests, 0 total" [ref=f65e1046] [cursor=pointer]: Completed (0)
+          - generic [ref=f65e1048]:
+            - textbox "Search scribe requests" [ref=f65e1052]:
+              - /placeholder: Search requests
+            - button "Apply" [disabled]
+          - tabpanel [ref=f65e1053]:
+            - generic [ref=f65e1056]:
+              - generic [ref=f65e1057]:
+                - generic [ref=f65e1059]:
+                  - paragraph [ref=f65e1060]: B.A. Semester 3 Examination
+                  - generic [ref=f65e1061]: PU Semester Exam
+                - button "Share" [ref=f65e1062] [cursor=pointer]
+              - generic [ref=f65e1063]:
+                - generic [ref=f65e1064]:
+                  - img "Location" [ref=f65e1065]
+                  - generic [ref=f65e1066]:
+                    - paragraph [ref=f65e1067]: "Exam Center: Panjab University Exam Centre"
+                    - paragraph [ref=f65e1068]: Sector 14, Panjab University Campus, Chandigarh, Chandigarh, chandigarh - 160014
+                    - generic [ref=f65e1069]:
+                      - generic [ref=f65e1070]: "State: chandigarh"
+                      - generic [ref=f65e1071]: "City: Chandigarh"
+                      - generic [ref=f65e1072]: "Pin code: 160014"
+                - paragraph [ref=f65e1073]: "Notes: QA test PU semester exam request created via automated flow."
+              - generic [ref=f65e1075]:
+                - img "Exam" [ref=f65e1076]
+                - generic [ref=f65e1077]:
+                  - generic [ref=f65e1078]:
+                    - paragraph [ref=f65e1079]: "Subject: Political Science"
+                    - generic [ref=f65e1080]: NEW
+                  - paragraph [ref=f65e1081]: "Medium: English"
+                  - paragraph [ref=f65e1082]: "Date: 15 Dec 2026"
+                  - paragraph [ref=f65e1083]: "Start Time: 09:00 AM End Time: 12:00 PM"
+              - link "View Details" [ref=f65e1085] [cursor=pointer]:
+                - /url: /beneficiary/exam/173
+        - complementary [ref=f65e1087]:
+          - generic [ref=f65e1089]:
+            - heading "Top Volunteers" [level=3] [ref=f65e1091]
+            - generic [ref=f65e1092]:
+              - link [ref=f65e1093] [cursor=pointer]:
+                - /url: /profile/9
+                - img "Amit Volunteer" [ref=f65e1095]
+                - generic [ref=f65e1096]:
+                  - generic [ref=f65e1097]:
+                    - paragraph [ref=f65e1098]: Amit Volunteer
+                    - img "Verified" [ref=f65e1099]
+                  - paragraph [ref=f65e1100]: Ghaziabad, delhi
+              - link [ref=f65e1104] [cursor=pointer]:
+                - /url: /profile/74
+                - img "Shahid" [ref=f65e1106]
+                - generic [ref=f65e1107]:
+                  - generic [ref=f65e1108]:
+                    - paragraph [ref=f65e1109]: Shahid
+                    - img "Verified" [ref=f65e1110]
+                  - paragraph [ref=f65e1111]: Public road, chandigarh
+              - link [ref=f65e1115] [cursor=pointer]:
+                - /url: /profile/41
+                - img "shahid test" [ref=f65e1117]
+                - generic [ref=f65e1118]:
+                  - generic [ref=f65e1119]:
+                    - paragraph [ref=f65e1120]: shahid test
+                    - img "Verified" [ref=f65e1121]
+                  - paragraph [ref=f65e1122]: Delhi, uttar_pradesh
+              - link [ref=f65e1126] [cursor=pointer]:
+                - /url: /profile/82
+                - img "iOS Mobile" [ref=f65e1128]
+                - generic [ref=f65e1129]:
+                  - generic [ref=f65e1130]:
+                    - paragraph [ref=f65e1131]: iOS Mobile
+                    - img "Verified" [ref=f65e1132]
+                  - paragraph [ref=f65e1133]: Chandigarh, chandigarh
+              - link [ref=f65e1137] [cursor=pointer]:
+                - /url: /profile/80
+                - img "Vol" [ref=f65e1139]
+                - generic [ref=f65e1140]:
+                  - generic [ref=f65e1141]:
+                    - paragraph [ref=f65e1142]: Vol
+                    - img "Verified" [ref=f65e1143]
+                  - paragraph [ref=f65e1144]: Chandigarh, chandigarh
+    - contentinfo "Website Footer" [ref=f65e995]:
+      - generic [ref=f65e996]: Copyright © 2026 Save The Quest. All Rights Reserved.
+  - region "Notifications alt+T"
+  - alert [ref=f65e157]: The Scribe Bank - Homepage
+  - iframe [ref=f65e158]:
+    - generic [ref=f66e5]:
+      - button [ref=f66e6] [cursor=pointer]
+      - generic [ref=f66e7]: "1"
+  - menu "Profile picture of Priya Sharma Priya Sharma" [active] [ref=f65e1149]:
+    - menuitem "Profile" [ref=f65e1150] [cursor=pointer]
+    - menuitem "Logout" [ref=f65e1151] [cursor=pointer]

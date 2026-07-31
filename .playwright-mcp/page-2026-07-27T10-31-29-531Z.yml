@@ -1,0 +1,330 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "Save The Quest - A CSR Initiative of IndianOil" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img "Save The Quest - A CSR Initiative of IndianOil"
+        - generic [ref=e6]:
+          - link "About Us" [ref=e7] [cursor=pointer]:
+            - /url: /about-us
+          - link "Blogs" [ref=e9] [cursor=pointer]:
+            - /url: /blogs
+          - link "Help" [ref=e11] [cursor=pointer]:
+            - /url: /help
+          - link "Volunteers" [ref=e13] [cursor=pointer]:
+            - /url: /volunteers
+          - link "Support" [ref=e15] [cursor=pointer]:
+            - /url: https://savethequest.org/contact-us
+          - button [ref=e19] [cursor=pointer]
+      - generic [ref=e20]:
+        - button "Close menu" [ref=e22]
+        - generic [ref=e26]:
+          - generic [ref=e28]:
+            - paragraph
+            - paragraph [ref=e29]: Beneficiary
+          - link "About Us" [ref=e30] [cursor=pointer]:
+            - /url: /about-us
+          - link "Blogs" [ref=e32] [cursor=pointer]:
+            - /url: /blogs
+          - link "Help" [ref=e34] [cursor=pointer]:
+            - /url: /help
+          - link "Volunteers" [ref=e36] [cursor=pointer]:
+            - /url: /volunteers
+          - link "Support" [ref=e38] [cursor=pointer]:
+            - /url: https://savethequest.org/contact-us
+          - link "Dashboard" [ref=e40] [cursor=pointer]:
+            - /url: /home
+          - link "View Profile" [ref=e41] [cursor=pointer]:
+            - /url: /profile
+          - button "Logout" [ref=e42] [cursor=pointer]
+    - main [ref=e43]:
+      - region "Hero" [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e47]:
+            - heading "Need volunteer support, a scribe," [level=1] [ref=e48]
+            - heading "or want to volunteer yourself?" [level=2] [ref=e49]
+            - paragraph [ref=e50]: Find a volunteer or request a scribe easily through our platform.
+            - generic [ref=e52]:
+              - generic [ref=e53]:
+                - combobox "Search type" [ref=e54]
+                - combobox [ref=e55]
+                - generic [ref=e56]: Search by location
+                - textbox "Search by location" [ref=e57]
+              - button "Search" [ref=e58] [cursor=pointer]
+            - generic [ref=e59]:
+              - link "Volunteers" [ref=e60] [cursor=pointer]:
+                - /url: /volunteers
+              - link "Scribe Requests" [ref=e61] [cursor=pointer]:
+                - /url: /scribe-requests
+              - link "Volunteer Requests" [ref=e62] [cursor=pointer]:
+                - /url: /volunteer-requests
+          - img "Group of visually impaired girls with a volunteer woman" [ref=e63]
+          - img "Volunteer assisting a young boy in a classroom"
+          - img "Group of students sitting and studying together outdoors" [ref=e64]
+          - img "Volunteer leading a line of children in red jackets" [ref=e65]
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e69]: 25000+
+            - generic [ref=e70]: Exam Scribes
+          - generic [ref=e71]:
+            - generic [ref=e72]: 3000+
+            - generic [ref=e73]: Volunteers
+          - generic [ref=e74]:
+            - generic [ref=e75]: 30000+
+            - generic [ref=e76]: People Helped
+          - generic [ref=e77]:
+            - generic [ref=e78]: 250+
+            - generic [ref=e79]: Fulfilled Wishes
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - heading "Upcoming Exams Need Volunteers" [level=2] [ref=e84]
+            - paragraph [ref=e85]: Help students by volunteering as a scribe for these upcoming exams
+          - generic [ref=e86]:
+            - button "Previous exams" [disabled]
+            - button "Next exams" [ref=e87] [cursor=pointer]
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - generic [ref=e90]: Need Volunteer
+            - heading "with no pu test" [level=3] [ref=e95]
+            - paragraph [ref=e96]: "Subject: English pu non test"
+            - generic [ref=e97]:
+              - generic [ref=e98]: 28 Jul 2026
+              - generic [ref=e102]: 07:00:00 - 10:00:00
+              - generic [ref=e107]: chandigarh, chandigarh
+            - generic [ref=e112]:
+              - link "Volunteer Now for with no pu test" [ref=e113] [cursor=pointer]:
+                - /url: /scribe-requests/168
+                - text: Volunteer Now
+              - button "Share" [ref=e114] [cursor=pointer]
+          - generic [ref=e115]:
+            - generic [ref=e116]: Need Volunteer
+            - heading "admin test" [level=3] [ref=e121]
+            - paragraph [ref=e122]: "Subject: English"
+            - generic [ref=e123]:
+              - generic [ref=e124]: 3 Sept 2026
+              - generic [ref=e128]: 02:00:00 - 07:00:00
+              - generic [ref=e133]: chandigarh, chandigarh
+            - generic [ref=e138]:
+              - link "Volunteer Now for admin test" [ref=e139] [cursor=pointer]:
+                - /url: /scribe-requests/166
+                - text: Volunteer Now
+              - button "Share" [ref=e140] [cursor=pointer]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Need Volunteer
+            - heading "KIROOOO" [level=3] [ref=e147]
+            - paragraph [ref=e148]: "Subject: KIRRRRRRR"
+            - generic [ref=e149]:
+              - generic [ref=e150]: 3 Mar 2028
+              - generic [ref=e154]: 11:00:00 - 12:00:00
+              - generic [ref=e159]: Kolkata, sikkim
+            - generic [ref=e164]:
+              - link "Volunteer Now for KIROOOO" [ref=e165] [cursor=pointer]:
+                - /url: /scribe-requests/132
+                - text: Volunteer Now
+              - button "Share" [ref=e166] [cursor=pointer]
+        - generic [ref=e167]:
+          - button "Go to slide 1" [ref=e168]
+          - button "Go to slide 2" [ref=e170]
+      - generic [ref=e174]:
+        - generic [ref=e175]:
+          - heading "Empowering Visually Impaired Learners Through Technology, Volunteers, & Inclusion" [level=2] [ref=e176]: Empowering Visually Impaired Learners Through Technology,Volunteers, & Inclusion
+          - paragraph [ref=e177]: Project Quest is a transformative initiative by Save The Quest, backed by the Corporate Social Responsibility (CSR) division of Indian Oil Corporation Limited (IOCL). With IOCL’s crucial support, a dedicated web-based platform has been developed to make education more accessible and inclusive. This collaborative effort aims to empower learners with disabilities, ensuring they receive equal opportunities and resources for a brighter, more inclusive future.
+        - generic:
+          - 'img "Two girls studying together in a library setting, supported under the IndianOil CSR initiative. Note: IOCL supports this project only in Punjab, HP, J&K, Ladakh, and Chandigarh; other usage is NGO-funded."'
+      - generic [ref=e179]:
+        - heading "Why Is ‘Save The Quest’ Essential Today?" [level=2] [ref=e180]
+        - generic [ref=e181]:
+          - generic [ref=e182]:
+            - generic [ref=e183]:
+              - img "Championing Uninterrupted Education"
+            - heading "Championing Uninterrupted Education" [level=3] [ref=e184]
+            - paragraph [ref=e185]: Save The Quest safeguards learning pathways for visually impaired students by ensuring uninterrupted access to high-quality study materials, exam support, and advocacy. Our platform bridges the gap between learners and volunteers, creating a resilient, supportive network that champions equal educational opportunities regardless of physical challenges.
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - img "Empowering Lives Through Technology"
+            - heading "Empowering Lives Through Technology" [level=3] [ref=e188]
+            - paragraph [ref=e189]: At Save The Quest, we leverage innovative tech to transform how visually impaired learners engage with content. From volunteer-recorded audio notes to seamless exam scribes, our solutions boost confidence, independence, and academic success. By combining human compassion with cutting-edge tools, we empower every student to pursue their dreams without barriers.
+          - generic [ref=e190]:
+            - generic [ref=e191]:
+              - img "Fostering Inclusive Volunteerism"
+            - heading "Fostering Inclusive Volunteerism" [level=3] [ref=e192]
+            - paragraph [ref=e193]: Save The Quest cultivates a community of citizen volunteers dedicated to uplifting learners with disabilities. Through easy matchmaking, training, and ongoing support, we enable caring individuals to make a tangible impact. This synergy not only enriches the lives of our students but also fosters broader societal awareness and empathy.
+      - generic [ref=e194]:
+        - heading "Recent Volunteers" [level=2] [ref=e195]
+        - generic [ref=e196]:
+          - link [ref=e197] [cursor=pointer]:
+            - /url: /profile/2
+            - generic [ref=e198]:
+              - img "Khushpreet Kaur" [ref=e200]
+              - heading "Khushpreet Kaur" [level=3] [ref=e201]
+              - paragraph [ref=e202]: chandigarh Chandigarh
+          - link [ref=e203] [cursor=pointer]:
+            - /url: /profile/3
+            - generic [ref=e204]:
+              - img "vo0lunteer" [ref=e206]
+              - heading "vo0lunteer" [level=3] [ref=e207]
+              - paragraph [ref=e208]: delhi Kalkaji
+          - link [ref=e209] [cursor=pointer]:
+            - /url: /profile/5
+            - generic [ref=e210]:
+              - img "saif" [ref=e212]
+              - heading "saif" [level=3] [ref=e213]
+              - paragraph [ref=e214]: madhya_pradesh delhi
+          - link [ref=e215] [cursor=pointer]:
+            - /url: /profile/6
+            - generic [ref=e216]:
+              - img "Deepak Volunteer" [ref=e218]
+              - heading "Deepak Volunteer" [level=3] [ref=e219]
+              - paragraph [ref=e220]: delhi Kalkaji
+          - link [ref=e221] [cursor=pointer]:
+            - /url: /profile/10
+            - generic [ref=e222]:
+              - img "Amit volunteer" [ref=e224]
+              - heading "Amit volunteer" [level=3] [ref=e225]
+              - paragraph [ref=e226]: uttar_pradesh Ghaziabad
+          - link [ref=e227] [cursor=pointer]:
+            - /url: /profile/9
+            - generic [ref=e228]:
+              - img "Amit Volunteer" [ref=e230]
+              - heading "Amit Volunteer" [level=3] [ref=e231]
+              - paragraph [ref=e232]: delhi Ghaziabad
+      - generic [ref=e234]:
+        - generic [ref=e235]:
+          - heading "Media & News" [level=2] [ref=e236]
+          - paragraph [ref=e237]: Stories of empowerment, inclusion, and support making national headlines.
+        - region [ref=e238]:
+          - generic [ref=e240]:
+            - group [ref=e241]:
+              - link [ref=e243] [cursor=pointer]:
+                - /url: https://thecovermagazine.com/indian-oil-corporation-partners-with-save-the-quest-for-an-inclusive-education-initiative/
+                - generic [ref=e244]:
+                  - img "The Cover Magazine Logo"
+            - group [ref=e245]:
+              - link [ref=e247] [cursor=pointer]:
+                - /url: https://www.edexlive.com/news/2017/Oct/30/braving-all-odds-this-25-year-old-has-been-fighting-for-the-visually-impaired-and-downtrodden-right-1461.html
+                - generic [ref=e248]:
+                  - img "Edex Live Logo"
+            - group [ref=e249]:
+              - link [ref=e251] [cursor=pointer]:
+                - /url: https://dailypioneer.in/indian-oil-corporation-partners-with-save-the-quest-for-an-inclusive-education-initiative/
+                - generic [ref=e252]:
+                  - img "The Daily Pioneer Logo"
+            - group [ref=e253]:
+              - link [ref=e255] [cursor=pointer]:
+                - /url: https://yourstory.com/2018/03/saif-ahmad-khan-visually-challenged
+                - generic [ref=e256]:
+                  - img "YourStory Logo"
+            - group [ref=e257]:
+              - link [ref=e259] [cursor=pointer]:
+                - /url: https://tycoonworld.in/indian-oil-corporation-partners-with-save-the-quest-for-an-inclusive-education-initiative/
+                - generic [ref=e260]:
+                  - img "Tycoon World Logo"
+            - group [ref=e261]:
+              - link [ref=e263] [cursor=pointer]:
+                - /url: https://www.newsgram.com/general/2016/06/19/meet-saif-ahmad-khan-save-the-quest-ngo-founder-makes-education-more-flexible-for-specially-abled-and-unprivileged-children-in-india
+                - generic [ref=e264]:
+                  - img "Media Logo"
+            - group [ref=e265]:
+              - link [ref=e267] [cursor=pointer]:
+                - /url: https://theindianmirror.com/indian-oil-corporation-partners-with-save-the-quest-for-an-inclusive-education-initiative/
+                - generic [ref=e268]:
+                  - img "The Indian Mirror Logo"
+          - button "Previous slide" [disabled]
+          - button "Next slide" [disabled]
+        - paragraph [ref=e269]: Click the logo to read the full article.
+      - generic [ref=e270]:
+        - generic [ref=e272]:
+          - generic [ref=e273]:
+            - heading "Join Our Community" [level=2] [ref=e274]
+            - heading "and Make a Difference!" [level=3] [ref=e275]
+            - paragraph [ref=e276]: Help visually impaired students take exams and engage fully
+            - generic [ref=e277]: in daily life through volunteering your time.
+            - paragraph [ref=e278]: Many visually impaired students miss critical exams without scribes and struggle with daily tasks lacking assistance. By donating just a few hours, you ensure they can fully participate and thrive.
+            - link "Join Now" [ref=e279] [cursor=pointer]:
+              - /url: /sign-up
+          - generic:
+            - img "Volunteer guiding a blindfolded woman outdoors, symbolizing empathy and awareness exercises."
+          - generic:
+            - img "Group of visually impaired students walking with white canes, accompanied by volunteers on a tree-lined path."
+          - generic:
+            - img "Two men, one visually impaired, standing in a classroom setting, smiling and engaged."
+          - generic:
+            - img "Volunteer woman handing a device or paper to two visually impaired girls, showing support in education."
+        - generic [ref=e281]:
+          - generic:
+            - img "Collage of Project Quest activities including volunteers guiding blindfolded participants, a young man promoting scribe registration, students pledging to be scribes, and a child drawing with focused attention."
+          - generic [ref=e282]:
+            - heading "Who’s Welcome? Everyone Who Cares or Needs." [level=2] [ref=e283]
+            - paragraph [ref=e284]: Our platform bridges the gap between helpers and those who need them most—whether for exam assistance, daily tasks, or special events—so everyone can participate fully and confidently.
+            - generic [ref=e285]:
+              - heading "Beneficiaries" [level=3] [ref=e286]
+              - paragraph [ref=e287]: If you have a disability or require extra support, simply request a vetted volunteer to help with reading and writing during exams, navigating daily routines, or enjoying community activities. You set the schedule, describe your needs, and we’ll connect you with a reliable, caring partner who respects your independence and dignity.
+            - generic [ref=e288]:
+              - heading "Volunteers" [level=3] [ref=e289]
+              - paragraph [ref=e290]: Turn a few spare hours into a life-changing gift. Become a trained scribe or personal assistant—whether it’s for an exam, a weekly errand, or a one-off event, your contribution empowers someone to achieve their goals and feel included. No special background required—just compassion and commitment!
+      - generic [ref=e291]:
+        - heading "Blogs" [level=2] [ref=e292]
+        - generic [ref=e294]:
+          - heading [level=3] [ref=e295]:
+            - link "test rest" [ref=e296] [cursor=pointer]:
+              - /url: /blogs/test-rest
+          - link [ref=e298] [cursor=pointer]:
+            - /url: /blogs/test-rest
+            - img "test rest" [ref=e299]
+      - generic [ref=e302]:
+        - generic [ref=e303]:
+          - heading "Become a Volunteer or Beneficiary with IOCL-Supported ‘Project Quest’ & Access Life-Changing Educational Support Today!" [level=3] [ref=e304]
+          - link "Join Now" [ref=e305] [cursor=pointer]:
+            - /url: /sign-up
+        - generic:
+          - img "Collage of black and white photos showing diverse groups of people interacting, including friends hugging, chatting in a crowd, children playing, and smiling while writing"
+    - contentinfo [ref=e306]:
+      - generic [ref=e307]:
+        - generic [ref=e308]:
+          - generic [ref=e309]:
+            - img "Save The Quest - A CSR Initiative of IndianOil"
+            - paragraph [ref=e310]: SAVE THE QUEST (STQ) is a charitable trust registered under the Indian Trust Act of 1882, Section 60 (Registration no. 822) based in Delhi. The society we live in is plagued by prejudices and clichéd notions.
+          - generic [ref=e311]:
+            - heading "Company" [level=3] [ref=e312]
+            - list [ref=e313]:
+              - listitem [ref=e314]:
+                - link "About" [ref=e315] [cursor=pointer]:
+                  - /url: /about-us
+              - listitem [ref=e316]:
+                - link "Help Center" [ref=e317] [cursor=pointer]:
+                  - /url: https://savethequest.org/contact-us
+              - listitem [ref=e318]:
+                - link "Press" [ref=e319] [cursor=pointer]:
+                  - /url: https://savethequest.org/awards-and-media
+          - generic [ref=e320]:
+            - heading "Follow Us" [level=3] [ref=e321]
+            - list [ref=e322]:
+              - listitem [ref=e323]:
+                - link "Facebook" [ref=e324] [cursor=pointer]:
+                  - /url: https://www.facebook.com/SaveTheQuest/
+              - listitem [ref=e325]:
+                - link "LinkedIn" [ref=e326] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/save-the-quest-b0487981/
+          - generic [ref=e327]:
+            - heading "Download The App" [level=3] [ref=e328]
+            - generic [ref=e329]:
+              - link "Download on App Store" [ref=e330] [cursor=pointer]:
+                - /url: https://apps.apple.com/in/app/thescribebank/id6747565905
+                - img "Download on App Store"
+              - link "Get it on Google Play" [ref=e331] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.thescribebank.savethequest&pcampaignid=web_share
+                - img "Get it on Google Play"
+        - generic [ref=e332]:
+          - paragraph [ref=e333]: © 2025 Save The Quest. All Rights Reserved.
+          - generic [ref=e334]:
+            - link "Terms & Conditions" [ref=e335] [cursor=pointer]:
+              - /url: /terms-services
+            - generic [ref=e336]: "|"
+            - link "Privacy Policy" [ref=e337] [cursor=pointer]:
+              - /url: /privacy-policy
+            - generic [ref=e338]: "|"
+            - link "Volunteer Agreement" [ref=e339] [cursor=pointer]:
+              - /url: /scribe-volunteer-agreement
+  - region "Notifications alt+T"

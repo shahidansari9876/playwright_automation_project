@@ -1,0 +1,25 @@
+- generic [ref=f5e1]:
+  - main [ref=f5e51]:
+    - generic [ref=f5e53]:
+      - heading "Register as a Volunteer or Beneficiary" [level=1] [ref=f5e54]
+      - generic [ref=f5e55]:
+        - generic [ref=f5e56]:
+          - generic [ref=f5e57]:
+            - paragraph [ref=f5e58]: shahidvol12@yopmail.com
+            - paragraph [ref=f5e59]: shahidvol12@yopmail.com
+          - button "Logout" [ref=f5e60] [cursor=pointer]
+        - group "Choose your role" [ref=f5e61]:
+          - generic [ref=f5e63]:
+            - generic [ref=f5e64] [cursor=pointer]:
+              - radio "I am a Volunteer, ready to support and assist those in need." [ref=f5e67]
+              - text: I am a Volunteer, ready to support and assist those in need.
+            - generic [ref=f5e68] [cursor=pointer]:
+              - radio "I am a Beneficiary, seeking help and support from volunteers." [checked] [active] [ref=f5e71]
+              - text: I am a Beneficiary, seeking help and support from volunteers.
+        - button "Register as a Beneficiary" [ref=f5e73] [cursor=pointer]
+  - region "Notifications alt+T"
+  - alert [ref=f5e26]: The Scribe Bank - Create Profile
+  - iframe [ref=f5e27]:
+    - generic [ref=f6e5]:
+      - button [ref=f6e6] [cursor=pointer]
+      - generic [ref=f6e7]: "1"
