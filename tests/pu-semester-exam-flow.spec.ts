@@ -374,7 +374,7 @@ test.describe.serial('PU Semester Exam End-to-End Flow (puflow.md)', () => {
 
     console.log('📍 Admin re-reviews and fully verifies');
     await adminPage.reload({ waitUntil: 'networkidle' });
-    await expect(adminPage.getByText('Resubmitted').first()).toBeVisible();
+    await expect(adminPage.getByText('Resubmitted')).toBeVisible();
     await coe.checkAllVerificationItems();
     await coe.approveAndVerify();
     await expect(adminPage.getByText('Accepted & Verified')).toBeVisible();

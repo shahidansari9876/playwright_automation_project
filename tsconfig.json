@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "commonjs",
+    "lib": ["ES2021", "DOM"],
+    "esModuleInterop": true,
+
+    /* Playwright runs the specs through its own transpiler — tsc is here only
+     * to typecheck (`npx tsc --noEmit`) and to feed the editor. */
+    "noEmit": true,
+
+    /* `path`, `process`, `__dirname` etc. come from @types/node. Listing it
+     * explicitly (instead of relying on automatic @types discovery) is what
+     * keeps the editor and CLI in agreement. */
+    "types": ["node"],
+    "typeRoots": ["./node_modules/@types"],
+
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "include": ["tests/**/*.ts", "pages/**/*.ts", "playwright.config.ts"],
+  "exclude": ["node_modules", "deprecated", "test-results", "playwright-report"]
+}

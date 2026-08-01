@@ -1,14 +1,16 @@
-
 # Environment / secrets — NEVER commit
 .env
+.env.*
+
+# Dependencies
+node_modules/
 
 # Playwright
-node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
-/playwright/.auth/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+playwright/.auth/
 
 # MCP browser session debug logs
 .playwright-mcp/
@@ -24,3 +26,19 @@ images/
 
 # Log files
 *.log
+
+# Coverage reports
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code (optional - keep if you don't want to share settings)
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+
+newtest.md
