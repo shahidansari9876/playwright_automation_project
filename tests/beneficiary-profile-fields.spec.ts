@@ -16,7 +16,7 @@ import { LoginPage, OtpPage, SetupProfilePage } from '../pages';
  * back on role selection on every run (confirmed by repeated manual login/
  * logout cycles against this account during manual testing).
  */
-const TEST_EMAIL = 'shahidvol12@yopmail.com';
+const TEST_EMAIL = 'benef1785409366826@yopmail.com';
 const TEST_OTP = '123456';
 
 const BACHELORS = "Bachelor's Degree (B.A/B.Sc/B.Com/B.Tech/BE)";

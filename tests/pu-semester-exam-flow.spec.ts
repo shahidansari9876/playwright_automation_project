@@ -285,7 +285,7 @@ test.describe.serial('PU Semester Exam End-to-End Flow (puflow.md)', () => {
     await examRequest.fillMedium('English');
     await examRequest.uploadHallPass(images.hallPass);
     await examRequest.uploadDateSheet(images.hallPass);
-    await examRequest.fillExamCenterName('Panjab University Exam Centre');
+    await examRequest.selectExamCenter('Panjab');
     await examRequest.fillExamCenterCity('Chandigarh');
     await examRequest.fillExamCenterPincode('160014');
     await examRequest.fillExamCenterAddress('Sector 14, Panjab University Campus, Chandigarh');
@@ -374,14 +374,14 @@ test.describe.serial('PU Semester Exam End-to-End Flow (puflow.md)', () => {
 
     console.log('📍 Admin re-reviews and fully verifies');
     await adminPage.reload({ waitUntil: 'networkidle' });
-    await expect(adminPage.getByText('Resubmitted')).toBeVisible();
+    await expect(adminPage.getByText('Resubmitted • Awaiting Verification')).toBeVisible();
     await coe.checkAllVerificationItems();
     await coe.approveAndVerify();
     await expect(adminPage.getByText('Accepted & Verified')).toBeVisible();
 
-    console.log('📍 PU Verification Performa is downloadable on both sides');
+    console.log('📍 PU Verification Permission Letter is downloadable on both sides');
     await page.reload({ waitUntil: 'networkidle' });
-    await expect(page.getByRole('link', { name: 'Download Performa' })).toBeVisible();
+    await expect(page.getByRole('link', { name: 'Download Permission Letter' })).toBeVisible();
   });
 
   test('Exam completion and volunteer payout', async () => {

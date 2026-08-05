@@ -49,8 +49,18 @@ export class ExamRequestPage {
     await this.page.locator('input[aria-label*="Date Sheet"]').setInputFiles(filePath);
   }
 
-  async fillExamCenterName(name: string): Promise<void> {
-    await this.page.getByRole('textbox', { name: 'Exam Center Name' }).fill(name);
+  /**
+   * Exam Center Name is a search-driven dropdown ("Search official PU
+   * examination centre"), not free text — typing opens the suggestion list,
+   * and any official centre in the results satisfies the requirement, so the
+   * first suggestion is picked. Selecting one also auto-fills State (Exam
+   * Center); City and Pin code remain separate manual text fields.
+   */
+  async selectExamCenter(searchTerm: string): Promise<void> {
+    await this.page.getByPlaceholder('Search official PU examination centre').fill(searchTerm);
+    const option = this.page.getByRole('option').first();
+    await option.waitFor({ state: 'visible', timeout: 10000 });
+    await option.click();
   }
 
   async fillExamCenterCity(city: string): Promise<void> {
