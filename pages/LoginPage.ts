@@ -1,10 +1,11 @@
 import { Page, Locator, expect } from '@playwright/test';
+import { BASE_URL } from './env';
 
 export class LoginPage {
   readonly page: Page;
-  readonly HOMEPAGE_URL = 'https://testing.thescribebank.com';
-  readonly LOGIN_URL = 'https://testing.thescribebank.com/login?masterOtp=true';
-  readonly LOGIN_FALLBACK_URL = 'https://testing.thescribebank.com/login';
+  readonly HOMEPAGE_URL = BASE_URL;
+  readonly LOGIN_URL = `${BASE_URL}/login?masterOtp=true`;
+  readonly LOGIN_FALLBACK_URL = `${BASE_URL}/login`;
 
   constructor(page: Page) {
     this.page = page;
@@ -59,6 +60,17 @@ export class LoginPage {
       await emailField.fill(email);
       await expect(emailField).toHaveValue(email, { timeout: 1000 });
     }).toPass({ timeout: 10000 });
+
+    // The check above can pass a beat before hydration finishes taking over the
+    // input, which then wipes it a moment later (this is what produced the
+    // "Email or phone is required" rejection on submit in TC-002 — the field was
+    // filled and verified, then silently cleared before submitEmail() clicked
+    // Login). Re-check after a short settle and refill once if it got wiped.
+    await this.page.waitForTimeout(500);
+    if (await emailField.inputValue() !== email) {
+      await emailField.fill(email);
+      await expect(emailField).toHaveValue(email);
+    }
   }
 
   async submitEmail(): Promise<void> {

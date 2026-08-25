@@ -1,8 +1,9 @@
 import { Page } from '@playwright/test';
+import { ADMIN_BASE_URL } from './env';
 
 export class AdminLoginPage {
   readonly page: Page;
-  readonly LOGIN_URL = 'https://adminpanel-testing.thescribebank.com/?masterOtp=true';
+  readonly LOGIN_URL = `${ADMIN_BASE_URL}/?masterOtp=true`;
 
   constructor(page: Page) {
     this.page = page;

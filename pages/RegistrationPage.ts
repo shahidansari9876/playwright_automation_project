@@ -1,4 +1,5 @@
 import { Page } from '@playwright/test';
+import { BASE_URL } from './env';
 
 /**
  * The real /sign-up flow (email + phone, single combined OTP, then role
@@ -8,7 +9,7 @@ import { Page } from '@playwright/test';
  */
 export class RegistrationPage {
   readonly page: Page;
-  readonly SIGNUP_URL = 'https://testing.thescribebank.com/sign-up?masterOtp=true';
+  readonly SIGNUP_URL = `${BASE_URL}/sign-up?masterOtp=true`;
 
   constructor(page: Page) {
     this.page = page;

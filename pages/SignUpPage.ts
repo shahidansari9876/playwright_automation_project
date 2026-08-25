@@ -1,10 +1,11 @@
 import { Page, Locator } from '@playwright/test';
+import { BASE_URL } from './env';
 
 export class SignUpPage {
   readonly page: Page;
-  readonly HOMEPAGE_URL = 'https://testing.thescribebank.com';
-  readonly SIGNUP_URL = 'https://testing.thescribebank.com/signup';
-  readonly SIGNUP_FALLBACK_URL = 'https://testing.thescribebank.com/register';
+  readonly HOMEPAGE_URL = BASE_URL;
+  readonly SIGNUP_URL = `${BASE_URL}/signup`;
+  readonly SIGNUP_FALLBACK_URL = `${BASE_URL}/register`;
 
   constructor(page: Page) {
     this.page = page;

@@ -1,4 +1,5 @@
 import { Page } from '@playwright/test';
+import { ADMIN_BASE_URL } from './env';
 
 /**
  * Admin-side document review for both Beneficiaries and Volunteers. Both
@@ -7,8 +8,8 @@ import { Page } from '@playwright/test';
  */
 export class AdminReviewPage {
   readonly page: Page;
-  readonly BENEFICIARIES_URL = 'https://adminpanel-testing.thescribebank.com/admin/beneficiaries';
-  readonly VOLUNTEERS_URL = 'https://adminpanel-testing.thescribebank.com/admin/volunteers';
+  readonly BENEFICIARIES_URL = `${ADMIN_BASE_URL}/admin/beneficiaries`;
+  readonly VOLUNTEERS_URL = `${ADMIN_BASE_URL}/admin/volunteers`;
 
   constructor(page: Page) {
     this.page = page;

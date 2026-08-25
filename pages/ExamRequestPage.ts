@@ -1,4 +1,5 @@
 import { Page } from '@playwright/test';
+import { BASE_URL } from './env';
 
 /**
  * Beneficiary "Create Scribe Request" form (/new-request), PU Semester Exam
@@ -7,7 +8,7 @@ import { Page } from '@playwright/test';
  */
 export class ExamRequestPage {
   readonly page: Page;
-  readonly NEW_REQUEST_URL = 'https://testing.thescribebank.com/new-request';
+  readonly NEW_REQUEST_URL = `${BASE_URL}/new-request`;
 
   constructor(page: Page) {
     this.page = page;

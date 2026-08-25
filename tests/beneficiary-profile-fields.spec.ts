@@ -16,7 +16,7 @@ import { LoginPage, OtpPage, SetupProfilePage } from '../pages';
  * back on role selection on every run (confirmed by repeated manual login/
  * logout cycles against this account during manual testing).
  */
-const TEST_EMAIL = 'benef1785409366826@yopmail.com'; // testing email
+const TEST_EMAIL = 'benef1785409366826@yopmail.com'; // testing email now in production email 
 // const TEST_EMAIL = 'puflowsben1@yopmail.com'; // production email 
 const TEST_OTP = '123456';
 

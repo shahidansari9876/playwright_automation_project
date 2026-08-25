@@ -1,4 +1,5 @@
 import { Page } from '@playwright/test';
+import { ADMIN_BASE_URL } from './env';
 
 /**
  * Admin-side PU/COE verification for a scribe request's exam.
@@ -11,7 +12,7 @@ import { Page } from '@playwright/test';
  */
 export class AdminCoeVerificationPage {
   readonly page: Page;
-  readonly SCRIBE_REQUESTS_URL = 'https://adminpanel-testing.thescribebank.com/admin/scribe-requests';
+  readonly SCRIBE_REQUESTS_URL = `${ADMIN_BASE_URL}/admin/scribe-requests`;
 
   constructor(page: Page) {
     this.page = page;

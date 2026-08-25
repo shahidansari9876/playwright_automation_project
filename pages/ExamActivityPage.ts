@@ -1,4 +1,5 @@
 import { Page } from '@playwright/test';
+import { BASE_URL } from './env';
 
 /**
  * The exam detail page (/beneficiary/exam/:id and /volunteer/exam/:id) drives
@@ -14,11 +15,11 @@ export class ExamActivityPage {
   }
 
   async navigateAsBeneficiary(examId: string | number): Promise<void> {
-    await this.page.goto(`https://testing.thescribebank.com/beneficiary/exam/${examId}`, { waitUntil: 'networkidle' });
+    await this.page.goto(`${BASE_URL}/beneficiary/exam/${examId}`, { waitUntil: 'networkidle' });
   }
 
   async navigateAsVolunteer(examId: string | number): Promise<void> {
-    await this.page.goto(`https://testing.thescribebank.com/volunteer/exam/${examId}`, { waitUntil: 'networkidle' });
+    await this.page.goto(`${BASE_URL}/volunteer/exam/${examId}`, { waitUntil: 'networkidle' });
   }
 
   // --- Volunteer: accept the scribe request ---

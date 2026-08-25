@@ -1,4 +1,5 @@
 import { Page } from '@playwright/test';
+import { BASE_URL } from './env';
 
 /**
  * Volunteer "Add Bank Account" form, reached either directly at
@@ -7,7 +8,7 @@ import { Page } from '@playwright/test';
  */
 export class PaymentMethodsPage {
   readonly page: Page;
-  readonly URL = 'https://testing.thescribebank.com/volunteer/profile/payment-methods';
+  readonly URL = `${BASE_URL}/volunteer/profile/payment-methods`;
 
   constructor(page: Page) {
     this.page = page;
