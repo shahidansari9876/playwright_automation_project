@@ -56,12 +56,23 @@ export class ExamRequestPage {
    * and any official centre in the results satisfies the requirement, so the
    * first suggestion is picked. Selecting one also auto-fills State (Exam
    * Center); City and Pin code remain separate manual text fields.
+   *
+   * Only shown when "This is a semester exam" is checked. For a regular
+   * (non-semester) request, Exam Center Name is a plain free-text field
+   * instead — use fillExamCenterName() there.
    */
   async selectExamCenter(searchTerm: string): Promise<void> {
     await this.page.getByPlaceholder('Search official PU examination centre').fill(searchTerm);
     const option = this.page.getByRole('option').first();
     await option.waitFor({ state: 'visible', timeout: 10000 });
     await option.click();
+  }
+
+  // Plain-text Exam Center Name field for a regular (non-semester) request —
+  // confirmed live: with the semester checkbox never checked, this field is
+  // a free-text textbox, not the PU search-driven combobox above.
+  async fillExamCenterName(name: string): Promise<void> {
+    await this.page.getByRole('textbox', { name: 'Exam Center Name' }).fill(name);
   }
 
   async fillExamCenterCity(city: string): Promise<void> {

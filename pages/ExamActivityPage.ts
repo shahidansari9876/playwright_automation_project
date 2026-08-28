@@ -143,6 +143,18 @@ export class ExamActivityPage {
     await this.page.getByRole('button', { name: 'Add an account' }).click();
   }
 
+  // True when an account exists but is still awaiting admin approval — the
+  // same "PENDING VERIFICATION" status text shown after submitting a new
+  // bank account (see PaymentMethodsPage.submit()'s caller).
+  async isPendingVerificationShown(): Promise<boolean> {
+    return this.page
+      .getByText('PENDING VERIFICATION')
+      .first()
+      .waitFor({ state: 'visible', timeout: 3000 })
+      .then(() => true)
+      .catch(() => false);
+  }
+
   async selectPayoutAccount(bankNameSubstring: string): Promise<void> {
     await this.page.getByRole('button', { name: new RegExp(bankNameSubstring) }).click();
   }

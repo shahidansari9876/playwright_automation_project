@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import path from 'path';
 
 // Load .env file
-dotenv.config({ path: path.resolve(__dirname, '.env') });
+dotenv.config({ path: path.resolve(__dirname, '.env'), override: true });
 
 /**
  * See https://playwright.dev/docs/test-configuration.

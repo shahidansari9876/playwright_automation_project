@@ -4,7 +4,7 @@ import path from 'path';
 
 // Page objects import this module directly, so load .env here too rather
 // than relying on playwright.config.ts having run first.
-dotenv.config({ path: path.resolve(__dirname, '..', '.env') });
+dotenv.config({ path: path.resolve(__dirname, '..', '.env'), override: true });
 
 function stripTrailingSlash(url: string): string {
   return url.replace(/\/+$/, '');

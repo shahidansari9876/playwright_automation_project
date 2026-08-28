@@ -18,21 +18,53 @@ export class AdminCoeVerificationPage {
     this.page = page;
   }
 
-  // searchQuery should be a unique value (email) rather than the display
-  // name — firstName/lastName in this suite's test data are hardcoded, so
-  // repeated runs create many same-named beneficiaries. Unlike the
-  // beneficiaries/volunteers admin lists, this table has no email/contact
-  // column to scope a row by (confirmed live), so the best available fix is
-  // waiting for the search's own network activity to settle — filtering by
-  // the unique email reliably narrows the table to a single row — before
-  // clicking the name link, rather than racing the still-unfiltered list.
-  async openExamFromScribeRequest(searchQuery: string, beneficiaryName: string): Promise<void> {
+  // searchQuery must be a value that narrows the table to a single row —
+  // this table has no email/contact column to scope a row by (confirmed
+  // live), so an ambiguous query (e.g. an email reused across many scribe
+  // requests, as with a long-lived non-throwaway test account) will land on
+  // whichever matching row happens to be first, not necessarily the intended
+  // one. The search box also matches exam name, so a unique exam title works
+  // just as well as a unique email for a fresh single-request account.
+  // Waiting for the search's own network activity to settle (rather than
+  // racing the still-unfiltered list) is still required either way.
+  async openScribeRequest(searchQuery: string, beneficiaryName: string): Promise<void> {
     await this.page.goto(this.SCRIBE_REQUESTS_URL, { waitUntil: 'networkidle' });
     await this.page.getByRole('textbox', { name: 'Search by name, email, phone' }).fill(searchQuery);
+    // The search is debounced client-side before it fires its network
+    // request — waiting for networkidle right after fill() can resolve
+    // before that debounce timer even elapses, racing the still-unfiltered
+    // list (confirmed live: the fill lands, but the table still shows the
+    // default unfiltered rows). Waiting for the URL to pick up
+    // global_search first confirms the debounced request actually fired.
+    await this.page.waitForURL(/global_search=/, { timeout: 10000 });
     await this.page.waitForLoadState('networkidle');
-    await this.page.getByRole('link', { name: beneficiaryName }).first().click();
+    // Scoped to the results table — an unscoped page-wide role query can
+    // instead match the logged-in admin's own sidebar account link (e.g.
+    // "SA shahid ansari ..."), which renders before the table in the DOM,
+    // whenever the admin and the test beneficiary happen to share a name.
+    await this.page.getByRole('table').getByRole('link', { name: beneficiaryName }).first().click();
+  }
+
+  async openExamFromScribeRequest(searchQuery: string, beneficiaryName: string): Promise<void> {
+    await this.openScribeRequest(searchQuery, beneficiaryName);
     await this.page.getByRole('tab', { name: 'Exam Schedule' }).click();
     await this.page.getByRole('link', { name: 'View' }).first().click();
+  }
+
+  // The Request Details tab (landed on by openScribeRequest()) shows a "PU
+  // Semester Flow" field — "Normal flow" for a regular request vs "Enabled"
+  // (plus a verification-status badge) for a PU Semester one. Confirmed live
+  // against an existing regular scribe request vs an existing PU one.
+  async isNormalFlow(): Promise<boolean> {
+    // isVisible() checks the current DOM instant with no retry, unlike
+    // waitFor() — the click into the scribe request is a client-side route
+    // change that can still be in flight, causing a false negative (mirrors
+    // ExamActivityPage.isPuRequirementsDialogShown()).
+    return this.page
+      .getByText('Normal flow')
+      .waitFor({ state: 'visible', timeout: 10000 })
+      .then(() => true)
+      .catch(() => false);
   }
 
   async openPuVerificationTab(): Promise<void> {

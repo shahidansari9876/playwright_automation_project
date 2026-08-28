@@ -11,3 +11,6 @@ export { AdminCoeVerificationPage } from './AdminCoeVerificationPage';
 export { ExamRequestPage } from './ExamRequestPage';
 export { ExamActivityPage } from './ExamActivityPage';
 export { PaymentMethodsPage } from './PaymentMethodsPage';
+export { AdminPayoutsPage } from './AdminPayoutsPage';
+export { VolunteerPayoutsPage } from './VolunteerPayoutsPage';
+export { ProfilePage } from './ProfilePage';
