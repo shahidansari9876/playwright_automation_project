@@ -29,6 +29,16 @@ export class ProfilePage {
     return this.page.getByRole('heading', { level: 1 });
   }
 
+  // The "Top Volunteers" sidebar list, present on both profile pages — each
+  // entry shows the volunteer's name (and city/state) before it's clicked.
+  // Matched by href pattern rather than traversing from the "Top Volunteers"
+  // heading — /profile/:id is unique to this widget, and heading-relative
+  // traversal (following-sibling, parent + getByRole('link')) both failed to
+  // resolve against the live DOM despite matching the accessibility snapshot.
+  getTopVolunteerLinks(): Locator {
+    return this.page.locator('a[href^="/profile/"]');
+  }
+
   // Scopes to the card containing this text (e.g. an institute/job/title
   // name) so Edit/Delete target the right entry when multiple exist. Must
   // also require an Edit/Delete button as a descendant — the innermost div
@@ -64,7 +74,7 @@ export class ProfilePage {
       .catch(() => {});
   }
 
-  // --- Edit Profile Details (name / photo / banner) ---
+  // --- Edit Profile Details (name / photo / banner / preferred volunteer gender) ---
 
   async openEditProfileDetails(): Promise<void> {
     await this.page.getByRole('button', { name: 'Edit Profile Details' }).click();
@@ -72,6 +82,66 @@ export class ProfilePage {
 
   async fillFirstName(name: string): Promise<void> {
     await this.page.getByRole('dialog').getByRole('textbox', { name: /First Name/ }).fill(name);
+  }
+
+  async fillLastName(name: string): Promise<void> {
+    await this.page.getByRole('dialog').getByRole('textbox', { name: 'Last Name' }).fill(name);
+  }
+
+  async getFirstNameValue(): Promise<string> {
+    return this.page.getByRole('dialog').getByRole('textbox', { name: /First Name/ }).inputValue();
+  }
+
+  async getLastNameValue(): Promise<string> {
+    return this.page.getByRole('dialog').getByRole('textbox', { name: 'Last Name' }).inputValue();
+  }
+
+  // The visible "Upload Profile Picture"/"Upload Banner" fields are styled
+  // text inputs sitting in front of a real, hidden <input type="file"> —
+  // confirmed live neither has an aria-label, so setInputFiles() targets
+  // them positionally: profile picture is the first file input in the
+  // dialog, banner the second.
+  async uploadProfilePicture(filePath: string): Promise<void> {
+    await this.page.getByRole('dialog').locator('input[type="file"]').nth(0).setInputFiles(filePath);
+  }
+
+  async uploadBannerPicture(filePath: string): Promise<void> {
+    await this.page.getByRole('dialog').locator('input[type="file"]').nth(1).setInputFiles(filePath);
+  }
+
+  // After a file is chosen (before Submit), the styled text field's value
+  // switches from "Current image" to the chosen file's name — confirmed
+  // live — a quick pre-submit signal that the selection registered.
+  async getProfilePictureFieldValue(): Promise<string> {
+    return this.page.getByRole('dialog').getByRole('textbox', { name: 'Upload Profile Picture' }).inputValue();
+  }
+
+  async getBannerFieldValue(): Promise<string> {
+    return this.page.getByRole('dialog').getByRole('textbox', { name: 'Upload Banner' }).inputValue();
+  }
+
+  // Matched by alt-text prefix rather than the full "... of <name>" / "...
+  // for <name>" text, since the name portion changes when this same dialog
+  // updates the display name — a prefix match stays valid regardless.
+  getProfilePictureImage(): Locator {
+    return this.page.locator('img[alt^="Profile picture of"]').first();
+  }
+
+  getCoverPhotoImage(): Locator {
+    return this.page.locator('img[alt^="Cover photo for"]').first();
+  }
+
+  // "Preferred Volunteer Gender" (beneficiary-only — this field doesn't
+  // exist on the volunteer's Edit Profile Details dialog) has no accessible
+  // name of its own (confirmed live), but it's the only combobox in this
+  // dialog, so an unnamed role query is unambiguous.
+  async selectPreferredVolunteerGender(value: string): Promise<void> {
+    await this.page.getByRole('dialog').getByRole('combobox').click();
+    await this.page.getByRole('option', { name: value, exact: true }).click();
+  }
+
+  getPreferredVolunteerText(): Locator {
+    return this.page.getByText(/^Preferred Volunteer:/);
   }
 
   async submitProfileDetails(): Promise<void> {

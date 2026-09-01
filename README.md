@@ -1,174 +1,115 @@
-# Login Test Suite with Page Object Model
+# TheScribeBank (STQ) — Playwright Test Suite
 
-This comprehensive test suite includes positive, negative, and edge case test scenarios for the login and OTP flow.
+End-to-end and functional Playwright test suite for **TheScribeBank / Save The Quest**, a platform connecting beneficiaries (people needing exam scribes) with volunteers, with an admin panel for verification and payouts. Written in TypeScript using the Page Object Model pattern.
 
 ## 📋 Project Structure
 
 ```
-├── pages/
-│   └── loginPage.js          # Page Object Model for Login and OTP pages
-├── tests/
-│   └── loginWithPOM.spec.ts  # Playwright test cases using POM
-├── testLogin.js              # Standalone Node.js test runner
-├── login.js                  # Quick automation script
-├── playwright.config.ts      # Playwright configuration
-└── README.md                 # This file
+├── pages/                          # Page Object Model classes
+│   ├── env.ts                      # BASE_URL / ADMIN_BASE_URL, loaded from .env
+│   ├── index.ts                    # Barrel export for all page objects
+│   ├── LoginPage.ts / OtpPage.ts / SignUpPage.ts
+│   ├── SetupProfilePage.ts / RegistrationPage.ts / PuFlowProfilePage.ts
+│   ├── ProfileDocumentsPage.ts / ProfilePage.ts
+│   ├── ExamRequestPage.ts / ExamActivityPage.ts / PaymentMethodsPage.ts
+│   ├── AdminLoginPage.ts / AdminReviewPage.ts / AdminCoeVerificationPage.ts
+│   └── AdminPayoutsPage.ts / VolunteerPayoutsPage.ts
+├── tests/                          # Playwright spec files (see TEST_CASES.md)
+│   ├── login-page.spec.ts
+│   ├── otp-page.spec.ts
+│   ├── signup-page.spec.ts
+│   ├── beneficiary-profile-fields.spec.ts
+│   ├── pu-semester-exam-flow.spec.ts
+│   ├── non-pu-exam-flow.spec.ts
+│   ├── profile-management.spec.ts
+│   └── top-volunteer-profile.spec.ts
+├── images/                         # Fixture files used by upload tests (gitignored)
+├── puflow.md / nonPUflow.md        # Manually-authored step-by-step flow docs the E2E specs implement
+├── TEST_CASES.md                   # Full list of every test case in the suite
+├── email-reporter.js               # Custom Playwright reporter — emails the run summary
+├── playwright.config.ts            # Playwright configuration
+├── .env                            # Local environment config (gitignored)
+└── .env.example                    # Template for .env
 ```
 
-## 🔍 Page Object Model (POM)
+## 🌐 Environments
 
-### LoginPage Class
-Methods for interacting with the login page:
-- `navigate()` - Navigate to the login URL
-- `waitForPageLoad()` - Wait for page to load
-- `getEmailField()` - Get email input element
-- `enterEmail(email)` - Enter email address
-- `submitEmail()` - Submit email and proceed to OTP page
-- `isOtpPageDisplayed()` - Check if OTP page is displayed
+The whole suite points at either the **test server** or **production** via `.env` — no code changes needed. `pages/env.ts` reads these and every page object builds its URLs from them:
 
-### OtpPage Class
-Methods for interacting with the OTP verification page:
-- `getOtpField()` - Get OTP input element
-- `enterOtp(otp)` - Enter OTP code
-- `submitOtp()` - Submit OTP
-- `isDashboardDisplayed()` - Check if dashboard/home page is displayed
-- `isErrorDisplayed()` - Check if error message is shown
-- `getPageUrl()` - Get current page URL
-- `getPageTitle()` - Get current page title
+```bash
+# testing server
+BASE_URL=https://testing.thescribebank.com
+ADMIN_BASE_URL=https://adminpanel-testing.thescribebank.com
 
-## ✅ Test Cases
+# production server (swap in instead)
+# BASE_URL=https://thescribebank.com
+# ADMIN_BASE_URL=https://adminpanel.thescribebank.com
+```
 
-### Positive Test Cases
-1. **Valid Email + Valid OTP (123456)** - Should successfully login and reach dashboard
+Copy `.env.example` to `.env` and fill in real values before running anything.
 
-### Negative Test Cases
-2. **Valid Email + Invalid OTP (000000)** - Should show error or reject login
-3. **Invalid Email Format** - Should reject during email validation
-4. **Empty Email Field** - Should show validation error
-5. **Empty OTP Field** - Should show validation error
-6. **Non-existent Email** - Should reject or show error
-7. **OTP with Special Characters** - Should reject invalid format
-8. **OTP with Less Than Required Digits** - Should reject incomplete OTP
+Logins on the test server accept a fixed **master OTP (`123456`)** by appending `?masterOtp=true` to the login URL — all specs use this instead of reading real inbox mail.
 
-## 📧 Test Credentials
+## ✅ Test Coverage
 
-- **Valid Email:** shahidstq@yopmail.com
-- **Valid OTP:** 123456
-- **Invalid OTP:** 000000
-- **Login URL:** https://testing.thescribebank.com/login?masterOtp=true
+45 test cases across 8 spec files — login, OTP, sign-up, beneficiary profile-setup field logic, two full exam flows (PU-semester and non-PU), profile management (edit details/personal info, education, work & volunteer experience CRUD), and a Top-Volunteers link regression check.
+
+See **[TEST_CASES.md](./TEST_CASES.md)** for the full breakdown of every test case per file.
+
+Most specs reuse two shared, long-lived accounts (`shahidstq@yopmail.com` beneficiary, `shahid@yopmail.com` volunteer) rather than signing up fresh each run — `pu-semester-exam-flow.spec.ts` and `beneficiary-profile-fields.spec.ts` are the exceptions.
 
 ## 🚀 How to Run Tests
 
-### Option 1: Run with Playwright Test Framework (Recommended)
 ```bash
-# Run all tests
-npx playwright test tests/loginWithPOM.spec.ts
+# Run the entire suite
+npx playwright test
 
-# Run with headed browser (see browser actions)
-npx playwright test tests/loginWithPOM.spec.ts --headed
+# Run a single spec file
+npx playwright test tests/profile-management.spec.ts
 
-# Run specific test
-npx playwright test tests/loginWithPOM.spec.ts --grep "Valid Email"
+# Run with headed browser (watch it run)
+npx playwright test tests/login-page.spec.ts --headed
 
-# Run with debug mode
-npx playwright test tests/loginWithPOM.spec.ts --debug
+# Run a specific test by name
+npx playwright test --grep "Educational Qualifications"
 
-# Generate and view HTML report
-npx playwright test tests/loginWithPOM.spec.ts
+# Debug mode (step through)
+npx playwright test tests/otp-page.spec.ts --debug
+
+# Type-check the project without running tests
+npm run typecheck
+```
+
+Tests always run **single-worker** (`workers: 1` in `playwright.config.ts`) — several spec files log into the same shared accounts, and parallel workers would race concurrent logins/OTP requests against them.
+
+## 📊 Reporting
+
+Three reporters run on every execution:
+
+- **HTML** → `playwright-report/index.html` (opens automatically on failure locally), with failure screenshots embedded
+- **JSON** → `test-results/results.json`
+- **Email** (`email-reporter.js`) → sends a run summary via the SMTP settings in `.env`
+
+```bash
 npx playwright show-report
 ```
 
-### Option 2: Run Standalone Test Script
-```bash
-# Run comprehensive test suite with Node.js
-node testLogin.js
-```
-
-### Option 3: Quick Automation Script
-```bash
-# Run quick login automation
-node login.js
-```
-
-## 📊 Test Execution Output
-
-The test suite provides:
-- ✅ PASS/FAIL status for each test
-- 📊 Detailed test execution summary
-- 🔍 Current URL and page state at each step
-- ⏱️ Timestamp of each test execution
-- 📝 Descriptive error messages for debugging
+Screenshots for failed tests, plus any test-authored screenshots (e.g. `top-volunteer-profile.spec.ts`), are saved under `test-results/`.
 
 ## 🔧 Configuration
 
-Edit `playwright.config.ts` to customize:
-- Browser types (chromium, firefox, webkit)
-- Test timeout
-- Headless/headed mode
-- Retry settings
-- Screenshot/video recording options
+`playwright.config.ts` controls:
 
-## 🐛 Debugging
+- Browser projects (currently Chromium only; Firefox/WebKit commented out)
+- `workers: 1` (see above — do not change without addressing the shared-account race)
+- `screenshot: 'only-on-failure'`, `trace: 'on-first-retry'`
+- Retries (2 on CI, 0 locally)
 
-### Enable Debug Mode
-```bash
-npx playwright test tests/loginWithPOM.spec.ts --debug
-```
+## 🧩 Page Object Model conventions
 
-### View Test Report
-```bash
-npx playwright show-report
-```
-
-### Check Screenshots
-Screenshots are saved in `test-results/` directory for failed tests.
-
-## 📝 Test Scenarios Detail
-
-### Test 1: Successful Login
-1. Navigate to login URL with masterOtp=true parameter
-2. Enter valid email (shahidstq@yopmail.com)
-3. Submit email → redirects to OTP page
-4. Enter valid OTP (123456)
-5. Submit OTP → should reach dashboard
-
-### Test 2: Invalid OTP Rejection
-1. Navigate to login URL
-2. Enter valid email
-3. Reach OTP page
-4. Enter invalid OTP (000000)
-5. Submit → should show error or stay on OTP page
-
-### Test 3: Email Validation
-1. Navigate to login URL
-2. Enter invalid email format
-3. Should reject during validation (no OTP page)
-
-### Test 4-8: Edge Cases
-- Empty fields validation
-- Non-existent emails
-- Special characters in OTP
-- Incomplete OTP entry
-
-## 🎯 Expected Results
-
-| Test Case | Input | Expected Result |
-|-----------|-------|-----------------|
-| Valid Email + Valid OTP | shahidstq@yopmail.com / 123456 | Login Success |
-| Valid Email + Invalid OTP | shahidstq@yopmail.com / 000000 | Error/Rejection |
-| Invalid Email | invalidemail@test | Validation Error |
-| Empty Email | (blank) | Required Error |
-| Empty OTP | (blank) | Required Error |
-| Non-existent Email | nonexistent@yopmail.com | Error/Rejection |
-| Special Char OTP | !@#$%^ | Invalid Format Error |
-| Short OTP | 123 | Incomplete Error |
-
-## 🔐 Security Notes
-
-- Valid OTP should be used only in authorized environments
-- Email addresses used are disposable test accounts
-- Never commit real credentials to version control
-- Use environment variables for sensitive data in production
+- Every page object lives in `pages/`, imports `BASE_URL`/`ADMIN_BASE_URL` from `pages/env.ts`, and is re-exported from `pages/index.ts` for import as `import { LoginPage, ProfilePage } from '../pages'`.
+- Prefer `.waitFor({ state: 'visible' }).then/catch` over `isVisible()` for boolean checks — `isVisible()` does not wait and can race SPA navigation.
+- Use `expect.soft()` when a test needs to check several independent entries without stopping at the first failure (e.g. iterating over a list).
 
 ## 📚 Additional Resources
 
@@ -176,18 +117,6 @@ Screenshots are saved in `test-results/` directory for failed tests.
 - [Page Object Model Best Practices](https://playwright.dev/docs/pom)
 - [Testing Best Practices](https://playwright.dev/docs/best-practices)
 
-## ✨ Features
-
-- ✅ Comprehensive test coverage with positive and negative cases
-- ✅ Page Object Model for maintainability
-- ✅ Detailed logging and reporting
-- ✅ Support for multiple browsers (Chrome, Firefox, Safari)
-- ✅ Screenshot/video capture on failures
-- ✅ Parallel test execution support
-- ✅ Multiple selector strategies for element identification
-- ✅ Error handling and validation checks
-
 ---
 
-**Last Updated:** 2026-07-06
-**Test Suite Version:** 1.0# playwright_automation
+**Last Updated:** 2026-08-31

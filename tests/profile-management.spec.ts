@@ -1,5 +1,11 @@
+import path from 'path';
 import { test, expect, Page } from '@playwright/test';
 import { LoginPage, OtpPage, ProfilePage } from '../pages';
+
+const images = {
+  profilePic: path.join(__dirname, '..', 'images', 'profile image.png'),
+  bannerPic: path.join(__dirname, '..', 'images', 'banner image.jpg'),
+};
 
 /**
  * Coverage for the beneficiary and volunteer "View Profile" pages: editing
@@ -107,19 +113,53 @@ test.describe.serial('Beneficiary Profile Management', () => {
     await page.close();
   });
 
-  test('Edit Profile Details: update and revert the first name', async () => {
-    console.log('\n📍 Capture the current first name and update it to a temp value');
-    await profile.openEditProfileDetails();
-    originalFirstName = await page.getByRole('dialog').getByRole('textbox', { name: /First Name/ }).inputValue();
-    await profile.fillFirstName(`QA${runId}`);
-    await profile.submitProfileDetails();
-    await expect(profile.getDisplayNameHeading()).toContainText(`QA${runId}`);
+  let originalLastName: string;
 
-    console.log('📍 Revert the first name back to its original value');
+  test('Edit Profile Details: update name (then revert), photo, banner, and preferred volunteer gender', async () => {
+    const profilePicBefore = await profile.getProfilePictureImage().getAttribute('src');
+    const bannerBefore = await profile.getCoverPhotoImage().getAttribute('src');
+
+    const currentPreference = (await profile.getPreferredVolunteerText().textContent())?.trim() ?? '';
+    const newGender = currentPreference.includes('Male') ? 'Female' : 'Male';
+    console.log(`\n📍 Current "${currentPreference}" — switching Preferred Volunteer Gender to "${newGender}"`);
+
+    console.log('📍 Capture the current first/last name and update both to temp values');
+    await profile.openEditProfileDetails();
+    originalFirstName = await profile.getFirstNameValue();
+    originalLastName = await profile.getLastNameValue();
+    await profile.fillFirstName(`QA${runId}`);
+    await profile.fillLastName(`Test${runId}`);
+
+    console.log('📍 Upload the profile picture and banner from distinct image files');
+    await profile.uploadProfilePicture(images.profilePic);
+    await expect.poll(() => profile.getProfilePictureFieldValue()).toContain('profile');
+    await profile.uploadBannerPicture(images.bannerPic);
+    await expect.poll(() => profile.getBannerFieldValue()).toContain('banner');
+
+    await profile.selectPreferredVolunteerGender(newGender);
+    await profile.submitProfileDetails();
+
+    console.log('📍 Verify name, photo, banner, and preferred volunteer gender all updated');
+    await expect(profile.getDisplayNameHeading()).toContainText(`QA${runId}`);
+    await expect(profile.getDisplayNameHeading()).toContainText(`Test${runId}`);
+    await expect(page.getByText(`Preferred Volunteer: ${newGender}`)).toBeVisible();
+
+    const profilePicAfter = await profile.getProfilePictureImage().getAttribute('src');
+    const bannerAfter = await profile.getCoverPhotoImage().getAttribute('src');
+    expect(profilePicAfter, 'Profile picture src should change after upload').not.toBe(profilePicBefore);
+    expect(profilePicAfter, 'Profile picture src should reference the uploaded file').toContain('profile');
+    expect(bannerAfter, 'Banner src should change after upload').not.toBe(bannerBefore);
+    expect(bannerAfter, 'Banner src should reference the uploaded file').toContain('banner');
+
+    console.log('📍 Revert first and last name back to their original values');
     await profile.openEditProfileDetails();
     await profile.fillFirstName(originalFirstName);
+    await profile.fillLastName(originalLastName);
     await profile.submitProfileDetails();
     await expect(profile.getDisplayNameHeading()).toContainText(originalFirstName);
+    if (originalLastName) {
+      await expect(profile.getDisplayNameHeading()).toContainText(originalLastName);
+    }
   });
 
   test('Edit Personal Information: update alternate phone and bio', async () => {
@@ -162,19 +202,50 @@ test.describe.serial('Volunteer Profile Management', () => {
     await page.close();
   });
 
-  test('Edit Profile Details: update and revert the first name', async () => {
-    console.log('\n📍 Capture the current first name and update it to a temp value');
-    await profile.openEditProfileDetails();
-    originalFirstName = await page.getByRole('dialog').getByRole('textbox', { name: /First Name/ }).inputValue();
-    await profile.fillFirstName(`QA${runId}`);
-    await profile.submitProfileDetails();
-    await expect(profile.getDisplayNameHeading()).toContainText(`QA${runId}`);
+  let originalLastName: string;
 
-    console.log('📍 Revert the first name back to its original value');
+  test('Edit Profile Details: update name (then revert), photo, and banner', async () => {
+    // No "Preferred Volunteer Gender" field exists on this dialog for the
+    // volunteer role (confirmed live) — only the beneficiary test above
+    // covers it.
+    const profilePicBefore = await profile.getProfilePictureImage().getAttribute('src');
+    const bannerBefore = await profile.getCoverPhotoImage().getAttribute('src');
+
+    console.log('\n📍 Capture the current first/last name and update both to temp values');
+    await profile.openEditProfileDetails();
+    originalFirstName = await profile.getFirstNameValue();
+    originalLastName = await profile.getLastNameValue();
+    await profile.fillFirstName(`QA${runId}`);
+    await profile.fillLastName(`Test${runId}`);
+
+    console.log('📍 Upload the profile picture and banner from distinct image files');
+    await profile.uploadProfilePicture(images.profilePic);
+    await expect.poll(() => profile.getProfilePictureFieldValue()).toContain('profile');
+    await profile.uploadBannerPicture(images.bannerPic);
+    await expect.poll(() => profile.getBannerFieldValue()).toContain('banner');
+
+    await profile.submitProfileDetails();
+
+    console.log('📍 Verify name, photo, and banner all updated');
+    await expect(profile.getDisplayNameHeading()).toContainText(`QA${runId}`);
+    await expect(profile.getDisplayNameHeading()).toContainText(`Test${runId}`);
+
+    const profilePicAfter = await profile.getProfilePictureImage().getAttribute('src');
+    const bannerAfter = await profile.getCoverPhotoImage().getAttribute('src');
+    expect(profilePicAfter, 'Profile picture src should change after upload').not.toBe(profilePicBefore);
+    expect(profilePicAfter, 'Profile picture src should reference the uploaded file').toContain('profile');
+    expect(bannerAfter, 'Banner src should change after upload').not.toBe(bannerBefore);
+    expect(bannerAfter, 'Banner src should reference the uploaded file').toContain('banner');
+
+    console.log('📍 Revert first and last name back to their original values');
     await profile.openEditProfileDetails();
     await profile.fillFirstName(originalFirstName);
+    await profile.fillLastName(originalLastName);
     await profile.submitProfileDetails();
     await expect(profile.getDisplayNameHeading()).toContainText(originalFirstName);
+    if (originalLastName) {
+      await expect(profile.getDisplayNameHeading()).toContainText(originalLastName);
+    }
   });
 
   test('Edit Personal Information: update alternate phone and bio', async () => {
