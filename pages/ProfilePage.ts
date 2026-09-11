@@ -170,6 +170,91 @@ export class ProfilePage {
     await this.page.getByRole('dialog').getByRole('button', { name: /Save Changes|Submit/ }).click();
   }
 
+  // --- Institution Details (within Edit Personal Information; beneficiary
+  // only — the volunteer's Edit Personal Information dialog has no
+  // Institution Details section at all, confirmed live) ---
+
+  private institutionDetailsGroup(): Locator {
+    return this.page.getByRole('dialog').getByRole('group', { name: 'Institution details' });
+  }
+
+  // University Type has no accessible name of its own (confirmed live), but
+  // it's always the first form control inside "Institution details" —
+  // before Board/University and School/College — regardless of whether the
+  // group is currently showing the PU or Other field set, so scoping there
+  // and taking the first combobox is unambiguous either way.
+  async selectUniversityType(value: 'PU' | 'Other'): Promise<void> {
+    await this.institutionDetailsGroup().getByRole('combobox').first().click();
+    await this.page.getByRole('option', { name: value, exact: true }).click();
+  }
+
+  // --- "Other" university type fields ---
+
+  // Confirmed live: this textbox has no <label>, so Playwright falls back to
+  // its placeholder ("Enter Board/University") as the accessible name.
+  async fillBoardUniversityFreeText(value: string): Promise<void> {
+    await this.page.getByRole('textbox', { name: 'Enter Board/University' }).fill(value);
+  }
+
+  async fillSchoolCollegeNameFreeText(value: string): Promise<void> {
+    await this.page.getByRole('textbox', { name: 'School / College Name' }).fill(value);
+  }
+
+  // --- "PU" university type fields ---
+
+  async selectStudentType(value: string): Promise<void> {
+    await this.page.getByRole('combobox', { name: 'Student Type *' }).click();
+    await this.page.getByRole('option', { name: value, exact: true }).click();
+  }
+
+  // Search-driven official-college picker (same shape as the signup-time PU
+  // flow): typing opens a suggestion list; the first option matching
+  // optionText is clicked.
+  async selectSchoolCollege(searchTerm: string, optionText: string | RegExp): Promise<void> {
+    const combobox = this.page.getByRole('combobox', { name: 'School / College Name *' });
+    await combobox.fill(searchTerm);
+    const option = this.page.getByRole('option', { name: optionText }).first();
+    await option.waitFor({ state: 'visible', timeout: 10000 });
+    await option.click();
+  }
+
+  async fillPuEnrollmentNumber(value: string): Promise<void> {
+    await this.page.getByRole('textbox', { name: 'University / PU Enrollment Number' }).fill(value);
+  }
+
+  // --- Professional Photo (uploaded from the View Profile page directly —
+  // distinct from the beneficiary Complete Profile wizard's photo step;
+  // needed e.g. when a beneficiary must add one after the fact to become
+  // eligible to create PU semester exam requests) ---
+
+  async hasProfessionalPhoto(): Promise<boolean> {
+    return this.page
+      .getByRole('heading', { name: 'Professional Photo', exact: true })
+      .waitFor({ state: 'visible', timeout: 3000 })
+      .then(() => true)
+      .catch(() => false);
+  }
+
+  async clickUploadProfessionalPhoto(): Promise<void> {
+    await this.page.getByRole('button', { name: 'Upload Professional Photo' }).click();
+  }
+
+  // Confirmed live: this dropzone opens a native file-chooser on click
+  // (unlike the sr-only-input-behind-a-button pattern used elsewhere in this
+  // suite) — the listener must be registered before/alongside the click,
+  // since the event can fire as soon as the click resolves.
+  async uploadProfessionalPhotoFile(filePath: string): Promise<void> {
+    const [chooser] = await Promise.all([
+      this.page.waitForEvent('filechooser'),
+      this.page.getByRole('dialog').getByText('Click to upload image').click(),
+    ]);
+    await chooser.setFiles(filePath);
+  }
+
+  async submitProfessionalPhotoUpload(): Promise<void> {
+    await this.page.getByRole('dialog').getByRole('button', { name: 'Submit' }).click();
+  }
+
   // --- Educational Qualifications (shared by both roles) ---
 
   async clickAddEducation(): Promise<void> {

@@ -12,8 +12,9 @@ import { LoginPage, OtpPage, ProfilePage } from '../pages';
  * fails — with multiple volunteers listed, a single hard failure would
  * otherwise abort the test before the remaining entries are checked. The
  * overall test still reports as failed if any entry failed. A screenshot is
- * captured for every entry that doesn't resolve, in addition to Playwright's
- * own on-failure screenshot (configured in playwright.config.ts).
+ * captured for every entry that doesn't resolve and attached to the HTML
+ * report via testInfo.attach(), in addition to Playwright's own on-failure
+ * screenshot (configured in playwright.config.ts).
  */
 const TEST_OTP = '123456';
 const BENEFICIARY_EMAIL = 'shahidstq@yopmail.com';
@@ -34,7 +35,7 @@ async function loginAs(page: Page, email: string): Promise<void> {
 test.describe('Beneficiary Profile: Top Volunteers link verification', () => {
   test.setTimeout(180_000);
 
-  test('Each Top Volunteer entry opens a matching, populated profile page', async ({ page }) => {
+  test('Each Top Volunteer entry opens a matching, populated profile page', async ({ page }, testInfo) => {
     await loginAs(page, BENEFICIARY_EMAIL);
     const profile = new ProfilePage(page);
     await profile.navigateAsBeneficiary();
@@ -79,11 +80,11 @@ test.describe('Beneficiary Profile: Top Volunteers link verification', () => {
         ]).catch(() => 'timeout' as const);
 
         if (outcome !== 'found') {
-          const screenshotPath = `test-results/top-volunteer-not-found-${i + 1}.png`;
           console.log(
-            `❌ "${nameBeforeClick}" (${href}) — profile page did not show a "${nameBeforeClick}" heading (outcome: ${outcome}). Screenshot: ${screenshotPath}`
+            `❌ "${nameBeforeClick}" (${href}) — profile page did not show a "${nameBeforeClick}" heading (outcome: ${outcome})`
           );
-          await page.screenshot({ path: screenshotPath, fullPage: true });
+          const screenshot = await page.screenshot({ fullPage: true });
+          await testInfo.attach(`top-volunteer-not-found-${i + 1}`, { body: screenshot, contentType: 'image/png' });
         }
         expect
           .soft(outcome, `Profile page for "${nameBeforeClick}" (${href}) should show a heading with their name, not "Volunteer not found"`)

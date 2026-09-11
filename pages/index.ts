@@ -14,3 +14,4 @@ export { PaymentMethodsPage } from './PaymentMethodsPage';
 export { AdminPayoutsPage } from './AdminPayoutsPage';
 export { VolunteerPayoutsPage } from './VolunteerPayoutsPage';
 export { ProfilePage } from './ProfilePage';
+export { ChatPage } from './ChatPage';

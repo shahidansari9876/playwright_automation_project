@@ -105,4 +105,17 @@ export class AdminCoeVerificationPage {
     await this.page.getByRole('button', { name: 'Set Ended (QA)' }).click();
     await this.page.getByRole('button', { name: 'Confirm Override' }).click();
   }
+
+  // Admin override under "PU Verification" on a PU semester exam's admin
+  // page: bypasses the standard 12-hour chat gate immediately, independent
+  // of PU/CoE verification status (confirmed live — chat unlocked on a real
+  // exam still over a year away, while it was still "Awaiting Verification").
+  // Idempotent: only clicks if the current state doesn't already match.
+  async setChatImmediatelyEnabled(enabled: boolean): Promise<void> {
+    const toggle = this.page.getByRole('switch', { name: 'Enable chat immediately' });
+    await toggle.waitFor({ state: 'visible' });
+    if ((await toggle.isChecked()) !== enabled) {
+      await toggle.click();
+    }
+  }
 }

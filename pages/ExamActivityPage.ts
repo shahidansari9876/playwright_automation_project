@@ -169,4 +169,21 @@ export class ExamActivityPage {
   async getExamStatusText(): Promise<string | null> {
     return this.page.locator('text=/^(NEW|ACCEPTED|Accepted|COMPLETED|COMPLETION REQUESTED|PU Rejected|PU Verified)$/').first().textContent().catch(() => null);
   }
+
+  // --- Chat (both roles) ---
+
+  // Accessible name is "Send message" once chat is open, or "Send message.
+  // Chat will be enabled 12 hours before the exam (<date>)." while a PU
+  // semester exam is still more than 12h out (confirmed live — non-PU exams
+  // have no such gate and this button is enabled immediately on acceptance).
+  // Match by prefix so one locator/assertion covers both states:
+  //   await expect(page.getByRole('button', { name: /^Send message/ })).toBeEnabled();
+  //   await expect(page.getByRole('button', { name: /^Send message/ })).toBeDisabled();
+  async clickChatButton(): Promise<void> {
+    await this.page.getByRole('button', { name: /^Send message/ }).click();
+    // Clicking only waits for actionability, not the resulting SPA route
+    // change to /volunteer|beneficiary/messages?conversation_id=N — same
+    // "View Details" navigation race documented elsewhere in this suite.
+    await this.page.waitForURL(/\/(volunteer|beneficiary)\/messages\?conversation_id=\d+/, { timeout: 15000 });
+  }
 }
