@@ -4,7 +4,10 @@ import { BASE_URL } from './env';
 export class SignUpPage {
   readonly page: Page;
   readonly HOMEPAGE_URL = BASE_URL;
-  readonly SIGNUP_URL = `${BASE_URL}/signup`;
+  // Confirmed live (2026-09-11): the real route is the hyphenated `/sign-up`
+  // (matching RegistrationPage.ts and the homepage's own "Join Now" links) —
+  // `/signup` (no hyphen) 404s on the test server now too, not just production.
+  readonly SIGNUP_URL = `${BASE_URL}/sign-up`;
   readonly SIGNUP_FALLBACK_URL = `${BASE_URL}/register`;
 
   constructor(page: Page) {

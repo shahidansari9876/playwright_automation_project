@@ -63,8 +63,11 @@ export class PuFlowProfilePage {
     await this.page.getByLabel('Date of Birth Day').selectOption([day]);
   }
 
+  // Field label changed live (confirmed 2026-09-11) from "Highest Education" to
+  // "Highest Completed or Current Qualification" — the old label no longer exists
+  // anywhere on the form, so this click used to hang until its action timeout.
   async selectHighestEducation(optionText: string | RegExp): Promise<void> {
-    await this.page.getByRole('combobox', { name: 'Highest Education' }).click();
+    await this.page.getByRole('combobox', { name: 'Highest Completed or Current Qualification' }).click();
     await this.page.getByRole('option', { name: optionText }).click();
   }
 
@@ -73,9 +76,12 @@ export class PuFlowProfilePage {
     await this.page.getByRole('option', { name: optionText, exact: true }).click();
   }
 
+  // Confirmed live (2026-09-11): Education Status is no longer a combobox — it's a
+  // two-option radiogroup ("Completed" / "Currently Pursuing"), each its own
+  // labelled radio. `currentText` is retained for call-site compatibility only.
   async selectEducationStatus(currentText: string, optionText: string): Promise<void> {
-    await this.page.getByRole('combobox').filter({ hasText: currentText }).click();
-    await this.page.getByRole('option', { name: optionText, exact: true }).click();
+    void currentText;
+    await this.page.getByRole('radio', { name: optionText, exact: true }).click();
   }
 
   async selectYearOfStudy(optionText: string): Promise<void> {
@@ -83,8 +89,12 @@ export class PuFlowProfilePage {
     await this.page.getByRole('option', { name: optionText, exact: true }).click();
   }
 
+  // Renamed live (confirmed 2026-09-11) from "Passing Year" to "Completion Year"
+  // (status = Completed) / "Expected Completion Year" (status = Currently
+  // Pursuing) — both contain "Completion Year", so an unanchored name match covers
+  // whichever of the two is currently rendered.
   async selectPassingYear(year: string): Promise<void> {
-    await this.page.getByRole('combobox', { name: 'Passing Year' }).click();
+    await this.page.getByRole('combobox', { name: /Completion Year/ }).click();
     await this.page.getByRole('option', { name: year, exact: true }).click();
   }
 

@@ -223,9 +223,10 @@ export class SetupProfilePage {
   // Robust combobox handling.
   //
   // Every custom combobox on this form is a `button[role="combobox"]` paired with
-  // a visually-hidden native <select> that holds the real value. Only two of them
-  // carry an aria-label (Gender, Highest Education, Passing Year, State); the rest
-  // — University Type in particular — have nothing but a React-generated id, which
+  // a visually-hidden native <select> that holds the real value. Only some of them
+  // carry an aria-label (Gender, Highest Completed or Current Qualification,
+  // Completion/Expected Completion Year, State); the rest — University Type in
+  // particular — have nothing but a React-generated id, which
   // is why the original helpers located them with `.filter({ hasText: <current
   // value> })`. That is fragile: it targets a control by whatever it happens to
   // display, so as soon as two comboboxes show the same text (e.g. "Other" is both
@@ -334,8 +335,12 @@ export class SetupProfilePage {
 
   // --- Highest Education (drives Degree Type vs Parent/Guardian fields) ---
 
+  // Field label changed live (confirmed 2026-09-11) from "Highest Education" to
+  // "Highest Completed or Current Qualification" — the old label text no longer
+  // exists anywhere on the form, so comboboxByLabel('Highest Education') matched
+  // nothing and selectFromCombobox() retried for its full 25s timeout every call.
   async selectHighestEducation(optionText: string | RegExp): Promise<void> {
-    await this.selectFromCombobox('Highest Education', optionText);
+    await this.selectFromCombobox('Highest Completed or Current Qualification', optionText);
   }
 
   async isDegreeTypeFieldVisible(): Promise<boolean> {
@@ -356,13 +361,14 @@ export class SetupProfilePage {
 
   // --- Education Status (drives the "Year of Study" field) ---
 
-  // `currentText` is retained for call-site compatibility but is no longer used to
-  // find the control — the field is located by its own label instead. See the note
-  // on selectFromCombobox for why targeting a combobox by its displayed value was
-  // unsafe.
+  // Confirmed live (2026-09-11): Education Status is no longer a combobox at all —
+  // it's now a two-option radiogroup ("Completed" / "Currently Pursuing"), each
+  // option its own labelled radio. `currentText` is retained for call-site
+  // compatibility only; a radio is selected directly by its own name, so there is
+  // nothing to close/reopen and no stale-value race to guard against.
   async selectEducationStatus(currentText: string, optionText: string): Promise<void> {
     void currentText;
-    await this.selectFromCombobox('Education Status', optionText);
+    await this.page.getByRole('radio', { name: optionText, exact: true }).click();
   }
 
   async isYearOfStudyFieldVisible(): Promise<boolean> {
@@ -374,8 +380,12 @@ export class SetupProfilePage {
     await this.selectFromCombobox('Year of Study', optionText);
   }
 
+  // Renamed live (confirmed 2026-09-11) from "Passing Year" to "Completion Year"
+  // (Education Status = Completed) / "Expected Completion Year" (Currently
+  // Pursuing) — both contain "Completion Year", so an unanchored match covers
+  // whichever of the two is currently rendered without needing to know the status.
   async selectPassingYear(year: string): Promise<void> {
-    await this.selectFromCombobox('Passing Year', year);
+    await this.selectFromCombobox(/Completion Year/, year);
   }
 
   // --- University Type (PU vs Other drives Student Type / free-text board) ---

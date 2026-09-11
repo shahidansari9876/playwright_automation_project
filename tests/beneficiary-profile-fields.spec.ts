@@ -24,9 +24,14 @@ const BACHELORS = "Bachelor's Degree (B.A/B.Sc/B.Com/B.Tech/BE)";
 
 /**
  * Which conditional block each Highest Education value reveals.
- * Captured field-by-field from the live testing environment — note that
- * Degree Type is driven by exactly ONE of the thirteen values, and that the
- * last two drop the Education Status field entirely.
+ * Captured field-by-field from the live testing environment — Degree Type is
+ * driven by exactly ONE of the thirteen values, and Parent/Guardian by two.
+ *
+ * Education Status changed live (confirmed 2026-09-11) from a combobox that
+ * Post Doctorate/Other used to hide entirely to an always-visible radiogroup
+ * (rendered above the qualification picker, independent of its value) — so
+ * every row is now `true`; kept as an explicit column rather than dropped so
+ * the loop below still asserts it stays visible across all thirteen values.
  */
 const EDUCATION_MATRIX: ReadonlyArray<{
   value: string;
@@ -45,8 +50,8 @@ const EDUCATION_MATRIX: ReadonlyArray<{
   { value: "Professional Master's (MBA/MCA/LLM/MD/MS)",   degreeType: false, educationStatus: true,  parentGuardian: false },
   { value: 'M.Phil',                                     degreeType: false, educationStatus: true,  parentGuardian: false },
   { value: 'Ph.D/Doctorate',                             degreeType: false, educationStatus: true,  parentGuardian: false },
-  { value: 'Post Doctorate',                             degreeType: false, educationStatus: false, parentGuardian: false },
-  { value: 'Other',                                      degreeType: false, educationStatus: false, parentGuardian: false },
+  { value: 'Post Doctorate',                             degreeType: false, educationStatus: true,  parentGuardian: false },
+  { value: 'Other',                                      degreeType: false, educationStatus: true,  parentGuardian: false },
 ];
 
 /**
@@ -317,7 +322,9 @@ test.describe('Beneficiary Profile - Field-Level Functional Checks', () => {
     await profile.selectDegreeType('4-Year');
 
     await profile.selectPassingYear('2027');
-    expect(await profile.getComboboxText('Passing Year')).toBe('2027');
+    // Labelled "Completion Year" while Education Status = Completed (renamed live
+    // from "Passing Year"; see selectPassingYear()).
+    expect(await profile.getComboboxText('Completion Year')).toBe('2027');
 
     // --- Step 6: University Type PU -> Other -> PU ---
     console.log('📍 Step 6: University Type PU -> Other -> PU');
@@ -327,11 +334,12 @@ test.describe('Beneficiary Profile - Field-Level Functional Checks', () => {
     await profile.selectUniversityType('Select Board/University', 'PU');
     expect(await profile.isStudentTypeFieldVisible()).toBeTruthy();
     expect(await profile.isSchoolSuggestionsButtonVisible()).toBeTruthy();
+    // "Teaching Department" renamed live (confirmed 2026-09-11) to "PU CHD Departments".
     expect(await profile.getComboboxOptions('Student Type')).toEqual([
       'Affiliated College',
       'CDOE',
       'Private Candidate',
-      'Teaching Department',
+      'PU CHD Departments',
     ]);
     await profile.selectStudentType('Affiliated College');
     await profile.selectSchoolCollege(/D\.A\.V\. Post Graduate College/i);
