@@ -107,7 +107,7 @@ test.describe.serial('Non-PU (Regular) Exam End-to-End Flow (nonPUflow.md)', () 
     await loginAs(page, beneficiary.email);
 
     const examRequest = new ExamRequestPage(page);
-    console.log('📍 Fill and submit a regular exam request (semester checkbox left unchecked)');
+    console.log('📍 Fill and submit a regular exam request ("This is a semester exam" is PU-board-only and does not render for this non-PU account)');
     await examRequest.navigate();
     await examRequest.fillExamTitle(examTitle);
     await examRequest.fillMedium('English');

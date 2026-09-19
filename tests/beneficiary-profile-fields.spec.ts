@@ -314,7 +314,14 @@ test.describe('Beneficiary Profile - Field-Level Functional Checks', () => {
     await profile.selectYearOfStudy('2nd Year');
     expect(await profile.getComboboxText('Year of Study')).toBe('2nd Year');
 
-    // Going back to Completed must remove it again, not merely blank it.
+    // Labelled "Expected Completion Year" while Education Status = Currently
+    // Pursuing (vs. "Completion Year" once back to Completed, checked further
+    // below) — both label variants of selectPassingYear()'s regex match need
+    // their own live coverage, not just the Completed one.
+    await profile.selectPassingYear('2028');
+    expect(await profile.getComboboxText('Expected Completion Year')).toBe('2028');
+
+    // Going back to Completed must remove Year of Study again, not merely blank it.
     await profile.selectEducationStatus('Currently Pursuing', 'Completed');
     expect(await profile.isFieldHidden('Year of Study')).toBeTruthy();
 
@@ -511,7 +518,29 @@ test.describe('Beneficiary Profile - Field-Level Functional Checks', () => {
       '   ⚠️  Submit remained ENABLED with First Name blank — no required-field validation on this form.'
     );
 
+    // Restore First Name before Negative 8 — so that check isolates Year of
+    // Study specifically instead of compounding it with the still-blank name.
+    await profile.fillBasicDetails('Shahid', 'Volunteer');
+
+    // ── Same known product gap as Negative 7, extended to the field that
+    // Currently Pursuing newly reveals — asserted so the suite documents
+    // current behaviour. Verified against the live testing environment on
+    // 2026-09-14. Raise with the dev team; if required-field validation is
+    // added, update this block. ──
+    console.log('📍 Negative 8: [KNOWN GAP] Currently Pursuing adds Year of Study as required, but leaving it blank does not gate Submit either');
+    await profile.selectEducationStatus('Completed', 'Currently Pursuing');
+    expect(await profile.isYearOfStudyFieldVisible()).toBeTruthy();
+    expect(await profile.getComboboxText('Year of Study')).toBe('Select year'); // left unselected
+    expect(
+      await profile.isSubmitEnabled(),
+      'Documents the current gap: Submit remains enabled with the newly-required Year of Study left unselected'
+    ).toBeTruthy();
+    console.warn(
+      '   ⚠️  Submit remained ENABLED with Year of Study blank under Currently Pursuing — same missing-required-field-validation gap as First Name.'
+    );
+
     // Restore a sane state; the form is never submitted.
+    await profile.selectEducationStatus('Currently Pursuing', 'Completed');
     await profile.toggleAgreementCheckbox();
     expect(await profile.isSubmitEnabled()).toBeFalsy();
   });

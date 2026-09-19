@@ -167,7 +167,7 @@ test.describe.serial('PU Semester Exam Chat Gate Flow', () => {
   test('Beneficiary: ensure a verified professional photo (required for PU semester requests)', async () => {
     const examRequest = new ExamRequestPage(page);
     await examRequest.navigate();
-    await examRequest.checkSemesterExam();
+    await examRequest.selectSemesterExam('Yes');
 
     const gated = await page
       .getByText('Professional photo verification required')
@@ -201,7 +201,7 @@ test.describe.serial('PU Semester Exam Chat Gate Flow', () => {
     console.log('\n📍 Fill and submit a PU semester exam request dated well over 12h out');
     const examRequest = new ExamRequestPage(page);
     await examRequest.navigate();
-    await examRequest.checkSemesterExam();
+    await examRequest.selectSemesterExam('Yes');
     await examRequest.selectExamCategory('Regular');
     await examRequest.selectSemesterNumber('Semester 3');
     await examRequest.fillExamTitle(examTitle);

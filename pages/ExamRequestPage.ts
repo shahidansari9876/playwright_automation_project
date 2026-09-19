@@ -3,8 +3,8 @@ import { BASE_URL } from './env';
 
 /**
  * Beneficiary "Create Scribe Request" form (/new-request), PU Semester Exam
- * variant. Checking "This is a semester exam" reveals the Exam Category /
- * Semester Number fields used here.
+ * variant. Selecting "Yes" on "This is a semester exam" reveals the Exam
+ * Category / Semester Number fields used here.
  */
 export class ExamRequestPage {
   readonly page: Page;
@@ -18,8 +18,15 @@ export class ExamRequestPage {
     await this.page.goto(this.NEW_REQUEST_URL, { waitUntil: 'networkidle' });
   }
 
-  async checkSemesterExam(): Promise<void> {
-    await this.page.getByRole('checkbox', { name: 'This is a semester exam' }).click();
+  // "This is a semester exam" is a required Yes/No radio group (not a
+  // checkbox) — confirmed live. Selecting "Yes" follows the Panjab
+  // University semester flow (reveals Exam Category / Semester Number);
+  // "No" keeps this a regular exam request.
+  async selectSemesterExam(answer: 'Yes' | 'No'): Promise<void> {
+    await this.page
+      .getByRole('radiogroup', { name: 'This is a semester exam' })
+      .getByRole('radio', { name: answer })
+      .click();
   }
 
   async selectExamCategory(category: string): Promise<void> {
@@ -57,7 +64,7 @@ export class ExamRequestPage {
    * first suggestion is picked. Selecting one also auto-fills State (Exam
    * Center); City and Pin code remain separate manual text fields.
    *
-   * Only shown when "This is a semester exam" is checked. For a regular
+   * Only shown when "This is a semester exam" is set to Yes. For a regular
    * (non-semester) request, Exam Center Name is a plain free-text field
    * instead — use fillExamCenterName() there.
    */
@@ -69,7 +76,7 @@ export class ExamRequestPage {
   }
 
   // Plain-text Exam Center Name field for a regular (non-semester) request —
-  // confirmed live: with the semester checkbox never checked, this field is
+  // confirmed live: with "This is a semester exam" set to No, this field is
   // a free-text textbox, not the PU search-driven combobox above.
   async fillExamCenterName(name: string): Promise<void> {
     await this.page.getByRole('textbox', { name: 'Exam Center Name' }).fill(name);

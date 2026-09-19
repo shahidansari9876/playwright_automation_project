@@ -278,7 +278,7 @@ test.describe.serial('PU Semester Exam End-to-End Flow (puflow.md)', () => {
     const examRequest = new ExamRequestPage(page);
     console.log('📍 Fill and submit the PU semester exam request');
     await examRequest.navigate();
-    await examRequest.checkSemesterExam();
+    await examRequest.selectSemesterExam('Yes');
     await examRequest.selectExamCategory('Regular');
     await examRequest.selectSemesterNumber('Semester 3');
     await examRequest.fillExamTitle('B.A. Semester 3 Examination');
