@@ -1,16 +1,16 @@
 /// <reference types="node" />
-import { defineConfig, devices } from '@playwright/test';
-import dotenv from 'dotenv';
-import path from 'path';
+import { defineConfig, devices } from "@playwright/test";
+import dotenv from "dotenv";
+import path from "path";
 
 // Load .env file
-dotenv.config({ path: path.resolve(__dirname, '.env'), override: true });
+dotenv.config({ path: path.resolve(__dirname, ".env"), override: true });
 
 /**
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: './tests',
+  testDir: "./tests",
 
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -34,9 +34,15 @@ export default defineConfig({
    *  - json   → generates test-results/results.json (read by global-teardown.js to build the email)
    */
   reporter: [
-    ['html', { open: process.env.CI ? 'never' : 'on-failure', outputFolder: 'playwright-report' }],
-    ['json', { outputFile: 'test-results/results.json' }],
-    ['./email-reporter.js'],
+    [
+      "html",
+      {
+        open: process.env.CI ? "never" : "on-failure",
+        outputFolder: "playwright-report",
+      },
+    ],
+    ["json", { outputFile: "test-results/results.json" }],
+    ["./email-reporter.js"],
   ],
 
   use: {
@@ -47,12 +53,12 @@ export default defineConfig({
      * Screenshots: capture ONLY on failure.
      * These are automatically embedded in the HTML report next to the failed step.
      */
-    screenshot: 'only-on-failure',
+    screenshot: "only-on-failure",
 
     /**
      * Traces: collect on first retry so you can replay the full test in Trace Viewer.
      */
-    trace: 'on-first-retry',
+    trace: "on-first-retry",
 
     /* Video recording — enable if desired */
     // video: 'on-first-retry',
@@ -61,8 +67,8 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      name: "chromium",
+      use: { ...devices["Desktop Chrome"] },
     },
 
     // {
