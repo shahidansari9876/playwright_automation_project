@@ -25,11 +25,9 @@ export default defineConfig({
    * is used by both otp-page.spec.ts and login-page.spec.ts). Different spec files run
    * in separate workers by default, so parallel workers fire concurrent login/OTP
    * requests at those shared accounts and race against each other on the backend.
-   * Force a single worker so every test — across every file — runs strictly one at a time. */
   workers: 1,
 
   /**
-   * Reporters:
    *  - html   → generates playwright-report/index.html (failure screenshots embedded automatically)
    *  - json   → generates test-results/results.json (read by global-teardown.js to build the email)
    */
@@ -62,6 +60,8 @@ export default defineConfig({
 
     /* Video recording — enable if desired */
     // video: 'on-first-retry',
+    ignoreHTTPSErrors: true,
+    navigationTimeout: 30_000,
   },
 
   /* Configure projects for major browsers */
