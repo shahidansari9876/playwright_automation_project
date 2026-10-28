@@ -47,14 +47,24 @@ export class ExamRequestPage {
     await this.page.getByRole('textbox', { name: 'Medium of Exam' }).fill(medium);
   }
 
-  // The underlying <input type="file"> is visually hidden (sr-only);
-  // setInputFiles() works on it directly without a click/file-chooser dance.
+  // Both exam-request uploads are real <input type="file"> elements, so
+  // setInputFiles() works on them directly — it intentionally skips the
+  // visibility actionability check that click() enforces, so no click or
+  // native file-chooser dance is needed (same pattern as the other file
+  // inputs in this project).
+  //
+  // Admit Card / Hall Pass is a single-file, sr-only input whose aria-label
+  // starts with "Admit Card / Hall Pass" — confirmed live.
   async uploadHallPass(filePath: string): Promise<void> {
     await this.page.locator('input[aria-label*="Admit Card"]').setInputFiles(filePath);
   }
 
+  // The Date Sheets input is a separate, visible multi-file input that — unlike
+  // the Admit Card one — carries NO aria-label (confirmed live), so it can only
+  // be distinguished by its `multiple` attribute. It accepts one or more files;
+  // a single path is fine here.
   async uploadDateSheet(filePath: string): Promise<void> {
-    await this.page.locator('input[aria-label*="Date Sheet"]').setInputFiles(filePath);
+    await this.page.locator('input[type="file"][multiple]').setInputFiles(filePath);
   }
 
   /**

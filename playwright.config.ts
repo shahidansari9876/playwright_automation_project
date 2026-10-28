@@ -25,6 +25,7 @@ export default defineConfig({
    * is used by both otp-page.spec.ts and login-page.spec.ts). Different spec files run
    * in separate workers by default, so parallel workers fire concurrent login/OTP
    * requests at those shared accounts and race against each other on the backend.
+   */
   workers: 1,
 
   /**
@@ -68,7 +69,13 @@ export default defineConfig({
   projects: [
     {
       name: "chromium",
-      use: { ...devices["Desktop Chrome"] },
+      use: {
+        // ...devices["Desktop Chrome"],
+        viewport: null,
+        launchOptions: {
+          args: ["--start-maximized"],
+        },
+      },
     },
 
     // {
